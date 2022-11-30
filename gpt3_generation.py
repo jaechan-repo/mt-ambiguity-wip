@@ -32,8 +32,8 @@ args = parser.parse_args()
 
 if not os.path.isfile(args.file):
     raise Exception('The specified idiom file does not exist.')
-if not os.path.isfile('prompt.txt'):
-    raise Exception('"prompt.txt" must exist in local directory.')
+if not os.path.isfile('PROMPT.txt'):
+    raise Exception('"PROMPT.txt" must exist in local directory.')
 if args.output.split('.')[-1] != 'csv':
     raise Exception('Use ".csv" extension for your output file name.')
 
