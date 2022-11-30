@@ -1,0 +1,52 @@
+name: mt-ambiguity-env
+channels:
+  - conda-forge
+dependencies:
+  - brotlipy=0.7.0
+  - bzip2=1.0.8
+  - ca-certificates=2022.9.24
+  - certifi=2022.9.24
+  - cffi=1.15.1
+  - charset-normalizer=2.1.1
+  - colorama=0.4.6
+  - cryptography=38.0.4
+  - et_xmlfile=1.0.1
+  - idna=3.4
+  - libblas=3.9.0
+  - libcblas=3.9.0
+  - libcxx=14.0.6
+  - libffi=3.4.2
+  - libgfortran=5.0.0
+  - libgfortran5=11.3.0
+  - liblapack=3.9.0
+  - libopenblas=0.3.21
+  - libsqlite=3.40.0
+  - libzlib=1.2.13
+  - llvm-openmp=15.0.5
+  - ncurses=6.3
+  - numpy=1.23.5
+  - openai=0.25.0
+  - openpyxl=3.0.10
+  - openssl=3.0.7
+  - pandas=1.5.2
+  - pandas-stubs=1.5.2.221124
+  - pip=22.3.1
+  - pycparser=2.21
+  - pyopenssl=22.1.0
+  - pysocks=1.7.1
+  - python=3.8.15
+  - python-dateutil=2.8.2
+  - python_abi=3.8
+  - pytz=2022.6
+  - readline=8.1.2
+  - requests=2.28.1
+  - setuptools=65.5.1
+  - six=1.16.0
+  - tk=8.6.12
+  - tqdm=4.64.1
+  - types-pytz=2022.6.0.1
+  - typing_extensions=4.4.0
+  - urllib3=1.26.13
+  - wheel=0.38.4
+  - xz=5.2.6
+prefix: /Users/chany/miniforge3/envs/mt-ambiguity-env
