@@ -6,6 +6,7 @@ import torch
 import time
 import numpy as np
 import argparse
+import os
 warnings.filterwarnings("ignore")
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
@@ -26,6 +27,9 @@ parser.add_argument('-b', '--batch',
     default=32
 )
 args = parser.parse_args()
+
+if not os.path.isfile(args.file):
+    raise Exception('The specified file does not exist.')
 
 tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M")
 model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M").to(device)
