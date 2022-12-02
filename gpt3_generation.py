@@ -6,6 +6,8 @@ from tqdm import tqdm
 import numpy as np
 import argparse
 import config
+import warnings
+warnings.filterwarnings("ignore")
 
 parser = argparse.ArgumentParser(description='\
 Generates a dataset given line-separated list of idioms. \
@@ -26,6 +28,10 @@ parser.add_argument('-r', '--random',
 parser.add_argument('-o', '--output',
     help='Output file name. Must use the extension ".csv".',
     default='output.csv'
+)
+parser.add_argument('-i', '--iter',
+    help='The number of iteration',
+    type=int, default=1
 )
 
 args = parser.parse_args()
@@ -62,7 +68,8 @@ def generate(row):
         model="text-davinci-003",
         prompt = general_prompt + f"\"{idiom}\"\n",
         max_tokens=400,
-        temperature=0,
+        temperature=1, # the higher this value, the less deterministic
+        top_p=1, # the higher this value, the wider range of vocab is used
     ).choices[0].text.strip()
 
     phrase = re.search('ambiguous phrase: (.+?)\n', text)
@@ -105,8 +112,15 @@ def generate(row):
 
 print('INFERENCE IN PROGRESS...')
 tqdm.pandas()
-subdf = subdf.progress_apply(generate, axis=1)
-subdf = subdf.explode(['label', 'sentence', 'reason']).reset_index(drop=True)
-subdf = subdf[['idiom', 'phrase', 'sentence', 'label', 'reason']]
-subdf.to_csv(args.output, index=False)
+subdf_gpt = pd.DataFrame(columns=['idx', 'idiom', 'phrase', 'sentence', 'label', 'reason'])
+for i in range(args.iter):
+    subdf_gpt_local = subdf.progress_apply(generate, axis=1)
+    subdf_gpt_local = subdf_gpt_local.explode(['label', 'sentence', 'reason']).reset_index(drop=True)
+    subdf_gpt_local = subdf_gpt_local[['idiom', 'phrase', 'sentence', 'label', 'reason']]
+    subdf_gpt_local['idx'] = 0
+    subdf_gpt_local['idx'][::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i
+    subdf_gpt_local['idx'][1::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i + 1
+    subdf_gpt = pd.concat([subdf_gpt, subdf_gpt_local])
+subdf_gpt = subdf_gpt.set_index('idx').sort_index(ascending=True)
+subdf_gpt.to_csv(args.output, index=False)
 print('COMPLETED.')

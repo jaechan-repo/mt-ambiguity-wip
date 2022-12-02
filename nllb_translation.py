@@ -4,7 +4,6 @@ import warnings
 import pandas as pd
 import torch
 import time
-import numpy as np
 import argparse
 import os
 warnings.filterwarnings("ignore")
