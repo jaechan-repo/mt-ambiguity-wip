@@ -1,5 +1,4 @@
 config.py
 EPIE_Corpus-master/
-*.csv
 venv/
 __pycache__/
