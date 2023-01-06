@@ -6,8 +6,6 @@ import config
 import warnings
 warnings.filterwarnings("ignore")
 
-if not os.path.isdir('../EPIE_Corpus'):
-    raise Exception('The EPIE Corpus directory (a dependency of this project) does not exist.')
 if not os.path.isfile('PROMPT.txt'):
     raise Exception('"PROMPT.txt" must exist in local directory.')
 
@@ -39,13 +37,14 @@ print('INFERENCE IN PROGRESS...')
 tqdm.pandas()
 
 # Read formal idiom candidates and build frequency list
-df1 = pd.read_csv('EPIE_Corpus/Formal_Idioms_Corpus/Formal_Idioms_Candidates.txt', header=None, names=["idiom"])['idiom'].value_counts().reset_index().rename(columns={'index': 'idiom', 'idiom': 'freq'})
+df1 = pd.read_csv('EPIE_Corpus/Formal_Idioms_Corpus/Formal_Idioms_Candidates.txt', header=None, names=["idiom"]).drop_duplicates().reset_index(drop=True)
 
 # Read static idiom candidates and build frequency list
-df2 = pd.read_csv('EPIE_Corpus/Static_Idioms_Corpus/Static_Idioms_Candidates.txt', header=None, names=["idiom"])['idiom'].value_counts().reset_index().rename(columns={'index': 'idiom', 'idiom': 'freq'})
+df2 = pd.read_csv('EPIE_Corpus/Static_Idioms_Corpus/Static_Idioms_Candidates.txt', header=None, names=["idiom"]).drop_duplicates().reset_index(drop=True)
 
 # Merge two idiom datasets and sort rows by frequency
-df = pd.concat([df1, df2]).sort_values(by='freq', ascending=False).reset_index(drop=True)
+df = pd.concat([df1, df2]).reset_index(drop=True)
+print(df)
 
 # Generate meaning with GPT-3
 df['meaning'] = df.progress_apply(generate, axis=1)
