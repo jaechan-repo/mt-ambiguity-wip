@@ -14,7 +14,7 @@ Generates a dataset given line-separated list of idioms. \
 Requires prompt.txt to be in local directory.')
 
 parser.add_argument('-f','--file', 
-    help='Line-separated list of idioms in txt format', 
+    help='Comma-separated list, having a list of idioms as one of its columns',
     required=True
 )
 parser.add_argument('-s','--sample', 
@@ -52,7 +52,7 @@ with open('PROMPT.txt', 'r') as file:
     print(general_prompt + '[queried idiom]\n')
     print()
 
-df = pd.read_csv(args.file, header=None, names=["idiom"])
+df = pd.read_csv(args.file)
 subdf = df.drop_duplicates(subset=['idiom']).reset_index(drop=True)
 if args.random >= 0:
     subdf = subdf.sample(frac=1, axis=1, random_state=args.random).reset_index(drop=True)
@@ -73,7 +73,7 @@ def generate(row):
     ).choices[0].text.strip()
 
     phrase = re.search('ambiguous phrase: (.+?)\n', text)
-    if phrase: row['phrase'] = phrase.group(1).strip('\"')
+    if phrase: row['subsentence'] = phrase.group(1).strip('\"')
 
     label = []
     sentence = []
@@ -112,11 +112,11 @@ def generate(row):
 
 print('INFERENCE IN PROGRESS...')
 tqdm.pandas()
-subdf_gpt = pd.DataFrame(columns=['idx', 'idiom', 'phrase', 'sentence', 'label', 'reason'])
+subdf_gpt = pd.DataFrame(columns=['idx', 'idiom', 'subsentence', 'sentence', 'label', 'reason', 'freq'])
 for i in range(args.iter):
     subdf_gpt_local = subdf.progress_apply(generate, axis=1)
     subdf_gpt_local = subdf_gpt_local.explode(['label', 'sentence', 'reason']).reset_index(drop=True)
-    subdf_gpt_local = subdf_gpt_local[['idiom', 'phrase', 'sentence', 'label', 'reason']]
+    subdf_gpt_local = subdf_gpt_local[['idiom', 'subsentence', 'sentence', 'label', 'reason', 'freq']]
     subdf_gpt_local['idx'] = 0
     subdf_gpt_local['idx'][::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i
     subdf_gpt_local['idx'][1::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i + 1
