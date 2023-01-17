@@ -1,0 +1,13 @@
+Given idiom and figurative text, write phrase and literal text that meet these conditions:
+- Literal text must include the phrase and use literal, physical interpretation of the idiom.
+- Phrase must use the idiom.
+- Phrase must be longer than the idiom.
+- The exact copy of the phrase must be found in both figurative and literal texts.
+
+idiom: short fuse
+figurative text: He has a short fuse because he loses his temper for things that don't provoke others to high levels of angry emotion.
+phrase: He has a short fuse
+literal text: He has a short fuse so the physical electric circuit does not work.
+
+idiom: [IDIOM]
+figurative text: [FIGURATIVE]
