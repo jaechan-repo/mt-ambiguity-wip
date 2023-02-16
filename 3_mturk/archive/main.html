@@ -1,0 +1,377 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+
+<html class="bg-zinc-200" id="hit">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            function toggle(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <form name='mturk_form' 
+        method='post' 
+        id='mturk_form'
+        action='https://workersandbox.mturk.com/mturk/externalSubmit'
+    >
+    <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+    <div class="font-sans flex w-full justify-center text-gray-800 mt-8">
+    <div class="flex-col w-5/6 lg:w-2/3 xl:w-3/5">
+
+        <div class="flex-col bg-white p-8 shadow-md">
+
+            <h1 class="text-2xl font-bold">
+                Usage of idioms: Literal, Figurative, or Ambiguous?
+            </h1>
+
+            <div class="mt-4"></div>
+
+            <p>
+                Thank you for participating in this HIT. 
+            </p>
+
+            <p>
+                Please <b>read the instructions below completely</b> before proceeding with the task.
+            </p>
+
+
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-400 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("instruction")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ Instructions (Click to Show/Hide)
+            </p>
+
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="instruction">
+            <p>
+                Your task is to identify the <b>usage of a given <i>idiom</i></b> in different sentences.
+                <br><br>
+                For each sentence, if the idiom is used in its <b>figurative/idiomatic definition</b> within the sentence, then select <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>. In case you are unfamiliar with the figurative use of the idiom, we provide its <i><b>dictionary meaning</b></i>, which you can use as a reference for deciding if the idiom was used figuratively. If the idiom is used in its <b>literal/physical definition</b> within the sentence, then select <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. If it can be interpreted <b>either way</b> (either figuratively or literally), then select <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>. 
+                <br><br>
+                If the usage of the idiom is <b>inherently offensive</b> or <b>not possible to determine</b> among the three choices above, then select <nobr class="text-white bg-black p-0.5">invalid</nobr>. Potential reasons for the invalidness include: the idiom provided is hardly an idiom, the given sentence does not include the idiom, the content of the sentence is incomprehensible, etc.
+                <br><br>
+                Take a look at the following case study of idiom "burn the bridge", the figurative definition of which is "to end a relationship":
+                <br><br>
+            </p>
+        <table class="min-w-full">
+          <thead class="border-b">
+            <tr>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Choice
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Select when...
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Example
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b">
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                  <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    The sentence uses the <b>figurative/idiomatic definition</b> of the given idiom. 
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    "I burned the bridge with him <b>right after we crossed it</b>"
+                    <br><br>
+                    <i>(Figurative because the notion of burning a bridge idiomatically conveys the idea of ending a relationship with someone)</i>
+                </td>
+              </tr>
+            <tr class="bg-white border-b">
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    The sentence uses the <b>literal/physical definition</b> of the given idiom.
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    "I burned the bridge with him <b>right after we crossed it</b>"
+                    <br><br>
+                    <i>(Literal because crossing a bridge implies the bridge is a physical structure, not a human relationship)</i>
+                </td>
+              </tr>
+              <tr class="bg-white border-b">
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                  <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    Whether the idiom is being used literally or figuratively is unclear; it can be interpreted <b>either way</b>.
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                    "I burned the bridge with him"
+                    <br><br>
+                    <i>(Ambiguous because we can't tell from this sentence whether burning the bridge means ending a relationship or physically burning the structure of a bridge)</i>
+                </td>
+              </tr>
+          </tbody>
+        </table>
+        </div>
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-400 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("example1")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Examples  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example1">
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                        Example
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: kick the bucket</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: die</p>
+                            <p><i class="font-semibold">sentence</i>: The old man kicked the bucket</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            The old man might have kicked a physical bucket (literal) or died (figurative). It is unclear which one is the case.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: kick the bucket</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: die</p>
+                            <p><i class="font-semibold">sentence</i>: The old man kicked the bucket and spilled the water in it</p>
+                            
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            Spilling the water implies that the bucket is a literal bucket that contains water in it (in contrary to the dictionary meaning provided).
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: elephant in the room</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: an obvious problem that nobody wants to discuss</p>
+                            <p><i class="font-semibold">sentence</i>: Her alcoholism was the elephant in the room</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            This figuratively means that her drinking problem is an obvious issue that nobody wants to bring up.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all"> 
+                            <p><i class="font-semibold">idiom</i>: elephant in the room</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: an obvious problem that nobody wants to discuss</p>
+                            <p><i class="font-semibold">sentence</i>: There exists an elephant in the room</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            The elephant in the room may either refer to a living animal (literal) or a problem that no one wants to bring up (figurative).
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: red tape</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: excessive adherence to rules and formalities</p>
+                            <p><i class="font-semibold">sentence</i>: Don't use the red tape because it is no longer sticky</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            The red tape refers to a physical tape that is used to stick things together (in contrary to the dictionary meaning provided).
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: red tape</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: excessive adherence to rules and formalities</p>
+                            <p><i class="font-semibold">sentence</i>: This law will just create more red tape</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            The red tape figuratively refers to excessive bureaucratic rules that hinder citizens' decision-making.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <p><i class="font-semibold">idiom</i>: red tape</p>
+                            <p><i class="font-semibold">dictionary meaning</i>: excessive adherence to rules and formalities</p>
+                            <p><i class="font-semibold">sentence</i>: Red bull is my favorite energy drink</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            <nobr class="text-white bg-black p-0.5">invalid</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 break-all">
+                            The idiom "red tape" is mentioned nowhere in the sentence. This prompt is invalid; it cannot be answered.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="m-5"></div>
+
+        <div class="flex-col bg-neutral-500 text-white py-2 px-8 shadow-md w-full">
+            <p class="font-bold text-lg">
+                TASK
+            </p>
+
+        </div>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1">
+            <p><i class="font-semibold">idiom</i>: ${idiom}</p>
+            <p><i class="font-semibold">dictionary meaning</i>: ${meaning}</p>
+            <br><hr>
+            <ul>
+                <li>
+                    <br>
+                    <p><i class="font-semibold">sentence</i>: ${f}</p>
+                    <div>
+                        <div>
+                            <input class="required" type="radio" name="f_gold" id="f_gold_f" autocomplete="off" value=0 required/>
+                            <label for="f_gold_f">
+                                <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="f_gold" id="f_gold_l" autocomplete="off" value=1 required/>
+                            <label for="f_gold_l">
+                                <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="f_gold" id="f_gold_a" autocomplete="off" value=2 required/>
+                            <label for="f_gold_a">
+                                <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="f_gold" id="f_gold_i" autocomplete="off" value=3 required/>
+                            <label for="f_gold_i">
+                                <nobr class="text-white bg-black p-0.5">invalid</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+                <li>
+                    <br>
+                    <p><i class="font-semibold">sentence</i>: ${l}</p>
+                    <div>
+                        <div>
+                            <input class="required" type="radio" name="l_gold" id="l_gold_f" autocomplete="off" value=0 required/>
+                            <label for="l_gold_f">
+                                <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="l_gold" id="l_gold_l" autocomplete="off" value=1 required/>
+                            <label for="l_gold_l">
+                                <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="l_gold" id="l_gold_a" autocomplete="off" value=2 required/>
+                            <label for="l_gold_a">
+                                <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="l_gold" id="l_gold_i" autocomplete="off" value=3 required/>
+                            <label for="l_gold_i">
+                                <nobr class="text-white bg-black p-0.5">invalid</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+                <li>
+                    <br>
+                    <p><i class="font-semibold">sentence</i>: ${a}</p>
+                    <div>
+                        <div>
+                            <input class="required" type="radio" name="a_gold" id="a_gold_f" autocomplete="off" value=0 required/>
+                            <label for="a_gold_f">
+                                <nobr class="text-white bg-red-700 p-0.5">figurative</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="a_gold" id="a_gold_l" autocomplete="off" value=1 required/>
+                            <label for="a_gold_l">
+                                <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="a_gold" id="a_gold_a" autocomplete="off" value=2 required/>
+                            <label for="a_gold_a">
+                                <nobr class="text-white bg-purple-600 p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div>
+                            <input class="required" type="radio" name="a_gold" id="a_gold_i" autocomplete="off" value=3 required/>
+                            <label for="a_gold_i">
+                                <nobr class="text-white bg-black p-0.5">invalid</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="my-5"></div>
+        <button 
+            type="submit" 
+            id="submitButton" 
+            class="btn btn-primary bg-neutral-500 hover:bg-neutral-400 text-white px-4 py-2 
+                font-bold rounded focus:outline-none focus:shadow-outline"
+            onclick="getnext()"
+        >
+            Submit
+        </button>
+        <div class="my-28"></div>
+    </div>
+    </div>
+    </form>
+    <script>
+        var ul = document.querySelector('ul');
+        for (var i = ul.children.length; i >= 0; i--) {
+            ul.appendChild(ul.children[Math.random() * i | 0]);
+        }
+    </script>
+    </body>
+</html>
+<script language='Javascript'>turkSetAssignmentID()</script>

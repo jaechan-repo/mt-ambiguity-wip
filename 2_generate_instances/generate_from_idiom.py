@@ -63,6 +63,12 @@ openai.organization = config.openai_organization
 openai.api_key = config.openai_api_key
 
 def generate(row):
+    try:
+        return generate_helper(row)
+    except:
+        return generate_helper(row)
+
+def generate_helper(row):
     idiom = row['idiom']
     text = openai.Completion.create(
         model="text-davinci-003",
@@ -112,11 +118,12 @@ def generate(row):
 
 print('INFERENCE IN PROGRESS...')
 tqdm.pandas()
-subdf_gpt = pd.DataFrame(columns=['idx', 'idiom', 'subsentence', 'sentence', 'label', 'reason'])
+subdf_gpt = pd.DataFrame(columns=['idx', 'idiom', 'meaning', 'subsentence', 'sentence', 'label', 'reason'])
 for i in range(args.iter):
     subdf_gpt_local = subdf.progress_apply(generate, axis=1)
     subdf_gpt_local = subdf_gpt_local.explode(['label', 'sentence', 'reason']).reset_index(drop=True)
-    subdf_gpt_local = subdf_gpt_local[['idiom', 'subsentence', 'sentence', 'label', 'reason']]
+    print(subdf_gpt_local)
+    subdf_gpt_local = subdf_gpt_local[['idiom', 'meaning', 'subsentence', 'sentence', 'label', 'reason']]
     subdf_gpt_local['idx'] = 0
     subdf_gpt_local['idx'][::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i
     subdf_gpt_local['idx'][1::2] = subdf_gpt_local.index[::2] * args.iter + 2 * i + 1

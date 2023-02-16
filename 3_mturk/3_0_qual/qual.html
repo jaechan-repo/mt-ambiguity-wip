@@ -1,0 +1,1251 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+
+<html class="bg-zinc-200" id="hit">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            function toggle(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <form name='mturk_form' 
+        method='post' 
+        id='mturk_form'
+        action='https://workersandbox.mturk.com/mturk/externalSubmit'
+    >
+    <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+    <div class="font-sans flex w-full justify-center text-gray-800 mt-8">
+    <div class="flex-col w-5/7 lg:w-2/3 xl:w-3/5">
+
+        <div class="flex-col bg-white p-8 shadow-md">
+
+            <h1 class="text-2xl font-bold">
+               [Qualification Test] <br>Usage of Idioms: Literal, Figurative, or Ambiguous?
+            </h1>
+
+            <div class="mt-5"></div>
+
+            <p>
+                Thank you for participating in this qualification HIT. Out of the 20 problems listed below, you must get at least 18 correct to qualify for the main HIT "Usage of Idioms: Literal, Figurative, or Ambiguous?".
+            </p>
+
+            <p>
+                Please <b>read the instructions below completely</b> before proceeding with the task.
+            </p>
+
+
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("instruction")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ Instructions (Click to Show/Hide)
+            </p>
+
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="instruction">
+            <p>
+                Your task is to <b>identify the usage of an idiom in a sentence</b>. For each pair of idiom and sentence provided to you, you must select an option that correctly describes how the idiom was used in the sentence. 
+                
+                <br><br>
+                Here we use the idiom "piece of cake" as an example. The sentence and the idiom will be presented to you in the following format:
+                <br>
+
+                <div class='text-base bg-stone-200 p-3 rounded-lg my-5'>
+                    <p class="text-lg">The boy found the project to be a piece of cake because he planned ahead</p>
+                    <p class=""><b><i>[Dictionary Definition]</i> "piece of cake" :</b> something easily achieved</p>
+                </div>
+
+                Note that we also provide the dictionary definition of the idiom in case you are unfamiliar with it.
+
+                <br><br><hr><br>
+        
+                Given the idiom and the sentence formatted as above, your responsibility is to select one among four options.
+                
+                <br><br>
+
+                If the idiom is used in its <b>idiomatic meaning</b> within the sentence (i.e., used figuratively rather than literally), then select <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>. You are free to use the provided <b><i>[Dictionary Definition] </i></b> as a reference for deciding if the idiom was used figuratively. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence shown in the format above, <i>The boy found the project to be a piece of cake because he planned ahead</i>, is a clear example of an idiomatic use. The piece of cake does not refer to a cake as sweet food; it tells how easy the project was for the boy. 
+                </p>
+                
+                <br>
+                    
+                If the idiom is used in its <b>literal meaning</b> within the sentence, then select <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence <i>The boy ate a piece of cake for his dessert</i> is a literal use. The piece of cake refers to an actual food with no hidden meanings behind it.
+                </p>
+                
+                <br>
+                
+                If it can be interpreted <b>either way</b> (either figuratively or literally), then select <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence <i>That was a piece of cake</i> is an ambiguous use of the idiom. The sentence might be literally referring to a breadlike food or metaphorically portraying how easy whatever "that" was. Since it can be freely interpreted either way, the correct option is "ambiguous"
+                </p>
+
+                <br>
+                If the usage of the idiom does not fall under any of the categories defined above, then select <nobr class="text-white bg-black p-0.5">discard</nobr>. The specific reasons you may select <nobr class="text-white bg-black p-0.5">discard</nobr> are the following:
+                <ol class="list-disc ml-8 mt-2">
+                    <li>The idiom is <b>not found</b> within the sentence.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The boy ran across the field</i>
+                        </p>
+                    <li>The sentence is <b>too unnatural, ungrammatical, or implausible</b> for one to comprehend.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The piece of cake ate the boy</i>
+                        </p>
+                    <li>The sentence makes <b>excessively many adjustments to the idiom</b> that the idiom no longer holds its idiomatic interpretation. 
+                        
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The boy found the project to be a fragment of cake because he planned ahead</i>. Though "fragment" and "piece" are normally synonymous terms, the phrase "fragment of cake" completely hinders the identity of the original idiom "piece of cake".
+                        </p>
+                    
+                    </li>
+                    <li>The sentence is <b>inherently offensive</b>.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>Being Asian is quite a piece of cake—just act submissive all the time</i>
+                        </p>
+                </ol>
+                <br>
+            </p>
+        </div>
+        <div class="m-5"></div>
+
+
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("example1")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 1: "kick the bucket"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example1">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "kick the bucket" :</b> die
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            All the money goes to the daughter when the old man kicks the bucket.</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The daughter is inheriting the old man's property upon his death, which implies the figurative use of the phrase.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man accidentally kicked the bucket and spilled water in it</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Spilling water implies that the bucket is a literal bucket that contains water.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man kicked the bucket
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man might have kicked a physical bucket (literal) or died (figurative). It is unclear which one is the case.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The fatter you are, the earlier you kick the bucket.
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Inherently offensive, non-inclusive.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example2")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 2: "elephant in the room"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example2">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "elephant in the room" :</b> an obvious problem that nobody wants to discuss
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Her alcoholism was the elephant in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            This figuratively means that her drinking problem is an obvious issue that nobody wants to bring up.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            An elephant in the room was roaring
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The elphant being able to roar implies that the elphant is a living animal.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            The research topic was an elephant in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The research topic might have been a study of a living animal in the room (literal) or something no person in the room wants to talk about (idiomatic).
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            An elephant was roaring in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            A non-trivial modification was made to the idiom, as the word "elephant" and the remaining phrase "in the room" were separated to an extent that the identity of the original idiom was damaged. Note that the meaning of this sentence isn't any different from the <nobr class="text-white bg-blue-700 p-0.5">literal</nobr> example above; yet this still must be discarded as the idiom can no longer possibly hold its idiomatic interpretation due to excessive edits.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example3")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 3: "red tape"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example3">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "red tape" :</b> excessive adherence to rules and formalities
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            This law will just create more red tape
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The red tape figuratively refers to excessive bureaucratic rules that hinder citizens' decision-making.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Don't use the red tape because it is no longer sticky
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The red tape refers to a literal tape that is used to stick things together.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The man faced the red tape
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            One interpretation of "face the red tape" is to come across a physical tape of red color (literal). Another interpretation is to encounter bureaucratic rules that impede the man's goal (idiomatic). The sentence doesn't clarify which is the case.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Red bull is my favorite energy drink
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The idiom "red tape" is mentioned nowhere in the sentence.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example5")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 5: "break the ice"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example5">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Idiom] </i></b>"break the ice"<br>
+                <b><i>[Dictionary Definition] </i></b>do or say something to relieve tension or get conversation going
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to break the ice by talking about the weather
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John is trying to initiate a conversation by opening up a conversation about the weather, not actually breaking a solid ice.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to break the ice with a crack hammer
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Using a hammer to break the ice implies that the ice is a crystalline solid with a physical form.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                             John tried to break the ice all day long
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John might have either struggled with initiating a conversation with someone or destroying a thick layer of ice in front of him. The sentence lacks clarification.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to shatter the ice all day long
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Even though "to shatter" has a meaning similar to "to break", the phrase "to shatter the ice" is never used idiomatically— thus not a correct use of the idiom in the first place.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+        
+
+        <div class="flex-col bg-neutral-500 text-white py-2 px-8 shadow-md w-full">
+            <p class="font-bold text-lg">
+                TASK
+            </p>
+
+        </div>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1">
+            <ul>
+                <li>
+                    <hr><br>
+                    <nobr class="text-lg font-extrabold">1.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_0}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_0}" :</b> ${meaning_0}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_f" autocomplete="off" value=0 required/>
+                            <label for="0_gold_f">1
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_l" autocomplete="off" value=1 required/>
+                            <label for="0_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_a" autocomplete="off" value=2 required/>
+                            <label for="0_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_i" autocomplete="off" value=3 required/>
+                            <label for="0_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">2.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_1}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_1}" :</b> ${meaning_1}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_f" autocomplete="off" value=0 required/>
+                            <label for="1_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_l" autocomplete="off" value=1 required/>
+                            <label for="1_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_a" autocomplete="off" value=2 required/>
+                            <label for="1_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_i" autocomplete="off" value=3 required/>
+                            <label for="1_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">3.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_2}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_2}" :</b> ${meaning_2}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_f" autocomplete="off" value=0 required/>
+                            <label for="2_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_l" autocomplete="off" value=1 required/>
+                            <label for="2_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_a" autocomplete="off" value=2 required/>
+                            <label for="2_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_i" autocomplete="off" value=3 required/>
+                            <label for="2_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+               
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">5.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_3}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_3}" :</b> ${meaning_3}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_f" autocomplete="off" value=0 required/>
+                            <label for="3_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_l" autocomplete="off" value=1 required/>
+                            <label for="3_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_a" autocomplete="off" value=2 required/>
+                            <label for="3_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_i" autocomplete="off" value=3 required/>
+                            <label for="3_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">5.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_5}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_5}" :</b> ${meaning_5}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_f" autocomplete="off" value=0 required/>
+                            <label for="5_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_l" autocomplete="off" value=1 required/>
+                            <label for="5_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_a" autocomplete="off" value=2 required/>
+                            <label for="5_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_i" autocomplete="off" value=3 required/>
+                            <label for="5_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+                
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">7.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_5}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_5}" :</b> ${meaning_5}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_f" autocomplete="off" value=0 required/>
+                            <label for="5_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_l" autocomplete="off" value=1 required/>
+                            <label for="5_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_a" autocomplete="off" value=2 required/>
+                            <label for="5_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="5_gold" id="5_gold_i" autocomplete="off" value=3 required/>
+                            <label for="5_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">7.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_7}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_7}" :</b> ${meaning_7}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_f" autocomplete="off" value=0 required/>
+                            <label for="7_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_l" autocomplete="off" value=1 required/>
+                            <label for="7_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_a" autocomplete="off" value=2 required/>
+                            <label for="7_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_i" autocomplete="off" value=3 required/>
+                            <label for="7_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">8.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_7}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_7}" :</b> ${meaning_7}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_f" autocomplete="off" value=0 required/>
+                            <label for="7_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_l" autocomplete="off" value=1 required/>
+                            <label for="7_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_a" autocomplete="off" value=2 required/>
+                            <label for="7_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="7_gold" id="7_gold_i" autocomplete="off" value=3 required/>
+                            <label for="7_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">9.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_8}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_8}" :</b> ${meaning_8}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="8_gold" id="8_gold_f" autocomplete="off" value=0 required/>
+                            <label for="8_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="8_gold" id="8_gold_l" autocomplete="off" value=1 required/>
+                            <label for="8_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-800 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="8_gold" id="8_gold_a" autocomplete="off" value=2 required/>
+                            <label for="8_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="8_gold" id="8_gold_i" autocomplete="off" value=3 required/>
+                            <label for="8_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">10.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_9}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_9}" :</b> ${meaning_9}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="9_gold" id="9_gold_f" autocomplete="off" value=0 required/>
+                            <label for="9_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="9_gold" id="9_gold_l" autocomplete="off" value=1 required/>
+                            <label for="9_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-900 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="9_gold" id="9_gold_a" autocomplete="off" value=2 required/>
+                            <label for="9_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="9_gold" id="9_gold_i" autocomplete="off" value=3 required/>
+                            <label for="9_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">11.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_10}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_10}" :</b> ${meaning_10}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="10_gold" id="10_gold_f" autocomplete="off" value=0 required/>
+                            <label for="10_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="10_gold" id="10_gold_l" autocomplete="off" value=1 required/>
+                            <label for="10_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1000 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="10_gold" id="10_gold_a" autocomplete="off" value=2 required/>
+                            <label for="10_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="10_gold" id="10_gold_i" autocomplete="off" value=3 required/>
+                            <label for="10_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">12.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_11}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_11}" :</b> ${meaning_11}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="11_gold" id="11_gold_f" autocomplete="off" value=0 required/>
+                            <label for="11_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="11_gold" id="11_gold_l" autocomplete="off" value=1 required/>
+                            <label for="11_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1100 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="11_gold" id="11_gold_a" autocomplete="off" value=2 required/>
+                            <label for="11_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="11_gold" id="11_gold_i" autocomplete="off" value=3 required/>
+                            <label for="11_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">13.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_12}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_12}" :</b> ${meaning_12}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="12_gold" id="12_gold_f" autocomplete="off" value=0 required/>
+                            <label for="12_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="12_gold" id="12_gold_l" autocomplete="off" value=1 required/>
+                            <label for="12_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1200 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="12_gold" id="12_gold_a" autocomplete="off" value=2 required/>
+                            <label for="12_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="12_gold" id="12_gold_i" autocomplete="off" value=3 required/>
+                            <label for="12_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">14.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_13}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_13}" :</b> ${meaning_13}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="13_gold" id="13_gold_f" autocomplete="off" value=0 required/>
+                            <label for="13_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="13_gold" id="13_gold_l" autocomplete="off" value=1 required/>
+                            <label for="13_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1300 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="13_gold" id="13_gold_a" autocomplete="off" value=2 required/>
+                            <label for="13_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="13_gold" id="13_gold_i" autocomplete="off" value=3 required/>
+                            <label for="13_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">15.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_14}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_14}" :</b> ${meaning_14}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="14_gold" id="14_gold_f" autocomplete="off" value=0 required/>
+                            <label for="14_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="14_gold" id="14_gold_l" autocomplete="off" value=1 required/>
+                            <label for="14_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1400 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="14_gold" id="14_gold_a" autocomplete="off" value=2 required/>
+                            <label for="14_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="14_gold" id="14_gold_i" autocomplete="off" value=3 required/>
+                            <label for="14_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">17.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_15}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_15}" :</b> ${meaning_15}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="15_gold" id="15_gold_f" autocomplete="off" value=0 required/>
+                            <label for="15_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="15_gold" id="15_gold_l" autocomplete="off" value=1 required/>
+                            <label for="15_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1500 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="15_gold" id="15_gold_a" autocomplete="off" value=2 required/>
+                            <label for="15_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="15_gold" id="15_gold_i" autocomplete="off" value=3 required/>
+                            <label for="15_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">17.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_117}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_117}" :</b> ${meaning_117}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="117_gold" id="117_gold_f" autocomplete="off" value=0 required/>
+                            <label for="117_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="117_gold" id="117_gold_l" autocomplete="off" value=1 required/>
+                            <label for="117_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-11700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="117_gold" id="117_gold_a" autocomplete="off" value=2 required/>
+                            <label for="117_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="117_gold" id="117_gold_i" autocomplete="off" value=3 required/>
+                            <label for="117_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">18.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_17}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_17}" :</b> ${meaning_17}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="17_gold" id="17_gold_f" autocomplete="off" value=0 required/>
+                            <label for="17_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="17_gold" id="17_gold_l" autocomplete="off" value=1 required/>
+                            <label for="17_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="17_gold" id="17_gold_a" autocomplete="off" value=2 required/>
+                            <label for="17_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="17_gold" id="17_gold_i" autocomplete="off" value=3 required/>
+                            <label for="17_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">19.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_18}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_18}" :</b> ${meaning_18}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="18_gold" id="18_gold_f" autocomplete="off" value=0 required/>
+                            <label for="18_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="18_gold" id="18_gold_l" autocomplete="off" value=1 required/>
+                            <label for="18_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1800 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="18_gold" id="18_gold_a" autocomplete="off" value=2 required/>
+                            <label for="18_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="18_gold" id="18_gold_i" autocomplete="off" value=3 required/>
+                            <label for="18_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <nobr class="text-lg font-extrabold">20.</nobr>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_19}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_19}" :</b> ${meaning_19}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="19_gold" id="19_gold_f" autocomplete="off" value=0 required/>
+                            <label for="19_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="19_gold" id="19_gold_l" autocomplete="off" value=1 required/>
+                            <label for="19_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-1900 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="19_gold" id="19_gold_a" autocomplete="off" value=2 required/>
+                            <label for="19_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="19_gold" id="19_gold_i" autocomplete="off" value=3 required/>
+                            <label for="19_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="my-5"></div>
+        <button 
+            type="submit" 
+            id="submitButton" 
+            class="btn btn-primary bg-neutral-500 hover:bg-neutral-500 text-white px-5 py-2 
+                font-bold rounded focus:outline-none focus:shadow-outline"
+            onclick="getnext()"
+        >
+            Submit
+        </button>
+        <div class="my-28"></div>
+    </div>
+    </div>
+    </form>
+    <script>
+        // var ul = document.querySelector('ul');
+        // for (var i = ul.children.length; i >= 0; i--) {
+        //     ul.appendChild(ul.children[Math.random() * i | 0]);
+        // }
+        // var ids = ['example1', 'example2', 'example3', 'example5']
+        // ids.forEach(id => { document.getElementById(id).style.display = "none" })
+    </script>
+    </body>
+</html>
+<script language='Javascript'>turkSetAssignmentID()</script>
