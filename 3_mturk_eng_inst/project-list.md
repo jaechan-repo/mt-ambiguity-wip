@@ -1,9 +1,9 @@
 ## Projects
 
-#### QUAL-idiom-usage-classification
+#### quals-idiom-usage-classification
 - title: [QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
 - description:###QUALIFICATION TEST### Your task is to identify the usage of an idiom in a sentence. For each pair of idiom and sentence provided, you must select an option that best describes the meaning of the idiom within the context of the sentence. 
-- keywords: idiom, english, classification, nlp
+- keywords: text, idiom, english, classification, nlp
 - number of problems per HIT: 20
 - number of HITs: 1
 - max assignments per HIT: 250
@@ -19,7 +19,7 @@
 #### idiom-usage-classification
 - title: Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
 - description: Your task is to identify the usage of an idiom in a sentence. For each pair of idiom and sentence provided, you must select an option that best describes the meaning of the idiom within the context of the sentence. 
-- keywords: idiom, english, classification, nlp
+- keywords: text, idiom, english, classification, nlp
 - number of problems per HIT: 5
 - number of HITs: 540
 - max assignments per HIT: 5
@@ -28,11 +28,9 @@
 - expires in: 14 days
 - auto-approve and pay workers in: 28 days
 - additional qualifications: 
-    - location: US
-    - Hit Approval Rate: ge 97
-    - number of HITs Approved: 10000
+    - qtype_idiom_usage_classification
 
 ## Types
 Type Name: qtype_idiom_usage_classification
-ID: 3GI0E34O3PQEQP3D3G95I3KF9BDYKI
-Description: This qualification type is assigned when a Worker gets at least 18 out of 20 problems in the qualification test / HIT "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?".
+ID: 
+Description: This qualification type is assigned when a Worker gets at least 18 out of 20 problems in the qualification test "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?".
