@@ -5,3 +5,8 @@ misc/
 .ipynb_checkpoints/
 ./misc/
 help.md
+archive/
+html_workspace/
+mturk_workspace/
+temp/
+misc/
