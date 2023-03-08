@@ -49,16 +49,15 @@ print("Translation begins.")
 
 for lang_code in args.lang:
     subdf[lang_code + "_idiom"] = ""
-    subdf[lang_code + "_phrase"] = ""
+    subdf[lang_code + "_subsentence"] = ""
     subdf[lang_code + "_sentence"] = ""
 
 for i in tqdm(range(0, len(subdf), args.batch)):
     i_end = min(len(subdf), i + args.batch)
     for lang_code in args.lang:
         subdf[lang_code + "_idiom"][i: i_end] = translate_batch(subdf['idiom'][i: i_end].tolist(), lang_code)
-        subdf[lang_code + "_phrase"][i: i_end] = translate_batch(subdf['phrase'][i: i_end].tolist(), lang_code)
+        subdf[lang_code + "_subsentence"][i: i_end] = translate_batch(subdf['subsentence'][i: i_end].tolist(), lang_code)
         subdf[lang_code + "_sentence"][i: i_end] = translate_batch(subdf['sentence'][i: i_end].tolist(), lang_code)
-
 end = time.time()
 print(f"\nCompletion in {(end - start)} seconds")
 
