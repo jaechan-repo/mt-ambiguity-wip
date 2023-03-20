@@ -5,9 +5,9 @@ misc/
 .ipynb_checkpoints/
 ./misc/
 help.md
-archive/
+_archive/
 html_workspace/
 mturk_workspace/
 temp/
 misc/
-private/
+_private/

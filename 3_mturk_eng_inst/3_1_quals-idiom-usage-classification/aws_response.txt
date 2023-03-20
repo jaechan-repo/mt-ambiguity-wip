@@ -1,0 +1,6 @@
+3NM2JKX2XPFJ9ZL3OPVICG2ZMMCRV2,ACLVNUNKTFGC2
+{'ResponseMetadata': {'RequestId': '7cc60b8e-41dd-410f-9821-6f46ea9082e7', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '7cc60b8e-41dd-410f-9821-6f46ea9082e7', 'content-type': 'application/x-amz-json-1.1', 'content-length': '2', 'date': 'Mon, 20 Mar 2023 07:30:29 GMT'}, 'RetryAttempts': 0}}
+
+3NM2JKX2XPFJ9ZL3OPVICG2ZMMCRV2,A2H4C3N535RMX1
+{'ResponseMetadata': {'RequestId': 'acf48a9f-928c-4066-b863-0f634621bd2b', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'acf48a9f-928c-4066-b863-0f634621bd2b', 'content-type': 'application/x-amz-json-1.1', 'content-length': '2', 'date': 'Mon, 20 Mar 2023 07:30:29 GMT'}, 'RetryAttempts': 0}}
+

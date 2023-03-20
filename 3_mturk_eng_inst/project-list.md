@@ -49,5 +49,5 @@
 
 ## Types
 Type Name: qtype_idiom_usage_classification
-ID: 
+ID: 3NM2JKX2XPFJ9ZL3OPVICG2ZMMCRV2
 Description: This qualification type is assigned when a Worker gets at least 18 out of 20 problems in the qualification test "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?".
