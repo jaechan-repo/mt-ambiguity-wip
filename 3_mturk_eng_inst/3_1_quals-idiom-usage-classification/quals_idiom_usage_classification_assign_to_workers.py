@@ -1,7 +1,7 @@
 import sys
-sys.path.append("../mturk-workspace")
-sys.path.append("../mturk-workspace/utils/qualifications")
-
+sys.path.append("../")
+sys.path.append("../mturk_workspace")
+sys.path.append("../mturk_workspace/utils/qualifications")
 import pandas as pd
 import argparse
 import establish_mturk_client as e

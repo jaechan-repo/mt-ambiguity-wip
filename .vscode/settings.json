@@ -1,6 +1,8 @@
 {
     "python.analysis.extraPaths": [
         "./3_mturk_eng_inst/mturk-workspace",
-        "./3_mturk_eng_inst/mturk-workspace/utils/qualifications"
+        "./3_mturk_eng_inst/mturk-workspace/utils/qualifications",
+        "./3_mturk_eng_inst/mturk_workspace",
+        "./3_mturk_eng_inst/mturk_workspace/utils/qualifications"
     ]
 }

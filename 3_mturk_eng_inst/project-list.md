@@ -9,17 +9,17 @@
 - total max assignments per HIT: 80
 - number of problems per HIT: 20
 - Release policy: 
-    - 2 separate batches in different time frames
-    - 40 assignments each time
+    - 4 separate batches in different time frames
+    - 20 assignments each time
 
 #### AMT Project Configuration
 - number of problems per HIT: 20
 - number of HITs: 1
-- max assignments per HIT: 40 (= 40 * 2 batches = 80 total)
+- max assignments per HIT: 20 (= 20 * 4 batches = 80 total)
 - reward per task: $7
 - time allotted (max): 30 minutes
 - expires in: 21 days
-- auto-approve and pay workers in: 35 days
+- auto-approve and pay workers in: 28 days
 - additional qualifications:
     - location: US
     - HIT approval rate: > 97%
@@ -37,17 +37,21 @@
     - 135, 135, 135, 136 HITs each time
 
 #### AMT Project Configuration
-- number of problems per HIT: 5
+- number of problems per HIT: 3
 - number of HITs: 135/135/135/136
-- max assignments per HIT: 5
+- max assignments per HIT: 3
 - reward for task: $0.3
 - time allotted (max): 5 minutes 
 - expires in: 21 days
-- auto-approve and pay workers in: 35 days
+- auto-approve and pay workers in: 28 days
 - additional qualifications: 
     - qtype_idiom_usage_classification
 
 ## Types
 Type Name: qtype_idiom_usage_classification
-ID: 3NM2JKX2XPFJ9ZL3OPVICG2ZMMCRV2
-Description: This qualification type is assigned when a Worker gets at least 18 out of 20 problems in the qualification test "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?".
+- ID: 3DWHOMV0Q14D1N5I10P74M36TVXHAW	
+- Description: This qualification type is assigned when a Worker passes the qualification test "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?".
+
+Type Name: ctype_idiom_usage_classification
+- ID: 3Y5W3WI847ANT4R55DKXOV075HBAOD
+- Description: This qualification type is assigned when a Worker completes the qualification "[QUALS] Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?". Will be further notified if the worker is eligible for the main HIT.
