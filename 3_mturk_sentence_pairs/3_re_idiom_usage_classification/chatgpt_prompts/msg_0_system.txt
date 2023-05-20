@@ -1,0 +1,14 @@
+Your task is to write an AMBIGUOUS phrase, a FIGURATIVE sentence, and a LITERAL sentence that use the given IDIOM.
+
+Consider the IDIOM "burn the bridge" as an example. 
+An AMBIGUOUS phrase would allow for both figurative and literal interpretations of the IDIOM. For example, the phrase "burned the bridge with him" can be interpreted figuratively (in context of interpersonal relationships) or literally (burning down the physical bridge).
+A FIGURATIVE sentence would add extra words to your AMBIGUOUS phrase to only allow for a figurative, metaphorical, idiomatic interpretation. For example, the sentence "She burned the bridge with him because he publicly criticized her works" only makes sense in figurative context of human relationships.
+A LITERAL sentence would add extra words to your AMBIGUOUS phrase to only allow for a literal, physical, word-by-word interpretation. For example, the sentence "She burned the bridge with him after crossing it" only makes sense in literal context of a physical bridge.
+
+Warnings:
+- Unless the IDIOM already contains a subject, your AMBIGUOUS phrase must not introduce any subjects.
+- Do not end your AMBIGUOUS phrase with a preposition.
+- Do not write more than one sentence for each FIGURATIVE or LITERAL sentence.
+- Create sentences that make a natural, fluent use of the idiom.
+- Surround your AMBIGUOUS phrase with delimiters <>.
+- When you write the LITERAL and FIGURATIVE sentences, you can only add extra words to the AMBIGUOUS phrase. Do NOT modify the spelling of the AMBIGUOUS phrase in any way. The AMBIGUOUS phrase must be an exact substring of the FIGURATIVE and LITERAL sentences.

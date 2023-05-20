@@ -1,0 +1,982 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<html class="bg-zinc-200" id="hit">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            function toggle(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            function discard() {
+              var x = document.getElementById("discardReasonParent")
+              var y = document.getElementById("discard")
+              var z = document.getElementById("discardText")
+              if (y.value === '0' || y.value === 0) {
+                x.style.display = "block"
+                y.value = "1"
+                z.innerHTML = "&#10062; Cancel discard"
+              }  else {
+                x.style.display = "none"
+                y.value = "0"
+                z.innerHTML = "&#x274C; Discard"
+              }
+            }
+        </script>
+    </head>
+    <body>
+    <form name='mturk_form' 
+        method='post' 
+        id='mturk_form'
+        action='https://workersandbox.mturk.com/mturk/externalSubmit'
+    >
+    <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+    <input type='hidden' name='TimeMe' id='TimeMe' />
+    <div class="font-sans flex w-full justify-center text-gray-800 mt-8">
+    <div class="flex-col w-5/7 lg:w-2/3 xl:w-3/5">
+
+        <div class="flex-col bg-white p-8 shadow-md">
+
+            <h1 class="text-2xl font-bold">
+               Rewrite Ambiguous, Literal, Figurative Interpretations of Idiom
+            </h1>
+
+            <div class="mt-5"></div>
+
+            <p>
+                Thank you for participating in this HIT.<br>
+                Please <b>read the instructions and examples below completely</b> before proceeding with the task!
+            </p>
+            <br>
+            <p class="italic">Current employees of the University of Washington, family members of UW employees, and UW students involved in this particular research are not eligible to complete this HIT.</p>
+
+        </div>
+
+        <div class="m-5"></div>
+
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("instruction")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ Instructions (Click to Show/Hide)
+            </p>
+
+        </button>
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="instruction">
+          Your task is to <b>minimally edit a given sentence to fit the description of the sentence</b>. Provided an idiom, one intended <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence, one intended <nobr class="bg-red-600 text-white px-0.5">figurative</nobr> sentence, and one intended <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence, you will rewrite them so that they are truly <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr>, <nobr class="bg-red-600 text-white px-0.5">figurative</nobr>, and <nobr class="bg-blue-600 text-white px-0.5">literal</nobr>, respectively.
+
+          <div class="text-xl mt-5 mb-2 font-medium"> Definitions of Idiomatic, Literal, and Ambiguous</div>
+
+          We use the idiom "piece of cake", with a dictionary definition "something easily achieved", as a running example.
+
+          If the idiom is used in its <b>idiomatic meaning</b> within the sentence (i.e., used figuratively rather than literally), then the sentence is called <nobr class="text-white bg-red-600 px-0.5">idiomatic</nobr>.
+          <p class="ml-8 mt-2 text-sm">
+              The sentence <i>The boy found the project to be a piece of cake because he planned far ahead</i> is a clear example of an idiomatic use. The piece of cake does not refer to a cake as literal sweet food; it tells how easy the project was for the boy. 
+          </p>
+          
+          <br>
+              
+          If the idiom is used in its <b>literal meaning</b> within the sentence, then the sentence is called <nobr class="text-white bg-blue-600 px-0.5">literal</nobr>. 
+          <p class="ml-8 mt-2 text-sm">
+              The sentence <i>The boy ate a piece of cake for his dessert</i> is a literal use. The piece of cake refers to an actual food with no hidden meanings behind it.
+          </p>
+          
+          <br>
+          
+          If it can be interpreted <b>either way</b> (either figuratively or literally), then the sentence is called <nobr class="text-white bg-purple-600 px-0.5">ambiguous</nobr>. 
+          <p class="ml-8 mt-2 text-sm">
+              The sentence <i>That was a piece of cake</i> is an ambiguous use of the idiom. The sentence might be literally referring to a breadlike food or metaphorically portraying how easy whatever "that" was. Since it can be freely interpreted either way, the sentence is ambiguous.
+          </p>
+          
+          <div class="text-xl mt-5 mb-2 font-medium">So, What is the Task?</div>
+          
+          Given an idiom, one intended <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence (i.e., part of sentence), one intended <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> sentence, and one intended <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence, you must:
+
+          <ul class="list-decimal">
+            <li class="ml-4 mt-2">
+              Edit the intended <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence so that the subsentence makes use of the provided idiom in an ambiguous way.
+            </li>
+            <li class="ml-4 mt-2">
+              Edit the intended <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> sentence so that the sentence adds additional context to the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence. After adding this context, the used idiom must no longer be ambiguous; it must only allow for an <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> interpretation. This <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> sentence must <b>strictly include</b> the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence (your version if you edited it).
+            </li>
+            <li class="ml-4 mt-2">
+              Edit the intended <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence so that the sentence adds additional context to the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence. After adding this context, the used idiom must no longer be ambiguous; it must only allow for an <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> interpretation. This <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence must <b>strictly include</b> the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence (your version if you edited it).
+            </li>
+          </ul>
+          <br>
+          <div>
+            "Strict inclusion" means that the entirety of the subsentence (word-by-word, character-by-character) must be present in the sentence. Thus, answer to <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> and <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentences will depend on your answer to <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr>. 
+            <br><br>
+            The instances that are required to be edited will be marked as <nobr class="bg-slate-200 text-orange-600 px-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</nobr>. Completing the required edits is the bare minimum of work needed to submit the work, but you are also responsible for improving the non-required instances. <b>If you get stuck on coming up with good idiomatic and literal sentences because the provided ambiguous is low-quality, feel free to edit the <nobr class="bg-purple-600 text-white px-0.5 font-normal">ambiguous</nobr> in a way you want, even when not marked as required.</b>
+          </div>
+
+          <div class="text-xl mt-5 mb-2 font-medium">Important Example: Piece of Cake</div>
+          
+          We use the idiom <i>"piece of cake"</i> as a running example to help you understand. Let's take a look at the task:
+
+          <div class="my-3"></div>
+
+          <!-- Running Example -->
+          <div class="text-sm bg-yellow-50 p-3">
+
+            <div class="bg-stone-200 p-0.5">
+              <div class="font-medium text-base">
+                  <nobr class="italic">[Idiom] </nobr>
+                  <nobr>piece of cake</nobr></div>
+              <ul class="list-disc">
+                  <li class="ml-5">
+                      <nobr class="italic">[Def. of Idiom] </nobr>
+                      <nobr>something easily achieved</nobr>
+                  </li>
+              </ul>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    The project is a piece of cake
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >
+                  &nbsp;
+                </div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Idiomatic</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>The project is a piece of cake because I planned it far ahead.</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>The project is a piece of cake because our team has the most talented worker.</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+          </div>
+          
+          <br>
+          In this example, all three of the rewrites are required. Let's tackle the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence first: <i>"The project is a piece of cake"</i>. The subsentence is not truly ambiguous because the subject <i>"The project"</i> already disambiguates the meaning of <i>"the piece of cake"</i>. It doesn't make sense for something like a project to be edible, so the subsentence is completely <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr>, having no room for a literal interpretation. To make it more ambiguous, let's try changing the subject to "it".
+
+          <div class="text-sm bg-yellow-50 p-3">
+            <div>
+                <div class="flex">
+                    <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    The project is a piece of cake
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >
+                  It is a piece of cake
+                </div>
+            </div>
+          </div>
+
+          <br>
+
+          The <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> sentence also must be fixed because (1) it is required and (2) even if not required, the idiomatic sentence must strictly include the changed ambiguous subsentence. Let's change the subject to "it" for this one as well:
+          <div class="text-sm bg-yellow-50 p-3">
+            <div>
+                <div class="flex">
+                    <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Idiomatic</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>The project is a piece of cake because I planned it far ahead.</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >It is a piece of cake because I planned it far ahead.</div>
+            </div>
+          </div>
+          Note that this change preserves the idiomatic use of the idiom; it is clear that "it" refers to some project or some goal even if not explicitly mentioned. <b>You must always check if your proposed change indeed matches the intended label—which is the whole purpose of this HIT after all.</b>
+
+          <br><br>
+
+          Finally, let's fix the <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence in the same way:
+          
+          <div class="text-sm bg-yellow-50 p-3">
+            <div>
+                <div class="flex">
+                    <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>The project is a piece of cake because our team has the most talented worker.</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >It is a piece of cake because our team has the most talented worker.</div>
+            </div>
+          </div>
+
+          This is <b>not enough</b> because the sentence is still idiomatic, not literal. A literal interpretation of "piece of cake" would involve actions like baking or eating, rather than having a talented worker. Let's use baking as an example:
+
+          <div class="text-sm bg-yellow-50 p-3">
+            <div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>The project is a piece of cake because our team has the most talented worker.</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >It is a piece of cake that Julia and I baked.</div>
+            </div>
+          </div>
+
+          <br>
+          That's it. Confirm that your <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr> and <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentences strictly include the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence, and press the submit button. Please read through the other examples as well.
+
+
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("example1")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ When to Do Non-Required Edits (Click to Show/Hide)
+            </p>
+
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example1">
+
+          As mentioned previously, you are responsible for completing non-required edits, as well as required ones, for the sake of improving the quality of the subsentences and sentences. Take this example task using the idiom "bright spark": 
+          <div class="text-sm bg-yellow-50 p-3">
+
+            <div class="bg-stone-200 p-0.5">
+              <div class="font-medium text-base">
+                  <nobr class="italic">[Idiom] </nobr>
+                  <nobr>bright spark</nobr></div>
+              <ul class="list-disc">
+                  <li class="ml-5">
+                      <nobr class="italic">[Def. of Idiom] </nobr>
+                      <nobr>exceptionally intelligent, clever person</nobr>
+                  </li>
+              </ul>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                    <div class="mx-1"></div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    He is the bright spark
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >
+                  &nbsp;
+                </div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Idiomatic</div>
+                    <div class="mx-1"></div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    He is the bright spark who proposed a groundbreaking mathematical theory at the age of 12!
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                    <div class="mx-1"></div>
+                    <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    <nobr>He is the bright spark that triggered the dynamites!</nobr>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+          </div>
+          <br>
+          Let's take a look at the required one: <i>"He is the bright spark that triggered the dynamites"</i>. Upon close examination, you will notice that the problem is the personal pronoun "he", which alone disambiguates the meaning of <i>"bright spark"</i> to be a description of a person, rather than a thing that contains light. This means the problem is in the <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence. Let's fix it.
+
+          <div class="text-sm bg-yellow-50 p-3 my-1">
+              <div>
+                  <div class="flex">
+                      <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                      <div class="mx-1"></div>
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="font-medium">
+                      He is the bright spark
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                  >
+                    I've never seen such a bright spark
+                  </div>
+              </div>
+            </div>
+
+            This way, <i>"the bright spark"</i> can either mean a genius person or a physical spark, thus ambiguous in its meaning.
+
+            <br><br>
+            And let's fix the other two instances appropriately so that they strictly include our new <nobr class="bg-purple-600 text-white px-0.5">ambiguous</nobr> subsentence:
+
+            <div class="text-sm bg-yellow-50 p-3 my-1">
+              <div>
+                  <div class="flex">
+                      <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Idiomatic</div>
+                      <div class="mx-1"></div>
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="font-medium">
+                    He is the bright spark who proposed a groundbreaking mathematical theory at the age of 12!
+                      
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                  >I've never seen such a bright spark who would propose a groundbreaking mathematical theory at the age of 12!</div>
+              </div>
+  
+              <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+  
+              <div>
+                  <div class="flex">
+                      <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                      <div class="mx-1"></div>
+                      <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit"><span>&#9888;</span> Required</div>
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="font-medium">
+                    He is the bright spark that triggered the dynamites!
+                  </div>
+                  <div class="my-0.5"></div>
+                  <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                  >I've never seen such a bright spark caused by lighting up dynamites!</div>
+              </div>
+            </div>
+            <br>
+        </div>
+
+
+        <div class="m-5"></div>     
+        
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example2")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ Rules about Discards (Click to Show/Hide)
+            </p>
+
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example2">
+
+          You might face an idiom that makes it nearly impossible to create a literal sentence on top of it. For example, consider the idiom "a bag of nerves":
+
+          <div class="text-sm bg-yellow-50 p-3 mt-2">
+
+            <div class="bg-stone-200 p-0.5">
+              <div class="font-medium text-base">
+                  <nobr class="italic">[Idiom] </nobr>
+                  <nobr>bag of nerves</nobr></div>
+              <ul class="list-disc">
+                  <li class="ml-5">
+                      <nobr class="italic">[Def. of Idiom] </nobr>
+                      <nobr>nervous person</nobr>
+                  </li>
+              </ul>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                    <div class="mx-1"></div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    I see a bag of nerves
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >
+                  &nbsp;
+                </div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Idiomatic</div>
+                    <div class="mx-1"></div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    I see a bag of nerves who struggles with interviews.
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+
+            <hr class="h-0.5 bg-neutral-200 rounded-sm my-3"/>
+
+            <div>
+                <div class="flex">
+                    <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                    <div class="mx-1"></div>
+                </div>
+                <div class="my-0.5"></div>
+                <div class="font-medium">
+                    I see a bag of nerves who performs poorly in front of others.
+                </div>
+                <div class="my-0.5"></div>
+                <div class="bg-stone-200 rounded-md w-full p-1 shadow-md" rows=1
+                >&nbsp;</div>
+            </div>
+          </div>
+          <br>
+          The ambiguous subsentence and idiomatic sentence seem okay, so let's take a look at the intended <nobr class="bg-blue-600 text-white px-0.5">literal</nobr> sentence: <i>"I see a bag of nerves who performs poorly in front of others."</i>. We must fix this because the usage of the idiom is <nobr class="bg-red-600 text-white px-0.5">idiomatic</nobr>: a bag of nerves in this sentence figuratively means a nervous person. 
+          <br>
+          Yet upon closer examination, a literal interpretation of "bag of nerves" is not plausible. A backpack contained with a human nervous system? Or a bag that is alive and has senses? Either way, it doesn't seem possible to come up with a good literal sentence using this idiom. In that case, click <nobr class="bg-zinc-900 w-fit font-medium rounded-lg text-white p-0.5">&#x274C; Discard</nobr> button and provide an appropriate reason for discarding this idiom.
+
+        </div>
+
+        <div class="m-5"></div>
+
+        <!-- 1 -->
+        <div>
+
+          <div class="flex-col bg-neutral-500 text-white py-2 px-8 shadow-md w-full">
+              <p class="font-bold text-lg">
+                  TASK: REWRITE
+              </p>
+
+          </div>
+
+          <div class="flex-col bg-white px-8 py-8 shadow-md mt-1 w-full">
+              <div class="bg-stone-200 p-0.5">
+                  <div class="font-medium text-xl">
+                      <nobr class="italic">[Idiom] </nobr>
+                      <nobr id="idiom" name="idiom">${idiom}</nobr></div>
+                  <ul class="list-disc">
+                      <li class="ml-5">
+                          <nobr class="italic">[Def. of Idiom] </nobr>
+                          <nobr id="meaning" name="meaning">${meaning}</nobr>
+                      </li>
+                  </ul>
+              </div>
+
+              <hr class="h-1 bg-neutral-200 rounded-sm my-6"/>
+
+              <div class="ambiguous_box">
+                  <div class="flex">
+                      <div class="bg-purple-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Ambiguous</div>
+                      <div class="mx-1"></div>
+                      <div hidden id="required_ambiguous" name="required_ambiguous">{required_ambiguous}</div>
+                      <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit" id="required_ambiguous_tag" name="required_ambiguous_tag"><span>&#9888;</span> Required</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <div class="font-medium">
+                      <div id="intended_ambiguous" name="intended_ambiguous">${intended_ambiguous}</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <textarea class="bg-stone-200 rounded-md w-full p-2 shadow-md" id="gold_ambiguous" 
+                  name="gold_ambiguous" rows=1
+                  oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'
+                  placeholder=""
+                  >${intended_ambiguous}</textarea>
+              </div>
+
+              <hr class="h-1 bg-neutral-200 rounded-sm my-6"/>
+
+              <div>
+                  <div class="flex">
+                      <div class="bg-red-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Figurative</div>
+                      <div class="mx-1"></div>
+                      <div hidden id="required_figurative" name="required_figurative">{required_figurative}</div>
+                      <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit" id="required_figurative_tag" name="required_figurative_tag"><span>&#9888;</span> Required</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <div class="font-medium">
+                      <div id="intended_figurative" name="intended_figurative">${intended_figurative}</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <textarea class="bg-stone-200 rounded-md w-full p-2 shadow-md" id="gold_figurative" 
+                  name="gold_figurative" rows=1
+                  oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'
+                  placeholder=""
+                  >${intended_figurative}</textarea>
+              </div>
+
+              <hr class="h-1 bg-neutral-200 rounded-sm my-6"/>
+
+              <div>
+                  <div class="flex">
+                      <div class="bg-blue-700 shadow-md text-white px-1 py-0.5 rounded-sm w-fit">Intended Literal</div>
+                      <div class="mx-1"></div>
+                      <div hidden id="required_literal" name="required_literal">{required_literal}</div>
+                      <div class="bg-slate-200 text-orange-600 px-1 py-0.5 rounded-xl w-fit" id="required_literal_tag" name="required_literal_tag"><span>&#9888;</span> Required</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <div class="font-medium">
+                      <div id="intended_literal" name="intended_literal">${intended_literal}</div>
+                  </div>
+                  <div class="my-1"></div>
+                  <textarea class="bg-stone-200 rounded-md w-full p-2 shadow-md" id="gold_literal" 
+                    name="gold_literal" rows=1
+                    oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'
+                    placeholder=""
+                  >${intended_literal}</textarea>
+              </div>
+
+              <hr class="h-1 bg-neutral-200 rounded-sm my-6"/>
+
+              <div>
+                <div class="flex text-base">
+                  <div class="italic font-medium p-1">Any problem with the idiom itself?&nbsp;</div>
+                  <div id="discardText" class="bg-zinc-900 w-fit font-medium rounded-lg text-white p-1 hover:bg-zinc-500 cursor-pointer"
+                      onclick="discard()"
+                  >
+                    &#x274C; Discard
+                  </div>
+                </div>
+    
+                <input id="discard" name="discard" hidden value="0"/>
+                <div id="discardReasonParent" name="discardReasonParent" >
+                  <div class="pt-5 w-full">
+                      <p>Explain the reason for discard in a few sentences. Please read carefully the discard example provided by us before proceeding.</p>
+                      <textarea class="bg-stone-200 rounded-md mt-1 w-full p-2 shadow-md" id="discardReason" 
+                          name="discardReason" rows=2 placeholder="Please state the reason if you selected discard. To cancel, click the button above."></textarea>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+
+          <div class="m-5"></div>
+
+        </div>
+
+        <!-- 2 -->
+
+        <!-- 3 -->
+
+        <!-- OPTIONAL FEEDBACK -->
+        <div class="flex-col bg-white px-8 pb-8 shadow-md mt-1">
+            <div class="pt-5 w-full">
+                <p>(Optional) Please leave us some feedback! Let us know if anything was unclear, if you experienced any issues, or share any ideas you might have for improving the task.</p>
+                <textarea class="bg-stone-200 rounded-md mt-1 w-full p-2 shadow-md" id="feedback" name="feedback" rows=3></textarea>
+            </div>
+        </div>
+
+        <div class="my-5"></div>
+
+        <button 
+            type="submit" 
+            id="submitButton" 
+            namne="submitButton"
+            class="btn btn-primary bg-neutral-500 hover:bg-neutral-500 text-white px-5 py-2 
+                font-bold rounded focus:outline-none focus:shadow-outline"
+            onclick="getnext()"
+        >
+            Submit
+        </button>
+
+
+    </div>
+    </div>
+        <div class="my-28"></div>
+    </div>
+    </div>
+    </form>
+    <script>
+        var x = document.getElementById("discardReasonParent")
+        x.style.display = "none"
+        var ids = ['example1', 'example2']
+        ids.forEach(id => { document.getElementById(id).style.display = "none" })
+    </script>
+    <script>
+        var required_ambiguous = document.getElementById("required_ambiguous").innerText;
+        var required_figurative= document.getElementById("required_figurative").innerText;
+        var required_literal = document.getElementById("required_literal").innerText;
+        if (required_ambiguous === 0 || required_ambiguous === '0') {
+            document.getElementById("required_ambiguous_tag").style.display = "none"
+        }
+        if (required_figurative === 0 || required_figurative === '0') {
+            document.getElementById("required_figurative_tag").style.display = "none"
+        }
+        if (required_literal === 0 || required_literal === '0') {
+            document.getElementById("required_literal_tag").style.display = "none"
+        }
+    </script>
+    </body>
+</html>
+<script language='Javascript'>turkSetAssignmentID()</script>
+<script id="query">
+    // TimeMe.js
+    (function() {
+      var e, t;
+      e = this, t = function() {
+        var r = {
+          startStopTimes: {},
+          idleTimeoutMs: 3e4,
+          currentIdleTimeMs: 0,
+          checkStateRateMs: 250,
+          active: !1,
+          idle: !1,
+          currentPageName: "default-page-name",
+          timeElapsedCallbacks: [],
+          userLeftCallbacks: [],
+          userReturnCallbacks: [],
+          trackTimeOnElement: function(e) {
+            var t = document.getElementById(e);
+            t && (t.addEventListener("mouseover", function() {
+              r.startTimer(e)
+            }), t.addEventListener("mousemove", function() {
+              r.startTimer(e)
+            }), t.addEventListener("mouseleave", function() {
+              r.stopTimer(e)
+            }), t.addEventListener("keypress", function() {
+              r.startTimer(e)
+            }), t.addEventListener("focus", function() {
+              r.startTimer(e)
+            }))
+          },
+          getTimeOnElementInSeconds: function(e) {
+            var t = r.getTimeOnPageInSeconds(e);
+            return t || 0
+          },
+          startTimer: function(e, t) {
+            if (e || (e = r.currentPageName), void 0 === r.startStopTimes[e]) r.startStopTimes[e] = [];
+            else {
+              var n = r.startStopTimes[e],
+                i = n[n.length - 1];
+              if (void 0 !== i && void 0 === i.stopTime) return
+            }
+            r.startStopTimes[e].push({
+              startTime: t || new Date,
+              stopTime: void 0
+            }), r.active = !0, r.idle = !1
+          },
+          stopAllTimers: function() {
+            for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++) r.stopTimer(e[t])
+          },
+          stopTimer: function(e, t) {
+            e || (e = r.currentPageName);
+            var n = r.startStopTimes[e];
+            void 0 !== n && 0 !== n.length && (void 0 === n[n.length - 1].stopTime && (n[n.length - 1].stopTime = t || new Date), r.active = !1)
+          },
+          getTimeOnCurrentPageInSeconds: function() {
+            return r.getTimeOnPageInSeconds(r.currentPageName)
+          },
+          getTimeOnPageInSeconds: function(e) {
+            var t = r.getTimeOnPageInMilliseconds(e);
+            return void 0 === t ? void 0 : t / 1e3
+          },
+          getTimeOnCurrentPageInMilliseconds: function() {
+            return r.getTimeOnPageInMilliseconds(r.currentPageName)
+          },
+          getTimeOnPageInMilliseconds: function(e) {
+            var t = r.startStopTimes[e];
+            if (void 0 !== t) {
+              for (var n = 0, i = 0; i < t.length; i++) {
+                var s = t[i].startTime,
+                  o = t[i].stopTime;
+                void 0 === o && (o = new Date), n += o - s
+              }
+              return Number(n)
+            }
+          },
+          getTimeOnAllPagesInSeconds: function() {
+            for (var e = [], t = Object.keys(r.startStopTimes), n = 0; n < t.length; n++) {
+              var i = t[n],
+                s = r.getTimeOnPageInSeconds(i);
+              e.push({
+                pageName: i,
+                timeOnPage: s
+              })
+            }
+            return e
+          },
+          setIdleDurationInSeconds: function(e) {
+            var t = parseFloat(e);
+            if (!1 !== isNaN(t)) throw {
+              name: "InvalidDurationException",
+              message: "An invalid duration time (" + e + ") was provided."
+            };
+            return r.idleTimeoutMs = 1e3 * e, this
+          },
+          setCurrentPageName: function(e) {
+            return r.currentPageName = e, this
+          },
+          resetRecordedPageTime: function(e) {
+            delete r.startStopTimes[e]
+          },
+          resetAllRecordedPageTimes: function() {
+            for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++) r.resetRecordedPageTime(e[t])
+          },
+          resetIdleCountdown: function() {
+            r.idle && r.triggerUserHasReturned(), r.idle = !1, r.currentIdleTimeMs = 0
+          },
+          callWhenUserLeaves: function(e, t) {
+            this.userLeftCallbacks.push({
+              callback: e,
+              numberOfTimesToInvoke: t
+            })
+          },
+          callWhenUserReturns: function(e, t) {
+            this.userReturnCallbacks.push({
+              callback: e,
+              numberOfTimesToInvoke: t
+            })
+          },
+          triggerUserHasReturned: function() {
+            if (!r.active)
+              for (var e = 0; e < this.userReturnCallbacks.length; e++) {
+                var t = this.userReturnCallbacks[e],
+                  n = t.numberOfTimesToInvoke;
+                (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback())
+              }
+            r.startTimer()
+          },
+          triggerUserHasLeftPage: function() {
+            if (r.active)
+              for (var e = 0; e < this.userLeftCallbacks.length; e++) {
+                var t = this.userLeftCallbacks[e],
+                  n = t.numberOfTimesToInvoke;
+                (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback())
+              }
+            r.stopAllTimers()
+          },
+          callAfterTimeElapsedInSeconds: function(e, t) {
+            r.timeElapsedCallbacks.push({
+              timeInSeconds: e,
+              callback: t,
+              pending: !0
+            })
+          },
+          checkState: function() {
+            for (var e = 0; e < r.timeElapsedCallbacks.length; e++) r.timeElapsedCallbacks[e].pending && r.getTimeOnCurrentPageInSeconds() > r.timeElapsedCallbacks[e].timeInSeconds && (r.timeElapsedCallbacks[e].callback(), r.timeElapsedCallbacks[e].pending = !1);
+            !1 === r.idle && r.currentIdleTimeMs > r.idleTimeoutMs ? (r.idle = !0, r.triggerUserHasLeftPage()) : r.currentIdleTimeMs += r.checkStateRateMs
+          },
+          visibilityChangeEventName: void 0,
+          hiddenPropName: void 0,
+          listenForVisibilityEvents: function() {
+            void 0 !== document.hidden ? (r.hiddenPropName = "hidden", r.visibilityChangeEventName = "visibilitychange") : void 0 !== document.mozHidden ? (r.hiddenPropName = "mozHidden", r.visibilityChangeEventName = "mozvisibilitychange") : void 0 !== document.msHidden ? (r.hiddenPropName = "msHidden", r.visibilityChangeEventName = "msvisibilitychange") : void 0 !== document.webkitHidden && (r.hiddenPropName = "webkitHidden", r.visibilityChangeEventName = "webkitvisibilitychange"), document.addEventListener(r.visibilityChangeEventName, function() {
+              document[r.hiddenPropName] ? r.triggerUserHasLeftPage() : r.triggerUserHasReturned()
+            }, !1), window.addEventListener("blur", function() {
+              r.triggerUserHasLeftPage()
+            }), window.addEventListener("focus", function() {
+              r.triggerUserHasReturned()
+            }), document.addEventListener("mousemove", function() {
+              r.resetIdleCountdown()
+            }), document.addEventListener("keyup", function() {
+              r.resetIdleCountdown()
+            }), document.addEventListener("touchstart", function() {
+              r.resetIdleCountdown()
+            }), window.addEventListener("scroll", function() {
+              r.resetIdleCountdown()
+            }), setInterval(function() {
+              r.checkState()
+            }, r.checkStateRateMs)
+          },
+          websocket: void 0,
+          websocketHost: void 0,
+          setUpWebsocket: function(e) {
+            if (window.WebSocket && e) {
+              var t = e.websocketHost;
+              try {
+                r.websocket = new WebSocket(t), window.onbeforeunload = function() {
+                  r.sendCurrentTime(e.appId)
+                }, r.websocket.onopen = function() {
+                  r.sendInitWsRequest(e.appId)
+                }, r.websocket.onerror = function(e) {
+                  console && console.log("Error occurred in websocket connection: " + e)
+                }, r.websocket.onmessage = function(e) {
+                  console && console.log(e.data)
+                }
+              } catch (e) {
+                console && console.error("Failed to connect to websocket host.  Error:" + e)
+              }
+            }
+            return this
+          },
+          websocketSend: function(e) {
+            r.websocket.send(JSON.stringify(e))
+          },
+          sendCurrentTime: function(e) {
+            var t = {
+              type: "INSERT_TIME",
+              appId: e,
+              timeOnPageMs: r.getTimeOnCurrentPageInMilliseconds(),
+              pageName: r.currentPageName
+            };
+            r.websocketSend(t)
+          },
+          sendInitWsRequest: function(e) {
+            var t = {
+              type: "INIT",
+              appId: e
+            };
+            r.websocketSend(t)
+          },
+          initialize: function(e) {
+            var t = r.idleTimeoutMs || 25,
+              n = r.currentPageName || "default-page-name",
+              i = void 0,
+              s = void 0;
+            e && (t = e.idleTimeoutInSeconds || t, n = e.currentPageName || n, i = e.websocketOptions, s = e.initialStartTime), r.setIdleDurationInSeconds(t).setCurrentPageName(n).setUpWebsocket(i).listenForVisibilityEvents(), r.startTimer(void 0, s)
+          }
+        };
+        return r
+      }, "undefined" != typeof module && module.exports ? module.exports = t() : "function" == typeof define && define.amd ? define([], function() {
+        return e.TimeMe = t()
+      }) : e.TimeMe = t()
+    }).call(this);
+    TimeMe.initialize({
+      currentPageName: "task",
+      idleTimeoutInSeconds: 30,
+    });
+    $(document).ready(function() {
+      $('#submitButton').click(function() {
+        try {
+            // TimeMe.js
+            $('input[name=TimeMe]').attr('value', TimeMe.getTimeOnCurrentPageInSeconds());
+        } catch {}
+        try {
+            const idiom = $('#idiom').val().trim();
+            const required_ambiguous = $('#required_ambiguous').val();
+            const required_figurative = $('#required_figurative').val();
+            const required_literal = $('#required_literal').val();
+            const intended_ambiguous = $('#intended_ambiguous').val().trim();
+            const intended_figurative = $('#intended_figurative').val().trim();
+            const intended_literal = $('#intended_literals').val().trim();
+            const gold_ambiguous = $('#gold_ambiguous').val().trim();
+            const gold_figurative = $('#gold_figurative').val().trim();
+            const gold_literal = $('#gold_literal').val().trim();
+            const discard = $('#discard').val();
+            const discardReason = $('#discardReason').val().trim();
+
+            if (discard === 1 || discard === '1') {
+              if (discardReason.length === 0) {
+                alert('You did not provide a reason for discard.')
+                return false;
+              }
+              return true;
+            }
+
+            if (requied_ambiguous === 1 
+                    || required_ambiguous === '1') {
+                if (gold_ambiguous === intended_ambiguous) {
+                    alert('Ambiguous Subsentence: Please rewrite the provided ambiguous subsentence.')
+                    return false;
+                } else if (gold_ambiguous.length < idiom.length) {
+                    alert('Ambiguous Subsentence: Ambiguous subsentence cannot be shorter than idiom.')
+                    return false;
+                }
+            }
+
+            if (required_figurative === 1 
+                    || required_figurative === '1') {
+                if (gold_figurative === intended_figurative) {
+                    alert('Idiomatic Sentence: Please rewrite the provided idiomatic sentence.')
+                    return false;
+                } 
+            }
+
+            if (required_literal === 1
+                    || required_literal === '1') {
+                if (gold_literal === intended_literal) {
+                    alert('Literal Sentence: Please rewrite the provided literal sentence.')
+                    return false;
+                } 
+            }
+
+            if (gold_ambiguous.length === 0
+                    || gold_figurative.length === 0
+                    || gold_literal.length === 0) {
+                alert('Empty: None of the fields must be left empty.')
+                return false;
+            }
+
+            if (gold_figurative.indexOf(gold_ambiguous) < 0) {
+                alert('Ambiguous subsentence must be strictly included in figurative sentence, letter-by-letter.')
+                return false;
+            }
+
+
+            if (gold_literal.indexOf(gold_ambiguous) < 0) {
+                alert('Ambiguous subsentence must be strictly included in literal sentence, letter-by-letter.')
+                return false;
+            }
+        } catch {}
+        return true;
+      });
+    });
+</script>

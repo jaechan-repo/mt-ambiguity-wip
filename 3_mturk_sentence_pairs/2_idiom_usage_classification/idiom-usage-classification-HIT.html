@@ -1,0 +1,1066 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<html class="bg-zinc-200" id="hit">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            function toggle(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <form name='mturk_form' 
+        method='post' 
+        id='mturk_form'
+        action='https://workersandbox.mturk.com/mturk/externalSubmit'
+    >
+    <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+    <input type='hidden' name='TimeMe' id='TimeMe' />
+    <div class="font-sans flex w-full justify-center text-gray-800 mt-8">
+    <div class="flex-col w-5/7 lg:w-2/3 xl:w-3/5">
+
+        <div class="flex-col bg-white p-8 shadow-md">
+
+            <h1 class="text-2xl font-bold">
+               Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
+            </h1>
+
+            <div class="mt-5"></div>
+
+            <p>
+                Thank you for participating in this HIT.<br>
+                Please <b>read the instructions and examples below completely</b> before proceeding with the task!
+                Also take a look at <b>the answer key to the qualification test</b>; it will provide you with a better idea of what answers we are exactly looking for in different types of questions.
+                
+                Workers who consistently divert from majority votes with unusually short time spent on each HIT are subject to potential rejections.
+            </p>
+            <br>
+            <p class="text-red-600 italic">Current employees of the University of Washington, family members of UW employees, and UW students involved in this particular research are not eligible to complete this HIT.</p>
+
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("instruction")' type="button">
+
+            <p class="font-bold text-lg">
+                ▼ Instructions (Click to Show/Hide)
+            </p>
+
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="instruction">
+            <p>
+                Your task is to <b>identify the usage of idioms within sentences</b>. For each pair of idiom and sentence provided, you must select an option that best describes the meaning of the idiom given the context of the sentence. 
+                
+                <br><br>
+                In this instruction, we use the idiom "piece of cake" as a running example. The sentence and the idiom will be presented to you in the following format:
+                <br>
+
+                <div class='text-base bg-stone-200 p-3 rounded-lg my-5'>
+                    <p class="text-lg">The boy found the project to be a piece of cake because he planned far ahead</p>
+                    <p class=""><b><i>[Dictionary Definition]</i> "piece of cake" :</b> something easily achieved</p>
+                </div>
+
+                Note that we also provide the dictionary definition of the idiom in case you are unfamiliar with it.
+
+                <br><br><hr><br>
+        
+                Given the idiom and the sentence formatted as above, your responsibility is to select one among these four options:
+                
+                <br><br>
+
+                If the idiom is used in its <b>idiomatic meaning</b> within the sentence (i.e., used figuratively rather than literally), then select the option <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>. Please feel free to use the provided <b><i>[Dictionary Definition] </i></b> as a reference for deciding if the idiom was used figuratively. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence shown in the format above, <i>The boy found the project to be a piece of cake because he planned far ahead</i>, is a clear example of an idiomatic use. The piece of cake does not refer to a cake as literal sweet food; it tells how easy the project was for the boy. 
+                </p>
+                
+                <br>
+                    
+                If the idiom is used in its <b>literal meaning</b> within the sentence, then select <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence <i>The boy ate a piece of cake for his dessert</i> is a literal use. The piece of cake refers to an actual food with no hidden meanings behind it.
+                </p>
+                
+                <br>
+                
+                If it can be interpreted <b>either way</b> (either figuratively or literally), then select <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. 
+                <p class="ml-8 mt-2 text-sm">
+                    The sentence <i>That was a piece of cake</i> is an ambiguous use of the idiom. The sentence might be literally referring to a breadlike food or metaphorically portraying how easy whatever "that" was. Since it can be freely interpreted either way, the correct option is "ambiguous".
+                </p>
+                <p class="ml-8 mt-1 text-sm ">
+                    <nobr class="text-red-600">WARNING: The relatively short length of a sentence is NOT a proper justification for selecting <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>.</nobr> For example, consider the sentence <i>Julia has never thought the whole thing would be a piece of cake</i>. Although the sentence is moderately long, the interpretation is still ambiguous.
+                </p>
+
+                <br>
+                If the usage of the idiom does not fall under any of the categories defined above, then select <nobr class="text-white bg-black p-0.5">discard</nobr>. The specific reasons you may select <nobr class="text-white bg-black p-0.5">discard</nobr> are the following:
+                <ol class="list-disc ml-8 mt-2">
+                    <li>The idiom is <b>not found</b> within the sentence.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The boy ran across the field</i>
+                        </p>
+                    <li>The sentence is <b>too unnatural, ungrammatical, or implausible</b> for one to comprehend.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The piece of cake ate the boy</i>
+                        </p>
+                    <li>The sentence makes <b>excessively many adjustments to the idiom</b> that the idiom no longer holds its idiomatic interpretation. 
+                        
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>The boy found the project to be a fragment of cake because he planned ahead</i>. Though "fragment" and "piece" are normally synonymous terms, the phrase "fragment of cake" completely hinders the identity of the original idiom "piece of cake".
+                        </p>
+                    
+                    </li>
+                    <li>The sentence is <b>inherently offensive</b>.</li>
+                        <p class="ml-8 my-2 text-sm">
+                            e.g., <i>Being Asian is quite a piece of cake—just act submissive all the time</i>
+                        </p>
+                </ol>
+                <br>
+            </p>
+        </div>
+        <div class="m-5"></div>
+
+    <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("answer-key")' type="button">
+
+    <p class="font-bold text-lg">
+        ▼ Answer Keys for Qualification Test (Click to Show/Hide)
+    </p>
+
+</button>
+
+<div class="flex-col bg-white p-8 shadow-md mt-1" id="answer-key">
+    <p>
+        Here we provide the answer key for the qualifications to give you a better idea of what we are looking for.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I'm going to hit the sack now</p>
+        </div>
+
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. There is no clarification whether the idiom "hit the sack" was used literally or not.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">the ball is in your court so pass the ball to me</p>
+        </div>
+
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. Being able to pass a ball implies that the ball is literal.
+        
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I burned the bridge with him because he was being annoying to me</p>
+        </div>
+
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>. Here, burning the bridge means ruining a relationship. We are not talking about a physical bridge.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">Why are you still sitting on the fence</p>
+        </div>
+
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. Although the sentence was framed as a question, there is still little distinction between sitting on the fence as in sitting on a physical fence or being undecided.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I have a bigger fish to fry so I need a bigger pan</p>
+        </div>
+
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. Needing a pan means the fry is literal.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I've been so sleep deprived lately that it feels like I've lost my marbles</p>
+        </div>
+
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>. Sleep deprivation is causing the person to figuratively lose his "marbles" (i.e., mind).
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">You are on thin ice</p>
+        </div>
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">He keeps a flock of black sheep inside the barn</p>
+        </div>
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>. A flock of black sheep can only be kept inside the barn if it means something physical.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I draw the line when someone asks me to lie for them</p>
+        </div>
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>. The line is metaphorical.
+
+        <br><br><hr><br>
+
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">You seem to be adding fuel to the fire</p>
+        </div>
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. The context "you seem to be" doesn't grant us any disambiguating insight into what "adding fuel to the fire" can potentially mean.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I put the cold turkey in the microwave</p>
+        </div>
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">He spilled the beans about the surprise party</p>
+        </div>
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">Have you lost your marbles</p>
+        </div>
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. Again, framed as a question, the sentence might appear to be disambiguating in some ways. But in fact, we are still not sure whether losing marbles means losing physical marbles or going insane.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">Hitting the sack is only going to hurt your fist</p>
+        </div>
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I never attended classes so my teacher told me I'm on thin ice</p>
+        </div>
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">He is no longer sitting on the fence</p>
+        </div>
+        <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">I have a bigger fish to fry and it must be delicious</p>
+        </div>
+        <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">My poor grandma lost her marbles after she had a stroke</p>
+        </div>
+        <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">The leader of my crew sailed the ship</p>
+        </div>
+        <nobr class="text-white bg-black p-0.5">discard</nobr>. The original idiom was "the ship has sailed". The idiom was heavily edited before it was used in the sentence; particularly, the subject of the verb "sail" has changed from "the ship" to a person. It can no longer bear an idiomatic interpretation. Therefore, it must be discarded.
+
+        <br><br><hr><br>
+        <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+            <p class="text-lg">She purchased a new bell for the bike yesterday</p>
+        </div>
+        <nobr class="text-white bg-black p-0.5">discard</nobr>. The original idiom was "ring a bell". The idiom is simply not present in this sentence.
+
+
+        </p>
+        </div>
+        <div class="m-5"></div>
+
+
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+                shadow-md w-full" onclick='toggle("example1")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 1: "kick the bucket"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example1">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "kick the bucket" :</b> die
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            All the money goes to the daughter when the old man kicks the bucket.</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The daughter is inheriting the old man's property upon his death, which implies the figurative use of the phrase.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man accidentally kicked the bucket and spilled water in it</p>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Spilling water implies that the bucket is a literal bucket that contains water.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man kicked the bucket
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The old man might have kicked a physical bucket (literal) or died (figurative). It is unclear which one is the case.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The fatter you are, the earlier you kick the bucket.
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Inherently offensive, non-inclusive.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example2")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 2: "elephant in the room"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example2">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "elephant in the room" :</b> an obvious problem that nobody wants to discuss
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Her alcoholism was the elephant in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            This figuratively means that her drinking problem is an obvious issue that nobody wants to bring up.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            An elephant in the room was roaring
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The elphant being able to roar implies that the elphant is a living animal.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            The research topic was an elephant in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The research topic might have been a study of a living animal in the room (literal) or something no person in the room wants to talk about (idiomatic).
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            An elephant was roaring in the room
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            A non-trivial modification was made to the idiom, as the word "elephant" and the remaining phrase "in the room" were separated to an extent that the identity of the original idiom was damaged. Note that the meaning of this sentence isn't any different from the <nobr class="text-white bg-blue-700 p-0.5">literal</nobr> example above; yet this still must be discarded as the idiom can no longer possibly hold its idiomatic interpretation due to excessive edits.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example3")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 3: "red tape"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example3">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Dictionary Definition]</i> "red tape" :</b> excessive adherence to rules and formalities
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            This law will just create more red tape
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The red tape figuratively refers to excessive bureaucratic rules that hinder citizens' decision-making.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Don't use the red tape because it is no longer sticky
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The red tape refers to a literal tape that is used to stick things together.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The man faced the red tape
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            One interpretation of "face the red tape" is to come across a physical tape of red color (literal). Another interpretation is to encounter bureaucratic rules that impede the man's goal (idiomatic). The sentence doesn't clarify which is the case.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Red bull is my favorite energy drink
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The idiom "red tape" is mentioned nowhere in the sentence.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+
+        <button class="flex-col bg-neutral-500 hover:bg-neutral-500 text-white py-2 px-8 
+        shadow-md w-full" onclick='toggle("example4")' type="button">
+            <p class="font-bold text-lg">
+                ▼ Example 4: "break the ice"  (Click to Show/Hide)
+            </p>
+        </button>
+
+        <div class="flex-col bg-white p-8 shadow-md mt-1" id="example4">
+            <div class='text-base bg-stone-200 p-3 rounded-lg'>
+                <b><i>[Idiom] </i></b>"break the ice"<br>
+                <b><i>[Dictionary Definition] </i></b>do or say something to relieve tension or get conversation going
+            </div>
+            <table class="min-w-full">
+                <thead class="border-b">
+                <tr>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Sentence
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Expected Answer
+                    </th>
+                    <th scope="col" class="text-sm font-medium text-gray-900 px-7 py-5 text-left">
+                        Explanation
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to break the ice by talking about the weather
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John is trying to initiate a conversation by opening up a conversation about the weather, not actually breaking a solid ice.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to break the ice with a crack hammer
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Using a hammer to break the ice implies that the ice is a crystalline solid with a physical form.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                             John tried to break the ice all day long
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John might have either struggled with initiating a conversation with someone or destroying a thick layer of ice in front of him.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            John tried to shatter the ice all day long
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Even though "to shatter" has a meaning similar to "to break", the phrase "to shatter the ice" is never used idiomatically— thus not a correct use of the idiom in the first place.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="m-5"></div>
+        
+
+        <div class="flex-col bg-neutral-500 text-white py-2 px-8 shadow-md w-full">
+            <p class="font-bold text-lg">
+                ### TO BE COMPLETED ###
+            </p>
+
+        </div>
+
+        <div class="flex-col bg-white px-8 pb-8 shadow-md mt-1">
+            <ul>
+                <li>
+                    <br><hr><br>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_0}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_0}" :</b> ${meaning_0}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_f" autocomplete="off" value=0 required/>
+                            <label for="0_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_l" autocomplete="off" value=1 required/>
+                            <label for="0_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_a" autocomplete="off" value=2 required/>
+                            <label for="0_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="0_gold" id="0_gold_i" autocomplete="off" value=3 required/>
+                            <label for="0_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_1}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_1}" :</b> ${meaning_1}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_f" autocomplete="off" value=0 required/>
+                            <label for="1_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_l" autocomplete="off" value=1 required/>
+                            <label for="1_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_a" autocomplete="off" value=2 required/>
+                            <label for="1_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="1_gold" id="1_gold_i" autocomplete="off" value=3 required/>
+                            <label for="1_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_2}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_2}" :</b> ${meaning_2}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_f" autocomplete="off" value=0 required/>
+                            <label for="2_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_l" autocomplete="off" value=1 required/>
+                            <label for="2_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_a" autocomplete="off" value=2 required/>
+                            <label for="2_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="2_gold" id="2_gold_i" autocomplete="off" value=3 required/>
+                            <label for="2_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+               
+                <li>
+                    <br><hr><br>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_3}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_3}" :</b> ${meaning_3}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_f" autocomplete="off" value=0 required/>
+                            <label for="3_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_l" autocomplete="off" value=1 required/>
+                            <label for="3_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_a" autocomplete="off" value=2 required/>
+                            <label for="3_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="3_gold" id="3_gold_i" autocomplete="off" value=3 required/>
+                            <label for="3_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+                <li>
+                    <br><hr><br>
+                    <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
+                        <p class="text-lg">${instance_4}</p>
+                        <b><i>[Dictionary Definition]</i> "${idiom_4}" :</b> ${meaning_4}
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="4_gold" id="4_gold_f" autocomplete="off" value=0 required/>
+                            <label for="4_gold_f">
+                                <nobr class="text-white">idiomatic</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-blue-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="4_gold" id="4_gold_l" autocomplete="off" value=1 required/>
+                            <label for="4_gold_l">
+                                <nobr class="text-white">literal</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-purple-700 p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="4_gold" id="4_gold_a" autocomplete="off" value=2 required/>
+                            <label for="4_gold_a">
+                                <nobr class="text-white p-0.5">ambiguous</nobr>
+                            </label>
+                        </div>
+                        <div class="mr-0.5"></div>
+                        <div class="bg-black p-1 rounded-md shadow-lg">
+                            <input class="required" type="radio" name="4_gold" id="4_gold_i" autocomplete="off" value=3 required/>
+                            <label for="4_gold_i">
+                                <nobr class="text-white">discard</nobr>
+                            </label>
+                        </div>                                       
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="my-5"></div>
+
+        <!-- OPTIONAL FEEDBACK -->
+        <div class="flex-col bg-white px-8 pb-8 shadow-md mt-1">
+        <div class="pt-5 w-full">
+            <p>(Optional) Please leave us some feedback! Let us know if anything was unclear, if you experienced any issues, or share any ideas you might have for improving the task.</p>
+            <textarea class="bg-stone-200 rounded-md mt-1 w-full p-2 shadow-md" id="feedback" name="feedback" rows=3></textarea>
+        </div>
+        </div>
+        <div class="my-5"></div>
+
+        <button 
+            type="submit" 
+            id="submitButton" 
+            class="btn btn-primary bg-neutral-500 hover:bg-neutral-500 text-white px-5 py-2 
+                font-bold rounded focus:outline-none focus:shadow-outline"
+            onclick="getnext()"
+        >
+            Submit
+        </button>
+        <div class="my-28"></div>
+    </div>
+    </div>
+    </form>
+    <script>
+        var ul = document.querySelector('ul');
+        for (var i = ul.children.length; i >= 0; i--) {
+            ul.appendChild(ul.children[Math.random() * i | 0]);
+        }
+        var ids = ['example1', 'example2', 'example3', 'example4', 'instruction', 'answer-key']
+        ids.forEach(id => { document.getElementById(id).style.display = "none" })
+    </script>
+    </body>
+</html>
+<script language='Javascript'>turkSetAssignmentID()</script>
+
+<!-- HITPUB JS -->
+<script id="hitpub_js">
+    // TimeMe.js
+    (function() {
+      var e, t;
+      e = this, t = function() {
+        var r = {
+          startStopTimes: {},
+          idleTimeoutMs: 3e4,
+          currentIdleTimeMs: 0,
+          checkStateRateMs: 250,
+          active: !1,
+          idle: !1,
+          currentPageName: "default-page-name",
+          timeElapsedCallbacks: [],
+          userLeftCallbacks: [],
+          userReturnCallbacks: [],
+          trackTimeOnElement: function(e) {
+            var t = document.getElementById(e);
+            t && (t.addEventListener("mouseover", function() {
+              r.startTimer(e)
+            }), t.addEventListener("mousemove", function() {
+              r.startTimer(e)
+            }), t.addEventListener("mouseleave", function() {
+              r.stopTimer(e)
+            }), t.addEventListener("keypress", function() {
+              r.startTimer(e)
+            }), t.addEventListener("focus", function() {
+              r.startTimer(e)
+            }))
+          },
+          getTimeOnElementInSeconds: function(e) {
+            var t = r.getTimeOnPageInSeconds(e);
+            return t || 0
+          },
+          startTimer: function(e, t) {
+            if (e || (e = r.currentPageName), void 0 === r.startStopTimes[e]) r.startStopTimes[e] = [];
+            else {
+              var n = r.startStopTimes[e],
+                i = n[n.length - 1];
+              if (void 0 !== i && void 0 === i.stopTime) return
+            }
+            r.startStopTimes[e].push({
+              startTime: t || new Date,
+              stopTime: void 0
+            }), r.active = !0, r.idle = !1
+          },
+          stopAllTimers: function() {
+            for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++) r.stopTimer(e[t])
+          },
+          stopTimer: function(e, t) {
+            e || (e = r.currentPageName);
+            var n = r.startStopTimes[e];
+            void 0 !== n && 0 !== n.length && (void 0 === n[n.length - 1].stopTime && (n[n.length - 1].stopTime = t || new Date), r.active = !1)
+          },
+          getTimeOnCurrentPageInSeconds: function() {
+            return r.getTimeOnPageInSeconds(r.currentPageName)
+          },
+          getTimeOnPageInSeconds: function(e) {
+            var t = r.getTimeOnPageInMilliseconds(e);
+            return void 0 === t ? void 0 : t / 1e3
+          },
+          getTimeOnCurrentPageInMilliseconds: function() {
+            return r.getTimeOnPageInMilliseconds(r.currentPageName)
+          },
+          getTimeOnPageInMilliseconds: function(e) {
+            var t = r.startStopTimes[e];
+            if (void 0 !== t) {
+              for (var n = 0, i = 0; i < t.length; i++) {
+                var s = t[i].startTime,
+                  o = t[i].stopTime;
+                void 0 === o && (o = new Date), n += o - s
+              }
+              return Number(n)
+            }
+          },
+          getTimeOnAllPagesInSeconds: function() {
+            for (var e = [], t = Object.keys(r.startStopTimes), n = 0; n < t.length; n++) {
+              var i = t[n],
+                s = r.getTimeOnPageInSeconds(i);
+              e.push({
+                pageName: i,
+                timeOnPage: s
+              })
+            }
+            return e
+          },
+          setIdleDurationInSeconds: function(e) {
+            var t = parseFloat(e);
+            if (!1 !== isNaN(t)) throw {
+              name: "InvalidDurationException",
+              message: "An invalid duration time (" + e + ") was provided."
+            };
+            return r.idleTimeoutMs = 1e3 * e, this
+          },
+          setCurrentPageName: function(e) {
+            return r.currentPageName = e, this
+          },
+          resetRecordedPageTime: function(e) {
+            delete r.startStopTimes[e]
+          },
+          resetAllRecordedPageTimes: function() {
+            for (var e = Object.keys(r.startStopTimes), t = 0; t < e.length; t++) r.resetRecordedPageTime(e[t])
+          },
+          resetIdleCountdown: function() {
+            r.idle && r.triggerUserHasReturned(), r.idle = !1, r.currentIdleTimeMs = 0
+          },
+          callWhenUserLeaves: function(e, t) {
+            this.userLeftCallbacks.push({
+              callback: e,
+              numberOfTimesToInvoke: t
+            })
+          },
+          callWhenUserReturns: function(e, t) {
+            this.userReturnCallbacks.push({
+              callback: e,
+              numberOfTimesToInvoke: t
+            })
+          },
+          triggerUserHasReturned: function() {
+            if (!r.active)
+              for (var e = 0; e < this.userReturnCallbacks.length; e++) {
+                var t = this.userReturnCallbacks[e],
+                  n = t.numberOfTimesToInvoke;
+                (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback())
+              }
+            r.startTimer()
+          },
+          triggerUserHasLeftPage: function() {
+            if (r.active)
+              for (var e = 0; e < this.userLeftCallbacks.length; e++) {
+                var t = this.userLeftCallbacks[e],
+                  n = t.numberOfTimesToInvoke;
+                (isNaN(n) || void 0 === n || 0 < n) && (t.numberOfTimesToInvoke -= 1, t.callback())
+              }
+            r.stopAllTimers()
+          },
+          callAfterTimeElapsedInSeconds: function(e, t) {
+            r.timeElapsedCallbacks.push({
+              timeInSeconds: e,
+              callback: t,
+              pending: !0
+            })
+          },
+          checkState: function() {
+            for (var e = 0; e < r.timeElapsedCallbacks.length; e++) r.timeElapsedCallbacks[e].pending && r.getTimeOnCurrentPageInSeconds() > r.timeElapsedCallbacks[e].timeInSeconds && (r.timeElapsedCallbacks[e].callback(), r.timeElapsedCallbacks[e].pending = !1);
+            !1 === r.idle && r.currentIdleTimeMs > r.idleTimeoutMs ? (r.idle = !0, r.triggerUserHasLeftPage()) : r.currentIdleTimeMs += r.checkStateRateMs
+          },
+          visibilityChangeEventName: void 0,
+          hiddenPropName: void 0,
+          listenForVisibilityEvents: function() {
+            void 0 !== document.hidden ? (r.hiddenPropName = "hidden", r.visibilityChangeEventName = "visibilitychange") : void 0 !== document.mozHidden ? (r.hiddenPropName = "mozHidden", r.visibilityChangeEventName = "mozvisibilitychange") : void 0 !== document.msHidden ? (r.hiddenPropName = "msHidden", r.visibilityChangeEventName = "msvisibilitychange") : void 0 !== document.webkitHidden && (r.hiddenPropName = "webkitHidden", r.visibilityChangeEventName = "webkitvisibilitychange"), document.addEventListener(r.visibilityChangeEventName, function() {
+              document[r.hiddenPropName] ? r.triggerUserHasLeftPage() : r.triggerUserHasReturned()
+            }, !1), window.addEventListener("blur", function() {
+              r.triggerUserHasLeftPage()
+            }), window.addEventListener("focus", function() {
+              r.triggerUserHasReturned()
+            }), document.addEventListener("mousemove", function() {
+              r.resetIdleCountdown()
+            }), document.addEventListener("keyup", function() {
+              r.resetIdleCountdown()
+            }), document.addEventListener("touchstart", function() {
+              r.resetIdleCountdown()
+            }), window.addEventListener("scroll", function() {
+              r.resetIdleCountdown()
+            }), setInterval(function() {
+              r.checkState()
+            }, r.checkStateRateMs)
+          },
+          websocket: void 0,
+          websocketHost: void 0,
+          setUpWebsocket: function(e) {
+            if (window.WebSocket && e) {
+              var t = e.websocketHost;
+              try {
+                r.websocket = new WebSocket(t), window.onbeforeunload = function() {
+                  r.sendCurrentTime(e.appId)
+                }, r.websocket.onopen = function() {
+                  r.sendInitWsRequest(e.appId)
+                }, r.websocket.onerror = function(e) {
+                  console && console.log("Error occurred in websocket connection: " + e)
+                }, r.websocket.onmessage = function(e) {
+                  console && console.log(e.data)
+                }
+              } catch (e) {
+                console && console.error("Failed to connect to websocket host.  Error:" + e)
+              }
+            }
+            return this
+          },
+          websocketSend: function(e) {
+            r.websocket.send(JSON.stringify(e))
+          },
+          sendCurrentTime: function(e) {
+            var t = {
+              type: "INSERT_TIME",
+              appId: e,
+              timeOnPageMs: r.getTimeOnCurrentPageInMilliseconds(),
+              pageName: r.currentPageName
+            };
+            r.websocketSend(t)
+          },
+          sendInitWsRequest: function(e) {
+            var t = {
+              type: "INIT",
+              appId: e
+            };
+            r.websocketSend(t)
+          },
+          initialize: function(e) {
+            var t = r.idleTimeoutMs || 25,
+              n = r.currentPageName || "default-page-name",
+              i = void 0,
+              s = void 0;
+            e && (t = e.idleTimeoutInSeconds || t, n = e.currentPageName || n, i = e.websocketOptions, s = e.initialStartTime), r.setIdleDurationInSeconds(t).setCurrentPageName(n).setUpWebsocket(i).listenForVisibilityEvents(), r.startTimer(void 0, s)
+          }
+        };
+        return r
+      }, "undefined" != typeof module && module.exports ? module.exports = t() : "function" == typeof define && define.amd ? define([], function() {
+        return e.TimeMe = t()
+      }) : e.TimeMe = t()
+    }).call(this);
+    TimeMe.initialize({
+      currentPageName: "task",
+      idleTimeoutInSeconds: 30,
+    });
+    $(document).ready(function() {
+      $('#submitButton').click(function() {
+        try {
+            $('input[name=TimeMe]').attr('value', TimeMe.getTimeOnCurrentPageInSeconds());
+        } catch {}
+        return true;
+      });
+    });
+</script>
