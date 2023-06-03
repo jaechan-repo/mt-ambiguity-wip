@@ -47,6 +47,25 @@
 - additional qualifications: 
     - qtype_idiom_usage_classification
 
+## `re-idiom-usage-classification`
+- title: RE: Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
+- description: Your task is to identify the usage of an idiom in a sentence and revise if needed. For each pair of idiom and sentence provided, you must select an option that best describes the meaning of the idiom within the context. Expected time: 1-2 min.
+- keywords: text, idiom, english, classification, nlp
+
+#### Batch Information
+- total number of HITs: 421
+
+#### AMT Project Configuration
+- number of problems per HIT: 5
+- number of HITs: 50/??
+- max assignments per HIT: 3
+- reward for task: $0.3
+- time allotted (max): 1 hour
+- expires in: 21 days
+- auto-approve and pay workers in: 28 days
+- additional qualifications: 
+    - qtype_idiom_usage_classification
+
 ## Types
 Type Name: qtype_idiom_usage_classification
 - ID: 3DWHOMV0Q14D1N5I10P74M36TVXHAW	

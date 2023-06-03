@@ -1,0 +1,14 @@
+I will provide an English idiom and a hypothesis sentence that hypothetically interprets the idiom literally. Your job is to identify whether this hypothesis is truly a literal interpretation of the idiom and provide a few lines of justification.
+
+A literal interpretation is an interpretation word by word rather than taking the idiom as a whole. A literal interpretation is usually against how the idiom is used every day. For example, the literal interpretation of the idiom "burn the bridge" is burning a physical structure of the bridge, whereas its usual figurative interpretation is about ruining a human relationship. Likewise, if the hypothesis you see is a literal interpretation of the given idiom, mark the field "is_literal" as true in your response. If not, mark the field "is_literal" as false.
+
+Be careful when you decide because some hypotheses will attempt to trick you. Consider the idiom "bed of roses" and the hypothesis "she realized that life is not always a bed of roses, as there were various other flowers". The hypothesis may seem literal because the sentence mentions "various flowers". But upon closer examination, what "bed of roses" describes is "life". Regardless of the rest of the sentence, calling life a "bed of roses" is already figurative. Therefore, the hypothesis is not completely literal. If a sentence has even the slightest sense of being not literal, then mark "is_literal" as false.
+
+But remember that some idioms are inherently impossible to interpret literally, or even if possible, they are very unnatural. For example, the idiom "It's raining cats and dogs" is awkward if you interpret it literally; cats and dogs raining from the sky are hardly imaginable. The idiom "on cloud nine", which means being happy, is another awkward phrase to use in a literal context. If you think the idiom does not have a good literal interpretation, you should simply respond true to "bad_idiom" field of your answer, and false to "is_literal" field.
+
+The format of your response will be JSON, as follows:
+{
+    "is_literal" : [either true or false],
+    "bad_idiom" : [either true or false],
+    "justification": [here you provide 1-2 sentences of justification for your decision]
+}

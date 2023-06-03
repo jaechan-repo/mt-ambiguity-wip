@@ -4,5 +4,6 @@
         "./3_mturk_eng_inst/mturk-workspace/utils/qualifications",
         "./3_mturk_eng_inst/mturk_workspace",
         "./3_mturk_eng_inst/mturk_workspace/utils/qualifications"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

@@ -32,7 +32,7 @@
         <div class="flex-col bg-white p-8 shadow-md">
 
             <h1 class="text-2xl font-bold">
-               Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
+               RE: Identify Usage of Idioms: Literal, Idiomatic, or Ambiguous?
             </h1>
 
             <div class="mt-5"></div>
@@ -40,9 +40,9 @@
             <p>
                 Thank you for participating in this HIT.<br>
                 Please <b>read the instructions and examples below completely</b> before proceeding with the task!
-                Also take a look at <b>the answer key to the qualification test</b>; it will provide you with a better idea of what answers we are exactly looking for in different types of questions.
                 
-                Workers who consistently divert from majority votes with unusually short time spent on each HIT are subject to potential rejections.
+                Workers who consistently divert from majority votes with an unusually short time spent on each HIT are subject to potential rejections.
+
             </p>
             <br>
             <p class="text-red-600 italic">Current employees of the University of Washington, family members of UW employees, and UW students involved in this particular research are not eligible to complete this HIT.</p>
@@ -62,7 +62,7 @@
 
         <div class="flex-col bg-white p-8 shadow-md mt-1" id="instruction">
             <p>
-                Your task is to <b>identify the usage of idioms within sentences</b>. For each pair of idiom and sentence provided, you must select an option that best describes the meaning of the idiom given the context of the sentence. 
+                Your task is to <b>identify the usage of an idiom within a sentence</b>. For each pair of idioms and sentences provided, you must select an option that best describes the meaning of the idiom given the context of the sentence. 
                 
                 <br><br>
                 In this instruction, we use the idiom "piece of cake" as a running example. The sentence and the idiom will be presented to you in the following format:
@@ -76,6 +76,8 @@
                 Note that we also provide the dictionary definition of the idiom in case you are unfamiliar with it.
 
                 <br><br><hr><br>
+
+                <h2 class="font-bold text-xl my-2">Idiomatic, Literal, Ambiguous</h2>
         
                 Given the idiom and the sentence formatted as above, your responsibility is to select one among these four options:
                 
@@ -99,13 +101,51 @@
                 <p class="ml-8 mt-2 text-sm">
                     The sentence <i>That was a piece of cake</i> is an ambiguous use of the idiom. The sentence might be literally referring to a breadlike food or metaphorically portraying how easy whatever "that" was. Since it can be freely interpreted either way, the correct option is "ambiguous".
                 </p>
-                <p class="ml-8 mt-1 text-sm ">
-                    <nobr class="text-red-600">WARNING: The relatively short length of a sentence is NOT a proper justification for selecting <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>.</nobr> For example, consider the sentence <i>Julia has never thought the whole thing would be a piece of cake</i>. Although the sentence is moderately long, the interpretation is still ambiguous.
-                </p>
-
+                <div class="ml-8 mt-1 text-sm">
+                    <p class="text-red-600">WARNING: The relatively short length of a sentence is NOT a proper justification for selecting <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>. For example, consider the sentence <i>Julia has never thought the whole thing would be a piece of cake</i>. Although the sentence is moderately long, the interpretation is still ambiguous.</p>
+                </div>
+                
                 <br>
-                If the usage of the idiom does not fall under any of the categories defined above, then select <nobr class="text-white bg-black p-0.5">discard</nobr>. The specific reasons you may select <nobr class="text-white bg-black p-0.5">discard</nobr> are the following:
+
+                If you are unsure which of the three categories above the idiom does not fall into, then select <nobr class="text-white bg-black p-0.5">discard</nobr>. 
+
+                <br><br><hr><br>
+
+                <h2 class="font-bold text-xl my-2">Important Notes on Discard</h2>
+
+                Discards are important; they help us know what sentences are inherently problematic. 
+                
+                The specific reasons you may select <nobr class="text-white bg-black p-0.5">discard</nobr> are the following:
                 <ol class="list-disc ml-8 mt-2">
+                    <li>
+                        <div>
+                            One primary issue you should be seeking is whether the provided sentence exhibits <b>inconsistent idiomatic or literal usage</b>. Select <nobr class="text-white bg-black p-0.5">discard</nobr> if the given sentence fluctuates between idiomatic and literal, resulting in an overall sense of <b>disjointedness and a lack of fluency</b>.
+                        </div>
+                        
+                        <div class="mt-2">
+                            This must not be confused with a <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr> sentence. An ambiguous sentence has the attribute that it can be interpreted either idiomatically or literally, with both interpretations presenting as natural and coherent in their own respect. In contrast, a <nobr class="text-white bg-black p-0.5">discard</nobr> sentence has interpretive inconsistency, with half of its content appearing literal and the other half idiomatic, which when combined, disrupts the natural flow of the sentence. This concept can be better illustrated through examples.
+                        </div>
+                        <div class="px-2 py-1">
+                            <div class="mt-3">
+                                <i>[Discard Example] "he's a hard nut to crack and a hammer couldn't break it open"</i>
+                                <p class="ml-8 my-2 text-sm">
+                                    The use of "he" at the start indicates that the phrase "a hard nut to crack" is being used in an idiomatic sense. However, the sentence then shifts to talk about physically cracking a nut with a hammer. Can you spot the issue here? The sentence doesn't stay consistently figurative or literal, resulting in an unnatural, nonsensical sentence.. In cases like this, your best choice is to select <nobr class="text-white bg-black p-0.5">discard</nobr>.
+                                </p>
+                            </div>
+                            <div class="mt-3">
+                                <i>[Ambiguous (Non-Discard) Example] "they are hard nuts to crack"</i>
+                                <p class="ml-8 my-2 text-sm">
+                                    Whatever the subject "they" refers to, it's either you're dealing with particularly resilient pistachios that refuse to open (literal), or you've got a bunch of people around you who have complex personality codes (idiomatic).  Despite this ambiguity, the sentence is still logical and coherent. In such instances, you should select <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>.
+                                </p>
+                            </div>
+                            <div class="mt-3">
+                                <i>[Now Test Yourself] "This business is a house of cards, which was constructed using poker cards"</i>
+                                <p class="ml-8 my-2 text-sm">
+                                    Similar to the previous examples, the phrase "a house of cards" in reference to a business is idiomatic, as "business" is an abstract notion. However, the sentence then oddly transitions to discussing the physical act of building with poker cards, illogically trying to literalize the previously figurative phrase. This results in a nonsensical sentence. In such situations, you should opt for <nobr class="text-white bg-black p-0.5">discard</nobr>.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                     <li>The idiom is <b>not found</b> within the sentence.</li>
                         <p class="ml-8 my-2 text-sm">
                             e.g., <i>The boy ran across the field</i>
@@ -117,8 +157,8 @@
                     <li>The sentence makes <b>excessively many adjustments to the idiom</b> that the idiom no longer holds its idiomatic interpretation. 
                         
                         <p class="ml-8 my-2 text-sm">
-                            e.g., <i>The boy found the project to be a fragment of cake because he planned ahead</i>. Though "fragment" and "piece" are normally synonymous terms, the phrase "fragment of cake" completely hinders the identity of the original idiom "piece of cake".
-                        </p>
+                            e.g.,  consider the phrase <i>"The boy found the project to be a fragment of cake because he planned ahead"</i>. While "fragment" and "piece" are typically interchangeable, using "fragment of cake" here disrupts the recognizability of the well-known idiom "piece of cake".
+                        </p>                        
                     
                     </li>
                     <li>The sentence is <b>inherently offensive</b>.</li>
@@ -126,7 +166,20 @@
                             e.g., <i>Being Asian is quite a piece of cake—just act submissive all the time</i>
                         </p>
                 </ol>
-                <br>
+                <br><br><hr><br>
+
+                <h2 class="font-bold text-xl my-2">Frequently Asked Question</h2>
+                This list will be updated as we progress.
+                <ol class="list-disc ml-8 mt-2">
+                    <li>The given sentence doesn't have a subject and/or a verb. Is this normal?</li>
+                        <p class="ml-8 my-2 text-sm">
+                            In this HIT, we will equally treat all English utterances as "sentences". Whether a sentence is complete in its structure must not impact your decision.
+                        </p>
+                    <li>The given idiom is the same as the sentence. Is this normal?</li>
+                        <p class="ml-8 my-2 text-sm">
+                            Yes. Since an idiom by itself is ambiguous, select <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr> in that case.
+                        </p>
+                </ol>
             </p>
         </div>
 
@@ -160,7 +213,7 @@
                 <tbody>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            All the money goes to the daughter when the old man kicks the bucket.</p>
+                            all the money goes to the daughter when the old man kicks the bucket.</p>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
@@ -171,7 +224,7 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The old man accidentally kicked the bucket and spilled water in it</p>
+                            the old man accidentally kicked the bucket and spilled water in it</p>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
@@ -182,24 +235,35 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The old man kicked the bucket
+                            the old man kicked the bucket
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The old man might have kicked a physical bucket (literal) or died (figurative). It is unclear which one is the case.
+                            The old man might have kicked a physical bucket (literal) or died (idiomatic). It is unclear which one is the case.
                         </td>
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The fatter you are, the earlier you kick the bucket.
+                            the fatter you are, the earlier you kick the bucket.
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-black p-0.5">discard</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             Inherently offensive, non-inclusive.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            the bucket got kicked by the old man.
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The order of words in an idiom matters! Once you start using the phrase "kick the bucket" in a passive form ("the bucket is kicked"), the phrase is no longer an idiom. Since there is an inherent problem in the use of this idiom, the sentence must be discarded.
                         </td>
                     </tr>
                 </tbody>
@@ -235,7 +299,7 @@
                 <tbody>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            Her alcoholism was the elephant in the room
+                            her alcoholism was the elephant in the room
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
@@ -246,18 +310,18 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
-                            An elephant in the room was roaring
+                            an elephant in the room was roaring
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The elphant being able to roar implies that the elphant is a living animal.
+                            The elephant being able to roar implies that the elephant is a living animal.
                         </td>
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
-                            The research topic was an elephant in the room
+                            the research topic was an elephant in the room
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
@@ -268,13 +332,24 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
-                            An elephant was roaring in the room
+                            an elephant was roaring in the room
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-black p-0.5">discard</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            A non-trivial modification was made to the idiom, as the word "elephant" and the remaining phrase "in the room" were separated to an extent that the identity of the original idiom was damaged. Note that the meaning of this sentence isn't any different from the <nobr class="text-white bg-blue-700 p-0.5">literal</nobr> example above; yet this still must be discarded as the idiom can no longer possibly hold its idiomatic interpretation due to excessive edits.
+                            A non-trivial modification was made to the idiom, as the word "elephant" and the remaining phrase "in the room" were separated to the extent that the identity of the original idiom was damaged. Note that the meaning of this sentence isn't any different from the <nobr class="text-white bg-blue-700 p-0.5">literal</nobr> example above; yet this still must be discarded as the idiom can no longer possibly hold its idiomatic interpretation due to excessive edits.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words"> 
+                            the next presidential election was an elephant in the room roaring towards the vast ceiling
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Your gut instinct might (correctly) be that this sentence is nonsensical. The first half of the sentence is idiomatic since a presidential election cannot be a living animal. However, the latter half is literal since it describes an animal's roar. Such inconsistency is a good reason to vote discard.
                         </td>
                     </tr>
                 </tbody>
@@ -311,7 +386,7 @@
                 <tbody>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            This law will just create more red tape
+                            this law will just create more red tape
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
@@ -322,7 +397,7 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            Don't use the red tape because it is no longer sticky
+                            don't use the red tape because it is no longer sticky
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
@@ -333,7 +408,7 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            The man faced the red tape
+                            the man faced the red tape
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
@@ -344,13 +419,24 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            Red bull is my favorite energy drink
+                            red bull is my favorite energy drink
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-black p-0.5">discard</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             The idiom "red tape" is mentioned nowhere in the sentence.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            the new regulation is a red tape, literally colored in the hue of red
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            The first half of the sentence is idiomatic, as it describes bureaucratic blocking. The latter half is literal, as it refers to a literal tape. Inconsistent, therefore discard.
                         </td>
                     </tr>
                 </tbody>
@@ -388,18 +474,18 @@
                 <tbody>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            John tried to break the ice by talking about the weather
+                            john tried to break the ice by talking about the weather
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-red-700 p-0.5">idiomatic</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            John is trying to initiate a conversation by opening up a conversation about the weather, not actually breaking a solid ice.
+                            John is trying to initiate a conversation by opening up a conversation about the weather, not actually breaking solid ice.
                         </td>
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            John tried to break the ice with a crack hammer
+                            john tried to break the ice with a crack hammer
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-blue-700 p-0.5">literal</nobr>
@@ -410,7 +496,7 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                             John tried to break the ice all day long
+                             john tried to break the ice all day long
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-purple-700 p-0.5">ambiguous</nobr>
@@ -421,13 +507,24 @@
                     </tr>
                     <tr class="bg-white border-b">
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
-                            John tried to shatter the ice all day long
+                            we shattered the ice together
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             <nobr class="text-white bg-black p-0.5">discard</nobr>
                         </td>
                         <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
                             Even though "to shatter" has a meaning similar to "to break", the phrase "to shatter the ice" is never used idiomatically— thus not a correct use of the idiom in the first place.
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            despite the desert's scorching heat, the perplexed camel attempted to break the ice using a sunflower
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            <nobr class="text-white bg-black p-0.5">discard</nobr>
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-7 py-5 break-words">
+                            Nonsensical.
                         </td>
                     </tr>
                 </tbody>
@@ -444,12 +541,21 @@
 
         </div>
 
-        <div class="flex-col bg-white px-8 pb-8 shadow-md mt-1">
+        <div class="flex-col bg-white px-8 pb-8 shadow-md mt-1 pt-5">
+            <div class="italic bg-amber-100 p-1">
+                <div class=>
+                    We have noticed from the recent batches that some workers tend to choose "ambiguous" when there is the slightest sense of ambiguity present in a sentence. However, we would like to emphasize that if a sentence leans significantly towards a figurative or literal interpretation, that interpretation should be selected, even if there's a minimal possibility for an alternative interpretation.
+                </div> 
+                <div class="font-medium">
+                    TL;DR: Choose the most likely interpretation!
+                </div>
+            </div>
             <ul>
                 <li>
                     <br><hr><br>
                     <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
-                        <p class="text-lg">${instance_0}</p>
+                        <p class="text-lg" id="instance_0" name="instance_0">${instance_0}</p>
+                        <div hidden id="idiom_0" name="idiom_0">${idiom_0}</div>
                         <b><i>[Dictionary Definition]</i> "${idiom_0}" :</b> ${meaning_0}
                     </div>
 
@@ -487,7 +593,8 @@
                 <li>
                     <br><hr><br>
                     <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
-                        <p class="text-lg">${instance_1}</p>
+                        <p class="text-lg" id="instance_1" name="instance_1">${instance_1}</p>
+                        <div hidden id="idiom_1" name="idiom_1">${idiom_1}</div>
                         <b><i>[Dictionary Definition]</i> "${idiom_1}" :</b> ${meaning_1}
                     </div>
 
@@ -525,7 +632,8 @@
                 <li>
                     <br><hr><br>
                     <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
-                        <p class="text-lg">${instance_2}</p>
+                        <p class="text-lg" id="instance_2" name="instance_2">${instance_2}</p>
+                        <div hidden id="idiom_2" name="idiom_2">${idiom_2}</div>
                         <b><i>[Dictionary Definition]</i> "${idiom_2}" :</b> ${meaning_2}
                     </div>
 
@@ -563,7 +671,8 @@
                 <li>
                     <br><hr><br>
                     <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
-                        <p class="text-lg">${instance_3}</p>
+                        <p class="text-lg" id="instance_3" name="instance_3">${instance_3}</p>
+                        <div hidden id="idiom_3" name="idiom_3">${idiom_3}</div>
                         <b><i>[Dictionary Definition]</i> "${idiom_3}" :</b> ${meaning_3}
                     </div>
 
@@ -601,7 +710,8 @@
                 <li>
                     <br><hr><br>
                     <div class='text-base bg-stone-200 p-3 rounded-lg mb-2'>
-                        <p class="text-lg">${instance_4}</p>
+                        <p class="text-lg" id="instance_4" name="instance_4">${instance_4}</p>
+                        <div hidden id="idiom_4" name="idiom_4">${idiom_4}</div>
                         <b><i>[Dictionary Definition]</i> "${idiom_4}" :</b> ${meaning_4}
                     </div>
 
@@ -632,11 +742,12 @@
                             <label for="4_gold_i">
                                 <nobr class="text-white">discard</nobr>
                             </label>
-                        </div>                                       
+                        </div>                                        
                     </div>
                 </li>
 
             </ul>
+            <br><hr><br>
         </div>
         <div class="my-5"></div>
 
@@ -667,7 +778,7 @@
         for (var i = ul.children.length; i >= 0; i--) {
             ul.appendChild(ul.children[Math.random() * i | 0]);
         }
-        var ids = ['example1', 'example2', 'example3', 'example4', 'instruction', 'answer-key']
+        var ids = ['example1', 'example2', 'example3', 'example4']
         ids.forEach(id => { document.getElementById(id).style.display = "none" })
     </script>
     </body>
@@ -904,6 +1015,66 @@
       $('#submitButton').click(function() {
         try {
             $('input[name=TimeMe]').attr('value', TimeMe.getTimeOnCurrentPageInSeconds());
+        } catch {}
+        try {
+            // const levenshteinDistance = (s, t) => {
+            //     if (s.length === 0) return t.length;
+            //     if (t.length === 0) return s.length;
+
+            //     let prevRow = Array.from({length: s.length + 1}, (_, i) => i);
+            //     let curRow = Array(s.length + 1).fill(0);
+
+            //     for (let i = 1; i <= t.length; i++) {
+            //         curRow[0] = i;
+            //         for (let j = 1; j <= s.length; j++) {
+            //         let cost = (s[j - 1] === t[i - 1]) ? 0 : 1;
+            //         curRow[j] = Math.min(prevRow[j] + 1, curRow[j - 1] + 1, prevRow[j - 1] + cost);
+            //         }
+            //         [prevRow, curRow] = [curRow, prevRow];  // Swap rows for next iteration
+            //     }
+                
+            //     return prevRow[s.length];
+            // };
+
+            // const val0 = parseInt($('input[name="0_gold"]:checked').val(), 10);
+            // const val1 = parseInt($('input[name="1_gold"]:checked').val(), 10);
+            // const val2 = parseInt($('input[name="2_gold"]:checked').val(), 10);
+            // const val3 = parseInt($('input[name="3_gold"]:checked').val(), 10);
+            // const val4 = parseInt($('input[name="4_gold"]:checked').val(), 10);
+            
+            // const instance0 = $('#instance_0').text().trim();
+            // const instance1 = $('#instance_1').text().trim();
+            // const instance2 = $('#instance_2').text().trim();
+            // const instance3 = $('#instance_3').text().trim();
+            // const instance4 = $('#instance_4').text().trim();
+
+            // const revision0 = $('#0_revision').val().trim();
+            // const revision1 = $('#1_revision').val().trim();
+            // const revision2 = $('#2_revision').val().trim();
+            // const revision3 = $('#3_revision').val().trim();
+            // const revision4 = $('#4_revision').val().trim();
+
+            // if ((revision0 !== "" && val0 === 3)
+            //         || (revision1 !== "" && val1 === 3)
+            //         || (revision2 !== "" && val2 === 3)
+            //         || (revision3 !== "" && val3 === 3)
+            //         || (revision4 !== "" && val4 === 3)
+            // ) {
+            //     alert("It appears that you revised sentences to which you had selected 'discard'. Please fix this by either erasing the revision or selecting alternate options (idiomatic, literal, ambiguous). If you're unclear about this, please consult the instructions for further clarification.")
+            //     return false;
+            // }
+
+            // if ((revision0 !== "" && levenshteinDistance(instance0, revision0) > instance0.length / 2)
+            //         || (revision1 !== "" && levenshteinDistance(instance1, revision1) > instance1.length / 2)
+            //         || (revision2 !== "" && levenshteinDistance(instance2, revision2) > instance2.length / 2)
+            //         || (revision3 !== "" && levenshteinDistance(instance3, revision3) > instance3.length / 2)
+            //         || (revision4 !== "" && levenshteinDistance(instance4, revision4) > instance4.length / 2)
+            // ) {
+            //     if (!confirm("It appears that some of your revisions have quite substantially altered the original sentence. If the same quality can be achieved with fewer changes, please click 'cancel' and attempt a more minimal edit. Otherwise, proceed by clicking 'ok'.")) {
+            //         return false;
+            //     }
+            // }
+            
         } catch {}
         return true;
       });
