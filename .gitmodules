@@ -1,6 +1,0 @@
-[submodule "4_evaluation/mta_metrics/awesome-align"]
-	path = 4_evaluation/mta_metrics/awesome-align
-	url = https://github.com/vyraun/awesome-align.git
-[submodule "4_evaluation/mta_metrics/alignment/awesome-align"]
-	path = 4_evaluation/mta_metrics/alignment/awesome-align
-	url = https://github.com/vyraun/awesome-align.git
