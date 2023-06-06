@@ -1,0 +1,6 @@
+tokenizers>=0.5.2
+torch>=1.1.0
+tqdm
+numpy
+boto3
+filelock
