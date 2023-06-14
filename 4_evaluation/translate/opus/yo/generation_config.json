@@ -1,0 +1,16 @@
+{
+  "_from_model_config": true,
+  "bad_words_ids": [
+    [
+      21442
+    ]
+  ],
+  "bos_token_id": 0,
+  "decoder_start_token_id": 21442,
+  "eos_token_id": 16992,
+  "forced_eos_token_id": 16992,
+  "max_length": 512,
+  "num_beams": 6,
+  "pad_token_id": 21442,
+  "transformers_version": "4.28.1"
+}

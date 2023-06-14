@@ -1,0 +1,778 @@
+[2021-03-27 02:13:06] [marian] Marian v1.10.0 6f6d484 2021-02-06 15:35:16 -0800
+[2021-03-27 02:13:06] [marian] Running on r13g01.bullx as process 106095 with command line:
+[2021-03-27 02:13:06] [marian] /projappl/project_2001194/marian/build/marian --guided-alignment /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz --early-stopping 15 --valid-freq 10000 --valid-sets /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.src.spm32k /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-log /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.valid1.log --beam-size 12 --normalize 1 --allow-unk --overwrite --keep-best --model /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz --type transformer --train-sets /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.src.clean.spm32k.gz /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.trg.clean.spm32k.gz --max-length 500 --vocabs /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml --mini-batch-fit -w 24000 --maxi-batch 500 --save-freq 10000 --disp-freq 10000 --log /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.train1.log --enc-depth 6 --dec-depth 6 --transformer-heads 8 --transformer-postprocess-emb d --transformer-postprocess dan --transformer-dropout 0.1 --label-smoothing 0.1 --learn-rate 0.0003 --lr-warmup 16000 --lr-decay-inv-sqrt 16000 --lr-report --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 --fp16 --tied-embeddings-all --devices 0 1 2 3 --sync-sgd --seed 1111 --sqlite --tempdir /run/nvme/job_5332113/data --exponential-smoothing
+[2021-03-27 02:13:06] [config] after: 0e
+[2021-03-27 02:13:06] [config] after-batches: 0
+[2021-03-27 02:13:06] [config] after-epochs: 0
+[2021-03-27 02:13:06] [config] all-caps-every: 0
+[2021-03-27 02:13:06] [config] allow-unk: true
+[2021-03-27 02:13:06] [config] authors: false
+[2021-03-27 02:13:06] [config] beam-size: 12
+[2021-03-27 02:13:06] [config] bert-class-symbol: "[CLS]"
+[2021-03-27 02:13:06] [config] bert-mask-symbol: "[MASK]"
+[2021-03-27 02:13:06] [config] bert-masking-fraction: 0.15
+[2021-03-27 02:13:06] [config] bert-sep-symbol: "[SEP]"
+[2021-03-27 02:13:06] [config] bert-train-type-embeddings: true
+[2021-03-27 02:13:06] [config] bert-type-vocab-size: 2
+[2021-03-27 02:13:06] [config] build-info: ""
+[2021-03-27 02:13:06] [config] cite: false
+[2021-03-27 02:13:06] [config] clip-norm: 5
+[2021-03-27 02:13:06] [config] cost-scaling:
+[2021-03-27 02:13:06] [config]   - 7
+[2021-03-27 02:13:06] [config]   - 2000
+[2021-03-27 02:13:06] [config]   - 2
+[2021-03-27 02:13:06] [config]   - 0.05
+[2021-03-27 02:13:06] [config]   - 10
+[2021-03-27 02:13:06] [config]   - 1
+[2021-03-27 02:13:06] [config] cost-type: ce-sum
+[2021-03-27 02:13:06] [config] cpu-threads: 0
+[2021-03-27 02:13:06] [config] data-weighting: ""
+[2021-03-27 02:13:06] [config] data-weighting-type: sentence
+[2021-03-27 02:13:06] [config] dec-cell: gru
+[2021-03-27 02:13:06] [config] dec-cell-base-depth: 2
+[2021-03-27 02:13:06] [config] dec-cell-high-depth: 1
+[2021-03-27 02:13:06] [config] dec-depth: 6
+[2021-03-27 02:13:06] [config] devices:
+[2021-03-27 02:13:06] [config]   - 0
+[2021-03-27 02:13:06] [config]   - 1
+[2021-03-27 02:13:06] [config]   - 2
+[2021-03-27 02:13:06] [config]   - 3
+[2021-03-27 02:13:06] [config] dim-emb: 512
+[2021-03-27 02:13:06] [config] dim-rnn: 1024
+[2021-03-27 02:13:06] [config] dim-vocabs:
+[2021-03-27 02:13:06] [config]   - 62954
+[2021-03-27 02:13:06] [config]   - 62954
+[2021-03-27 02:13:06] [config] disp-first: 0
+[2021-03-27 02:13:06] [config] disp-freq: 10000
+[2021-03-27 02:13:06] [config] disp-label-counts: true
+[2021-03-27 02:13:06] [config] dropout-rnn: 0
+[2021-03-27 02:13:06] [config] dropout-src: 0
+[2021-03-27 02:13:06] [config] dropout-trg: 0
+[2021-03-27 02:13:06] [config] dump-config: ""
+[2021-03-27 02:13:06] [config] early-stopping: 15
+[2021-03-27 02:13:06] [config] embedding-fix-src: false
+[2021-03-27 02:13:06] [config] embedding-fix-trg: false
+[2021-03-27 02:13:06] [config] embedding-normalization: false
+[2021-03-27 02:13:06] [config] embedding-vectors:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] enc-cell: gru
+[2021-03-27 02:13:06] [config] enc-cell-depth: 1
+[2021-03-27 02:13:06] [config] enc-depth: 6
+[2021-03-27 02:13:06] [config] enc-type: bidirectional
+[2021-03-27 02:13:06] [config] english-title-case-every: 0
+[2021-03-27 02:13:06] [config] exponential-smoothing: 0.0001
+[2021-03-27 02:13:06] [config] factor-weight: 1
+[2021-03-27 02:13:06] [config] grad-dropping-momentum: 0
+[2021-03-27 02:13:06] [config] grad-dropping-rate: 0
+[2021-03-27 02:13:06] [config] grad-dropping-warmup: 100
+[2021-03-27 02:13:06] [config] gradient-checkpointing: false
+[2021-03-27 02:13:06] [config] guided-alignment: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-03-27 02:13:06] [config] guided-alignment-cost: mse
+[2021-03-27 02:13:06] [config] guided-alignment-weight: 0.1
+[2021-03-27 02:13:06] [config] ignore-model-config: false
+[2021-03-27 02:13:06] [config] input-types:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] interpolate-env-vars: false
+[2021-03-27 02:13:06] [config] keep-best: true
+[2021-03-27 02:13:06] [config] label-smoothing: 0.1
+[2021-03-27 02:13:06] [config] layer-normalization: false
+[2021-03-27 02:13:06] [config] learn-rate: 0.0003
+[2021-03-27 02:13:06] [config] lemma-dim-emb: 0
+[2021-03-27 02:13:06] [config] log: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.train1.log
+[2021-03-27 02:13:06] [config] log-level: info
+[2021-03-27 02:13:06] [config] log-time-zone: ""
+[2021-03-27 02:13:06] [config] logical-epoch:
+[2021-03-27 02:13:06] [config]   - 1e
+[2021-03-27 02:13:06] [config]   - 0
+[2021-03-27 02:13:06] [config] lr-decay: 0
+[2021-03-27 02:13:06] [config] lr-decay-freq: 50000
+[2021-03-27 02:13:06] [config] lr-decay-inv-sqrt:
+[2021-03-27 02:13:06] [config]   - 16000
+[2021-03-27 02:13:06] [config] lr-decay-repeat-warmup: false
+[2021-03-27 02:13:06] [config] lr-decay-reset-optimizer: false
+[2021-03-27 02:13:06] [config] lr-decay-start:
+[2021-03-27 02:13:06] [config]   - 10
+[2021-03-27 02:13:06] [config]   - 1
+[2021-03-27 02:13:06] [config] lr-decay-strategy: epoch+stalled
+[2021-03-27 02:13:06] [config] lr-report: true
+[2021-03-27 02:13:06] [config] lr-warmup: 16000
+[2021-03-27 02:13:06] [config] lr-warmup-at-reload: false
+[2021-03-27 02:13:06] [config] lr-warmup-cycle: false
+[2021-03-27 02:13:06] [config] lr-warmup-start-rate: 0
+[2021-03-27 02:13:06] [config] max-length: 500
+[2021-03-27 02:13:06] [config] max-length-crop: false
+[2021-03-27 02:13:06] [config] max-length-factor: 3
+[2021-03-27 02:13:06] [config] maxi-batch: 500
+[2021-03-27 02:13:06] [config] maxi-batch-sort: trg
+[2021-03-27 02:13:06] [config] mini-batch: 64
+[2021-03-27 02:13:06] [config] mini-batch-fit: true
+[2021-03-27 02:13:06] [config] mini-batch-fit-step: 10
+[2021-03-27 02:13:06] [config] mini-batch-track-lr: false
+[2021-03-27 02:13:06] [config] mini-batch-warmup: 0
+[2021-03-27 02:13:06] [config] mini-batch-words: 0
+[2021-03-27 02:13:06] [config] mini-batch-words-ref: 0
+[2021-03-27 02:13:06] [config] model: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:13:06] [config] multi-loss-type: sum
+[2021-03-27 02:13:06] [config] multi-node: false
+[2021-03-27 02:13:06] [config] multi-node-overlap: true
+[2021-03-27 02:13:06] [config] n-best: false
+[2021-03-27 02:13:06] [config] no-nccl: false
+[2021-03-27 02:13:06] [config] no-reload: false
+[2021-03-27 02:13:06] [config] no-restore-corpus: false
+[2021-03-27 02:13:06] [config] normalize: 1
+[2021-03-27 02:13:06] [config] normalize-gradient: false
+[2021-03-27 02:13:06] [config] num-devices: 0
+[2021-03-27 02:13:06] [config] optimizer: adam
+[2021-03-27 02:13:06] [config] optimizer-delay: 1
+[2021-03-27 02:13:06] [config] optimizer-params:
+[2021-03-27 02:13:06] [config]   - 0.9
+[2021-03-27 02:13:06] [config]   - 0.98
+[2021-03-27 02:13:06] [config]   - 1e-09
+[2021-03-27 02:13:06] [config] output-omit-bias: false
+[2021-03-27 02:13:06] [config] overwrite: true
+[2021-03-27 02:13:06] [config] precision:
+[2021-03-27 02:13:06] [config]   - float16
+[2021-03-27 02:13:06] [config]   - float32
+[2021-03-27 02:13:06] [config]   - float32
+[2021-03-27 02:13:06] [config] pretrained-model: ""
+[2021-03-27 02:13:06] [config] quantize-biases: false
+[2021-03-27 02:13:06] [config] quantize-bits: 0
+[2021-03-27 02:13:06] [config] quantize-log-based: false
+[2021-03-27 02:13:06] [config] quantize-optimization-steps: 0
+[2021-03-27 02:13:06] [config] quiet: false
+[2021-03-27 02:13:06] [config] quiet-translation: false
+[2021-03-27 02:13:06] [config] relative-paths: false
+[2021-03-27 02:13:06] [config] right-left: false
+[2021-03-27 02:13:06] [config] save-freq: 10000
+[2021-03-27 02:13:06] [config] seed: 1111
+[2021-03-27 02:13:06] [config] sentencepiece-alphas:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] sentencepiece-max-lines: 2000000
+[2021-03-27 02:13:06] [config] sentencepiece-options: ""
+[2021-03-27 02:13:06] [config] shuffle: data
+[2021-03-27 02:13:06] [config] shuffle-in-ram: false
+[2021-03-27 02:13:06] [config] sigterm: save-and-exit
+[2021-03-27 02:13:06] [config] skip: false
+[2021-03-27 02:13:06] [config] sqlite: temporary
+[2021-03-27 02:13:06] [config] sqlite-drop: false
+[2021-03-27 02:13:06] [config] sync-sgd: true
+[2021-03-27 02:13:06] [config] tempdir: /run/nvme/job_5332113/data
+[2021-03-27 02:13:06] [config] tied-embeddings: false
+[2021-03-27 02:13:06] [config] tied-embeddings-all: true
+[2021-03-27 02:13:06] [config] tied-embeddings-src: false
+[2021-03-27 02:13:06] [config] train-embedder-rank:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] train-sets:
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.src.clean.spm32k.gz
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.trg.clean.spm32k.gz
+[2021-03-27 02:13:06] [config] transformer-aan-activation: swish
+[2021-03-27 02:13:06] [config] transformer-aan-depth: 2
+[2021-03-27 02:13:06] [config] transformer-aan-nogate: false
+[2021-03-27 02:13:06] [config] transformer-decoder-autoreg: self-attention
+[2021-03-27 02:13:06] [config] transformer-depth-scaling: false
+[2021-03-27 02:13:06] [config] transformer-dim-aan: 2048
+[2021-03-27 02:13:06] [config] transformer-dim-ffn: 2048
+[2021-03-27 02:13:06] [config] transformer-dropout: 0.1
+[2021-03-27 02:13:06] [config] transformer-dropout-attention: 0
+[2021-03-27 02:13:06] [config] transformer-dropout-ffn: 0
+[2021-03-27 02:13:06] [config] transformer-ffn-activation: swish
+[2021-03-27 02:13:06] [config] transformer-ffn-depth: 2
+[2021-03-27 02:13:06] [config] transformer-guided-alignment-layer: last
+[2021-03-27 02:13:06] [config] transformer-heads: 8
+[2021-03-27 02:13:06] [config] transformer-no-projection: false
+[2021-03-27 02:13:06] [config] transformer-pool: false
+[2021-03-27 02:13:06] [config] transformer-postprocess: dan
+[2021-03-27 02:13:06] [config] transformer-postprocess-emb: d
+[2021-03-27 02:13:06] [config] transformer-postprocess-top: ""
+[2021-03-27 02:13:06] [config] transformer-preprocess: ""
+[2021-03-27 02:13:06] [config] transformer-tied-layers:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] transformer-train-position-embeddings: false
+[2021-03-27 02:13:06] [config] tsv: false
+[2021-03-27 02:13:06] [config] tsv-fields: 0
+[2021-03-27 02:13:06] [config] type: transformer
+[2021-03-27 02:13:06] [config] ulr: false
+[2021-03-27 02:13:06] [config] ulr-dim-emb: 0
+[2021-03-27 02:13:06] [config] ulr-dropout: 0
+[2021-03-27 02:13:06] [config] ulr-keys-vectors: ""
+[2021-03-27 02:13:06] [config] ulr-query-vectors: ""
+[2021-03-27 02:13:06] [config] ulr-softmax-temperature: 1
+[2021-03-27 02:13:06] [config] ulr-trainable-transformation: false
+[2021-03-27 02:13:06] [config] unlikelihood-loss: false
+[2021-03-27 02:13:06] [config] valid-freq: 10000
+[2021-03-27 02:13:06] [config] valid-log: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.valid1.log
+[2021-03-27 02:13:06] [config] valid-max-length: 1000
+[2021-03-27 02:13:06] [config] valid-metrics:
+[2021-03-27 02:13:06] [config]   - perplexity
+[2021-03-27 02:13:06] [config] valid-mini-batch: 16
+[2021-03-27 02:13:06] [config] valid-reset-stalled: false
+[2021-03-27 02:13:06] [config] valid-script-args:
+[2021-03-27 02:13:06] [config]   []
+[2021-03-27 02:13:06] [config] valid-script-path: ""
+[2021-03-27 02:13:06] [config] valid-sets:
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.src.spm32k
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.trg.spm32k
+[2021-03-27 02:13:06] [config] valid-translation-output: ""
+[2021-03-27 02:13:06] [config] version: v1.9.25; 50ce630 2020-06-19 10:28:45 -0700
+[2021-03-27 02:13:06] [config] vocabs:
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-27 02:13:06] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-27 02:13:06] [config] word-penalty: 0
+[2021-03-27 02:13:06] [config] word-scores: false
+[2021-03-27 02:13:06] [config] workspace: 24000
+[2021-03-27 02:13:06] [config] Loaded model has been created with Marian v1.9.25; 50ce630 2020-06-19 10:28:45 -0700, will be overwritten with current version v1.10.0 6f6d484 2021-02-06 15:35:16 -0800 at saving
+[2021-03-27 02:13:06] Using synchronous SGD
+[2021-03-27 02:13:07] [data] Loading vocabulary from JSON/Yaml file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-27 02:13:07] [data] Setting vocabulary size for input 0 to 62,954
+[2021-03-27 02:13:07] [data] Loading vocabulary from JSON/Yaml file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-27 02:13:07] [data] Setting vocabulary size for input 1 to 62,954
+[2021-03-27 02:13:07] [data] Using word alignments from file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-03-27 02:13:07] [sqlite] Creating temporary database in /run/nvme/job_5332113/data
+[2021-03-27 02:13:09] [sqlite] Inserted 1000000 lines
+[2021-03-27 02:13:11] [sqlite] Inserted 2000000 lines
+[2021-03-27 02:13:14] [sqlite] Inserted 4000000 lines
+[2021-03-27 02:13:20] [sqlite] Inserted 8000000 lines
+[2021-03-27 02:13:34] [sqlite] Inserted 16000000 lines
+[2021-03-27 02:13:58] [sqlite] Inserted 30899856 lines
+[2021-03-27 02:13:58] [sqlite] Creating primary index
+[2021-03-27 02:14:10] [comm] Compiled without MPI support. Running as a single process on r13g01.bullx
+[2021-03-27 02:14:10] [batching] Collecting statistics for batch fitting with step size 10
+[2021-03-27 02:14:21] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-03-27 02:14:22] [memory] Extending reserved space to 24064 MB (device gpu1)
+[2021-03-27 02:14:22] [memory] Extending reserved space to 24064 MB (device gpu2)
+[2021-03-27 02:14:23] [memory] Extending reserved space to 24064 MB (device gpu3)
+[2021-03-27 02:14:23] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-03-27 02:14:24] [comm] NCCLCommunicator constructed successfully
+[2021-03-27 02:14:24] [training] Using 4 GPUs
+[2021-03-27 02:14:24] [logits] Applying loss function for 1 factor(s)
+[2021-03-27 02:14:24] [memory] Reserving 291 MB, device gpu0
+[2021-03-27 02:14:25] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-03-27 02:14:25] [memory] Reserving 291 MB, device gpu0
+[2021-03-27 02:17:14] [batching] Done. Typical MB size is 57,110 target words
+[2021-03-27 02:17:15] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-03-27 02:17:15] [memory] Extending reserved space to 24064 MB (device gpu1)
+[2021-03-27 02:17:15] [memory] Extending reserved space to 24064 MB (device gpu2)
+[2021-03-27 02:17:15] [memory] Extending reserved space to 24064 MB (device gpu3)
+[2021-03-27 02:17:15] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-03-27 02:17:16] [comm] NCCLCommunicator constructed successfully
+[2021-03-27 02:17:16] [training] Using 4 GPUs
+[2021-03-27 02:17:16] Loading model from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:17:16] Loading model from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:17:17] Loading model from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:17:17] Loading model from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:17:18] [training] Model reloaded from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:17:18] Training started
+[2021-03-27 02:17:18] [sqlite] Selecting shuffled data
+[2021-03-27 02:17:41] [training] Batches are processed as 1 process(es) x 4 devices/process
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu0
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu1
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu3
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu2
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu0
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu1
+[2021-03-27 02:17:41] [memory] Reserving 291 MB, device gpu3
+[2021-03-27 02:17:42] [memory] Reserving 291 MB, device gpu2
+[2021-03-27 02:17:42] [memory] Reserving 72 MB, device gpu0
+[2021-03-27 02:17:42] [memory] Reserving 72 MB, device gpu1
+[2021-03-27 02:17:42] [memory] Reserving 72 MB, device gpu2
+[2021-03-27 02:17:42] [memory] Reserving 72 MB, device gpu3
+[2021-03-27 02:17:42] [memory] Reserving 145 MB, device gpu0
+[2021-03-27 02:17:42] [memory] Reserving 145 MB, device gpu3
+[2021-03-27 02:17:42] [memory] Reserving 145 MB, device gpu2
+[2021-03-27 02:17:42] [memory] Reserving 145 MB, device gpu1
+[2021-03-27 04:12:31] Ep. 1 : Up. 10000 : Sen. 17,657,380 : Cost 0.65216255 * 685,547,579 @ 22,373 after 685,547,579 : Time 6916.48s : 23202.95 words/s : L.r. 1.8750e-04
+[2021-03-27 04:12:31] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 04:12:33] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 04:12:35] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 04:12:42] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 04:12:43] [valid] Ep. 1 : Up. 10000 : perplexity : 3.04019 : new best
+[2021-03-27 05:38:57] Seen 30899856 samples
+[2021-03-27 05:38:57] Starting data epoch 2 in logical epoch 2
+[2021-03-27 05:38:57] [sqlite] Selecting shuffled data
+[2021-03-27 06:08:39] Ep. 2 : Up. 20000 : Sen. 4,502,825 : Cost 0.67890221 * 689,639,656 @ 23,194 after 1,375,187,235 : Time 6967.98s : 23141.39 words/s : L.r. 2.6833e-04
+[2021-03-27 06:08:39] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 06:08:41] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 06:08:43] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 06:08:49] [valid] Ep. 2 : Up. 20000 : perplexity : 3.09372 : stalled 1 times (last best: 3.04019)
+[2021-03-27 08:04:05] Ep. 2 : Up. 30000 : Sen. 22,211,735 : Cost 0.67602748 * 687,596,620 @ 14,976 after 2,062,783,855 : Time 6926.00s : 23233.49 words/s : L.r. 2.1909e-04
+[2021-03-27 08:04:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:04:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:04:09] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 08:04:15] [valid] Ep. 2 : Up. 30000 : perplexity : 3.12004 : stalled 2 times (last best: 3.04019)
+[2021-03-27 09:00:47] Seen 30899856 samples
+[2021-03-27 09:00:47] Starting data epoch 3 in logical epoch 3
+[2021-03-27 09:00:47] [sqlite] Selecting shuffled data
+[2021-03-27 09:59:58] Ep. 3 : Up. 40000 : Sen. 9,043,029 : Cost 0.67611545 * 688,313,458 @ 17,706 after 2,751,097,313 : Time 6952.48s : 23189.67 words/s : L.r. 1.8974e-04
+[2021-03-27 09:59:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 10:00:00] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 10:00:01] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 10:00:08] [valid] Ep. 3 : Up. 40000 : perplexity : 3.14571 : stalled 3 times (last best: 3.04019)
+[2021-03-27 11:55:13] Ep. 3 : Up. 50000 : Sen. 26,727,256 : Cost 0.67315012 * 686,280,153 @ 23,827 after 3,437,377,466 : Time 6915.26s : 23237.44 words/s : L.r. 1.6971e-04
+[2021-03-27 11:55:13] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 11:55:15] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 11:55:17] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 11:55:24] [valid] Ep. 3 : Up. 50000 : perplexity : 3.11754 : stalled 4 times (last best: 3.04019)
+[2021-03-27 12:22:32] Seen 30899856 samples
+[2021-03-27 12:22:32] Starting data epoch 4 in logical epoch 4
+[2021-03-27 12:22:32] [sqlite] Selecting shuffled data
+[2021-03-27 13:50:37] Ep. 4 : Up. 60000 : Sen. 13,452,973 : Cost 0.66941577 * 684,463,460 @ 22,445 after 4,121,840,926 : Time 6923.89s : 23135.53 words/s : L.r. 1.5492e-04
+[2021-03-27 13:50:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 13:50:40] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 13:50:42] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 13:50:48] [valid] Ep. 4 : Up. 60000 : perplexity : 3.11419 : stalled 5 times (last best: 3.04019)
+[2021-03-27 15:44:13] Seen 30899856 samples
+[2021-03-27 15:44:13] Starting data epoch 5 in logical epoch 5
+[2021-03-27 15:44:13] [sqlite] Selecting shuffled data
+[2021-03-27 15:46:33] Ep. 5 : Up. 70000 : Sen. 300,973 : Cost 0.67146415 * 686,300,882 @ 22,457 after 4,808,141,808 : Time 6955.33s : 23182.49 words/s : L.r. 1.4343e-04
+[2021-03-27 15:46:33] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 15:46:35] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 15:46:37] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 15:46:43] [valid] Ep. 5 : Up. 70000 : perplexity : 3.11937 : stalled 6 times (last best: 3.04019)
+[2021-03-27 17:42:06] Ep. 5 : Up. 80000 : Sen. 18,036,374 : Cost 0.66685385 * 687,441,374 @ 18,673 after 5,495,583,182 : Time 6932.61s : 23248.64 words/s : L.r. 1.3416e-04
+[2021-03-27 17:42:06] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 17:42:08] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 17:42:09] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 17:42:16] [valid] Ep. 5 : Up. 80000 : perplexity : 3.10669 : stalled 7 times (last best: 3.04019)
+[2021-03-27 19:05:55] Seen 30899856 samples
+[2021-03-27 19:05:55] Starting data epoch 6 in logical epoch 6
+[2021-03-27 19:05:55] [sqlite] Selecting shuffled data
+[2021-03-27 19:37:41] Ep. 6 : Up. 90000 : Sen. 4,826,632 : Cost 0.66660297 * 685,880,947 @ 24,712 after 6,181,464,129 : Time 6935.14s : 23184.51 words/s : L.r. 1.2649e-04
+[2021-03-27 19:37:41] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 19:37:43] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 19:37:44] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 19:37:50] [valid] Ep. 6 : Up. 90000 : perplexity : 3.0961 : stalled 8 times (last best: 3.04019)
+[2021-03-27 21:32:44] Ep. 6 : Up. 100000 : Sen. 22,499,576 : Cost 0.66502911 * 685,501,261 @ 20,539 after 6,866,965,390 : Time 6903.22s : 23269.31 words/s : L.r. 1.2000e-04
+[2021-03-27 21:32:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 21:32:46] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 21:32:47] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 21:32:54] [valid] Ep. 6 : Up. 100000 : perplexity : 3.09528 : stalled 9 times (last best: 3.04019)
+[2021-03-27 22:27:28] Seen 30899856 samples
+[2021-03-27 22:27:28] Starting data epoch 7 in logical epoch 7
+[2021-03-27 22:27:28] [sqlite] Selecting shuffled data
+[2021-03-27 23:28:07] Ep. 7 : Up. 110000 : Sen. 9,275,796 : Cost 0.66841447 * 685,835,209 @ 20,820 after 7,552,800,599 : Time 6922.99s : 23203.10 words/s : L.r. 1.1442e-04
+[2021-03-27 23:28:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 23:28:09] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 23:28:11] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 23:28:17] [valid] Ep. 7 : Up. 110000 : perplexity : 3.09458 : stalled 10 times (last best: 3.04019)
+[2021-03-28 01:23:04] Ep. 7 : Up. 120000 : Sen. 26,936,634 : Cost 0.67040020 * 683,805,180 @ 16,650 after 8,236,605,779 : Time 6896.55s : 23271.29 words/s : L.r. 1.0954e-04
+[2021-03-28 01:23:04] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-28 01:23:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-28 01:23:07] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-28 01:23:13] [valid] Ep. 7 : Up. 120000 : perplexity : 3.09466 : stalled 11 times (last best: 3.04019)
+[2021-03-28 01:34:57] [training] skipping 121011-th update due to loss being nan
+[2021-03-28 01:34:57] [training] skipping 121012-th update due to loss being nan
+[2021-03-28 01:34:58] [training] skipping 121013-th update due to loss being nan
+[2021-03-28 01:34:58] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/cuda_helpers.h:67: cudaMemcpy(dest, start, (end - start) * sizeof(T), cudaMemcpyDefault)
+[2021-03-28 01:34:58] Error: Aborted from void CudaCopy(const T*, const T*, T*) [with T = unsigned int] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/cuda_helpers.h:67
+CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-03-28 01:34:58] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-03-28 01:34:58] Error: Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+
+[CALL STACK]
+[0x1afe617]         void  CudaCopy  <unsigned int>(unsigned int const*,  unsigned int const*,  unsigned int*) + 0x3f7
+[0x1aff02e]         void marian::gpu::  copy  <unsigned int>(std::shared_ptr<marian::Backend>,  unsigned int const*,  unsigned int const*,  unsigned int*) + 0x45e
+[0x1587e63]         void marian::TensorBase::  set  <unsigned int>(unsigned int const*,  unsigned int const*) + 0x6f3
+[0x15880f0]         std::_Function_handler<void (IntrusivePtr<marian::TensorBase>),marian::inits::fromVector<unsigned int>(std::vector<unsigned int,std::allocator<unsigned int>> const&)::{lambda(IntrusivePtr<marian::TensorBase>)#1}>::  _M_invoke  (std::_Any_data const&,  IntrusivePtr<marian::TensorBase>&&) + 0x20
+[0x1581137]         marian::inits::LambdaInitConvert::  apply  (IntrusivePtr<marian::TensorBase>) + 0x67
+[0x157443f]         marian::ConstantNode::  init  ()                   + 0x3f
+[0x1565b2d]         marian::ExpressionGraph::  forward  (std::__cxx11::list<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>,std::allocator<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>>>&,  bool) + 0x5d
+[0x15672f5]         marian::ExpressionGraph::  forwardNext  ()         + 0x2c5
+[0x1734548]                                                           
+[0x17cb2b4]         marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1}::  operator()  () const + 0x54
+[0x17cbdb0]         std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> (),std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>,std::__future_base::_Result_base::_Deleter>,std::__future_base::_Task_state<marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1},std::allocator<int>,void ()>::_M_run()::{lambda()#1},void>>::  _M_invoke  (std::_Any_data const&) + 0x20
+[0x12e032b]         std::__future_base::_State_baseV2::  _M_do_set  (std::function<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> ()>*,  bool*) + 0x1b
+[0x7ff6377ee20b]                                                       + 0x620b
+[0x17c0e38]         std::_Function_handler<void (),marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#3}>::  _M_invoke  (std::_Any_data const&) + 0x108
+[0x12e1d27]         std::thread::_State_impl<std::thread::_Invoker<std::tuple<marian::ThreadPool::reserve(unsigned long)::{lambda()#1}>>>::  _M_run  () + 0x157
+[0x504ab20]                                                           
+[0x7ff6377efea5]                                                       + 0x7ea5
+[0x7ff6372168cd]    clone                                              + 0x6d
+
+
+[CALL STACK]
+[0x1b0e567]         void marian::gpu::  fill  <float>(std::shared_ptr<marian::Backend>,  float*,  float*,  float) + 0x627
+[0x1389e3d]         void marian::TensorBase::  set  <float>(float)     + 0x35d
+[0x157a7ca]                                                           
+[0x157e463]         marian::inits::LambdaInit::  apply  (IntrusivePtr<marian::TensorBase>) + 0x33
+[0x157443f]         marian::ConstantNode::  init  ()                   + 0x3f
+[0x1565b2d]         marian::ExpressionGraph::  forward  (std::__cxx11::list<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>,std::allocator<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>>>&,  bool) + 0x5d
+[0x15672f5]         marian::ExpressionGraph::  forwardNext  ()         + 0x2c5
+[0x1734548]                                                           
+[0x17cb2b4]         marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1}::  operator()  () const + 0x54
+[0x17cbdb0]         std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> (),std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>,std::__future_base::_Result_base::_Deleter>,std::__future_base::_Task_state<marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1},std::allocator<int>,void ()>::_M_run()::{lambda()#1},void>>::  _M_invoke  (std::_Any_data const&) + 0x20
+[0x12e032b]         std::__future_base::_State_baseV2::  _M_do_set  (std::function<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> ()>*,  bool*) + 0x1b
+[0x7ff6377ee20b]                                                       + 0x620b
+[0x17c0e38]         std::_Function_handler<void (),marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#3}>::  _M_invoke  (std::_Any_data const&) + 0x108
+[0x12e1d27]         std::thread::_State_impl<std::thread::_Invoker<std::tuple<marian::ThreadPool::reserve(unsigned long)::{lambda()#1}>>>::  _M_run  () + 0x157
+[0x504ab20]                                                           
+[0x7ff6377efea5]                                                       + 0x7ea5
+[0x7ff6372168cd]    clone                                              + 0x6d
+
+
+[CALL STACK]
+[0x1b0e567]         void marian::gpu::  fill  <float>(std::shared_ptr<marian::Backend>,  float*,  float*,  float) + 0x627
+[0x1389e3d]         void marian::TensorBase::  set  <float>(float)     + 0x35d
+[0x157a7ca]                                                           
+[0x157e463]         marian::inits::LambdaInit::  apply  (IntrusivePtr<marian::TensorBase>) + 0x33
+[0x157443f]         marian::ConstantNode::  init  ()                   + 0x3f
+[0x1565b2d]         marian::ExpressionGraph::  forward  (std::__cxx11::list<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>,std::allocator<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>>>&,  bool) + 0x5d
+[0x15672f5]         marian::ExpressionGraph::  forwardNext  ()         + 0x2c5
+[0x1734548]                                                           
+[0x17cb2b4]         marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1}::  operator()  () const + 0x54
+[0x17cbdb0]         std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> (),std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>,std::__future_base::_Result_base::_Deleter>,std::__future_base::_Task_state<marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1},std::allocator<int>,void ()>::_M_run()::{lambda()#1},void>>::  _M_invoke  (std::_Any_data const&) + 0x20
+[0x12e032b]         std::__future_base::_State_baseV2::  _M_do_set  (std::function<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> ()>*,  bool*) + 0x1b
+[0x7ff6377ee20b]                                                       + 0x620b
+[0x17c0e38]         std::_Function_handler<void (),marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#3}>::  _M_invoke  (std::_Any_data const&) + 0x108
+[0x12e1d27]         std::thread::_State_impl<std::thread::_Invoker<std::tuple<marian::ThreadPool::reserve(unsigned long)::{lambda()#1}>>>::  _M_run  () + 0x157
+[0x504ab20]                                                           
+[0x7ff6377efea5]                                                       + 0x7ea5
+[0x7ff6372168cd]    clone                                              + 0x6d
+
+
+[CALL STACK]
+[0x1b0e567]         void marian::gpu::  fill  <float>(std::shared_ptr<marian::Backend>,  float*,  float*,  float) + 0x627
+[0x1389e3d]         void marian::TensorBase::  set  <float>(float)     + 0x35d
+[0x157a7ca]                                                           
+[0x157e463]         marian::inits::LambdaInit::  apply  (IntrusivePtr<marian::TensorBase>) + 0x33
+[0x157443f]         marian::ConstantNode::  init  ()                   + 0x3f
+[0x1565b2d]         marian::ExpressionGraph::  forward  (std::__cxx11::list<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>,std::allocator<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>>>&,  bool) + 0x5d
+[0x15672f5]         marian::ExpressionGraph::  forwardNext  ()         + 0x2c5
+[0x1734548]                                                           
+[0x17cb2b4]         marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1}::  operator()  () const + 0x54
+[0x17cbdb0]         std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> (),std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>,std::__future_base::_Result_base::_Deleter>,std::__future_base::_Task_state<marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1},std::allocator<int>,void ()>::_M_run()::{lambda()#1},void>>::  _M_invoke  (std::_Any_data const&) + 0x20
+[0x12e032b]         std::__future_base::_State_baseV2::  _M_do_set  (std::function<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> ()>*,  bool*) + 0x1b
+[0x7ff6377ee20b]                                                       + 0x620b
+[0x17c0e38]         std::_Function_handler<void (),marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#3}>::  _M_invoke  (std::_Any_data const&) + 0x108
+[0x12e1d27]         std::thread::_State_impl<std::thread::_Invoker<std::tuple<marian::ThreadPool::reserve(unsigned long)::{lambda()#1}>>>::  _M_run  () + 0x157
+[0x504ab20]                                                           
+[0x7ff6377efea5]                                                       + 0x7ea5
+[0x7ff6372168cd]    clone                                              + 0x6d
+
+[2021-04-02 06:28:34] [marian] Marian v1.10.0 6f6d484 2021-02-06 15:35:16 -0800
+[2021-04-02 06:28:34] [marian] Running on r17g02.bullx as process 100788 with command line:
+[2021-04-02 06:28:34] [marian] /projappl/project_2001194/marian/build/marian --guided-alignment /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.src.spm32k /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-log /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.valid1.log --beam-size 12 --normalize 1 --allow-unk --overwrite --keep-best --model /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz --type transformer --train-sets /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.src.clean.spm32k.gz /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.trg.clean.spm32k.gz --max-length 500 --vocabs /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml --mini-batch-fit -w 24000 --maxi-batch 500 --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.train1.log --enc-depth 6 --dec-depth 6 --transformer-heads 8 --transformer-postprocess-emb d --transformer-postprocess dan --transformer-dropout 0.1 --label-smoothing 0.1 --learn-rate 0.0003 --lr-warmup 16000 --lr-decay-inv-sqrt 16000 --lr-report --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 --fp16 --tied-embeddings-all --devices 0 1 2 3 --sync-sgd --seed 1111 --sqlite --tempdir /run/nvme/job_5389702/data --exponential-smoothing
+[2021-04-02 06:28:36] [config] after: 0e
+[2021-04-02 06:28:36] [config] after-batches: 0
+[2021-04-02 06:28:36] [config] after-epochs: 0
+[2021-04-02 06:28:36] [config] all-caps-every: 0
+[2021-04-02 06:28:36] [config] allow-unk: true
+[2021-04-02 06:28:36] [config] authors: false
+[2021-04-02 06:28:36] [config] beam-size: 12
+[2021-04-02 06:28:36] [config] bert-class-symbol: "[CLS]"
+[2021-04-02 06:28:36] [config] bert-mask-symbol: "[MASK]"
+[2021-04-02 06:28:36] [config] bert-masking-fraction: 0.15
+[2021-04-02 06:28:36] [config] bert-sep-symbol: "[SEP]"
+[2021-04-02 06:28:36] [config] bert-train-type-embeddings: true
+[2021-04-02 06:28:36] [config] bert-type-vocab-size: 2
+[2021-04-02 06:28:36] [config] build-info: ""
+[2021-04-02 06:28:36] [config] cite: false
+[2021-04-02 06:28:36] [config] clip-norm: 5
+[2021-04-02 06:28:36] [config] cost-scaling:
+[2021-04-02 06:28:36] [config]   - 7
+[2021-04-02 06:28:36] [config]   - 2000
+[2021-04-02 06:28:36] [config]   - 2
+[2021-04-02 06:28:36] [config]   - 0.05
+[2021-04-02 06:28:36] [config]   - 10
+[2021-04-02 06:28:36] [config]   - 1
+[2021-04-02 06:28:36] [config] cost-type: ce-sum
+[2021-04-02 06:28:36] [config] cpu-threads: 0
+[2021-04-02 06:28:36] [config] data-weighting: ""
+[2021-04-02 06:28:36] [config] data-weighting-type: sentence
+[2021-04-02 06:28:36] [config] dec-cell: gru
+[2021-04-02 06:28:36] [config] dec-cell-base-depth: 2
+[2021-04-02 06:28:36] [config] dec-cell-high-depth: 1
+[2021-04-02 06:28:36] [config] dec-depth: 6
+[2021-04-02 06:28:36] [config] devices:
+[2021-04-02 06:28:36] [config]   - 0
+[2021-04-02 06:28:36] [config]   - 1
+[2021-04-02 06:28:36] [config]   - 2
+[2021-04-02 06:28:36] [config]   - 3
+[2021-04-02 06:28:36] [config] dim-emb: 512
+[2021-04-02 06:28:36] [config] dim-rnn: 1024
+[2021-04-02 06:28:36] [config] dim-vocabs:
+[2021-04-02 06:28:36] [config]   - 62954
+[2021-04-02 06:28:36] [config]   - 62954
+[2021-04-02 06:28:36] [config] disp-first: 0
+[2021-04-02 06:28:36] [config] disp-freq: 10000
+[2021-04-02 06:28:36] [config] disp-label-counts: true
+[2021-04-02 06:28:36] [config] dropout-rnn: 0
+[2021-04-02 06:28:36] [config] dropout-src: 0
+[2021-04-02 06:28:36] [config] dropout-trg: 0
+[2021-04-02 06:28:36] [config] dump-config: ""
+[2021-04-02 06:28:36] [config] early-stopping: 15
+[2021-04-02 06:28:36] [config] embedding-fix-src: false
+[2021-04-02 06:28:36] [config] embedding-fix-trg: false
+[2021-04-02 06:28:36] [config] embedding-normalization: false
+[2021-04-02 06:28:36] [config] embedding-vectors:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] enc-cell: gru
+[2021-04-02 06:28:36] [config] enc-cell-depth: 1
+[2021-04-02 06:28:36] [config] enc-depth: 6
+[2021-04-02 06:28:36] [config] enc-type: bidirectional
+[2021-04-02 06:28:36] [config] english-title-case-every: 0
+[2021-04-02 06:28:36] [config] exponential-smoothing: 0.0001
+[2021-04-02 06:28:36] [config] factor-weight: 1
+[2021-04-02 06:28:36] [config] grad-dropping-momentum: 0
+[2021-04-02 06:28:36] [config] grad-dropping-rate: 0
+[2021-04-02 06:28:36] [config] grad-dropping-warmup: 100
+[2021-04-02 06:28:36] [config] gradient-checkpointing: false
+[2021-04-02 06:28:36] [config] guided-alignment: /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-04-02 06:28:36] [config] guided-alignment-cost: mse
+[2021-04-02 06:28:36] [config] guided-alignment-weight: 0.1
+[2021-04-02 06:28:36] [config] ignore-model-config: false
+[2021-04-02 06:28:36] [config] input-types:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] interpolate-env-vars: false
+[2021-04-02 06:28:36] [config] keep-best: true
+[2021-04-02 06:28:36] [config] label-smoothing: 0.1
+[2021-04-02 06:28:36] [config] layer-normalization: false
+[2021-04-02 06:28:36] [config] learn-rate: 0.0003
+[2021-04-02 06:28:36] [config] lemma-dim-emb: 0
+[2021-04-02 06:28:36] [config] log: /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.train1.log
+[2021-04-02 06:28:36] [config] log-level: info
+[2021-04-02 06:28:36] [config] log-time-zone: ""
+[2021-04-02 06:28:36] [config] logical-epoch:
+[2021-04-02 06:28:36] [config]   - 1e
+[2021-04-02 06:28:36] [config]   - 0
+[2021-04-02 06:28:36] [config] lr-decay: 0
+[2021-04-02 06:28:36] [config] lr-decay-freq: 50000
+[2021-04-02 06:28:36] [config] lr-decay-inv-sqrt:
+[2021-04-02 06:28:36] [config]   - 16000
+[2021-04-02 06:28:36] [config] lr-decay-repeat-warmup: false
+[2021-04-02 06:28:36] [config] lr-decay-reset-optimizer: false
+[2021-04-02 06:28:36] [config] lr-decay-start:
+[2021-04-02 06:28:36] [config]   - 10
+[2021-04-02 06:28:36] [config]   - 1
+[2021-04-02 06:28:36] [config] lr-decay-strategy: epoch+stalled
+[2021-04-02 06:28:36] [config] lr-report: true
+[2021-04-02 06:28:36] [config] lr-warmup: 16000
+[2021-04-02 06:28:36] [config] lr-warmup-at-reload: false
+[2021-04-02 06:28:36] [config] lr-warmup-cycle: false
+[2021-04-02 06:28:36] [config] lr-warmup-start-rate: 0
+[2021-04-02 06:28:36] [config] max-length: 500
+[2021-04-02 06:28:36] [config] max-length-crop: false
+[2021-04-02 06:28:36] [config] max-length-factor: 3
+[2021-04-02 06:28:36] [config] maxi-batch: 500
+[2021-04-02 06:28:36] [config] maxi-batch-sort: trg
+[2021-04-02 06:28:36] [config] mini-batch: 64
+[2021-04-02 06:28:36] [config] mini-batch-fit: true
+[2021-04-02 06:28:36] [config] mini-batch-fit-step: 10
+[2021-04-02 06:28:36] [config] mini-batch-track-lr: false
+[2021-04-02 06:28:36] [config] mini-batch-warmup: 0
+[2021-04-02 06:28:36] [config] mini-batch-words: 0
+[2021-04-02 06:28:36] [config] mini-batch-words-ref: 0
+[2021-04-02 06:28:36] [config] model: /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-04-02 06:28:36] [config] multi-loss-type: sum
+[2021-04-02 06:28:36] [config] multi-node: false
+[2021-04-02 06:28:36] [config] multi-node-overlap: true
+[2021-04-02 06:28:36] [config] n-best: false
+[2021-04-02 06:28:36] [config] no-nccl: false
+[2021-04-02 06:28:36] [config] no-reload: false
+[2021-04-02 06:28:36] [config] no-restore-corpus: false
+[2021-04-02 06:28:36] [config] normalize: 1
+[2021-04-02 06:28:36] [config] normalize-gradient: false
+[2021-04-02 06:28:36] [config] num-devices: 0
+[2021-04-02 06:28:36] [config] optimizer: adam
+[2021-04-02 06:28:36] [config] optimizer-delay: 1
+[2021-04-02 06:28:36] [config] optimizer-params:
+[2021-04-02 06:28:36] [config]   - 0.9
+[2021-04-02 06:28:36] [config]   - 0.98
+[2021-04-02 06:28:36] [config]   - 1e-09
+[2021-04-02 06:28:36] [config] output-omit-bias: false
+[2021-04-02 06:28:36] [config] overwrite: true
+[2021-04-02 06:28:36] [config] precision:
+[2021-04-02 06:28:36] [config]   - float16
+[2021-04-02 06:28:36] [config]   - float32
+[2021-04-02 06:28:36] [config]   - float32
+[2021-04-02 06:28:36] [config] pretrained-model: ""
+[2021-04-02 06:28:36] [config] quantize-biases: false
+[2021-04-02 06:28:36] [config] quantize-bits: 0
+[2021-04-02 06:28:36] [config] quantize-log-based: false
+[2021-04-02 06:28:36] [config] quantize-optimization-steps: 0
+[2021-04-02 06:28:36] [config] quiet: false
+[2021-04-02 06:28:36] [config] quiet-translation: false
+[2021-04-02 06:28:36] [config] relative-paths: false
+[2021-04-02 06:28:36] [config] right-left: false
+[2021-04-02 06:28:36] [config] save-freq: 10000
+[2021-04-02 06:28:36] [config] seed: 1111
+[2021-04-02 06:28:36] [config] sentencepiece-alphas:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] sentencepiece-max-lines: 2000000
+[2021-04-02 06:28:36] [config] sentencepiece-options: ""
+[2021-04-02 06:28:36] [config] shuffle: data
+[2021-04-02 06:28:36] [config] shuffle-in-ram: false
+[2021-04-02 06:28:36] [config] sigterm: save-and-exit
+[2021-04-02 06:28:36] [config] skip: false
+[2021-04-02 06:28:36] [config] sqlite: temporary
+[2021-04-02 06:28:36] [config] sqlite-drop: false
+[2021-04-02 06:28:36] [config] sync-sgd: true
+[2021-04-02 06:28:36] [config] tempdir: /run/nvme/job_5389702/data
+[2021-04-02 06:28:36] [config] tied-embeddings: false
+[2021-04-02 06:28:36] [config] tied-embeddings-all: true
+[2021-04-02 06:28:36] [config] tied-embeddings-src: false
+[2021-04-02 06:28:36] [config] train-embedder-rank:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] train-sets:
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.src.clean.spm32k.gz
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.trg.clean.spm32k.gz
+[2021-04-02 06:28:36] [config] transformer-aan-activation: swish
+[2021-04-02 06:28:36] [config] transformer-aan-depth: 2
+[2021-04-02 06:28:36] [config] transformer-aan-nogate: false
+[2021-04-02 06:28:36] [config] transformer-decoder-autoreg: self-attention
+[2021-04-02 06:28:36] [config] transformer-depth-scaling: false
+[2021-04-02 06:28:36] [config] transformer-dim-aan: 2048
+[2021-04-02 06:28:36] [config] transformer-dim-ffn: 2048
+[2021-04-02 06:28:36] [config] transformer-dropout: 0.1
+[2021-04-02 06:28:36] [config] transformer-dropout-attention: 0
+[2021-04-02 06:28:36] [config] transformer-dropout-ffn: 0
+[2021-04-02 06:28:36] [config] transformer-ffn-activation: swish
+[2021-04-02 06:28:36] [config] transformer-ffn-depth: 2
+[2021-04-02 06:28:36] [config] transformer-guided-alignment-layer: last
+[2021-04-02 06:28:36] [config] transformer-heads: 8
+[2021-04-02 06:28:36] [config] transformer-no-projection: false
+[2021-04-02 06:28:36] [config] transformer-pool: false
+[2021-04-02 06:28:36] [config] transformer-postprocess: dan
+[2021-04-02 06:28:36] [config] transformer-postprocess-emb: d
+[2021-04-02 06:28:36] [config] transformer-postprocess-top: ""
+[2021-04-02 06:28:36] [config] transformer-preprocess: ""
+[2021-04-02 06:28:36] [config] transformer-tied-layers:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] transformer-train-position-embeddings: false
+[2021-04-02 06:28:36] [config] tsv: false
+[2021-04-02 06:28:36] [config] tsv-fields: 0
+[2021-04-02 06:28:36] [config] type: transformer
+[2021-04-02 06:28:36] [config] ulr: false
+[2021-04-02 06:28:36] [config] ulr-dim-emb: 0
+[2021-04-02 06:28:36] [config] ulr-dropout: 0
+[2021-04-02 06:28:36] [config] ulr-keys-vectors: ""
+[2021-04-02 06:28:36] [config] ulr-query-vectors: ""
+[2021-04-02 06:28:36] [config] ulr-softmax-temperature: 1
+[2021-04-02 06:28:36] [config] ulr-trainable-transformation: false
+[2021-04-02 06:28:36] [config] unlikelihood-loss: false
+[2021-04-02 06:28:36] [config] valid-freq: 10000
+[2021-04-02 06:28:36] [config] valid-log: /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.valid1.log
+[2021-04-02 06:28:36] [config] valid-max-length: 1000
+[2021-04-02 06:28:36] [config] valid-metrics:
+[2021-04-02 06:28:36] [config]   - perplexity
+[2021-04-02 06:28:36] [config] valid-mini-batch: 16
+[2021-04-02 06:28:36] [config] valid-reset-stalled: false
+[2021-04-02 06:28:36] [config] valid-script-args:
+[2021-04-02 06:28:36] [config]   []
+[2021-04-02 06:28:36] [config] valid-script-path: ""
+[2021-04-02 06:28:36] [config] valid-sets:
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.src.spm32k
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/val/Tatoeba-dev.trg.spm32k
+[2021-04-02 06:28:36] [config] valid-translation-output: ""
+[2021-04-02 06:28:36] [config] version: v1.10.0 6f6d484 2021-02-06 15:35:16 -0800
+[2021-04-02 06:28:36] [config] vocabs:
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-04-02 06:28:36] [config]   - /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-04-02 06:28:36] [config] word-penalty: 0
+[2021-04-02 06:28:36] [config] word-scores: false
+[2021-04-02 06:28:36] [config] workspace: 24000
+[2021-04-02 06:28:36] [config] Loaded model has been created with Marian v1.10.0 6f6d484 2021-02-06 15:35:16 -0800
+[2021-04-02 06:28:36] Using synchronous SGD
+[2021-04-02 06:28:36] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-04-02 06:28:36] [data] Setting vocabulary size for input 0 to 62,954
+[2021-04-02 06:28:36] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.vocab.yml
+[2021-04-02 06:28:37] [data] Setting vocabulary size for input 1 to 62,954
+[2021-04-02 06:28:37] [data] Using word alignments from file /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-04-02 06:28:37] [sqlite] Creating temporary database in /run/nvme/job_5389702/data
+[2021-04-02 06:28:38] [sqlite] Inserted 1000000 lines
+[2021-04-02 06:28:40] [sqlite] Inserted 2000000 lines
+[2021-04-02 06:28:43] [sqlite] Inserted 4000000 lines
+[2021-04-02 06:28:50] [sqlite] Inserted 8000000 lines
+[2021-04-02 06:29:02] [sqlite] Inserted 16000000 lines
+[2021-04-02 06:29:27] [sqlite] Inserted 30899856 lines
+[2021-04-02 06:29:27] [sqlite] Creating primary index
+[2021-04-02 06:29:39] [comm] Compiled without MPI support. Running as a single process on r17g02.bullx
+[2021-04-02 06:29:39] [batching] Collecting statistics for batch fitting with step size 10
+[2021-04-02 06:29:51] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-04-02 06:29:51] [memory] Extending reserved space to 24064 MB (device gpu1)
+[2021-04-02 06:29:52] [memory] Extending reserved space to 24064 MB (device gpu2)
+[2021-04-02 06:29:52] [memory] Extending reserved space to 24064 MB (device gpu3)
+[2021-04-02 06:29:52] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-04-02 06:29:54] [comm] NCCLCommunicator constructed successfully
+[2021-04-02 06:29:54] [training] Using 4 GPUs
+[2021-04-02 06:29:54] [logits] Applying loss function for 1 factor(s)
+[2021-04-02 06:29:54] [memory] Reserving 291 MB, device gpu0
+[2021-04-02 06:29:55] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-04-02 06:29:56] [memory] Reserving 291 MB, device gpu0
+[2021-04-02 06:32:48] [batching] Done. Typical MB size is 57,110 target words
+[2021-04-02 06:32:48] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-04-02 06:32:48] [memory] Extending reserved space to 24064 MB (device gpu1)
+[2021-04-02 06:32:48] [memory] Extending reserved space to 24064 MB (device gpu2)
+[2021-04-02 06:32:48] [memory] Extending reserved space to 24064 MB (device gpu3)
+[2021-04-02 06:32:48] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-04-02 06:32:50] [comm] NCCLCommunicator constructed successfully
+[2021-04-02 06:32:50] [training] Using 4 GPUs
+[2021-04-02 06:32:50] Loading model from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-04-02 06:32:51] Loading model from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-04-02 06:32:51] Loading model from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-04-02 06:32:52] Loading model from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-04-02 06:32:52] Loading Adam parameters from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-04-02 06:32:53] [memory] Reserving 145 MB, device gpu0
+[2021-04-02 06:32:53] [memory] Reserving 145 MB, device gpu1
+[2021-04-02 06:32:53] [memory] Reserving 145 MB, device gpu2
+[2021-04-02 06:32:53] [memory] Reserving 145 MB, device gpu3
+[2021-04-02 06:32:54] [training] Model reloaded from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-04-02 06:32:54] [data] Restoring the corpus state to epoch 7, batch 120000
+[2021-04-02 06:33:55] [sqlite] Selecting shuffled data
+[2021-04-02 06:39:06] Training started
+[2021-04-02 06:39:06] [training] Batches are processed as 1 process(es) x 4 devices/process
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu0
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu1
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu3
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu2
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu0
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu1
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu3
+[2021-04-02 06:39:06] [memory] Reserving 291 MB, device gpu2
+[2021-04-02 06:39:06] Loading model from /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-04-02 06:39:08] [memory] Reserving 291 MB, device cpu0
+[2021-04-02 06:39:08] [memory] Reserving 72 MB, device gpu0
+[2021-04-02 06:39:08] [memory] Reserving 72 MB, device gpu1
+[2021-04-02 06:39:08] [memory] Reserving 72 MB, device gpu2
+[2021-04-02 06:39:08] [memory] Reserving 72 MB, device gpu3
+[2021-04-02 07:04:55] Seen 30899856 samples
+[2021-04-02 07:04:55] Starting data epoch 8 in logical epoch 8
+[2021-04-02 07:04:55] [sqlite] Selecting shuffled data
+[2021-04-02 08:34:48] Ep. 8 : Up. 130000 : Sen. 13,794,416 : Cost 0.66502905 * 689,794,040 @ 11,601 after 8,926,399,819 : Time 7319.91s : 22044.53 words/s : L.r. 1.0525e-04
+[2021-04-02 08:34:48] Saving model weights and runtime parameters to /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-04-02 08:34:49] Saving model weights and runtime parameters to /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-04-02 08:34:51] Saving Adam parameters to /users/tiedeman/research/Opus-MT-train/work-tatoeba/eng-heb/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-04-02 08:34:58] [valid] Ep. 8 : Up. 130000 : perplexity : 3.13179 : stalled 11 times (last best: 3.04019)
+[2021-04-02 09:01:07] [training] skipping 132273-th update due to loss being nan
+[2021-04-02 09:01:07] [training] skipping 132274-th update due to loss being nan
+[2021-04-02 09:01:09] [training] skipping 132275-th update due to loss being nan
+[2021-04-02 09:01:09] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-04-02 09:01:09] Error: Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+[2021-04-02 09:01:09] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-04-02 09:01:09] Error: Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+[2021-04-02 09:01:09] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-04-02 09:01:09] Error: Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+[2021-04-02 09:01:09] Error: CUDA error 700 'an illegal memory access was encountered' - /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54: cudaStreamSynchronize(0)
+[2021-04-02 09:01:09] Error: Aborted from void marian::gpu::fill(marian::Ptr<marian::Backend>, T*, T*, T) [with T = float; marian::Ptr<marian::Backend> = std::shared_ptr<marian::Backend>] in /users/tiedeman/projappl/install/marian/src/tensors/gpu/algorithm.cu:54
+
+[CALL STACK]
+[0x1b0e567]         void marian::gpu::  fill  <float>(std::shared_ptr<marian::Backend>,  float*,  float*,  float) + 0x627
+[0x1389e3d]         void marian::TensorBase::  set  <float>(float)     + 0x35d
+[0x157a7ca]                                                           
+[0x157e463]         marian::inits::LambdaInit::  apply  (IntrusivePtr<marian::TensorBase>) + 0x33
+[0x157443f]         marian::ConstantNode::  init  ()                   + 0x3f
+[0x1565b2d]         marian::ExpressionGraph::  forward  (std::__cxx11::list<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>,std::allocator<IntrusivePtr<marian::Chainable<IntrusivePtr<marian::TensorBase>>>>>&,  bool) + 0x5d
+[0x15672f5]         marian::ExpressionGraph::  forwardNext  ()         + 0x2c5
+[0x1734548]                                                           
+[0x17cb2b4]         marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1}::  operator()  () const + 0x54
+[0x17cbdb0]         std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> (),std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>,std::__future_base::_Result_base::_Deleter>,std::__future_base::_Task_state<marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#1},std::allocator<int>,void ()>::_M_run()::{lambda()#1},void>>::  _M_invoke  (std::_Any_data const&) + 0x20
+[0x12e032b]         std::__future_base::_State_baseV2::  _M_do_set  (std::function<std::unique_ptr<std::__future_base::_Result_base,std::__future_base::_Result_base::_Deleter> ()>*,  bool*) + 0x1b
+[0x7f9e0449420b]                                                       + 0x620b
+[0x17c0e38]         std::_Function_handler<void (),marian::ThreadPool::enqueue<std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&>(std::function<void (unsigned long,unsigned long,unsigned long)> const&,unsigned long&,unsigned long&,unsigned long&)::{lambda()#3}>::  _M_invoke  (std::_Any_data const&) + 0x108
+[0x12e1d27]         std::thread::_State_impl<std::thread::_Invoker<std::tuple<marian::ThreadPool::reserve(unsigned long)::{lambda()#1}>>>::  _M_run  () + 0x157
+[0x504ab20]                                                           
+[0x7f9e04495ea5]                                                       + 0x7ea5
+[0x7f9e03ebc8cd]    clone                                              + 0x6d
+

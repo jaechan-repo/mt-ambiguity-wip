@@ -1,0 +1,1647 @@
+[2021-12-01 14:37:08] [marian] Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 14:37:08] [marian] Running on g5102.mahti.csc.fi as process 210610 with command line:
+[2021-12-01 14:37:08] [marian] /projappl/project_2003093//install/marian-dev/build/marian --task transformer-big --optimizer-delay 2 --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-max-length 100 --valid-log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log --beam-size 6 --normalize 1 --allow-unk --shuffle-in-ram --workspace 15000 --model /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz --train-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz --vocabs /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log --devices 0 1 2 3 --seed 1111 --tempdir /scratch/project_2003288 --shuffle data --sharding local --overwrite --keep-best
+[2021-12-01 14:37:08] [config] after: 0e
+[2021-12-01 14:37:08] [config] after-batches: 0
+[2021-12-01 14:37:08] [config] after-epochs: 0
+[2021-12-01 14:37:08] [config] all-caps-every: 0
+[2021-12-01 14:37:08] [config] allow-unk: true
+[2021-12-01 14:37:08] [config] authors: false
+[2021-12-01 14:37:08] [config] beam-size: 6
+[2021-12-01 14:37:08] [config] bert-class-symbol: "[CLS]"
+[2021-12-01 14:37:08] [config] bert-mask-symbol: "[MASK]"
+[2021-12-01 14:37:08] [config] bert-masking-fraction: 0.15
+[2021-12-01 14:37:08] [config] bert-sep-symbol: "[SEP]"
+[2021-12-01 14:37:08] [config] bert-train-type-embeddings: true
+[2021-12-01 14:37:08] [config] bert-type-vocab-size: 2
+[2021-12-01 14:37:08] [config] build-info: ""
+[2021-12-01 14:37:08] [config] check-gradient-nan: false
+[2021-12-01 14:37:08] [config] check-nan: false
+[2021-12-01 14:37:08] [config] cite: false
+[2021-12-01 14:37:08] [config] clip-norm: 0
+[2021-12-01 14:37:08] [config] cost-scaling:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] cost-type: ce-mean-words
+[2021-12-01 14:37:08] [config] cpu-threads: 0
+[2021-12-01 14:37:08] [config] data-weighting: ""
+[2021-12-01 14:37:08] [config] data-weighting-type: sentence
+[2021-12-01 14:37:08] [config] dec-cell: gru
+[2021-12-01 14:37:08] [config] dec-cell-base-depth: 2
+[2021-12-01 14:37:08] [config] dec-cell-high-depth: 1
+[2021-12-01 14:37:08] [config] dec-depth: 6
+[2021-12-01 14:37:08] [config] devices:
+[2021-12-01 14:37:08] [config]   - 0
+[2021-12-01 14:37:08] [config]   - 1
+[2021-12-01 14:37:08] [config]   - 2
+[2021-12-01 14:37:08] [config]   - 3
+[2021-12-01 14:37:08] [config] dim-emb: 1024
+[2021-12-01 14:37:08] [config] dim-rnn: 1024
+[2021-12-01 14:37:08] [config] dim-vocabs:
+[2021-12-01 14:37:08] [config]   - 0
+[2021-12-01 14:37:08] [config]   - 0
+[2021-12-01 14:37:08] [config] disp-first: 0
+[2021-12-01 14:37:08] [config] disp-freq: 10000
+[2021-12-01 14:37:08] [config] disp-label-counts: true
+[2021-12-01 14:37:08] [config] dropout-rnn: 0
+[2021-12-01 14:37:08] [config] dropout-src: 0
+[2021-12-01 14:37:08] [config] dropout-trg: 0
+[2021-12-01 14:37:08] [config] dump-config: ""
+[2021-12-01 14:37:08] [config] dynamic-gradient-scaling:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] early-stopping: 15
+[2021-12-01 14:37:08] [config] early-stopping-on: first
+[2021-12-01 14:37:08] [config] embedding-fix-src: false
+[2021-12-01 14:37:08] [config] embedding-fix-trg: false
+[2021-12-01 14:37:08] [config] embedding-normalization: false
+[2021-12-01 14:37:08] [config] embedding-vectors:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] enc-cell: gru
+[2021-12-01 14:37:08] [config] enc-cell-depth: 1
+[2021-12-01 14:37:08] [config] enc-depth: 6
+[2021-12-01 14:37:08] [config] enc-type: bidirectional
+[2021-12-01 14:37:08] [config] english-title-case-every: 0
+[2021-12-01 14:37:08] [config] exponential-smoothing: 0.0001
+[2021-12-01 14:37:08] [config] factor-weight: 1
+[2021-12-01 14:37:08] [config] factors-combine: sum
+[2021-12-01 14:37:08] [config] factors-dim-emb: 0
+[2021-12-01 14:37:08] [config] gradient-checkpointing: false
+[2021-12-01 14:37:08] [config] gradient-norm-average-window: 100
+[2021-12-01 14:37:08] [config] guided-alignment: none
+[2021-12-01 14:37:08] [config] guided-alignment-cost: mse
+[2021-12-01 14:37:08] [config] guided-alignment-weight: 0.1
+[2021-12-01 14:37:08] [config] ignore-model-config: false
+[2021-12-01 14:37:08] [config] input-types:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] interpolate-env-vars: false
+[2021-12-01 14:37:08] [config] keep-best: true
+[2021-12-01 14:37:08] [config] label-smoothing: 0.1
+[2021-12-01 14:37:08] [config] layer-normalization: false
+[2021-12-01 14:37:08] [config] learn-rate: 0.0002
+[2021-12-01 14:37:08] [config] lemma-dependency: ""
+[2021-12-01 14:37:08] [config] lemma-dim-emb: 0
+[2021-12-01 14:37:08] [config] log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log
+[2021-12-01 14:37:08] [config] log-level: info
+[2021-12-01 14:37:08] [config] log-time-zone: ""
+[2021-12-01 14:37:08] [config] logical-epoch:
+[2021-12-01 14:37:08] [config]   - 1e
+[2021-12-01 14:37:08] [config]   - 0
+[2021-12-01 14:37:08] [config] lr-decay: 0
+[2021-12-01 14:37:08] [config] lr-decay-freq: 50000
+[2021-12-01 14:37:08] [config] lr-decay-inv-sqrt:
+[2021-12-01 14:37:08] [config]   - 8000
+[2021-12-01 14:37:08] [config] lr-decay-repeat-warmup: false
+[2021-12-01 14:37:08] [config] lr-decay-reset-optimizer: false
+[2021-12-01 14:37:08] [config] lr-decay-start:
+[2021-12-01 14:37:08] [config]   - 10
+[2021-12-01 14:37:08] [config]   - 1
+[2021-12-01 14:37:08] [config] lr-decay-strategy: epoch+stalled
+[2021-12-01 14:37:08] [config] lr-report: false
+[2021-12-01 14:37:08] [config] lr-warmup: 8000
+[2021-12-01 14:37:08] [config] lr-warmup-at-reload: false
+[2021-12-01 14:37:08] [config] lr-warmup-cycle: false
+[2021-12-01 14:37:08] [config] lr-warmup-start-rate: 0
+[2021-12-01 14:37:08] [config] max-length: 100
+[2021-12-01 14:37:08] [config] max-length-crop: false
+[2021-12-01 14:37:08] [config] max-length-factor: 3
+[2021-12-01 14:37:08] [config] maxi-batch: 1000
+[2021-12-01 14:37:08] [config] maxi-batch-sort: trg
+[2021-12-01 14:37:08] [config] mini-batch: 1000
+[2021-12-01 14:37:08] [config] mini-batch-fit: true
+[2021-12-01 14:37:08] [config] mini-batch-fit-step: 10
+[2021-12-01 14:37:08] [config] mini-batch-round-up: true
+[2021-12-01 14:37:08] [config] mini-batch-track-lr: false
+[2021-12-01 14:37:08] [config] mini-batch-warmup: 0
+[2021-12-01 14:37:08] [config] mini-batch-words: 0
+[2021-12-01 14:37:08] [config] mini-batch-words-ref: 0
+[2021-12-01 14:37:08] [config] model: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 14:37:08] [config] multi-loss-type: sum
+[2021-12-01 14:37:08] [config] n-best: false
+[2021-12-01 14:37:08] [config] no-nccl: false
+[2021-12-01 14:37:08] [config] no-reload: false
+[2021-12-01 14:37:08] [config] no-restore-corpus: false
+[2021-12-01 14:37:08] [config] normalize: 1
+[2021-12-01 14:37:08] [config] normalize-gradient: false
+[2021-12-01 14:37:08] [config] num-devices: 0
+[2021-12-01 14:37:08] [config] optimizer: adam
+[2021-12-01 14:37:08] [config] optimizer-delay: 2
+[2021-12-01 14:37:08] [config] optimizer-params:
+[2021-12-01 14:37:08] [config]   - 0.9
+[2021-12-01 14:37:08] [config]   - 0.998
+[2021-12-01 14:37:08] [config]   - 1e-09
+[2021-12-01 14:37:08] [config] output-omit-bias: false
+[2021-12-01 14:37:08] [config] overwrite: true
+[2021-12-01 14:37:08] [config] precision:
+[2021-12-01 14:37:08] [config]   - float32
+[2021-12-01 14:37:08] [config]   - float32
+[2021-12-01 14:37:08] [config] pretrained-model: ""
+[2021-12-01 14:37:08] [config] quantize-biases: false
+[2021-12-01 14:37:08] [config] quantize-bits: 0
+[2021-12-01 14:37:08] [config] quantize-log-based: false
+[2021-12-01 14:37:08] [config] quantize-optimization-steps: 0
+[2021-12-01 14:37:08] [config] quiet: false
+[2021-12-01 14:37:08] [config] quiet-translation: false
+[2021-12-01 14:37:08] [config] relative-paths: false
+[2021-12-01 14:37:08] [config] right-left: false
+[2021-12-01 14:37:08] [config] save-freq: 10000
+[2021-12-01 14:37:08] [config] seed: 1111
+[2021-12-01 14:37:08] [config] sentencepiece-alphas:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] sentencepiece-max-lines: 2000000
+[2021-12-01 14:37:08] [config] sentencepiece-options: ""
+[2021-12-01 14:37:08] [config] sharding: local
+[2021-12-01 14:37:08] [config] shuffle: data
+[2021-12-01 14:37:08] [config] shuffle-in-ram: true
+[2021-12-01 14:37:08] [config] sigterm: save-and-exit
+[2021-12-01 14:37:08] [config] skip: false
+[2021-12-01 14:37:08] [config] sqlite: ""
+[2021-12-01 14:37:08] [config] sqlite-drop: false
+[2021-12-01 14:37:08] [config] sync-freq: 200u
+[2021-12-01 14:37:08] [config] sync-sgd: true
+[2021-12-01 14:37:08] [config] tempdir: /scratch/project_2003288
+[2021-12-01 14:37:08] [config] tied-embeddings: false
+[2021-12-01 14:37:08] [config] tied-embeddings-all: true
+[2021-12-01 14:37:08] [config] tied-embeddings-src: false
+[2021-12-01 14:37:08] [config] train-embedder-rank:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] train-sets:
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz
+[2021-12-01 14:37:08] [config] transformer-aan-activation: swish
+[2021-12-01 14:37:08] [config] transformer-aan-depth: 2
+[2021-12-01 14:37:08] [config] transformer-aan-nogate: false
+[2021-12-01 14:37:08] [config] transformer-decoder-autoreg: self-attention
+[2021-12-01 14:37:08] [config] transformer-depth-scaling: false
+[2021-12-01 14:37:08] [config] transformer-dim-aan: 2048
+[2021-12-01 14:37:08] [config] transformer-dim-ffn: 4096
+[2021-12-01 14:37:08] [config] transformer-dropout: 0.1
+[2021-12-01 14:37:08] [config] transformer-dropout-attention: 0
+[2021-12-01 14:37:08] [config] transformer-dropout-ffn: 0
+[2021-12-01 14:37:08] [config] transformer-ffn-activation: relu
+[2021-12-01 14:37:08] [config] transformer-ffn-depth: 2
+[2021-12-01 14:37:08] [config] transformer-guided-alignment-layer: last
+[2021-12-01 14:37:08] [config] transformer-heads: 16
+[2021-12-01 14:37:08] [config] transformer-no-projection: false
+[2021-12-01 14:37:08] [config] transformer-pool: false
+[2021-12-01 14:37:08] [config] transformer-postprocess: dan
+[2021-12-01 14:37:08] [config] transformer-postprocess-emb: d
+[2021-12-01 14:37:08] [config] transformer-postprocess-top: ""
+[2021-12-01 14:37:08] [config] transformer-preprocess: ""
+[2021-12-01 14:37:08] [config] transformer-tied-layers:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] transformer-train-position-embeddings: false
+[2021-12-01 14:37:08] [config] tsv: false
+[2021-12-01 14:37:08] [config] tsv-fields: 0
+[2021-12-01 14:37:08] [config] type: transformer
+[2021-12-01 14:37:08] [config] ulr: false
+[2021-12-01 14:37:08] [config] ulr-dim-emb: 0
+[2021-12-01 14:37:08] [config] ulr-dropout: 0
+[2021-12-01 14:37:08] [config] ulr-keys-vectors: ""
+[2021-12-01 14:37:08] [config] ulr-query-vectors: ""
+[2021-12-01 14:37:08] [config] ulr-softmax-temperature: 1
+[2021-12-01 14:37:08] [config] ulr-trainable-transformation: false
+[2021-12-01 14:37:08] [config] unlikelihood-loss: false
+[2021-12-01 14:37:08] [config] valid-freq: 10000
+[2021-12-01 14:37:08] [config] valid-log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log
+[2021-12-01 14:37:08] [config] valid-max-length: 100
+[2021-12-01 14:37:08] [config] valid-metrics:
+[2021-12-01 14:37:08] [config]   - perplexity
+[2021-12-01 14:37:08] [config] valid-mini-batch: 16
+[2021-12-01 14:37:08] [config] valid-reset-stalled: false
+[2021-12-01 14:37:08] [config] valid-script-args:
+[2021-12-01 14:37:08] [config]   []
+[2021-12-01 14:37:08] [config] valid-script-path: ""
+[2021-12-01 14:37:08] [config] valid-sets:
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k
+[2021-12-01 14:37:08] [config] valid-translation-output: ""
+[2021-12-01 14:37:08] [config] vocabs:
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:37:08] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:37:08] [config] word-penalty: 0
+[2021-12-01 14:37:08] [config] word-scores: false
+[2021-12-01 14:37:08] [config] workspace: 15000
+[2021-12-01 14:37:08] [config] Model is being created with Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 14:37:08] Using synchronous SGD
+[2021-12-01 14:37:09] Synced seed 1111
+[2021-12-01 14:37:09] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:37:10] [data] Setting vocabulary size for input 0 to 65,000
+[2021-12-01 14:37:10] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:37:10] [data] Setting vocabulary size for input 1 to 65,000
+[2021-12-01 14:37:10] [batching] Collecting statistics for batch fitting with step size 10
+[2021-12-01 14:37:10] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 14:37:10] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 14:37:10] [MPI rank 0 out of 1]: GPU[2]
+[2021-12-01 14:37:10] [MPI rank 0 out of 1]: GPU[3]
+[2021-12-01 14:37:11] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 14:37:12] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 14:37:12] [memory] Extending reserved space to 15104 MB (device gpu2)
+[2021-12-01 14:37:13] [memory] Extending reserved space to 15104 MB (device gpu3)
+[2021-12-01 14:37:13] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 14:37:13] [comm] Using global sharding
+[2021-12-01 14:37:16] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 14:37:16] [training] Using 4 GPUs
+[2021-12-01 14:37:16] [logits] Applying loss function for 1 factor(s)
+[2021-12-01 14:37:16] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 14:37:21] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-12-01 14:37:21] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 14:37:32] [batching] Done. Typical MB size is 53,224 target words
+[2021-12-01 14:37:33] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 14:37:33] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 14:37:33] [MPI rank 0 out of 1]: GPU[2]
+[2021-12-01 14:37:33] [MPI rank 0 out of 1]: GPU[3]
+[2021-12-01 14:37:33] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 14:37:33] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 14:37:33] [memory] Extending reserved space to 15104 MB (device gpu2)
+[2021-12-01 14:37:33] [memory] Extending reserved space to 15104 MB (device gpu3)
+[2021-12-01 14:37:33] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 14:37:33] [comm] Using global sharding
+[2021-12-01 14:37:36] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 14:37:36] [training] Using 4 GPUs
+[2021-12-01 14:37:36] Training started
+[2021-12-01 14:37:36] [data] Shuffling data
+[2021-12-01 14:51:51] [marian] Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 14:51:51] [marian] Running on g5102.mahti.csc.fi as process 212872 with command line:
+[2021-12-01 14:51:51] [marian] /projappl/project_2003093//install/marian-dev/build/marian --task transformer-big --optimizer-delay 2 --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-max-length 100 --valid-log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log --beam-size 6 --normalize 1 --allow-unk --shuffle-in-ram --workspace 15000 --model /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz --train-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz --vocabs /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log --devices 0 1 2 3 --seed 1111 --tempdir /scratch/project_2003288 --shuffle data --sharding local --overwrite --keep-best
+[2021-12-01 14:51:51] [config] after: 0e
+[2021-12-01 14:51:51] [config] after-batches: 0
+[2021-12-01 14:51:51] [config] after-epochs: 0
+[2021-12-01 14:51:51] [config] all-caps-every: 0
+[2021-12-01 14:51:51] [config] allow-unk: true
+[2021-12-01 14:51:51] [config] authors: false
+[2021-12-01 14:51:51] [config] beam-size: 6
+[2021-12-01 14:51:51] [config] bert-class-symbol: "[CLS]"
+[2021-12-01 14:51:51] [config] bert-mask-symbol: "[MASK]"
+[2021-12-01 14:51:51] [config] bert-masking-fraction: 0.15
+[2021-12-01 14:51:51] [config] bert-sep-symbol: "[SEP]"
+[2021-12-01 14:51:51] [config] bert-train-type-embeddings: true
+[2021-12-01 14:51:51] [config] bert-type-vocab-size: 2
+[2021-12-01 14:51:51] [config] build-info: ""
+[2021-12-01 14:51:51] [config] check-gradient-nan: false
+[2021-12-01 14:51:51] [config] check-nan: false
+[2021-12-01 14:51:51] [config] cite: false
+[2021-12-01 14:51:51] [config] clip-norm: 0
+[2021-12-01 14:51:51] [config] cost-scaling:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] cost-type: ce-mean-words
+[2021-12-01 14:51:51] [config] cpu-threads: 0
+[2021-12-01 14:51:51] [config] data-weighting: ""
+[2021-12-01 14:51:51] [config] data-weighting-type: sentence
+[2021-12-01 14:51:51] [config] dec-cell: gru
+[2021-12-01 14:51:51] [config] dec-cell-base-depth: 2
+[2021-12-01 14:51:51] [config] dec-cell-high-depth: 1
+[2021-12-01 14:51:51] [config] dec-depth: 6
+[2021-12-01 14:51:51] [config] devices:
+[2021-12-01 14:51:51] [config]   - 0
+[2021-12-01 14:51:51] [config]   - 1
+[2021-12-01 14:51:51] [config]   - 2
+[2021-12-01 14:51:51] [config]   - 3
+[2021-12-01 14:51:51] [config] dim-emb: 1024
+[2021-12-01 14:51:51] [config] dim-rnn: 1024
+[2021-12-01 14:51:51] [config] dim-vocabs:
+[2021-12-01 14:51:51] [config]   - 0
+[2021-12-01 14:51:51] [config]   - 0
+[2021-12-01 14:51:51] [config] disp-first: 0
+[2021-12-01 14:51:51] [config] disp-freq: 10000
+[2021-12-01 14:51:51] [config] disp-label-counts: true
+[2021-12-01 14:51:51] [config] dropout-rnn: 0
+[2021-12-01 14:51:51] [config] dropout-src: 0
+[2021-12-01 14:51:51] [config] dropout-trg: 0
+[2021-12-01 14:51:51] [config] dump-config: ""
+[2021-12-01 14:51:51] [config] dynamic-gradient-scaling:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] early-stopping: 15
+[2021-12-01 14:51:51] [config] early-stopping-on: first
+[2021-12-01 14:51:51] [config] embedding-fix-src: false
+[2021-12-01 14:51:51] [config] embedding-fix-trg: false
+[2021-12-01 14:51:51] [config] embedding-normalization: false
+[2021-12-01 14:51:51] [config] embedding-vectors:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] enc-cell: gru
+[2021-12-01 14:51:51] [config] enc-cell-depth: 1
+[2021-12-01 14:51:51] [config] enc-depth: 6
+[2021-12-01 14:51:51] [config] enc-type: bidirectional
+[2021-12-01 14:51:51] [config] english-title-case-every: 0
+[2021-12-01 14:51:51] [config] exponential-smoothing: 0.0001
+[2021-12-01 14:51:51] [config] factor-weight: 1
+[2021-12-01 14:51:51] [config] factors-combine: sum
+[2021-12-01 14:51:51] [config] factors-dim-emb: 0
+[2021-12-01 14:51:51] [config] gradient-checkpointing: false
+[2021-12-01 14:51:51] [config] gradient-norm-average-window: 100
+[2021-12-01 14:51:51] [config] guided-alignment: none
+[2021-12-01 14:51:51] [config] guided-alignment-cost: mse
+[2021-12-01 14:51:51] [config] guided-alignment-weight: 0.1
+[2021-12-01 14:51:51] [config] ignore-model-config: false
+[2021-12-01 14:51:51] [config] input-types:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] interpolate-env-vars: false
+[2021-12-01 14:51:51] [config] keep-best: true
+[2021-12-01 14:51:51] [config] label-smoothing: 0.1
+[2021-12-01 14:51:51] [config] layer-normalization: false
+[2021-12-01 14:51:51] [config] learn-rate: 0.0002
+[2021-12-01 14:51:51] [config] lemma-dependency: ""
+[2021-12-01 14:51:51] [config] lemma-dim-emb: 0
+[2021-12-01 14:51:51] [config] log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log
+[2021-12-01 14:51:51] [config] log-level: info
+[2021-12-01 14:51:51] [config] log-time-zone: ""
+[2021-12-01 14:51:51] [config] logical-epoch:
+[2021-12-01 14:51:51] [config]   - 1e
+[2021-12-01 14:51:51] [config]   - 0
+[2021-12-01 14:51:51] [config] lr-decay: 0
+[2021-12-01 14:51:51] [config] lr-decay-freq: 50000
+[2021-12-01 14:51:51] [config] lr-decay-inv-sqrt:
+[2021-12-01 14:51:51] [config]   - 8000
+[2021-12-01 14:51:51] [config] lr-decay-repeat-warmup: false
+[2021-12-01 14:51:51] [config] lr-decay-reset-optimizer: false
+[2021-12-01 14:51:51] [config] lr-decay-start:
+[2021-12-01 14:51:51] [config]   - 10
+[2021-12-01 14:51:51] [config]   - 1
+[2021-12-01 14:51:51] [config] lr-decay-strategy: epoch+stalled
+[2021-12-01 14:51:51] [config] lr-report: false
+[2021-12-01 14:51:51] [config] lr-warmup: 8000
+[2021-12-01 14:51:51] [config] lr-warmup-at-reload: false
+[2021-12-01 14:51:51] [config] lr-warmup-cycle: false
+[2021-12-01 14:51:51] [config] lr-warmup-start-rate: 0
+[2021-12-01 14:51:51] [config] max-length: 100
+[2021-12-01 14:51:51] [config] max-length-crop: false
+[2021-12-01 14:51:51] [config] max-length-factor: 3
+[2021-12-01 14:51:51] [config] maxi-batch: 1000
+[2021-12-01 14:51:51] [config] maxi-batch-sort: trg
+[2021-12-01 14:51:51] [config] mini-batch: 1000
+[2021-12-01 14:51:51] [config] mini-batch-fit: true
+[2021-12-01 14:51:51] [config] mini-batch-fit-step: 10
+[2021-12-01 14:51:51] [config] mini-batch-round-up: true
+[2021-12-01 14:51:51] [config] mini-batch-track-lr: false
+[2021-12-01 14:51:51] [config] mini-batch-warmup: 0
+[2021-12-01 14:51:51] [config] mini-batch-words: 0
+[2021-12-01 14:51:51] [config] mini-batch-words-ref: 0
+[2021-12-01 14:51:51] [config] model: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 14:51:51] [config] multi-loss-type: sum
+[2021-12-01 14:51:51] [config] n-best: false
+[2021-12-01 14:51:51] [config] no-nccl: false
+[2021-12-01 14:51:51] [config] no-reload: false
+[2021-12-01 14:51:51] [config] no-restore-corpus: false
+[2021-12-01 14:51:51] [config] normalize: 1
+[2021-12-01 14:51:51] [config] normalize-gradient: false
+[2021-12-01 14:51:51] [config] num-devices: 0
+[2021-12-01 14:51:51] [config] optimizer: adam
+[2021-12-01 14:51:51] [config] optimizer-delay: 2
+[2021-12-01 14:51:51] [config] optimizer-params:
+[2021-12-01 14:51:51] [config]   - 0.9
+[2021-12-01 14:51:51] [config]   - 0.998
+[2021-12-01 14:51:51] [config]   - 1e-09
+[2021-12-01 14:51:51] [config] output-omit-bias: false
+[2021-12-01 14:51:51] [config] overwrite: true
+[2021-12-01 14:51:51] [config] precision:
+[2021-12-01 14:51:51] [config]   - float32
+[2021-12-01 14:51:51] [config]   - float32
+[2021-12-01 14:51:51] [config] pretrained-model: ""
+[2021-12-01 14:51:51] [config] quantize-biases: false
+[2021-12-01 14:51:51] [config] quantize-bits: 0
+[2021-12-01 14:51:51] [config] quantize-log-based: false
+[2021-12-01 14:51:51] [config] quantize-optimization-steps: 0
+[2021-12-01 14:51:51] [config] quiet: false
+[2021-12-01 14:51:51] [config] quiet-translation: false
+[2021-12-01 14:51:51] [config] relative-paths: false
+[2021-12-01 14:51:51] [config] right-left: false
+[2021-12-01 14:51:51] [config] save-freq: 10000
+[2021-12-01 14:51:51] [config] seed: 1111
+[2021-12-01 14:51:51] [config] sentencepiece-alphas:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] sentencepiece-max-lines: 2000000
+[2021-12-01 14:51:51] [config] sentencepiece-options: ""
+[2021-12-01 14:51:51] [config] sharding: local
+[2021-12-01 14:51:51] [config] shuffle: data
+[2021-12-01 14:51:51] [config] shuffle-in-ram: true
+[2021-12-01 14:51:51] [config] sigterm: save-and-exit
+[2021-12-01 14:51:51] [config] skip: false
+[2021-12-01 14:51:51] [config] sqlite: ""
+[2021-12-01 14:51:51] [config] sqlite-drop: false
+[2021-12-01 14:51:51] [config] sync-freq: 200u
+[2021-12-01 14:51:51] [config] sync-sgd: true
+[2021-12-01 14:51:51] [config] tempdir: /scratch/project_2003288
+[2021-12-01 14:51:51] [config] tied-embeddings: false
+[2021-12-01 14:51:51] [config] tied-embeddings-all: true
+[2021-12-01 14:51:51] [config] tied-embeddings-src: false
+[2021-12-01 14:51:51] [config] train-embedder-rank:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] train-sets:
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz
+[2021-12-01 14:51:51] [config] transformer-aan-activation: swish
+[2021-12-01 14:51:51] [config] transformer-aan-depth: 2
+[2021-12-01 14:51:51] [config] transformer-aan-nogate: false
+[2021-12-01 14:51:51] [config] transformer-decoder-autoreg: self-attention
+[2021-12-01 14:51:51] [config] transformer-depth-scaling: false
+[2021-12-01 14:51:51] [config] transformer-dim-aan: 2048
+[2021-12-01 14:51:51] [config] transformer-dim-ffn: 4096
+[2021-12-01 14:51:51] [config] transformer-dropout: 0.1
+[2021-12-01 14:51:51] [config] transformer-dropout-attention: 0
+[2021-12-01 14:51:51] [config] transformer-dropout-ffn: 0
+[2021-12-01 14:51:51] [config] transformer-ffn-activation: relu
+[2021-12-01 14:51:51] [config] transformer-ffn-depth: 2
+[2021-12-01 14:51:51] [config] transformer-guided-alignment-layer: last
+[2021-12-01 14:51:51] [config] transformer-heads: 16
+[2021-12-01 14:51:51] [config] transformer-no-projection: false
+[2021-12-01 14:51:51] [config] transformer-pool: false
+[2021-12-01 14:51:51] [config] transformer-postprocess: dan
+[2021-12-01 14:51:51] [config] transformer-postprocess-emb: d
+[2021-12-01 14:51:51] [config] transformer-postprocess-top: ""
+[2021-12-01 14:51:51] [config] transformer-preprocess: ""
+[2021-12-01 14:51:51] [config] transformer-tied-layers:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] transformer-train-position-embeddings: false
+[2021-12-01 14:51:51] [config] tsv: false
+[2021-12-01 14:51:51] [config] tsv-fields: 0
+[2021-12-01 14:51:51] [config] type: transformer
+[2021-12-01 14:51:51] [config] ulr: false
+[2021-12-01 14:51:51] [config] ulr-dim-emb: 0
+[2021-12-01 14:51:51] [config] ulr-dropout: 0
+[2021-12-01 14:51:51] [config] ulr-keys-vectors: ""
+[2021-12-01 14:51:51] [config] ulr-query-vectors: ""
+[2021-12-01 14:51:51] [config] ulr-softmax-temperature: 1
+[2021-12-01 14:51:51] [config] ulr-trainable-transformation: false
+[2021-12-01 14:51:51] [config] unlikelihood-loss: false
+[2021-12-01 14:51:51] [config] valid-freq: 10000
+[2021-12-01 14:51:51] [config] valid-log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log
+[2021-12-01 14:51:51] [config] valid-max-length: 100
+[2021-12-01 14:51:51] [config] valid-metrics:
+[2021-12-01 14:51:51] [config]   - perplexity
+[2021-12-01 14:51:51] [config] valid-mini-batch: 16
+[2021-12-01 14:51:51] [config] valid-reset-stalled: false
+[2021-12-01 14:51:51] [config] valid-script-args:
+[2021-12-01 14:51:51] [config]   []
+[2021-12-01 14:51:51] [config] valid-script-path: ""
+[2021-12-01 14:51:51] [config] valid-sets:
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k
+[2021-12-01 14:51:51] [config] valid-translation-output: ""
+[2021-12-01 14:51:51] [config] vocabs:
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:51:51] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:51:51] [config] word-penalty: 0
+[2021-12-01 14:51:51] [config] word-scores: false
+[2021-12-01 14:51:51] [config] workspace: 15000
+[2021-12-01 14:51:51] [config] Model is being created with Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 14:51:51] Using synchronous SGD
+[2021-12-01 14:51:52] Synced seed 1111
+[2021-12-01 14:51:52] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:51:53] [data] Setting vocabulary size for input 0 to 65,000
+[2021-12-01 14:51:53] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 14:51:53] [data] Setting vocabulary size for input 1 to 65,000
+[2021-12-01 14:51:53] [batching] Collecting statistics for batch fitting with step size 10
+[2021-12-01 14:51:53] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 14:51:53] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 14:51:53] [MPI rank 0 out of 1]: GPU[2]
+[2021-12-01 14:51:53] [MPI rank 0 out of 1]: GPU[3]
+[2021-12-01 14:51:54] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 14:51:54] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 14:51:55] [memory] Extending reserved space to 15104 MB (device gpu2)
+[2021-12-01 14:51:55] [memory] Extending reserved space to 15104 MB (device gpu3)
+[2021-12-01 14:51:55] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 14:51:55] [comm] Using global sharding
+[2021-12-01 14:51:59] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 14:51:59] [training] Using 4 GPUs
+[2021-12-01 14:51:59] [logits] Applying loss function for 1 factor(s)
+[2021-12-01 14:51:59] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 14:52:05] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-12-01 14:52:05] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 14:52:16] [batching] Done. Typical MB size is 53,224 target words
+[2021-12-01 14:52:17] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 14:52:17] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 14:52:17] [MPI rank 0 out of 1]: GPU[2]
+[2021-12-01 14:52:17] [MPI rank 0 out of 1]: GPU[3]
+[2021-12-01 14:52:17] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 14:52:17] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 14:52:17] [memory] Extending reserved space to 15104 MB (device gpu2)
+[2021-12-01 14:52:17] [memory] Extending reserved space to 15104 MB (device gpu3)
+[2021-12-01 14:52:17] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 14:52:17] [comm] Using global sharding
+[2021-12-01 14:52:22] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 14:52:22] [training] Using 4 GPUs
+[2021-12-01 14:52:22] Training started
+[2021-12-01 14:52:22] [data] Shuffling data
+[2021-12-01 15:02:20] [marian] Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 15:02:20] [marian] Running on g5102.mahti.csc.fi as process 215121 with command line:
+[2021-12-01 15:02:20] [marian] /projappl/project_2003093//install/marian-dev/build/marian --task transformer-big --optimizer-delay 2 --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-max-length 100 --valid-log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log --beam-size 6 --normalize 1 --allow-unk --workspace 15000 --model /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz --train-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz --vocabs /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log --devices 0 1 --seed 1111 --tempdir /scratch/project_2003288 --shuffle batches --sharding local --overwrite --keep-best
+[2021-12-01 15:02:20] [config] after: 0e
+[2021-12-01 15:02:20] [config] after-batches: 0
+[2021-12-01 15:02:20] [config] after-epochs: 0
+[2021-12-01 15:02:20] [config] all-caps-every: 0
+[2021-12-01 15:02:20] [config] allow-unk: true
+[2021-12-01 15:02:20] [config] authors: false
+[2021-12-01 15:02:20] [config] beam-size: 6
+[2021-12-01 15:02:20] [config] bert-class-symbol: "[CLS]"
+[2021-12-01 15:02:20] [config] bert-mask-symbol: "[MASK]"
+[2021-12-01 15:02:20] [config] bert-masking-fraction: 0.15
+[2021-12-01 15:02:20] [config] bert-sep-symbol: "[SEP]"
+[2021-12-01 15:02:20] [config] bert-train-type-embeddings: true
+[2021-12-01 15:02:20] [config] bert-type-vocab-size: 2
+[2021-12-01 15:02:20] [config] build-info: ""
+[2021-12-01 15:02:20] [config] check-gradient-nan: false
+[2021-12-01 15:02:20] [config] check-nan: false
+[2021-12-01 15:02:20] [config] cite: false
+[2021-12-01 15:02:20] [config] clip-norm: 0
+[2021-12-01 15:02:20] [config] cost-scaling:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] cost-type: ce-mean-words
+[2021-12-01 15:02:20] [config] cpu-threads: 0
+[2021-12-01 15:02:20] [config] data-weighting: ""
+[2021-12-01 15:02:20] [config] data-weighting-type: sentence
+[2021-12-01 15:02:20] [config] dec-cell: gru
+[2021-12-01 15:02:20] [config] dec-cell-base-depth: 2
+[2021-12-01 15:02:20] [config] dec-cell-high-depth: 1
+[2021-12-01 15:02:20] [config] dec-depth: 6
+[2021-12-01 15:02:20] [config] devices:
+[2021-12-01 15:02:20] [config]   - 0
+[2021-12-01 15:02:20] [config]   - 1
+[2021-12-01 15:02:20] [config] dim-emb: 1024
+[2021-12-01 15:02:20] [config] dim-rnn: 1024
+[2021-12-01 15:02:20] [config] dim-vocabs:
+[2021-12-01 15:02:20] [config]   - 0
+[2021-12-01 15:02:20] [config]   - 0
+[2021-12-01 15:02:20] [config] disp-first: 0
+[2021-12-01 15:02:20] [config] disp-freq: 10000
+[2021-12-01 15:02:20] [config] disp-label-counts: true
+[2021-12-01 15:02:20] [config] dropout-rnn: 0
+[2021-12-01 15:02:20] [config] dropout-src: 0
+[2021-12-01 15:02:20] [config] dropout-trg: 0
+[2021-12-01 15:02:20] [config] dump-config: ""
+[2021-12-01 15:02:20] [config] dynamic-gradient-scaling:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] early-stopping: 15
+[2021-12-01 15:02:20] [config] early-stopping-on: first
+[2021-12-01 15:02:20] [config] embedding-fix-src: false
+[2021-12-01 15:02:20] [config] embedding-fix-trg: false
+[2021-12-01 15:02:20] [config] embedding-normalization: false
+[2021-12-01 15:02:20] [config] embedding-vectors:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] enc-cell: gru
+[2021-12-01 15:02:20] [config] enc-cell-depth: 1
+[2021-12-01 15:02:20] [config] enc-depth: 6
+[2021-12-01 15:02:20] [config] enc-type: bidirectional
+[2021-12-01 15:02:20] [config] english-title-case-every: 0
+[2021-12-01 15:02:20] [config] exponential-smoothing: 0.0001
+[2021-12-01 15:02:20] [config] factor-weight: 1
+[2021-12-01 15:02:20] [config] factors-combine: sum
+[2021-12-01 15:02:20] [config] factors-dim-emb: 0
+[2021-12-01 15:02:20] [config] gradient-checkpointing: false
+[2021-12-01 15:02:20] [config] gradient-norm-average-window: 100
+[2021-12-01 15:02:20] [config] guided-alignment: none
+[2021-12-01 15:02:20] [config] guided-alignment-cost: mse
+[2021-12-01 15:02:20] [config] guided-alignment-weight: 0.1
+[2021-12-01 15:02:20] [config] ignore-model-config: false
+[2021-12-01 15:02:20] [config] input-types:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] interpolate-env-vars: false
+[2021-12-01 15:02:20] [config] keep-best: true
+[2021-12-01 15:02:20] [config] label-smoothing: 0.1
+[2021-12-01 15:02:20] [config] layer-normalization: false
+[2021-12-01 15:02:20] [config] learn-rate: 0.0002
+[2021-12-01 15:02:20] [config] lemma-dependency: ""
+[2021-12-01 15:02:20] [config] lemma-dim-emb: 0
+[2021-12-01 15:02:20] [config] log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log
+[2021-12-01 15:02:20] [config] log-level: info
+[2021-12-01 15:02:20] [config] log-time-zone: ""
+[2021-12-01 15:02:20] [config] logical-epoch:
+[2021-12-01 15:02:20] [config]   - 1e
+[2021-12-01 15:02:20] [config]   - 0
+[2021-12-01 15:02:20] [config] lr-decay: 0
+[2021-12-01 15:02:20] [config] lr-decay-freq: 50000
+[2021-12-01 15:02:20] [config] lr-decay-inv-sqrt:
+[2021-12-01 15:02:20] [config]   - 8000
+[2021-12-01 15:02:20] [config] lr-decay-repeat-warmup: false
+[2021-12-01 15:02:20] [config] lr-decay-reset-optimizer: false
+[2021-12-01 15:02:20] [config] lr-decay-start:
+[2021-12-01 15:02:20] [config]   - 10
+[2021-12-01 15:02:20] [config]   - 1
+[2021-12-01 15:02:20] [config] lr-decay-strategy: epoch+stalled
+[2021-12-01 15:02:20] [config] lr-report: false
+[2021-12-01 15:02:20] [config] lr-warmup: 8000
+[2021-12-01 15:02:20] [config] lr-warmup-at-reload: false
+[2021-12-01 15:02:20] [config] lr-warmup-cycle: false
+[2021-12-01 15:02:20] [config] lr-warmup-start-rate: 0
+[2021-12-01 15:02:20] [config] max-length: 100
+[2021-12-01 15:02:20] [config] max-length-crop: false
+[2021-12-01 15:02:20] [config] max-length-factor: 3
+[2021-12-01 15:02:20] [config] maxi-batch: 1000
+[2021-12-01 15:02:20] [config] maxi-batch-sort: trg
+[2021-12-01 15:02:20] [config] mini-batch: 1000
+[2021-12-01 15:02:20] [config] mini-batch-fit: true
+[2021-12-01 15:02:20] [config] mini-batch-fit-step: 10
+[2021-12-01 15:02:20] [config] mini-batch-round-up: true
+[2021-12-01 15:02:20] [config] mini-batch-track-lr: false
+[2021-12-01 15:02:20] [config] mini-batch-warmup: 0
+[2021-12-01 15:02:20] [config] mini-batch-words: 0
+[2021-12-01 15:02:20] [config] mini-batch-words-ref: 0
+[2021-12-01 15:02:20] [config] model: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 15:02:20] [config] multi-loss-type: sum
+[2021-12-01 15:02:20] [config] n-best: false
+[2021-12-01 15:02:20] [config] no-nccl: false
+[2021-12-01 15:02:20] [config] no-reload: false
+[2021-12-01 15:02:20] [config] no-restore-corpus: false
+[2021-12-01 15:02:20] [config] normalize: 1
+[2021-12-01 15:02:20] [config] normalize-gradient: false
+[2021-12-01 15:02:20] [config] num-devices: 0
+[2021-12-01 15:02:20] [config] optimizer: adam
+[2021-12-01 15:02:20] [config] optimizer-delay: 2
+[2021-12-01 15:02:20] [config] optimizer-params:
+[2021-12-01 15:02:20] [config]   - 0.9
+[2021-12-01 15:02:20] [config]   - 0.998
+[2021-12-01 15:02:20] [config]   - 1e-09
+[2021-12-01 15:02:20] [config] output-omit-bias: false
+[2021-12-01 15:02:20] [config] overwrite: true
+[2021-12-01 15:02:20] [config] precision:
+[2021-12-01 15:02:20] [config]   - float32
+[2021-12-01 15:02:20] [config]   - float32
+[2021-12-01 15:02:20] [config] pretrained-model: ""
+[2021-12-01 15:02:20] [config] quantize-biases: false
+[2021-12-01 15:02:20] [config] quantize-bits: 0
+[2021-12-01 15:02:20] [config] quantize-log-based: false
+[2021-12-01 15:02:20] [config] quantize-optimization-steps: 0
+[2021-12-01 15:02:20] [config] quiet: false
+[2021-12-01 15:02:20] [config] quiet-translation: false
+[2021-12-01 15:02:20] [config] relative-paths: false
+[2021-12-01 15:02:20] [config] right-left: false
+[2021-12-01 15:02:20] [config] save-freq: 10000
+[2021-12-01 15:02:20] [config] seed: 1111
+[2021-12-01 15:02:20] [config] sentencepiece-alphas:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] sentencepiece-max-lines: 2000000
+[2021-12-01 15:02:20] [config] sentencepiece-options: ""
+[2021-12-01 15:02:20] [config] sharding: local
+[2021-12-01 15:02:20] [config] shuffle: batches
+[2021-12-01 15:02:20] [config] shuffle-in-ram: false
+[2021-12-01 15:02:20] [config] sigterm: save-and-exit
+[2021-12-01 15:02:20] [config] skip: false
+[2021-12-01 15:02:20] [config] sqlite: ""
+[2021-12-01 15:02:20] [config] sqlite-drop: false
+[2021-12-01 15:02:20] [config] sync-freq: 200u
+[2021-12-01 15:02:20] [config] sync-sgd: true
+[2021-12-01 15:02:20] [config] tempdir: /scratch/project_2003288
+[2021-12-01 15:02:20] [config] tied-embeddings: false
+[2021-12-01 15:02:20] [config] tied-embeddings-all: true
+[2021-12-01 15:02:20] [config] tied-embeddings-src: false
+[2021-12-01 15:02:20] [config] train-embedder-rank:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] train-sets:
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz
+[2021-12-01 15:02:20] [config] transformer-aan-activation: swish
+[2021-12-01 15:02:20] [config] transformer-aan-depth: 2
+[2021-12-01 15:02:20] [config] transformer-aan-nogate: false
+[2021-12-01 15:02:20] [config] transformer-decoder-autoreg: self-attention
+[2021-12-01 15:02:20] [config] transformer-depth-scaling: false
+[2021-12-01 15:02:20] [config] transformer-dim-aan: 2048
+[2021-12-01 15:02:20] [config] transformer-dim-ffn: 4096
+[2021-12-01 15:02:20] [config] transformer-dropout: 0.1
+[2021-12-01 15:02:20] [config] transformer-dropout-attention: 0
+[2021-12-01 15:02:20] [config] transformer-dropout-ffn: 0
+[2021-12-01 15:02:20] [config] transformer-ffn-activation: relu
+[2021-12-01 15:02:20] [config] transformer-ffn-depth: 2
+[2021-12-01 15:02:20] [config] transformer-guided-alignment-layer: last
+[2021-12-01 15:02:20] [config] transformer-heads: 16
+[2021-12-01 15:02:20] [config] transformer-no-projection: false
+[2021-12-01 15:02:20] [config] transformer-pool: false
+[2021-12-01 15:02:20] [config] transformer-postprocess: dan
+[2021-12-01 15:02:20] [config] transformer-postprocess-emb: d
+[2021-12-01 15:02:20] [config] transformer-postprocess-top: ""
+[2021-12-01 15:02:20] [config] transformer-preprocess: ""
+[2021-12-01 15:02:20] [config] transformer-tied-layers:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] transformer-train-position-embeddings: false
+[2021-12-01 15:02:20] [config] tsv: false
+[2021-12-01 15:02:20] [config] tsv-fields: 0
+[2021-12-01 15:02:20] [config] type: transformer
+[2021-12-01 15:02:20] [config] ulr: false
+[2021-12-01 15:02:20] [config] ulr-dim-emb: 0
+[2021-12-01 15:02:20] [config] ulr-dropout: 0
+[2021-12-01 15:02:20] [config] ulr-keys-vectors: ""
+[2021-12-01 15:02:20] [config] ulr-query-vectors: ""
+[2021-12-01 15:02:20] [config] ulr-softmax-temperature: 1
+[2021-12-01 15:02:20] [config] ulr-trainable-transformation: false
+[2021-12-01 15:02:20] [config] unlikelihood-loss: false
+[2021-12-01 15:02:20] [config] valid-freq: 10000
+[2021-12-01 15:02:20] [config] valid-log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log
+[2021-12-01 15:02:20] [config] valid-max-length: 100
+[2021-12-01 15:02:20] [config] valid-metrics:
+[2021-12-01 15:02:20] [config]   - perplexity
+[2021-12-01 15:02:20] [config] valid-mini-batch: 16
+[2021-12-01 15:02:20] [config] valid-reset-stalled: false
+[2021-12-01 15:02:20] [config] valid-script-args:
+[2021-12-01 15:02:20] [config]   []
+[2021-12-01 15:02:20] [config] valid-script-path: ""
+[2021-12-01 15:02:20] [config] valid-sets:
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k
+[2021-12-01 15:02:20] [config] valid-translation-output: ""
+[2021-12-01 15:02:20] [config] vocabs:
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 15:02:20] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 15:02:20] [config] word-penalty: 0
+[2021-12-01 15:02:20] [config] word-scores: false
+[2021-12-01 15:02:20] [config] workspace: 15000
+[2021-12-01 15:02:20] [config] Model is being created with Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-01 15:02:20] Using synchronous SGD
+[2021-12-01 15:02:21] Synced seed 1111
+[2021-12-01 15:02:21] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 15:02:22] [data] Setting vocabulary size for input 0 to 65,000
+[2021-12-01 15:02:22] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-01 15:02:22] [data] Setting vocabulary size for input 1 to 65,000
+[2021-12-01 15:02:22] [batching] Collecting statistics for batch fitting with step size 10
+[2021-12-01 15:02:22] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 15:02:22] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 15:02:23] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 15:02:23] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 15:02:24] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 15:02:24] [comm] Using global sharding
+[2021-12-01 15:02:24] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 15:02:24] [training] Using 2 GPUs
+[2021-12-01 15:02:24] [logits] Applying loss function for 1 factor(s)
+[2021-12-01 15:02:24] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 15:02:31] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-12-01 15:02:31] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 15:02:42] [batching] Done. Typical MB size is 26,612 target words
+[2021-12-01 15:02:42] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-01 15:02:42] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-01 15:02:42] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-01 15:02:42] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-01 15:02:42] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-01 15:02:42] [comm] Using global sharding
+[2021-12-01 15:02:43] [comm] NCCLCommunicators constructed successfully
+[2021-12-01 15:02:43] [training] Using 2 GPUs
+[2021-12-01 15:02:43] Training started
+[2021-12-01 15:03:04] [training] Batches are processed as 1 process(es) x 2 devices/process
+[2021-12-01 15:03:04] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 15:03:04] [memory] Reserving 926 MB, device gpu1
+[2021-12-01 15:03:04] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 15:03:05] [memory] Reserving 926 MB, device gpu1
+[2021-12-01 15:03:06] Parameter type float32, optimization type float32, casting types false
+[2021-12-01 15:03:06] Allocating memory for general optimizer shards
+[2021-12-01 15:03:06] [memory] Reserving 463 MB, device gpu0
+[2021-12-01 15:03:06] [memory] Reserving 463 MB, device gpu1
+[2021-12-01 15:03:06] Allocating memory for Adam-specific shards
+[2021-12-01 15:03:06] [memory] Reserving 926 MB, device gpu1
+[2021-12-01 15:03:06] [memory] Reserving 926 MB, device gpu0
+[2021-12-01 16:52:34] Ep. 1 : Up. 10000 : Sen. 9,152,903 : Cost 5.50191450 : Time 6592.13s : 31803.38 words/s : gNorm 0.7659
+[2021-12-01 16:52:34] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 16:52:37] Saving Adam parameters
+[2021-12-01 16:52:39] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-01 16:52:48] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-01 16:52:50] [valid] Ep. 1 : Up. 10000 : perplexity : 4.62405 : new best
+[2021-12-01 18:42:04] Ep. 1 : Up. 20000 : Sen. 18,313,681 : Cost 3.16987896 : Time 6569.80s : 31925.31 words/s : gNorm 0.5156
+[2021-12-01 18:42:04] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 18:42:06] Saving Adam parameters
+[2021-12-01 18:42:08] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-01 18:42:17] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-01 18:42:19] [valid] Ep. 1 : Up. 20000 : perplexity : 3.17074 : new best
+[2021-12-01 20:31:28] Ep. 1 : Up. 30000 : Sen. 27,445,930 : Cost 2.94404674 : Time 6564.11s : 31923.58 words/s : gNorm 0.5292
+[2021-12-01 20:31:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 20:31:30] Saving Adam parameters
+[2021-12-01 20:31:32] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-01 20:31:41] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-01 20:31:43] [valid] Ep. 1 : Up. 30000 : perplexity : 2.89787 : new best
+[2021-12-01 22:20:53] Ep. 1 : Up. 40000 : Sen. 36,604,684 : Cost 2.85084438 : Time 6564.16s : 31929.39 words/s : gNorm 0.5428
+[2021-12-01 22:20:53] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-01 22:20:55] Saving Adam parameters
+[2021-12-01 22:20:56] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-01 22:21:05] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-01 22:21:07] [valid] Ep. 1 : Up. 40000 : perplexity : 2.76201 : new best
+[2021-12-02 00:10:14] Ep. 1 : Up. 50000 : Sen. 45,741,874 : Cost 2.79623175 : Time 6561.82s : 31926.09 words/s : gNorm 0.5283
+[2021-12-02 00:10:14] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 00:10:16] Saving Adam parameters
+[2021-12-02 00:10:18] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 00:10:27] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 00:10:29] [valid] Ep. 1 : Up. 50000 : perplexity : 2.68948 : new best
+[2021-12-02 01:59:42] Ep. 1 : Up. 60000 : Sen. 54,897,789 : Cost 2.75927901 : Time 6567.79s : 31914.82 words/s : gNorm 0.4894
+[2021-12-02 01:59:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 01:59:44] Saving Adam parameters
+[2021-12-02 01:59:46] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 01:59:55] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 01:59:57] [valid] Ep. 1 : Up. 60000 : perplexity : 2.64063 : new best
+[2021-12-02 03:49:07] Ep. 1 : Up. 70000 : Sen. 64,035,804 : Cost 2.73125744 : Time 6565.08s : 31934.20 words/s : gNorm 0.4690
+[2021-12-02 03:49:07] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 03:49:12] Saving Adam parameters
+[2021-12-02 03:49:14] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 03:49:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 03:49:30] [valid] Ep. 1 : Up. 70000 : perplexity : 2.60022 : new best
+[2021-12-02 05:38:28] Ep. 1 : Up. 80000 : Sen. 73,192,016 : Cost 2.70984912 : Time 6561.10s : 31954.32 words/s : gNorm 0.5471
+[2021-12-02 05:38:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 05:38:31] Saving Adam parameters
+[2021-12-02 05:38:32] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 05:38:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 05:38:44] [valid] Ep. 1 : Up. 80000 : perplexity : 2.56641 : new best
+[2021-12-02 07:27:48] Ep. 1 : Up. 90000 : Sen. 82,320,572 : Cost 2.69096899 : Time 6559.73s : 31939.95 words/s : gNorm 0.5210
+[2021-12-02 07:27:48] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 07:27:50] Saving Adam parameters
+[2021-12-02 07:27:52] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 07:28:01] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 07:28:03] [valid] Ep. 1 : Up. 90000 : perplexity : 2.53931 : new best
+[2021-12-02 09:17:05] Ep. 1 : Up. 100000 : Sen. 91,491,923 : Cost 2.67640018 : Time 6556.69s : 31958.31 words/s : gNorm 0.5308
+[2021-12-02 09:17:05] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 09:17:07] Saving Adam parameters
+[2021-12-02 09:17:08] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 09:17:18] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 09:17:19] [valid] Ep. 1 : Up. 100000 : perplexity : 2.51865 : new best
+[2021-12-02 11:06:21] Ep. 1 : Up. 110000 : Sen. 100,625,241 : Cost 2.66415668 : Time 6556.39s : 31929.64 words/s : gNorm 0.5772
+[2021-12-02 11:06:21] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 11:06:23] Saving Adam parameters
+[2021-12-02 11:06:25] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 11:06:36] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 11:06:38] [valid] Ep. 1 : Up. 110000 : perplexity : 2.50066 : new best
+[2021-12-02 12:55:44] Ep. 1 : Up. 120000 : Sen. 109,769,188 : Cost 2.65306711 : Time 6563.15s : 31966.52 words/s : gNorm 0.5220
+[2021-12-02 12:55:44] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 12:55:47] Saving Adam parameters
+[2021-12-02 12:55:48] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 12:55:57] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 12:55:59] [valid] Ep. 1 : Up. 120000 : perplexity : 2.48827 : new best
+[2021-12-02 14:45:04] Ep. 1 : Up. 130000 : Sen. 118,925,791 : Cost 2.64303780 : Time 6559.73s : 31964.76 words/s : gNorm 0.5950
+[2021-12-02 14:45:04] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 14:45:06] Saving Adam parameters
+[2021-12-02 14:45:08] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 14:45:18] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 14:45:20] [valid] Ep. 1 : Up. 130000 : perplexity : 2.47352 : new best
+[2021-12-02 16:34:42] Ep. 1 : Up. 140000 : Sen. 128,078,412 : Cost 2.63466191 : Time 6578.18s : 31877.39 words/s : gNorm 0.5436
+[2021-12-02 16:34:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 16:34:44] Saving Adam parameters
+[2021-12-02 16:34:46] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 16:34:57] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 16:34:59] [valid] Ep. 1 : Up. 140000 : perplexity : 2.46277 : new best
+[2021-12-02 18:23:59] Ep. 1 : Up. 150000 : Sen. 137,222,637 : Cost 2.62691355 : Time 6556.46s : 31960.73 words/s : gNorm 0.5513
+[2021-12-02 18:23:59] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 18:24:01] Saving Adam parameters
+[2021-12-02 18:24:02] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 18:24:12] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 18:24:13] [valid] Ep. 1 : Up. 150000 : perplexity : 2.4536 : new best
+[2021-12-02 20:13:28] Ep. 1 : Up. 160000 : Sen. 146,376,032 : Cost 2.61920047 : Time 6569.55s : 31943.31 words/s : gNorm 0.5740
+[2021-12-02 20:13:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 20:13:31] Saving Adam parameters
+[2021-12-02 20:13:32] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 20:13:43] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 20:13:45] [valid] Ep. 1 : Up. 160000 : perplexity : 2.44542 : new best
+[2021-12-02 22:02:55] Ep. 1 : Up. 170000 : Sen. 155,534,548 : Cost 2.61385179 : Time 6566.79s : 31939.65 words/s : gNorm 0.5333
+[2021-12-02 22:02:55] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 22:02:58] Saving Adam parameters
+[2021-12-02 22:02:59] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 22:03:09] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 22:03:11] [valid] Ep. 1 : Up. 170000 : perplexity : 2.43751 : new best
+[2021-12-02 23:52:13] Ep. 1 : Up. 180000 : Sen. 164,669,527 : Cost 2.60720682 : Time 6557.87s : 31942.49 words/s : gNorm 0.5782
+[2021-12-02 23:52:13] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-02 23:52:15] Saving Adam parameters
+[2021-12-02 23:52:17] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-02 23:52:29] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-02 23:52:31] [valid] Ep. 1 : Up. 180000 : perplexity : 2.42974 : new best
+[2021-12-03 01:41:34] Ep. 1 : Up. 190000 : Sen. 173,826,207 : Cost 2.60259390 : Time 6561.32s : 31919.24 words/s : gNorm 0.5980
+[2021-12-03 01:41:34] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 01:41:37] Saving Adam parameters
+[2021-12-03 01:41:39] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 01:41:51] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-03 01:41:53] [valid] Ep. 1 : Up. 190000 : perplexity : 2.42317 : new best
+[2021-12-03 14:51:02] [marian] Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-03 14:51:02] [marian] Running on g3102.mahti.csc.fi as process 40602 with command line:
+[2021-12-03 14:51:02] [marian] /projappl/project_2003093//install/marian-dev/build/marian --task transformer-big --optimizer-delay 2 --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-max-length 100 --valid-log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log --beam-size 6 --normalize 1 --allow-unk --workspace 15000 --model /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz --train-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz --vocabs /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log --devices 0 1 --seed 1111 --tempdir /scratch/project_2003288 --shuffle batches --sharding local --overwrite --keep-best
+[2021-12-03 14:51:04] [config] after: 0e
+[2021-12-03 14:51:04] [config] after-batches: 0
+[2021-12-03 14:51:04] [config] after-epochs: 0
+[2021-12-03 14:51:04] [config] all-caps-every: 0
+[2021-12-03 14:51:04] [config] allow-unk: true
+[2021-12-03 14:51:04] [config] authors: false
+[2021-12-03 14:51:04] [config] beam-size: 6
+[2021-12-03 14:51:04] [config] bert-class-symbol: "[CLS]"
+[2021-12-03 14:51:04] [config] bert-mask-symbol: "[MASK]"
+[2021-12-03 14:51:04] [config] bert-masking-fraction: 0.15
+[2021-12-03 14:51:04] [config] bert-sep-symbol: "[SEP]"
+[2021-12-03 14:51:04] [config] bert-train-type-embeddings: true
+[2021-12-03 14:51:04] [config] bert-type-vocab-size: 2
+[2021-12-03 14:51:04] [config] build-info: ""
+[2021-12-03 14:51:04] [config] check-gradient-nan: false
+[2021-12-03 14:51:04] [config] check-nan: false
+[2021-12-03 14:51:04] [config] cite: false
+[2021-12-03 14:51:04] [config] clip-norm: 0
+[2021-12-03 14:51:04] [config] cost-scaling:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] cost-type: ce-mean-words
+[2021-12-03 14:51:04] [config] cpu-threads: 0
+[2021-12-03 14:51:04] [config] data-weighting: ""
+[2021-12-03 14:51:04] [config] data-weighting-type: sentence
+[2021-12-03 14:51:04] [config] dec-cell: gru
+[2021-12-03 14:51:04] [config] dec-cell-base-depth: 2
+[2021-12-03 14:51:04] [config] dec-cell-high-depth: 1
+[2021-12-03 14:51:04] [config] dec-depth: 6
+[2021-12-03 14:51:04] [config] devices:
+[2021-12-03 14:51:04] [config]   - 0
+[2021-12-03 14:51:04] [config]   - 1
+[2021-12-03 14:51:04] [config] dim-emb: 1024
+[2021-12-03 14:51:04] [config] dim-rnn: 1024
+[2021-12-03 14:51:04] [config] dim-vocabs:
+[2021-12-03 14:51:04] [config]   - 65000
+[2021-12-03 14:51:04] [config]   - 65000
+[2021-12-03 14:51:04] [config] disp-first: 0
+[2021-12-03 14:51:04] [config] disp-freq: 10000
+[2021-12-03 14:51:04] [config] disp-label-counts: true
+[2021-12-03 14:51:04] [config] dropout-rnn: 0
+[2021-12-03 14:51:04] [config] dropout-src: 0
+[2021-12-03 14:51:04] [config] dropout-trg: 0
+[2021-12-03 14:51:04] [config] dump-config: ""
+[2021-12-03 14:51:04] [config] dynamic-gradient-scaling:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] early-stopping: 15
+[2021-12-03 14:51:04] [config] early-stopping-on: first
+[2021-12-03 14:51:04] [config] embedding-fix-src: false
+[2021-12-03 14:51:04] [config] embedding-fix-trg: false
+[2021-12-03 14:51:04] [config] embedding-normalization: false
+[2021-12-03 14:51:04] [config] embedding-vectors:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] enc-cell: gru
+[2021-12-03 14:51:04] [config] enc-cell-depth: 1
+[2021-12-03 14:51:04] [config] enc-depth: 6
+[2021-12-03 14:51:04] [config] enc-type: bidirectional
+[2021-12-03 14:51:04] [config] english-title-case-every: 0
+[2021-12-03 14:51:04] [config] exponential-smoothing: 0.0001
+[2021-12-03 14:51:04] [config] factor-weight: 1
+[2021-12-03 14:51:04] [config] factors-combine: sum
+[2021-12-03 14:51:04] [config] factors-dim-emb: 0
+[2021-12-03 14:51:04] [config] gradient-checkpointing: false
+[2021-12-03 14:51:04] [config] gradient-norm-average-window: 100
+[2021-12-03 14:51:04] [config] guided-alignment: none
+[2021-12-03 14:51:04] [config] guided-alignment-cost: mse
+[2021-12-03 14:51:04] [config] guided-alignment-weight: 0.1
+[2021-12-03 14:51:04] [config] ignore-model-config: false
+[2021-12-03 14:51:04] [config] input-types:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] interpolate-env-vars: false
+[2021-12-03 14:51:04] [config] keep-best: true
+[2021-12-03 14:51:04] [config] label-smoothing: 0.1
+[2021-12-03 14:51:04] [config] layer-normalization: false
+[2021-12-03 14:51:04] [config] learn-rate: 0.0002
+[2021-12-03 14:51:04] [config] lemma-dependency: ""
+[2021-12-03 14:51:04] [config] lemma-dim-emb: 0
+[2021-12-03 14:51:04] [config] log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log
+[2021-12-03 14:51:04] [config] log-level: info
+[2021-12-03 14:51:04] [config] log-time-zone: ""
+[2021-12-03 14:51:04] [config] logical-epoch:
+[2021-12-03 14:51:04] [config]   - 1e
+[2021-12-03 14:51:04] [config]   - 0
+[2021-12-03 14:51:04] [config] lr-decay: 0
+[2021-12-03 14:51:04] [config] lr-decay-freq: 50000
+[2021-12-03 14:51:04] [config] lr-decay-inv-sqrt:
+[2021-12-03 14:51:04] [config]   - 8000
+[2021-12-03 14:51:04] [config] lr-decay-repeat-warmup: false
+[2021-12-03 14:51:04] [config] lr-decay-reset-optimizer: false
+[2021-12-03 14:51:04] [config] lr-decay-start:
+[2021-12-03 14:51:04] [config]   - 10
+[2021-12-03 14:51:04] [config]   - 1
+[2021-12-03 14:51:04] [config] lr-decay-strategy: epoch+stalled
+[2021-12-03 14:51:04] [config] lr-report: false
+[2021-12-03 14:51:04] [config] lr-warmup: 8000
+[2021-12-03 14:51:04] [config] lr-warmup-at-reload: false
+[2021-12-03 14:51:04] [config] lr-warmup-cycle: false
+[2021-12-03 14:51:04] [config] lr-warmup-start-rate: 0
+[2021-12-03 14:51:04] [config] max-length: 100
+[2021-12-03 14:51:04] [config] max-length-crop: false
+[2021-12-03 14:51:04] [config] max-length-factor: 3
+[2021-12-03 14:51:04] [config] maxi-batch: 1000
+[2021-12-03 14:51:04] [config] maxi-batch-sort: trg
+[2021-12-03 14:51:04] [config] mini-batch: 1000
+[2021-12-03 14:51:04] [config] mini-batch-fit: true
+[2021-12-03 14:51:04] [config] mini-batch-fit-step: 10
+[2021-12-03 14:51:04] [config] mini-batch-round-up: true
+[2021-12-03 14:51:04] [config] mini-batch-track-lr: false
+[2021-12-03 14:51:04] [config] mini-batch-warmup: 0
+[2021-12-03 14:51:04] [config] mini-batch-words: 0
+[2021-12-03 14:51:04] [config] mini-batch-words-ref: 0
+[2021-12-03 14:51:04] [config] model: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 14:51:04] [config] multi-loss-type: sum
+[2021-12-03 14:51:04] [config] n-best: false
+[2021-12-03 14:51:04] [config] no-nccl: false
+[2021-12-03 14:51:04] [config] no-reload: false
+[2021-12-03 14:51:04] [config] no-restore-corpus: false
+[2021-12-03 14:51:04] [config] normalize: 1
+[2021-12-03 14:51:04] [config] normalize-gradient: false
+[2021-12-03 14:51:04] [config] num-devices: 0
+[2021-12-03 14:51:04] [config] optimizer: adam
+[2021-12-03 14:51:04] [config] optimizer-delay: 2
+[2021-12-03 14:51:04] [config] optimizer-params:
+[2021-12-03 14:51:04] [config]   - 0.9
+[2021-12-03 14:51:04] [config]   - 0.998
+[2021-12-03 14:51:04] [config]   - 1e-09
+[2021-12-03 14:51:04] [config] output-omit-bias: false
+[2021-12-03 14:51:04] [config] overwrite: true
+[2021-12-03 14:51:04] [config] precision:
+[2021-12-03 14:51:04] [config]   - float32
+[2021-12-03 14:51:04] [config]   - float32
+[2021-12-03 14:51:04] [config] pretrained-model: ""
+[2021-12-03 14:51:04] [config] quantize-biases: false
+[2021-12-03 14:51:04] [config] quantize-bits: 0
+[2021-12-03 14:51:04] [config] quantize-log-based: false
+[2021-12-03 14:51:04] [config] quantize-optimization-steps: 0
+[2021-12-03 14:51:04] [config] quiet: false
+[2021-12-03 14:51:04] [config] quiet-translation: false
+[2021-12-03 14:51:04] [config] relative-paths: false
+[2021-12-03 14:51:04] [config] right-left: false
+[2021-12-03 14:51:04] [config] save-freq: 10000
+[2021-12-03 14:51:04] [config] seed: 1111
+[2021-12-03 14:51:04] [config] sentencepiece-alphas:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] sentencepiece-max-lines: 2000000
+[2021-12-03 14:51:04] [config] sentencepiece-options: ""
+[2021-12-03 14:51:04] [config] sharding: local
+[2021-12-03 14:51:04] [config] shuffle: batches
+[2021-12-03 14:51:04] [config] shuffle-in-ram: false
+[2021-12-03 14:51:04] [config] sigterm: save-and-exit
+[2021-12-03 14:51:04] [config] skip: false
+[2021-12-03 14:51:04] [config] sqlite: ""
+[2021-12-03 14:51:04] [config] sqlite-drop: false
+[2021-12-03 14:51:04] [config] sync-freq: 200u
+[2021-12-03 14:51:04] [config] sync-sgd: true
+[2021-12-03 14:51:04] [config] tempdir: /scratch/project_2003288
+[2021-12-03 14:51:04] [config] tied-embeddings: false
+[2021-12-03 14:51:04] [config] tied-embeddings-all: true
+[2021-12-03 14:51:04] [config] tied-embeddings-src: false
+[2021-12-03 14:51:04] [config] train-embedder-rank:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] train-sets:
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz
+[2021-12-03 14:51:04] [config] transformer-aan-activation: swish
+[2021-12-03 14:51:04] [config] transformer-aan-depth: 2
+[2021-12-03 14:51:04] [config] transformer-aan-nogate: false
+[2021-12-03 14:51:04] [config] transformer-decoder-autoreg: self-attention
+[2021-12-03 14:51:04] [config] transformer-depth-scaling: false
+[2021-12-03 14:51:04] [config] transformer-dim-aan: 2048
+[2021-12-03 14:51:04] [config] transformer-dim-ffn: 4096
+[2021-12-03 14:51:04] [config] transformer-dropout: 0.1
+[2021-12-03 14:51:04] [config] transformer-dropout-attention: 0
+[2021-12-03 14:51:04] [config] transformer-dropout-ffn: 0
+[2021-12-03 14:51:04] [config] transformer-ffn-activation: relu
+[2021-12-03 14:51:04] [config] transformer-ffn-depth: 2
+[2021-12-03 14:51:04] [config] transformer-guided-alignment-layer: last
+[2021-12-03 14:51:04] [config] transformer-heads: 16
+[2021-12-03 14:51:04] [config] transformer-no-projection: false
+[2021-12-03 14:51:04] [config] transformer-pool: false
+[2021-12-03 14:51:04] [config] transformer-postprocess: dan
+[2021-12-03 14:51:04] [config] transformer-postprocess-emb: d
+[2021-12-03 14:51:04] [config] transformer-postprocess-top: ""
+[2021-12-03 14:51:04] [config] transformer-preprocess: ""
+[2021-12-03 14:51:04] [config] transformer-tied-layers:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] transformer-train-position-embeddings: false
+[2021-12-03 14:51:04] [config] tsv: false
+[2021-12-03 14:51:04] [config] tsv-fields: 0
+[2021-12-03 14:51:04] [config] type: transformer
+[2021-12-03 14:51:04] [config] ulr: false
+[2021-12-03 14:51:04] [config] ulr-dim-emb: 0
+[2021-12-03 14:51:04] [config] ulr-dropout: 0
+[2021-12-03 14:51:04] [config] ulr-keys-vectors: ""
+[2021-12-03 14:51:04] [config] ulr-query-vectors: ""
+[2021-12-03 14:51:04] [config] ulr-softmax-temperature: 1
+[2021-12-03 14:51:04] [config] ulr-trainable-transformation: false
+[2021-12-03 14:51:04] [config] unlikelihood-loss: false
+[2021-12-03 14:51:04] [config] valid-freq: 10000
+[2021-12-03 14:51:04] [config] valid-log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log
+[2021-12-03 14:51:04] [config] valid-max-length: 100
+[2021-12-03 14:51:04] [config] valid-metrics:
+[2021-12-03 14:51:04] [config]   - perplexity
+[2021-12-03 14:51:04] [config] valid-mini-batch: 16
+[2021-12-03 14:51:04] [config] valid-reset-stalled: false
+[2021-12-03 14:51:04] [config] valid-script-args:
+[2021-12-03 14:51:04] [config]   []
+[2021-12-03 14:51:04] [config] valid-script-path: ""
+[2021-12-03 14:51:04] [config] valid-sets:
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k
+[2021-12-03 14:51:04] [config] valid-translation-output: ""
+[2021-12-03 14:51:04] [config] version: v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-03 14:51:04] [config] vocabs:
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-03 14:51:04] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-03 14:51:04] [config] word-penalty: 0
+[2021-12-03 14:51:04] [config] word-scores: false
+[2021-12-03 14:51:04] [config] workspace: 15000
+[2021-12-03 14:51:04] [config] Loaded model has been created with Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-03 14:51:04] Using synchronous SGD
+[2021-12-03 14:51:07] Synced seed 1111
+[2021-12-03 14:51:07] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-03 14:51:07] [data] Setting vocabulary size for input 0 to 65,000
+[2021-12-03 14:51:07] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-03 14:51:08] [data] Setting vocabulary size for input 1 to 65,000
+[2021-12-03 14:51:08] [batching] Collecting statistics for batch fitting with step size 10
+[2021-12-03 14:51:08] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-03 14:51:08] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-03 14:51:10] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-03 14:51:10] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-03 14:51:10] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-03 14:51:10] [comm] Using global sharding
+[2021-12-03 14:51:16] [comm] NCCLCommunicators constructed successfully
+[2021-12-03 14:51:16] [training] Using 2 GPUs
+[2021-12-03 14:51:16] [logits] Applying loss function for 1 factor(s)
+[2021-12-03 14:51:16] [memory] Reserving 926 MB, device gpu0
+[2021-12-03 14:51:22] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-12-03 14:51:22] [memory] Reserving 926 MB, device gpu0
+[2021-12-03 14:51:33] [batching] Done. Typical MB size is 26,612 target words
+[2021-12-03 14:51:33] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-03 14:51:33] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-03 14:51:33] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-03 14:51:33] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-03 14:51:33] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-03 14:51:33] [comm] Using global sharding
+[2021-12-03 14:51:34] [comm] NCCLCommunicators constructed successfully
+[2021-12-03 14:51:34] [training] Using 2 GPUs
+[2021-12-03 14:51:34] Loading model from /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 14:51:36] Loading model from /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 14:51:41] Allocating memory for general optimizer shards
+[2021-12-03 14:51:41] [memory] Reserving 463 MB, device gpu0
+[2021-12-03 14:51:41] [memory] Reserving 463 MB, device gpu1
+[2021-12-03 14:51:41] Loading Adam parameters
+[2021-12-03 14:51:41] [memory] Reserving 926 MB, device gpu0
+[2021-12-03 14:51:41] [memory] Reserving 926 MB, device gpu1
+[2021-12-03 14:51:41] [memory] Reserving 926 MB, device gpu0
+[2021-12-03 14:51:41] [memory] Reserving 926 MB, device gpu1
+[2021-12-03 14:51:42] [training] Master parameters and optimizers restored from training checkpoint /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 14:51:42] [data] Restoring the corpus state to epoch 1, batch 190000
+[2021-12-03 15:50:44] Training started
+[2021-12-03 15:50:44] [training] Batches are processed as 1 process(es) x 2 devices/process
+[2021-12-03 15:50:44] [memory] Reserving 926 MB, device gpu0
+[2021-12-03 15:50:45] [memory] Reserving 926 MB, device gpu1
+[2021-12-03 15:50:46] Parameter type float32, optimization type float32, casting types false
+[2021-12-03 17:40:09] Ep. 1 : Up. 200000 : Sen. 182,986,176 : Cost 2.59756041 : Time 10115.77s : 20759.15 words/s : gNorm 0.5723
+[2021-12-03 17:40:09] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 17:40:11] Saving Adam parameters
+[2021-12-03 17:40:13] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 17:40:22] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-03 17:40:24] [valid] Ep. 1 : Up. 200000 : perplexity : 2.41677 : new best
+[2021-12-03 19:29:49] Ep. 1 : Up. 210000 : Sen. 192,144,944 : Cost 2.59226227 : Time 6580.24s : 31884.42 words/s : gNorm 0.5996
+[2021-12-03 19:29:49] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 19:29:53] Saving Adam parameters
+[2021-12-03 19:29:54] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 19:30:06] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-03 19:30:07] [valid] Ep. 1 : Up. 210000 : perplexity : 2.41299 : new best
+[2021-12-03 21:19:19] Ep. 1 : Up. 220000 : Sen. 201,315,114 : Cost 2.58868957 : Time 6569.32s : 31924.46 words/s : gNorm 0.7416
+[2021-12-03 21:19:19] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 21:19:22] Saving Adam parameters
+[2021-12-03 21:19:23] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 21:19:35] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-03 21:19:37] [valid] Ep. 1 : Up. 220000 : perplexity : 2.40513 : new best
+[2021-12-03 23:08:46] Ep. 1 : Up. 230000 : Sen. 210,460,584 : Cost 2.58329511 : Time 6566.73s : 31965.83 words/s : gNorm 0.6368
+[2021-12-03 23:08:46] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-03 23:08:48] Saving Adam parameters
+[2021-12-03 23:08:50] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-03 23:09:02] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-03 23:09:03] [valid] Ep. 1 : Up. 230000 : perplexity : 2.39959 : new best
+[2021-12-04 00:58:03] Ep. 1 : Up. 240000 : Sen. 219,596,751 : Cost 2.58072162 : Time 6556.90s : 31949.57 words/s : gNorm 0.6222
+[2021-12-04 00:58:03] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 00:58:05] Saving Adam parameters
+[2021-12-04 00:58:07] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 00:58:19] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 00:58:20] [valid] Ep. 1 : Up. 240000 : perplexity : 2.39771 : new best
+[2021-12-04 02:47:28] Ep. 1 : Up. 250000 : Sen. 228,761,514 : Cost 2.57675791 : Time 6565.43s : 31952.21 words/s : gNorm 0.5800
+[2021-12-04 02:47:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 02:47:30] Saving Adam parameters
+[2021-12-04 02:47:32] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 02:47:41] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 02:47:43] [valid] Ep. 1 : Up. 250000 : perplexity : 2.39285 : new best
+[2021-12-04 04:36:44] Ep. 1 : Up. 260000 : Sen. 237,916,794 : Cost 2.57353759 : Time 6556.22s : 31977.95 words/s : gNorm 0.5970
+[2021-12-04 04:36:44] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 04:36:47] Saving Adam parameters
+[2021-12-04 04:36:48] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 04:37:00] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 04:37:02] [valid] Ep. 1 : Up. 260000 : perplexity : 2.38914 : new best
+[2021-12-04 06:26:26] Ep. 1 : Up. 270000 : Sen. 247,078,979 : Cost 2.57046461 : Time 6582.02s : 31877.31 words/s : gNorm 0.6157
+[2021-12-04 06:26:26] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 06:26:29] Saving Adam parameters
+[2021-12-04 06:26:30] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 06:26:40] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 06:26:43] [valid] Ep. 1 : Up. 270000 : perplexity : 2.38545 : new best
+[2021-12-04 08:15:41] Ep. 1 : Up. 280000 : Sen. 256,232,733 : Cost 2.56678867 : Time 6554.91s : 31990.75 words/s : gNorm 0.6297
+[2021-12-04 08:15:41] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 08:15:43] Saving Adam parameters
+[2021-12-04 08:15:45] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 08:15:55] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 08:15:58] [valid] Ep. 1 : Up. 280000 : perplexity : 2.38241 : new best
+[2021-12-04 10:04:58] Ep. 1 : Up. 290000 : Sen. 265,375,447 : Cost 2.56455755 : Time 6556.65s : 32004.35 words/s : gNorm 0.5976
+[2021-12-04 10:04:58] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 10:05:00] Saving Adam parameters
+[2021-12-04 10:05:01] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 10:05:11] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 10:05:13] [valid] Ep. 1 : Up. 290000 : perplexity : 2.37948 : new best
+[2021-12-04 11:54:07] Ep. 1 : Up. 300000 : Sen. 274,535,718 : Cost 2.56178451 : Time 6548.86s : 32003.53 words/s : gNorm 0.6532
+[2021-12-04 11:54:07] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 11:54:10] Saving Adam parameters
+[2021-12-04 11:54:11] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 11:54:21] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 11:54:23] [valid] Ep. 1 : Up. 300000 : perplexity : 2.37573 : new best
+[2021-12-04 13:43:19] Ep. 1 : Up. 310000 : Sen. 283,685,060 : Cost 2.55826473 : Time 6551.77s : 31999.20 words/s : gNorm 0.5812
+[2021-12-04 13:43:19] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 13:43:21] Saving Adam parameters
+[2021-12-04 13:43:22] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 13:43:32] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 13:43:34] [valid] Ep. 1 : Up. 310000 : perplexity : 2.37134 : new best
+[2021-12-04 15:32:33] Ep. 1 : Up. 320000 : Sen. 292,838,619 : Cost 2.55641460 : Time 6554.10s : 32007.98 words/s : gNorm 0.6088
+[2021-12-04 15:32:33] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 15:32:35] Saving Adam parameters
+[2021-12-04 15:32:36] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 15:32:45] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 15:32:47] [valid] Ep. 1 : Up. 320000 : perplexity : 2.36864 : new best
+[2021-12-04 17:21:43] Ep. 1 : Up. 330000 : Sen. 301,988,264 : Cost 2.55403733 : Time 6550.54s : 32000.77 words/s : gNorm 0.6936
+[2021-12-04 17:21:43] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 17:21:45] Saving Adam parameters
+[2021-12-04 17:21:47] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 17:21:58] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 17:22:00] [valid] Ep. 1 : Up. 330000 : perplexity : 2.36621 : new best
+[2021-12-04 19:11:14] Ep. 1 : Up. 340000 : Sen. 311,143,727 : Cost 2.55183005 : Time 6571.23s : 31902.51 words/s : gNorm 0.7220
+[2021-12-04 19:11:14] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 19:11:17] Saving Adam parameters
+[2021-12-04 19:11:18] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 19:11:30] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 19:11:32] [valid] Ep. 1 : Up. 340000 : perplexity : 2.36401 : new best
+[2021-12-04 21:00:34] Ep. 1 : Up. 350000 : Sen. 320,313,846 : Cost 2.55006552 : Time 6559.46s : 31965.03 words/s : gNorm 0.7054
+[2021-12-04 21:00:34] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 21:00:36] Saving Adam parameters
+[2021-12-04 21:00:37] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 21:00:47] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 21:00:49] [valid] Ep. 1 : Up. 350000 : perplexity : 2.36358 : new best
+[2021-12-04 22:49:47] Ep. 1 : Up. 360000 : Sen. 329,447,985 : Cost 2.54765415 : Time 6553.30s : 32011.61 words/s : gNorm 0.6147
+[2021-12-04 22:49:47] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-04 22:49:50] Saving Adam parameters
+[2021-12-04 22:49:51] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-04 22:50:01] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-04 22:50:04] [valid] Ep. 1 : Up. 360000 : perplexity : 2.36217 : new best
+[2021-12-05 00:38:53] Ep. 1 : Up. 370000 : Sen. 338,733,422 : Cost 2.55384898 : Time 6545.40s : 31951.17 words/s : gNorm 0.6649
+[2021-12-05 00:38:53] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 00:38:55] Saving Adam parameters
+[2021-12-05 00:38:56] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 00:39:06] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-05 00:39:08] [valid] Ep. 1 : Up. 370000 : perplexity : 2.36086 : new best
+[2021-12-05 02:27:54] Ep. 1 : Up. 380000 : Sen. 348,035,271 : Cost 2.55601192 : Time 6541.15s : 31874.18 words/s : gNorm 0.7977
+[2021-12-05 02:27:54] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 02:27:58] Saving Adam parameters
+[2021-12-05 02:28:01] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 02:28:16] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-05 02:28:18] [valid] Ep. 1 : Up. 380000 : perplexity : 2.35793 : new best
+[2021-12-05 13:05:46] [marian] Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-05 13:05:46] [marian] Running on g6101.mahti.csc.fi as process 182094 with command line:
+[2021-12-05 13:05:46] [marian] /projappl/project_2003093//install/marian-dev/build/marian --task transformer-big --optimizer-delay 2 --early-stopping 15 --valid-freq 10000 --valid-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-max-length 100 --valid-log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log --beam-size 6 --normalize 1 --allow-unk --workspace 15000 --model /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz --train-sets /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz --vocabs /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml --save-freq 10000 --disp-freq 10000 --log /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log --devices 0 1 --seed 1111 --tempdir /scratch/project_2003288 --shuffle batches --sharding local --overwrite --keep-best
+[2021-12-05 13:05:47] [config] after: 0e
+[2021-12-05 13:05:47] [config] after-batches: 0
+[2021-12-05 13:05:47] [config] after-epochs: 0
+[2021-12-05 13:05:47] [config] all-caps-every: 0
+[2021-12-05 13:05:47] [config] allow-unk: true
+[2021-12-05 13:05:47] [config] authors: false
+[2021-12-05 13:05:47] [config] beam-size: 6
+[2021-12-05 13:05:47] [config] bert-class-symbol: "[CLS]"
+[2021-12-05 13:05:47] [config] bert-mask-symbol: "[MASK]"
+[2021-12-05 13:05:47] [config] bert-masking-fraction: 0.15
+[2021-12-05 13:05:47] [config] bert-sep-symbol: "[SEP]"
+[2021-12-05 13:05:47] [config] bert-train-type-embeddings: true
+[2021-12-05 13:05:47] [config] bert-type-vocab-size: 2
+[2021-12-05 13:05:47] [config] build-info: ""
+[2021-12-05 13:05:47] [config] check-gradient-nan: false
+[2021-12-05 13:05:47] [config] check-nan: false
+[2021-12-05 13:05:47] [config] cite: false
+[2021-12-05 13:05:47] [config] clip-norm: 0
+[2021-12-05 13:05:47] [config] cost-scaling:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] cost-type: ce-mean-words
+[2021-12-05 13:05:47] [config] cpu-threads: 0
+[2021-12-05 13:05:47] [config] data-weighting: ""
+[2021-12-05 13:05:47] [config] data-weighting-type: sentence
+[2021-12-05 13:05:47] [config] dec-cell: gru
+[2021-12-05 13:05:47] [config] dec-cell-base-depth: 2
+[2021-12-05 13:05:47] [config] dec-cell-high-depth: 1
+[2021-12-05 13:05:47] [config] dec-depth: 6
+[2021-12-05 13:05:47] [config] devices:
+[2021-12-05 13:05:47] [config]   - 0
+[2021-12-05 13:05:47] [config]   - 1
+[2021-12-05 13:05:47] [config] dim-emb: 1024
+[2021-12-05 13:05:47] [config] dim-rnn: 1024
+[2021-12-05 13:05:47] [config] dim-vocabs:
+[2021-12-05 13:05:47] [config]   - 65000
+[2021-12-05 13:05:47] [config]   - 65000
+[2021-12-05 13:05:47] [config] disp-first: 0
+[2021-12-05 13:05:47] [config] disp-freq: 10000
+[2021-12-05 13:05:47] [config] disp-label-counts: true
+[2021-12-05 13:05:47] [config] dropout-rnn: 0
+[2021-12-05 13:05:47] [config] dropout-src: 0
+[2021-12-05 13:05:47] [config] dropout-trg: 0
+[2021-12-05 13:05:47] [config] dump-config: ""
+[2021-12-05 13:05:47] [config] dynamic-gradient-scaling:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] early-stopping: 15
+[2021-12-05 13:05:47] [config] early-stopping-on: first
+[2021-12-05 13:05:47] [config] embedding-fix-src: false
+[2021-12-05 13:05:47] [config] embedding-fix-trg: false
+[2021-12-05 13:05:47] [config] embedding-normalization: false
+[2021-12-05 13:05:47] [config] embedding-vectors:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] enc-cell: gru
+[2021-12-05 13:05:47] [config] enc-cell-depth: 1
+[2021-12-05 13:05:47] [config] enc-depth: 6
+[2021-12-05 13:05:47] [config] enc-type: bidirectional
+[2021-12-05 13:05:47] [config] english-title-case-every: 0
+[2021-12-05 13:05:47] [config] exponential-smoothing: 0.0001
+[2021-12-05 13:05:47] [config] factor-weight: 1
+[2021-12-05 13:05:47] [config] factors-combine: sum
+[2021-12-05 13:05:47] [config] factors-dim-emb: 0
+[2021-12-05 13:05:47] [config] gradient-checkpointing: false
+[2021-12-05 13:05:47] [config] gradient-norm-average-window: 100
+[2021-12-05 13:05:47] [config] guided-alignment: none
+[2021-12-05 13:05:47] [config] guided-alignment-cost: mse
+[2021-12-05 13:05:47] [config] guided-alignment-weight: 0.1
+[2021-12-05 13:05:47] [config] ignore-model-config: false
+[2021-12-05 13:05:47] [config] input-types:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] interpolate-env-vars: false
+[2021-12-05 13:05:47] [config] keep-best: true
+[2021-12-05 13:05:47] [config] label-smoothing: 0.1
+[2021-12-05 13:05:47] [config] layer-normalization: false
+[2021-12-05 13:05:47] [config] learn-rate: 0.0002
+[2021-12-05 13:05:47] [config] lemma-dependency: ""
+[2021-12-05 13:05:47] [config] lemma-dim-emb: 0
+[2021-12-05 13:05:47] [config] log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.train1.log
+[2021-12-05 13:05:47] [config] log-level: info
+[2021-12-05 13:05:47] [config] log-time-zone: ""
+[2021-12-05 13:05:47] [config] logical-epoch:
+[2021-12-05 13:05:47] [config]   - 1e
+[2021-12-05 13:05:47] [config]   - 0
+[2021-12-05 13:05:47] [config] lr-decay: 0
+[2021-12-05 13:05:47] [config] lr-decay-freq: 50000
+[2021-12-05 13:05:47] [config] lr-decay-inv-sqrt:
+[2021-12-05 13:05:47] [config]   - 8000
+[2021-12-05 13:05:47] [config] lr-decay-repeat-warmup: false
+[2021-12-05 13:05:47] [config] lr-decay-reset-optimizer: false
+[2021-12-05 13:05:47] [config] lr-decay-start:
+[2021-12-05 13:05:47] [config]   - 10
+[2021-12-05 13:05:47] [config]   - 1
+[2021-12-05 13:05:47] [config] lr-decay-strategy: epoch+stalled
+[2021-12-05 13:05:47] [config] lr-report: false
+[2021-12-05 13:05:47] [config] lr-warmup: 8000
+[2021-12-05 13:05:47] [config] lr-warmup-at-reload: false
+[2021-12-05 13:05:47] [config] lr-warmup-cycle: false
+[2021-12-05 13:05:47] [config] lr-warmup-start-rate: 0
+[2021-12-05 13:05:47] [config] max-length: 100
+[2021-12-05 13:05:47] [config] max-length-crop: false
+[2021-12-05 13:05:47] [config] max-length-factor: 3
+[2021-12-05 13:05:47] [config] maxi-batch: 1000
+[2021-12-05 13:05:47] [config] maxi-batch-sort: trg
+[2021-12-05 13:05:47] [config] mini-batch: 1000
+[2021-12-05 13:05:47] [config] mini-batch-fit: true
+[2021-12-05 13:05:47] [config] mini-batch-fit-step: 10
+[2021-12-05 13:05:47] [config] mini-batch-round-up: true
+[2021-12-05 13:05:47] [config] mini-batch-track-lr: false
+[2021-12-05 13:05:47] [config] mini-batch-warmup: 0
+[2021-12-05 13:05:47] [config] mini-batch-words: 0
+[2021-12-05 13:05:47] [config] mini-batch-words-ref: 0
+[2021-12-05 13:05:47] [config] model: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 13:05:47] [config] multi-loss-type: sum
+[2021-12-05 13:05:47] [config] n-best: false
+[2021-12-05 13:05:47] [config] no-nccl: false
+[2021-12-05 13:05:47] [config] no-reload: false
+[2021-12-05 13:05:47] [config] no-restore-corpus: false
+[2021-12-05 13:05:47] [config] normalize: 1
+[2021-12-05 13:05:47] [config] normalize-gradient: false
+[2021-12-05 13:05:47] [config] num-devices: 0
+[2021-12-05 13:05:47] [config] optimizer: adam
+[2021-12-05 13:05:47] [config] optimizer-delay: 2
+[2021-12-05 13:05:47] [config] optimizer-params:
+[2021-12-05 13:05:47] [config]   - 0.9
+[2021-12-05 13:05:47] [config]   - 0.998
+[2021-12-05 13:05:47] [config]   - 1e-09
+[2021-12-05 13:05:47] [config] output-omit-bias: false
+[2021-12-05 13:05:47] [config] overwrite: true
+[2021-12-05 13:05:47] [config] precision:
+[2021-12-05 13:05:47] [config]   - float32
+[2021-12-05 13:05:47] [config]   - float32
+[2021-12-05 13:05:47] [config] pretrained-model: ""
+[2021-12-05 13:05:47] [config] quantize-biases: false
+[2021-12-05 13:05:47] [config] quantize-bits: 0
+[2021-12-05 13:05:47] [config] quantize-log-based: false
+[2021-12-05 13:05:47] [config] quantize-optimization-steps: 0
+[2021-12-05 13:05:47] [config] quiet: false
+[2021-12-05 13:05:47] [config] quiet-translation: false
+[2021-12-05 13:05:47] [config] relative-paths: false
+[2021-12-05 13:05:47] [config] right-left: false
+[2021-12-05 13:05:47] [config] save-freq: 10000
+[2021-12-05 13:05:47] [config] seed: 1111
+[2021-12-05 13:05:47] [config] sentencepiece-alphas:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] sentencepiece-max-lines: 2000000
+[2021-12-05 13:05:47] [config] sentencepiece-options: ""
+[2021-12-05 13:05:47] [config] sharding: local
+[2021-12-05 13:05:47] [config] shuffle: batches
+[2021-12-05 13:05:47] [config] shuffle-in-ram: false
+[2021-12-05 13:05:47] [config] sigterm: save-and-exit
+[2021-12-05 13:05:47] [config] skip: false
+[2021-12-05 13:05:47] [config] sqlite: ""
+[2021-12-05 13:05:47] [config] sqlite-drop: false
+[2021-12-05 13:05:47] [config] sync-freq: 200u
+[2021-12-05 13:05:47] [config] sync-sgd: true
+[2021-12-05 13:05:47] [config] tempdir: /scratch/project_2003288
+[2021-12-05 13:05:47] [config] tied-embeddings: false
+[2021-12-05 13:05:47] [config] tied-embeddings-all: true
+[2021-12-05 13:05:47] [config] tied-embeddings-src: false
+[2021-12-05 13:05:47] [config] train-embedder-rank:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] train-sets:
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.src.clean.spm32k.gz
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/train/opusTCv20210807+bt.trg.clean.spm32k.gz
+[2021-12-05 13:05:47] [config] transformer-aan-activation: swish
+[2021-12-05 13:05:47] [config] transformer-aan-depth: 2
+[2021-12-05 13:05:47] [config] transformer-aan-nogate: false
+[2021-12-05 13:05:47] [config] transformer-decoder-autoreg: self-attention
+[2021-12-05 13:05:47] [config] transformer-depth-scaling: false
+[2021-12-05 13:05:47] [config] transformer-dim-aan: 2048
+[2021-12-05 13:05:47] [config] transformer-dim-ffn: 4096
+[2021-12-05 13:05:47] [config] transformer-dropout: 0.1
+[2021-12-05 13:05:47] [config] transformer-dropout-attention: 0
+[2021-12-05 13:05:47] [config] transformer-dropout-ffn: 0
+[2021-12-05 13:05:47] [config] transformer-ffn-activation: relu
+[2021-12-05 13:05:47] [config] transformer-ffn-depth: 2
+[2021-12-05 13:05:47] [config] transformer-guided-alignment-layer: last
+[2021-12-05 13:05:47] [config] transformer-heads: 16
+[2021-12-05 13:05:47] [config] transformer-no-projection: false
+[2021-12-05 13:05:47] [config] transformer-pool: false
+[2021-12-05 13:05:47] [config] transformer-postprocess: dan
+[2021-12-05 13:05:47] [config] transformer-postprocess-emb: d
+[2021-12-05 13:05:47] [config] transformer-postprocess-top: ""
+[2021-12-05 13:05:47] [config] transformer-preprocess: ""
+[2021-12-05 13:05:47] [config] transformer-tied-layers:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] transformer-train-position-embeddings: false
+[2021-12-05 13:05:47] [config] tsv: false
+[2021-12-05 13:05:47] [config] tsv-fields: 0
+[2021-12-05 13:05:47] [config] type: transformer
+[2021-12-05 13:05:47] [config] ulr: false
+[2021-12-05 13:05:47] [config] ulr-dim-emb: 0
+[2021-12-05 13:05:47] [config] ulr-dropout: 0
+[2021-12-05 13:05:47] [config] ulr-keys-vectors: ""
+[2021-12-05 13:05:47] [config] ulr-query-vectors: ""
+[2021-12-05 13:05:47] [config] ulr-softmax-temperature: 1
+[2021-12-05 13:05:47] [config] ulr-trainable-transformation: false
+[2021-12-05 13:05:47] [config] unlikelihood-loss: false
+[2021-12-05 13:05:47] [config] valid-freq: 10000
+[2021-12-05 13:05:47] [config] valid-log: /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.valid1.log
+[2021-12-05 13:05:47] [config] valid-max-length: 100
+[2021-12-05 13:05:47] [config] valid-metrics:
+[2021-12-05 13:05:47] [config]   - perplexity
+[2021-12-05 13:05:47] [config] valid-mini-batch: 16
+[2021-12-05 13:05:47] [config] valid-reset-stalled: false
+[2021-12-05 13:05:47] [config] valid-script-args:
+[2021-12-05 13:05:47] [config]   []
+[2021-12-05 13:05:47] [config] valid-script-path: ""
+[2021-12-05 13:05:47] [config] valid-sets:
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.src.spm32k
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/val/Tatoeba-dev-v2021-08-07.trg.spm32k
+[2021-12-05 13:05:47] [config] valid-translation-output: ""
+[2021-12-05 13:05:47] [config] version: v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-05 13:05:47] [config] vocabs:
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-05 13:05:47] [config]   - /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-05 13:05:47] [config] word-penalty: 0
+[2021-12-05 13:05:47] [config] word-scores: false
+[2021-12-05 13:05:47] [config] workspace: 15000
+[2021-12-05 13:05:47] [config] Loaded model has been created with Marian v1.10.24; 4dd30b5 2021-09-08 14:02:21 +0100
+[2021-12-05 13:05:47] Using synchronous SGD
+[2021-12-05 13:05:51] Synced seed 1111
+[2021-12-05 13:05:51] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-05 13:05:52] [data] Setting vocabulary size for input 0 to 65,000
+[2021-12-05 13:05:52] [data] Loading vocabulary from JSON/Yaml file /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.vocab.yml
+[2021-12-05 13:05:52] [data] Setting vocabulary size for input 1 to 65,000
+[2021-12-05 13:05:52] [batching] Collecting statistics for batch fitting with step size 10
+[2021-12-05 13:05:52] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-05 13:05:52] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-05 13:05:54] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-05 13:05:55] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-05 13:05:55] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-05 13:05:55] [comm] Using global sharding
+[2021-12-05 13:05:56] [comm] NCCLCommunicators constructed successfully
+[2021-12-05 13:05:56] [training] Using 2 GPUs
+[2021-12-05 13:05:56] [logits] Applying loss function for 1 factor(s)
+[2021-12-05 13:05:56] [memory] Reserving 926 MB, device gpu0
+[2021-12-05 13:06:04] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-12-05 13:06:04] [memory] Reserving 926 MB, device gpu0
+[2021-12-05 13:06:16] [batching] Done. Typical MB size is 26,612 target words
+[2021-12-05 13:06:16] [MPI rank 0 out of 1]: GPU[0]
+[2021-12-05 13:06:16] [MPI rank 0 out of 1]: GPU[1]
+[2021-12-05 13:06:16] [memory] Extending reserved space to 15104 MB (device gpu0)
+[2021-12-05 13:06:16] [memory] Extending reserved space to 15104 MB (device gpu1)
+[2021-12-05 13:06:16] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-12-05 13:06:16] [comm] Using global sharding
+[2021-12-05 13:06:16] [comm] NCCLCommunicators constructed successfully
+[2021-12-05 13:06:16] [training] Using 2 GPUs
+[2021-12-05 13:06:16] Loading model from /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 13:06:19] Loading model from /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 13:06:23] Allocating memory for general optimizer shards
+[2021-12-05 13:06:23] [memory] Reserving 463 MB, device gpu0
+[2021-12-05 13:06:23] [memory] Reserving 463 MB, device gpu1
+[2021-12-05 13:06:23] Loading Adam parameters
+[2021-12-05 13:06:24] [memory] Reserving 926 MB, device gpu0
+[2021-12-05 13:06:24] [memory] Reserving 926 MB, device gpu1
+[2021-12-05 13:06:24] [memory] Reserving 926 MB, device gpu0
+[2021-12-05 13:06:24] [memory] Reserving 926 MB, device gpu1
+[2021-12-05 13:06:24] [training] Master parameters and optimizers restored from training checkpoint /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 13:06:24] [data] Restoring the corpus state to epoch 1, batch 380000
+[2021-12-05 15:05:50] Training started
+[2021-12-05 15:05:51] [training] Batches are processed as 1 process(es) x 2 devices/process
+[2021-12-05 15:05:51] [memory] Reserving 926 MB, device gpu0
+[2021-12-05 15:05:52] [memory] Reserving 926 MB, device gpu1
+[2021-12-05 15:05:53] Parameter type float32, optimization type float32, casting types false
+[2021-12-05 16:54:31] Ep. 1 : Up. 390000 : Sen. 357,482,708 : Cost 2.55963302 : Time 13695.28s : 15215.40 words/s : gNorm 0.6376
+[2021-12-05 16:54:31] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 16:54:34] Saving Adam parameters
+[2021-12-05 16:54:36] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 16:54:47] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-05 16:54:50] [valid] Ep. 1 : Up. 390000 : perplexity : 2.35314 : new best
+[2021-12-05 18:43:03] Ep. 1 : Up. 400000 : Sen. 366,965,247 : Cost 2.56268668 : Time 6512.40s : 31962.50 words/s : gNorm 0.7679
+[2021-12-05 18:43:04] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 18:43:07] Saving Adam parameters
+[2021-12-05 18:43:08] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 18:43:20] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-05 18:43:23] [valid] Ep. 1 : Up. 400000 : perplexity : 2.35098 : new best
+[2021-12-05 20:31:54] Ep. 1 : Up. 410000 : Sen. 376,471,618 : Cost 2.56246948 : Time 6530.27s : 31848.15 words/s : gNorm 0.8176
+[2021-12-05 20:31:54] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 20:31:57] Saving Adam parameters
+[2021-12-05 20:31:58] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 20:32:10] [valid] Ep. 1 : Up. 410000 : perplexity : 2.35121 : stalled 1 times (last best: 2.35098)
+[2021-12-05 22:20:42] Ep. 1 : Up. 420000 : Sen. 386,036,262 : Cost 2.56081796 : Time 6527.88s : 31927.12 words/s : gNorm 0.6310
+[2021-12-05 22:20:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-05 22:20:46] Saving Adam parameters
+[2021-12-05 22:20:49] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-05 22:21:04] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-05 22:21:06] [valid] Ep. 1 : Up. 420000 : perplexity : 2.34825 : new best
+[2021-12-06 00:09:24] Ep. 1 : Up. 430000 : Sen. 395,566,070 : Cost 2.55927777 : Time 6522.68s : 31917.02 words/s : gNorm 0.7044
+[2021-12-06 00:09:24] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 00:09:27] Saving Adam parameters
+[2021-12-06 00:09:29] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 00:09:41] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 00:09:43] [valid] Ep. 1 : Up. 430000 : perplexity : 2.34765 : new best
+[2021-12-06 01:58:20] Ep. 1 : Up. 440000 : Sen. 405,133,221 : Cost 2.55703950 : Time 6535.44s : 31858.27 words/s : gNorm 0.7758
+[2021-12-06 01:58:20] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 01:58:23] Saving Adam parameters
+[2021-12-06 01:58:24] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 01:58:36] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 01:58:38] [valid] Ep. 1 : Up. 440000 : perplexity : 2.3442 : new best
+[2021-12-06 03:46:59] Ep. 1 : Up. 450000 : Sen. 414,682,858 : Cost 2.55559182 : Time 6518.68s : 31934.27 words/s : gNorm 0.7063
+[2021-12-06 03:46:59] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 03:47:01] Saving Adam parameters
+[2021-12-06 03:47:03] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 03:47:15] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 03:47:17] [valid] Ep. 1 : Up. 450000 : perplexity : 2.34198 : new best
+[2021-12-06 05:35:50] Ep. 1 : Up. 460000 : Sen. 424,222,813 : Cost 2.55399299 : Time 6531.33s : 31852.31 words/s : gNorm 0.6760
+[2021-12-06 05:35:50] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 05:35:53] Saving Adam parameters
+[2021-12-06 05:35:54] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 05:36:06] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 05:36:09] [valid] Ep. 1 : Up. 460000 : perplexity : 2.34093 : new best
+[2021-12-06 07:24:26] Ep. 1 : Up. 470000 : Sen. 433,740,697 : Cost 2.55211878 : Time 6515.62s : 31934.60 words/s : gNorm 0.8221
+[2021-12-06 07:24:26] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 07:24:28] Saving Adam parameters
+[2021-12-06 07:24:30] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 07:24:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 07:24:44] [valid] Ep. 1 : Up. 470000 : perplexity : 2.33995 : new best
+[2021-12-06 09:13:20] Ep. 1 : Up. 480000 : Sen. 443,302,764 : Cost 2.55175495 : Time 6534.01s : 31844.66 words/s : gNorm 0.7604
+[2021-12-06 09:13:20] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 09:13:22] Saving Adam parameters
+[2021-12-06 09:13:24] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 09:13:36] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 09:13:39] [valid] Ep. 1 : Up. 480000 : perplexity : 2.33989 : new best
+[2021-12-06 11:01:57] Ep. 1 : Up. 490000 : Sen. 452,898,684 : Cost 2.55495930 : Time 6517.78s : 31944.49 words/s : gNorm 0.8845
+[2021-12-06 11:01:57] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 11:02:00] Saving Adam parameters
+[2021-12-06 11:02:02] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 11:02:14] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 11:02:16] [valid] Ep. 1 : Up. 490000 : perplexity : 2.3377 : new best
+[2021-12-06 12:50:42] Ep. 1 : Up. 500000 : Sen. 462,515,688 : Cost 2.55920720 : Time 6524.84s : 31873.98 words/s : gNorm 0.8097
+[2021-12-06 12:50:42] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 12:50:46] Saving Adam parameters
+[2021-12-06 12:50:47] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 12:51:00] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.best-perplexity.npz
+[2021-12-06 12:51:03] [valid] Ep. 1 : Up. 500000 : perplexity : 2.33755 : new best
+[2021-12-06 14:39:18] Ep. 1 : Up. 510000 : Sen. 472,167,432 : Cost 2.56895685 : Time 6515.69s : 31824.01 words/s : gNorm 0.7222
+[2021-12-06 14:39:18] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 14:39:21] Saving Adam parameters
+[2021-12-06 14:39:22] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 14:39:34] [valid] Ep. 1 : Up. 510000 : perplexity : 2.33954 : stalled 1 times (last best: 2.33755)
+[2021-12-06 16:27:28] Ep. 1 : Up. 520000 : Sen. 481,897,773 : Cost 2.58365631 : Time 6490.39s : 31932.62 words/s : gNorm 0.6884
+[2021-12-06 16:27:28] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 16:27:31] Saving Adam parameters
+[2021-12-06 16:27:33] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 16:27:44] [valid] Ep. 1 : Up. 520000 : perplexity : 2.34083 : stalled 2 times (last best: 2.33755)
+[2021-12-06 18:15:48] Ep. 1 : Up. 530000 : Sen. 491,666,059 : Cost 2.59094930 : Time 6500.08s : 31819.21 words/s : gNorm 0.7519
+[2021-12-06 18:15:48] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 18:15:52] Saving Adam parameters
+[2021-12-06 18:15:53] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 18:16:02] [valid] Ep. 1 : Up. 530000 : perplexity : 2.34335 : stalled 3 times (last best: 2.33755)
+[2021-12-06 20:04:08] Ep. 1 : Up. 540000 : Sen. 501,485,749 : Cost 2.59421277 : Time 6499.42s : 31840.52 words/s : gNorm 0.8152
+[2021-12-06 20:04:08] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 20:04:11] Saving Adam parameters
+[2021-12-06 20:04:12] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 20:04:29] [valid] Ep. 1 : Up. 540000 : perplexity : 2.3448 : stalled 4 times (last best: 2.33755)
+[2021-12-06 21:52:40] Ep. 1 : Up. 550000 : Sen. 511,360,950 : Cost 2.58738351 : Time 6511.60s : 31797.17 words/s : gNorm 0.8519
+[2021-12-06 21:52:40] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 21:52:44] Saving Adam parameters
+[2021-12-06 21:52:45] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 21:53:00] [valid] Ep. 1 : Up. 550000 : perplexity : 2.34299 : stalled 5 times (last best: 2.33755)
+[2021-12-06 23:41:17] Ep. 1 : Up. 560000 : Sen. 521,282,707 : Cost 2.57835102 : Time 6517.16s : 31829.81 words/s : gNorm 0.6170
+[2021-12-06 23:41:17] Saving model weights and runtime parameters to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz
+[2021-12-06 23:41:22] Saving Adam parameters
+[2021-12-06 23:41:23] [training] Saving training checkpoint to /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz and /users/tiedeman/research/OPUS-MT-train/work-tatoeba/eng-deu/opusTCv20210807+bt.spm32k-spm32k.transformer-big.model1.npz.optimizer.npz
+[2021-12-06 23:41:33] [valid] Ep. 1 : Up. 560000 : perplexity : 2.34046 : stalled 6 times (last best: 2.33755)

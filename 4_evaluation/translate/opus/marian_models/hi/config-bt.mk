@@ -1,0 +1,20 @@
+# eng-hin training data bigger than 1000000
+GPUJOB_HPC_MEM = 8g
+GPUJOB_SUBMIT  = 
+MARIAN_VALID_FREQ = 2500
+BPESIZE    = 32000
+DEVSIZE    = 5000
+TESTSIZE   = 10000
+DEVMINSIZE = 200
+SRCLANGS    = eng
+TRGLANGS    = hin
+SKIPLANGS   = 
+LANGPAIRSTR = eng-hin
+DATASET     = opus+bt
+TRAINSET    = Tatoeba-train
+DEVSET      = Tatoeba-dev
+TESTSET     = Tatoeba-test
+PRE         = simple
+SUBWORDS    = spm
+MAX_OVER_SAMPLING = 50
+USE_REST_DEVDATA  = 0

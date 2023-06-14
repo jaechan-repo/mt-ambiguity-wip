@@ -1,0 +1,44 @@
+[2022-07-18 22:36:50] [valid] Ep. 1 : Up. 10000 : perplexity : 7.36416 : new best
+[2022-07-19 00:44:47] [valid] Ep. 1 : Up. 20000 : perplexity : 4.04134 : new best
+[2022-07-19 02:52:37] [valid] Ep. 1 : Up. 30000 : perplexity : 3.33847 : new best
+[2022-07-19 05:00:15] [valid] Ep. 1 : Up. 40000 : perplexity : 3.25252 : new best
+[2022-07-19 07:07:52] [valid] Ep. 2 : Up. 50000 : perplexity : 3.03522 : new best
+[2022-07-19 09:15:43] [valid] Ep. 2 : Up. 60000 : perplexity : 2.9095 : new best
+[2022-07-19 11:23:45] [valid] Ep. 2 : Up. 70000 : perplexity : 2.84566 : new best
+[2022-07-19 13:31:11] [valid] Ep. 2 : Up. 80000 : perplexity : 2.8826 : stalled 1 times (last best: 2.84566)
+[2022-07-19 15:38:45] [valid] Ep. 3 : Up. 90000 : perplexity : 2.88449 : stalled 2 times (last best: 2.84566)
+[2022-07-19 17:46:48] [valid] Ep. 3 : Up. 100000 : perplexity : 2.79084 : new best
+[2022-07-19 19:55:06] [valid] Ep. 3 : Up. 110000 : perplexity : 2.74123 : new best
+[2022-07-19 22:02:45] [valid] Ep. 3 : Up. 120000 : perplexity : 2.75143 : stalled 1 times (last best: 2.74123)
+[2022-07-20 00:09:56] [valid] Ep. 3 : Up. 130000 : perplexity : 2.8213 : stalled 2 times (last best: 2.74123)
+[2022-07-20 02:17:50] [valid] Ep. 4 : Up. 140000 : perplexity : 2.7505 : stalled 3 times (last best: 2.74123)
+[2022-07-20 04:25:29] [valid] Ep. 4 : Up. 150000 : perplexity : 2.69815 : new best
+[2022-07-20 06:33:21] [valid] Ep. 4 : Up. 160000 : perplexity : 2.67654 : new best
+[2022-07-20 08:40:45] [valid] Ep. 4 : Up. 170000 : perplexity : 2.75855 : stalled 1 times (last best: 2.67654)
+[2022-07-20 10:48:49] [valid] Ep. 5 : Up. 180000 : perplexity : 2.74562 : stalled 2 times (last best: 2.67654)
+[2022-07-20 12:57:16] [valid] Ep. 5 : Up. 190000 : perplexity : 2.67942 : stalled 3 times (last best: 2.67654)
+[2022-07-20 15:05:45] [valid] Ep. 5 : Up. 200000 : perplexity : 2.65078 : new best
+[2022-07-20 17:13:49] [valid] Ep. 5 : Up. 210000 : perplexity : 2.69662 : stalled 1 times (last best: 2.65078)
+[2022-07-20 19:21:56] [valid] Ep. 6 : Up. 220000 : perplexity : 2.75855 : stalled 2 times (last best: 2.65078)
+[2022-07-20 21:30:18] [valid] Ep. 6 : Up. 230000 : perplexity : 2.67315 : stalled 3 times (last best: 2.65078)
+[2022-07-20 23:38:29] [valid] Ep. 6 : Up. 240000 : perplexity : 2.63757 : new best
+[2022-07-21 01:46:27] [valid] Ep. 6 : Up. 250000 : perplexity : 2.64212 : stalled 1 times (last best: 2.63757)
+[2022-07-21 03:52:37] [valid] Ep. 6 : Up. 260000 : perplexity : 2.72945 : stalled 2 times (last best: 2.63757)
+[2022-07-21 05:59:07] [valid] Ep. 7 : Up. 270000 : perplexity : 2.68892 : stalled 3 times (last best: 2.63757)
+[2022-07-21 08:05:33] [valid] Ep. 7 : Up. 280000 : perplexity : 2.64066 : stalled 4 times (last best: 2.63757)
+[2022-07-21 10:12:13] [valid] Ep. 7 : Up. 290000 : perplexity : 2.6187 : new best
+[2022-07-21 12:18:30] [valid] Ep. 7 : Up. 300000 : perplexity : 2.68842 : stalled 1 times (last best: 2.6187)
+[2022-07-21 14:24:40] [valid] Ep. 8 : Up. 310000 : perplexity : 2.71338 : stalled 2 times (last best: 2.6187)
+[2022-07-21 16:31:30] [valid] Ep. 8 : Up. 320000 : perplexity : 2.64029 : stalled 3 times (last best: 2.6187)
+[2022-07-21 18:38:07] [valid] Ep. 8 : Up. 330000 : perplexity : 2.61447 : new best
+[2022-07-22 07:10:08] [valid] Ep. 9 : Up. 340000 : perplexity : 2.60971 : new best
+[2022-07-22 10:47:44] [valid] Ep. 9 : Up. 350000 : perplexity : 2.65418 : stalled 1 times (last best: 2.60971)
+[2022-07-22 14:25:20] [valid] Ep. 10 : Up. 360000 : perplexity : 2.63285 : stalled 2 times (last best: 2.60971)
+[2022-07-22 18:03:30] [valid] Ep. 10 : Up. 370000 : perplexity : 2.63642 : stalled 3 times (last best: 2.60971)
+[2022-07-22 21:41:15] [valid] Ep. 11 : Up. 380000 : perplexity : 2.65096 : stalled 4 times (last best: 2.60971)
+[2022-07-23 01:19:11] [valid] Ep. 11 : Up. 390000 : perplexity : 2.6142 : stalled 5 times (last best: 2.60971)
+[2022-07-23 04:56:28] [valid] Ep. 12 : Up. 400000 : perplexity : 2.66857 : stalled 6 times (last best: 2.60971)
+[2022-07-23 08:34:22] [valid] Ep. 12 : Up. 410000 : perplexity : 2.61374 : stalled 7 times (last best: 2.60971)
+[2022-07-23 12:11:20] [valid] Ep. 12 : Up. 420000 : perplexity : 2.67683 : stalled 8 times (last best: 2.60971)
+[2022-07-23 15:49:19] [valid] Ep. 13 : Up. 430000 : perplexity : 2.62174 : stalled 9 times (last best: 2.60971)
+[2022-07-23 19:26:52] [valid] Ep. 13 : Up. 440000 : perplexity : 2.65794 : stalled 10 times (last best: 2.60971)

@@ -1,0 +1,12 @@
+relative-paths: true
+models:
+  - opus+bt.spm12k-spm12k.transformer-align.model1.npz.best-perplexity.npz
+vocabs:
+  - opus+bt.spm12k-spm12k.vocab.yml
+  - opus+bt.spm12k-spm12k.vocab.yml
+beam-size: 6
+normalize: 1
+word-penalty: 0
+mini-batch: 1
+maxi-batch: 1
+maxi-batch-sort: src

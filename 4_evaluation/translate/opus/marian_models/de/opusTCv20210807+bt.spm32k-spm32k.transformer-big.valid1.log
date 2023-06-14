@@ -1,0 +1,56 @@
+[2021-12-01 16:52:50] [valid] Ep. 1 : Up. 10000 : perplexity : 4.62405 : new best
+[2021-12-01 18:42:19] [valid] Ep. 1 : Up. 20000 : perplexity : 3.17074 : new best
+[2021-12-01 20:31:43] [valid] Ep. 1 : Up. 30000 : perplexity : 2.89787 : new best
+[2021-12-01 22:21:07] [valid] Ep. 1 : Up. 40000 : perplexity : 2.76201 : new best
+[2021-12-02 00:10:29] [valid] Ep. 1 : Up. 50000 : perplexity : 2.68948 : new best
+[2021-12-02 01:59:57] [valid] Ep. 1 : Up. 60000 : perplexity : 2.64063 : new best
+[2021-12-02 03:49:30] [valid] Ep. 1 : Up. 70000 : perplexity : 2.60022 : new best
+[2021-12-02 05:38:44] [valid] Ep. 1 : Up. 80000 : perplexity : 2.56641 : new best
+[2021-12-02 07:28:03] [valid] Ep. 1 : Up. 90000 : perplexity : 2.53931 : new best
+[2021-12-02 09:17:19] [valid] Ep. 1 : Up. 100000 : perplexity : 2.51865 : new best
+[2021-12-02 11:06:38] [valid] Ep. 1 : Up. 110000 : perplexity : 2.50066 : new best
+[2021-12-02 12:55:59] [valid] Ep. 1 : Up. 120000 : perplexity : 2.48827 : new best
+[2021-12-02 14:45:20] [valid] Ep. 1 : Up. 130000 : perplexity : 2.47352 : new best
+[2021-12-02 16:34:59] [valid] Ep. 1 : Up. 140000 : perplexity : 2.46277 : new best
+[2021-12-02 18:24:13] [valid] Ep. 1 : Up. 150000 : perplexity : 2.4536 : new best
+[2021-12-02 20:13:45] [valid] Ep. 1 : Up. 160000 : perplexity : 2.44542 : new best
+[2021-12-02 22:03:11] [valid] Ep. 1 : Up. 170000 : perplexity : 2.43751 : new best
+[2021-12-02 23:52:31] [valid] Ep. 1 : Up. 180000 : perplexity : 2.42974 : new best
+[2021-12-03 01:41:53] [valid] Ep. 1 : Up. 190000 : perplexity : 2.42317 : new best
+[2021-12-03 17:40:24] [valid] Ep. 1 : Up. 200000 : perplexity : 2.41677 : new best
+[2021-12-03 19:30:07] [valid] Ep. 1 : Up. 210000 : perplexity : 2.41299 : new best
+[2021-12-03 21:19:37] [valid] Ep. 1 : Up. 220000 : perplexity : 2.40513 : new best
+[2021-12-03 23:09:03] [valid] Ep. 1 : Up. 230000 : perplexity : 2.39959 : new best
+[2021-12-04 00:58:20] [valid] Ep. 1 : Up. 240000 : perplexity : 2.39771 : new best
+[2021-12-04 02:47:43] [valid] Ep. 1 : Up. 250000 : perplexity : 2.39285 : new best
+[2021-12-04 04:37:02] [valid] Ep. 1 : Up. 260000 : perplexity : 2.38914 : new best
+[2021-12-04 06:26:43] [valid] Ep. 1 : Up. 270000 : perplexity : 2.38545 : new best
+[2021-12-04 08:15:58] [valid] Ep. 1 : Up. 280000 : perplexity : 2.38241 : new best
+[2021-12-04 10:05:13] [valid] Ep. 1 : Up. 290000 : perplexity : 2.37948 : new best
+[2021-12-04 11:54:23] [valid] Ep. 1 : Up. 300000 : perplexity : 2.37573 : new best
+[2021-12-04 13:43:34] [valid] Ep. 1 : Up. 310000 : perplexity : 2.37134 : new best
+[2021-12-04 15:32:47] [valid] Ep. 1 : Up. 320000 : perplexity : 2.36864 : new best
+[2021-12-04 17:22:00] [valid] Ep. 1 : Up. 330000 : perplexity : 2.36621 : new best
+[2021-12-04 19:11:32] [valid] Ep. 1 : Up. 340000 : perplexity : 2.36401 : new best
+[2021-12-04 21:00:49] [valid] Ep. 1 : Up. 350000 : perplexity : 2.36358 : new best
+[2021-12-04 22:50:04] [valid] Ep. 1 : Up. 360000 : perplexity : 2.36217 : new best
+[2021-12-05 00:39:08] [valid] Ep. 1 : Up. 370000 : perplexity : 2.36086 : new best
+[2021-12-05 02:28:18] [valid] Ep. 1 : Up. 380000 : perplexity : 2.35793 : new best
+[2021-12-05 16:54:50] [valid] Ep. 1 : Up. 390000 : perplexity : 2.35314 : new best
+[2021-12-05 18:43:23] [valid] Ep. 1 : Up. 400000 : perplexity : 2.35098 : new best
+[2021-12-05 20:32:10] [valid] Ep. 1 : Up. 410000 : perplexity : 2.35121 : stalled 1 times (last best: 2.35098)
+[2021-12-05 22:21:06] [valid] Ep. 1 : Up. 420000 : perplexity : 2.34825 : new best
+[2021-12-06 00:09:43] [valid] Ep. 1 : Up. 430000 : perplexity : 2.34765 : new best
+[2021-12-06 01:58:38] [valid] Ep. 1 : Up. 440000 : perplexity : 2.3442 : new best
+[2021-12-06 03:47:17] [valid] Ep. 1 : Up. 450000 : perplexity : 2.34198 : new best
+[2021-12-06 05:36:09] [valid] Ep. 1 : Up. 460000 : perplexity : 2.34093 : new best
+[2021-12-06 07:24:44] [valid] Ep. 1 : Up. 470000 : perplexity : 2.33995 : new best
+[2021-12-06 09:13:39] [valid] Ep. 1 : Up. 480000 : perplexity : 2.33989 : new best
+[2021-12-06 11:02:16] [valid] Ep. 1 : Up. 490000 : perplexity : 2.3377 : new best
+[2021-12-06 12:51:03] [valid] Ep. 1 : Up. 500000 : perplexity : 2.33755 : new best
+[2021-12-06 14:39:34] [valid] Ep. 1 : Up. 510000 : perplexity : 2.33954 : stalled 1 times (last best: 2.33755)
+[2021-12-06 16:27:44] [valid] Ep. 1 : Up. 520000 : perplexity : 2.34083 : stalled 2 times (last best: 2.33755)
+[2021-12-06 18:16:02] [valid] Ep. 1 : Up. 530000 : perplexity : 2.34335 : stalled 3 times (last best: 2.33755)
+[2021-12-06 20:04:29] [valid] Ep. 1 : Up. 540000 : perplexity : 2.3448 : stalled 4 times (last best: 2.33755)
+[2021-12-06 21:53:00] [valid] Ep. 1 : Up. 550000 : perplexity : 2.34299 : stalled 5 times (last best: 2.33755)
+[2021-12-06 23:41:33] [valid] Ep. 1 : Up. 560000 : perplexity : 2.34046 : stalled 6 times (last best: 2.33755)

@@ -1,0 +1,21 @@
+# eng-zho training data bigger than 10000000
+GPUJOB_HPC_MEM = 16g
+GPUJOB_SUBMIT  = -gpu01
+DEVSIZE    = 5000
+TESTSIZE   = 10000
+DEVMINSIZE = 200
+SRCLANGS    = eng
+TRGLANGS    = cjy_Hans cjy_Hant cmn cmn_Hans cmn_Hant gan hak hak_Hani hsn_Hani lzh lzh_Hans nan wuu yue_Hans yue_Hant
+SKIPLANGS   = 
+LANGPAIRSTR = eng-zho
+DATASET     = opusTCv20210807+bt
+TRAINSET    = Tatoeba-train-v2021-08-07
+DEVSET      = Tatoeba-dev-v2021-08-07
+TESTSET     = Tatoeba-test-v2021-08-07
+PRE         = simple
+SUBWORDS    = spm
+SHUFFLE_DATA      = 0
+FIT_DEVDATA_SIZE  = 1000
+MAX_OVER_SAMPLING = 50
+USE_REST_DEVDATA  = 0
+USE_TARGET_LABELS = 1

@@ -1,0 +1,22 @@
+# eng-deu training data bigger than 10000000
+GPUJOB_HPC_MEM = 32g
+# GPUJOB_SUBMIT  = -multigpu
+GPUJOB_SUBMIT  = -gpu01
+BPESIZE    = 32000
+DEVSIZE    = 5000
+TESTSIZE   = 10000
+DEVMINSIZE = 200
+SRCBPESIZE  = 32000
+TRGBPESIZE  = 32000
+SRCLANGS    = eng
+TRGLANGS    = deu
+SKIPLANGS   = 
+LANGPAIRSTR = eng-deu
+DATASET     = opus+bt
+TRAINSET    = Tatoeba-train
+DEVSET      = Tatoeba-dev
+TESTSET     = Tatoeba-test
+PRE         = simple
+SUBWORDS    = spm
+MAX_OVER_SAMPLING = 50
+USE_REST_DEVDATA  = 0

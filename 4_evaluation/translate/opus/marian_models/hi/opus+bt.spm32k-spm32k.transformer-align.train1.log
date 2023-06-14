@@ -1,0 +1,771 @@
+[2021-03-26 12:22:57] [marian] Marian v1.10.0 6f6d484 2021-02-06 15:35:16 -0800
+[2021-03-26 12:22:57] [marian] Running on r16g05.bullx as process 110237 with command line:
+[2021-03-26 12:22:57] [marian] /projappl/project_2001194/marian/build/marian --guided-alignment /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.spm32k-spm32k.src-trg.alg.gz --early-stopping 15 --valid-freq 2500 --valid-sets /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/val/Tatoeba-dev.src.spm32k /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/val/Tatoeba-dev.trg.spm32k --valid-metrics perplexity --valid-mini-batch 16 --valid-log /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.valid1.log --beam-size 12 --normalize 1 --allow-unk --overwrite --keep-best --model /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz --type transformer --train-sets /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.src.clean.spm32k.gz /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.trg.clean.spm32k.gz --max-length 500 --vocabs /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml --mini-batch-fit -w 24000 --maxi-batch 500 --save-freq 2500 --disp-freq 2500 --log /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.train1.log --enc-depth 6 --dec-depth 6 --transformer-heads 8 --transformer-postprocess-emb d --transformer-postprocess dan --transformer-dropout 0.1 --label-smoothing 0.1 --learn-rate 0.0003 --lr-warmup 16000 --lr-decay-inv-sqrt 16000 --lr-report --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 --fp16 --tied-embeddings-all --devices 0 --sync-sgd --seed 1111 --sqlite --tempdir /run/nvme/job_5331263/data --exponential-smoothing
+[2021-03-26 12:22:57] [config] after: 0e
+[2021-03-26 12:22:57] [config] after-batches: 0
+[2021-03-26 12:22:57] [config] after-epochs: 0
+[2021-03-26 12:22:57] [config] all-caps-every: 0
+[2021-03-26 12:22:57] [config] allow-unk: true
+[2021-03-26 12:22:57] [config] authors: false
+[2021-03-26 12:22:57] [config] beam-size: 12
+[2021-03-26 12:22:57] [config] bert-class-symbol: "[CLS]"
+[2021-03-26 12:22:57] [config] bert-mask-symbol: "[MASK]"
+[2021-03-26 12:22:57] [config] bert-masking-fraction: 0.15
+[2021-03-26 12:22:57] [config] bert-sep-symbol: "[SEP]"
+[2021-03-26 12:22:57] [config] bert-train-type-embeddings: true
+[2021-03-26 12:22:57] [config] bert-type-vocab-size: 2
+[2021-03-26 12:22:57] [config] build-info: ""
+[2021-03-26 12:22:57] [config] cite: false
+[2021-03-26 12:22:57] [config] clip-norm: 5
+[2021-03-26 12:22:57] [config] cost-scaling:
+[2021-03-26 12:22:57] [config]   - 7
+[2021-03-26 12:22:57] [config]   - 2000
+[2021-03-26 12:22:57] [config]   - 2
+[2021-03-26 12:22:57] [config]   - 0.05
+[2021-03-26 12:22:57] [config]   - 10
+[2021-03-26 12:22:57] [config]   - 1
+[2021-03-26 12:22:57] [config] cost-type: ce-sum
+[2021-03-26 12:22:57] [config] cpu-threads: 0
+[2021-03-26 12:22:57] [config] data-weighting: ""
+[2021-03-26 12:22:57] [config] data-weighting-type: sentence
+[2021-03-26 12:22:57] [config] dec-cell: gru
+[2021-03-26 12:22:57] [config] dec-cell-base-depth: 2
+[2021-03-26 12:22:57] [config] dec-cell-high-depth: 1
+[2021-03-26 12:22:57] [config] dec-depth: 6
+[2021-03-26 12:22:57] [config] devices:
+[2021-03-26 12:22:57] [config]   - 0
+[2021-03-26 12:22:57] [config] dim-emb: 512
+[2021-03-26 12:22:57] [config] dim-rnn: 1024
+[2021-03-26 12:22:57] [config] dim-vocabs:
+[2021-03-26 12:22:57] [config]   - 61949
+[2021-03-26 12:22:57] [config]   - 61949
+[2021-03-26 12:22:57] [config] disp-first: 0
+[2021-03-26 12:22:57] [config] disp-freq: 2500
+[2021-03-26 12:22:57] [config] disp-label-counts: true
+[2021-03-26 12:22:57] [config] dropout-rnn: 0
+[2021-03-26 12:22:57] [config] dropout-src: 0
+[2021-03-26 12:22:57] [config] dropout-trg: 0
+[2021-03-26 12:22:57] [config] dump-config: ""
+[2021-03-26 12:22:57] [config] early-stopping: 15
+[2021-03-26 12:22:57] [config] embedding-fix-src: false
+[2021-03-26 12:22:57] [config] embedding-fix-trg: false
+[2021-03-26 12:22:57] [config] embedding-normalization: false
+[2021-03-26 12:22:57] [config] embedding-vectors:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] enc-cell: gru
+[2021-03-26 12:22:57] [config] enc-cell-depth: 1
+[2021-03-26 12:22:57] [config] enc-depth: 6
+[2021-03-26 12:22:57] [config] enc-type: bidirectional
+[2021-03-26 12:22:57] [config] english-title-case-every: 0
+[2021-03-26 12:22:57] [config] exponential-smoothing: 0.0001
+[2021-03-26 12:22:57] [config] factor-weight: 1
+[2021-03-26 12:22:57] [config] grad-dropping-momentum: 0
+[2021-03-26 12:22:57] [config] grad-dropping-rate: 0
+[2021-03-26 12:22:57] [config] grad-dropping-warmup: 100
+[2021-03-26 12:22:57] [config] gradient-checkpointing: false
+[2021-03-26 12:22:57] [config] guided-alignment: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-03-26 12:22:57] [config] guided-alignment-cost: mse
+[2021-03-26 12:22:57] [config] guided-alignment-weight: 0.1
+[2021-03-26 12:22:57] [config] ignore-model-config: false
+[2021-03-26 12:22:57] [config] input-types:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] interpolate-env-vars: false
+[2021-03-26 12:22:57] [config] keep-best: true
+[2021-03-26 12:22:57] [config] label-smoothing: 0.1
+[2021-03-26 12:22:57] [config] layer-normalization: false
+[2021-03-26 12:22:57] [config] learn-rate: 0.0003
+[2021-03-26 12:22:57] [config] lemma-dim-emb: 0
+[2021-03-26 12:22:57] [config] log: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.train1.log
+[2021-03-26 12:22:57] [config] log-level: info
+[2021-03-26 12:22:57] [config] log-time-zone: ""
+[2021-03-26 12:22:57] [config] logical-epoch:
+[2021-03-26 12:22:57] [config]   - 1e
+[2021-03-26 12:22:57] [config]   - 0
+[2021-03-26 12:22:57] [config] lr-decay: 0
+[2021-03-26 12:22:57] [config] lr-decay-freq: 50000
+[2021-03-26 12:22:57] [config] lr-decay-inv-sqrt:
+[2021-03-26 12:22:57] [config]   - 16000
+[2021-03-26 12:22:57] [config] lr-decay-repeat-warmup: false
+[2021-03-26 12:22:57] [config] lr-decay-reset-optimizer: false
+[2021-03-26 12:22:57] [config] lr-decay-start:
+[2021-03-26 12:22:57] [config]   - 10
+[2021-03-26 12:22:57] [config]   - 1
+[2021-03-26 12:22:57] [config] lr-decay-strategy: epoch+stalled
+[2021-03-26 12:22:57] [config] lr-report: true
+[2021-03-26 12:22:57] [config] lr-warmup: 16000
+[2021-03-26 12:22:57] [config] lr-warmup-at-reload: false
+[2021-03-26 12:22:57] [config] lr-warmup-cycle: false
+[2021-03-26 12:22:57] [config] lr-warmup-start-rate: 0
+[2021-03-26 12:22:57] [config] max-length: 500
+[2021-03-26 12:22:57] [config] max-length-crop: false
+[2021-03-26 12:22:57] [config] max-length-factor: 3
+[2021-03-26 12:22:57] [config] maxi-batch: 500
+[2021-03-26 12:22:57] [config] maxi-batch-sort: trg
+[2021-03-26 12:22:57] [config] mini-batch: 64
+[2021-03-26 12:22:57] [config] mini-batch-fit: true
+[2021-03-26 12:22:57] [config] mini-batch-fit-step: 10
+[2021-03-26 12:22:57] [config] mini-batch-track-lr: false
+[2021-03-26 12:22:57] [config] mini-batch-warmup: 0
+[2021-03-26 12:22:57] [config] mini-batch-words: 0
+[2021-03-26 12:22:57] [config] mini-batch-words-ref: 0
+[2021-03-26 12:22:57] [config] model: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 12:22:57] [config] multi-loss-type: sum
+[2021-03-26 12:22:57] [config] multi-node: false
+[2021-03-26 12:22:57] [config] multi-node-overlap: true
+[2021-03-26 12:22:57] [config] n-best: false
+[2021-03-26 12:22:57] [config] no-nccl: false
+[2021-03-26 12:22:57] [config] no-reload: false
+[2021-03-26 12:22:57] [config] no-restore-corpus: false
+[2021-03-26 12:22:57] [config] normalize: 1
+[2021-03-26 12:22:57] [config] normalize-gradient: false
+[2021-03-26 12:22:57] [config] num-devices: 0
+[2021-03-26 12:22:57] [config] optimizer: adam
+[2021-03-26 12:22:57] [config] optimizer-delay: 1
+[2021-03-26 12:22:57] [config] optimizer-params:
+[2021-03-26 12:22:57] [config]   - 0.9
+[2021-03-26 12:22:57] [config]   - 0.98
+[2021-03-26 12:22:57] [config]   - 1e-09
+[2021-03-26 12:22:57] [config] output-omit-bias: false
+[2021-03-26 12:22:57] [config] overwrite: true
+[2021-03-26 12:22:57] [config] precision:
+[2021-03-26 12:22:57] [config]   - float16
+[2021-03-26 12:22:57] [config]   - float32
+[2021-03-26 12:22:57] [config]   - float32
+[2021-03-26 12:22:57] [config] pretrained-model: ""
+[2021-03-26 12:22:57] [config] quantize-biases: false
+[2021-03-26 12:22:57] [config] quantize-bits: 0
+[2021-03-26 12:22:57] [config] quantize-log-based: false
+[2021-03-26 12:22:57] [config] quantize-optimization-steps: 0
+[2021-03-26 12:22:57] [config] quiet: false
+[2021-03-26 12:22:57] [config] quiet-translation: false
+[2021-03-26 12:22:57] [config] relative-paths: false
+[2021-03-26 12:22:57] [config] right-left: false
+[2021-03-26 12:22:57] [config] save-freq: 2500
+[2021-03-26 12:22:57] [config] seed: 1111
+[2021-03-26 12:22:57] [config] sentencepiece-alphas:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] sentencepiece-max-lines: 2000000
+[2021-03-26 12:22:57] [config] sentencepiece-options: ""
+[2021-03-26 12:22:57] [config] shuffle: data
+[2021-03-26 12:22:57] [config] shuffle-in-ram: false
+[2021-03-26 12:22:57] [config] sigterm: save-and-exit
+[2021-03-26 12:22:57] [config] skip: false
+[2021-03-26 12:22:57] [config] sqlite: temporary
+[2021-03-26 12:22:57] [config] sqlite-drop: false
+[2021-03-26 12:22:57] [config] sync-sgd: true
+[2021-03-26 12:22:57] [config] tempdir: /run/nvme/job_5331263/data
+[2021-03-26 12:22:57] [config] tied-embeddings: false
+[2021-03-26 12:22:57] [config] tied-embeddings-all: true
+[2021-03-26 12:22:57] [config] tied-embeddings-src: false
+[2021-03-26 12:22:57] [config] train-embedder-rank:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] train-sets:
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.src.clean.spm32k.gz
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.trg.clean.spm32k.gz
+[2021-03-26 12:22:57] [config] transformer-aan-activation: swish
+[2021-03-26 12:22:57] [config] transformer-aan-depth: 2
+[2021-03-26 12:22:57] [config] transformer-aan-nogate: false
+[2021-03-26 12:22:57] [config] transformer-decoder-autoreg: self-attention
+[2021-03-26 12:22:57] [config] transformer-depth-scaling: false
+[2021-03-26 12:22:57] [config] transformer-dim-aan: 2048
+[2021-03-26 12:22:57] [config] transformer-dim-ffn: 2048
+[2021-03-26 12:22:57] [config] transformer-dropout: 0.1
+[2021-03-26 12:22:57] [config] transformer-dropout-attention: 0
+[2021-03-26 12:22:57] [config] transformer-dropout-ffn: 0
+[2021-03-26 12:22:57] [config] transformer-ffn-activation: swish
+[2021-03-26 12:22:57] [config] transformer-ffn-depth: 2
+[2021-03-26 12:22:57] [config] transformer-guided-alignment-layer: last
+[2021-03-26 12:22:57] [config] transformer-heads: 8
+[2021-03-26 12:22:57] [config] transformer-no-projection: false
+[2021-03-26 12:22:57] [config] transformer-pool: false
+[2021-03-26 12:22:57] [config] transformer-postprocess: dan
+[2021-03-26 12:22:57] [config] transformer-postprocess-emb: d
+[2021-03-26 12:22:57] [config] transformer-postprocess-top: ""
+[2021-03-26 12:22:57] [config] transformer-preprocess: ""
+[2021-03-26 12:22:57] [config] transformer-tied-layers:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] transformer-train-position-embeddings: false
+[2021-03-26 12:22:57] [config] tsv: false
+[2021-03-26 12:22:57] [config] tsv-fields: 0
+[2021-03-26 12:22:57] [config] type: transformer
+[2021-03-26 12:22:57] [config] ulr: false
+[2021-03-26 12:22:57] [config] ulr-dim-emb: 0
+[2021-03-26 12:22:57] [config] ulr-dropout: 0
+[2021-03-26 12:22:57] [config] ulr-keys-vectors: ""
+[2021-03-26 12:22:57] [config] ulr-query-vectors: ""
+[2021-03-26 12:22:57] [config] ulr-softmax-temperature: 1
+[2021-03-26 12:22:57] [config] ulr-trainable-transformation: false
+[2021-03-26 12:22:57] [config] unlikelihood-loss: false
+[2021-03-26 12:22:57] [config] valid-freq: 2500
+[2021-03-26 12:22:57] [config] valid-log: /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.valid1.log
+[2021-03-26 12:22:57] [config] valid-max-length: 1000
+[2021-03-26 12:22:57] [config] valid-metrics:
+[2021-03-26 12:22:57] [config]   - perplexity
+[2021-03-26 12:22:57] [config] valid-mini-batch: 16
+[2021-03-26 12:22:57] [config] valid-reset-stalled: false
+[2021-03-26 12:22:57] [config] valid-script-args:
+[2021-03-26 12:22:57] [config]   []
+[2021-03-26 12:22:57] [config] valid-script-path: ""
+[2021-03-26 12:22:57] [config] valid-sets:
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/val/Tatoeba-dev.src.spm32k
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/val/Tatoeba-dev.trg.spm32k
+[2021-03-26 12:22:57] [config] valid-translation-output: ""
+[2021-03-26 12:22:57] [config] version: v1.9.1 95c65bb 2020-03-17 03:30:49 +0000
+[2021-03-26 12:22:57] [config] vocabs:
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-26 12:22:57] [config]   - /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-26 12:22:57] [config] word-penalty: 0
+[2021-03-26 12:22:57] [config] word-scores: false
+[2021-03-26 12:22:57] [config] workspace: 24000
+[2021-03-26 12:22:57] [config] Loaded model has been created with Marian v1.9.1 95c65bb 2020-03-17 03:30:49 +0000, will be overwritten with current version v1.10.0 6f6d484 2021-02-06 15:35:16 -0800 at saving
+[2021-03-26 12:22:57] Using synchronous SGD
+[2021-03-26 12:22:57] [data] Loading vocabulary from JSON/Yaml file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-26 12:22:58] [data] Setting vocabulary size for input 0 to 61,949
+[2021-03-26 12:22:58] [data] Loading vocabulary from JSON/Yaml file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.vocab.yml
+[2021-03-26 12:22:58] [data] Setting vocabulary size for input 1 to 61,949
+[2021-03-26 12:22:58] [data] Using word alignments from file /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/train/opus+bt.spm32k-spm32k.src-trg.alg.gz
+[2021-03-26 12:22:58] [sqlite] Creating temporary database in /run/nvme/job_5331263/data
+[2021-03-26 12:23:01] [sqlite] Inserted 1000000 lines
+[2021-03-26 12:23:05] [sqlite] Inserted 2000000 lines
+[2021-03-26 12:23:12] [sqlite] Inserted 4000000 lines
+[2021-03-26 12:23:12] [sqlite] Inserted 4187436 lines
+[2021-03-26 12:23:12] [sqlite] Creating primary index
+[2021-03-26 12:23:14] [comm] Compiled without MPI support. Running as a single process on r16g05.bullx
+[2021-03-26 12:23:14] [batching] Collecting statistics for batch fitting with step size 10
+[2021-03-26 12:23:15] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-03-26 12:23:15] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-03-26 12:23:16] [comm] NCCLCommunicator constructed successfully
+[2021-03-26 12:23:16] [training] Using 1 GPUs
+[2021-03-26 12:23:16] [logits] Applying loss function for 1 factor(s)
+[2021-03-26 12:23:16] [memory] Reserving 289 MB, device gpu0
+[2021-03-26 12:23:16] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2021-03-26 12:23:16] [memory] Reserving 289 MB, device gpu0
+[2021-03-26 12:26:04] [batching] Done. Typical MB size is 14,345 target words
+[2021-03-26 12:26:04] [memory] Extending reserved space to 24064 MB (device gpu0)
+[2021-03-26 12:26:05] [comm] Using NCCL 2.8.3 for GPU communication
+[2021-03-26 12:26:06] [comm] NCCLCommunicator constructed successfully
+[2021-03-26 12:26:06] [training] Using 1 GPUs
+[2021-03-26 12:26:06] Loading model from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 12:26:06] [training] Model reloaded from /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 12:26:06] Training started
+[2021-03-26 12:26:06] [sqlite] Selecting shuffled data
+[2021-03-26 12:26:13] [training] Batches are processed as 1 process(es) x 1 devices/process
+[2021-03-26 12:26:13] [memory] Reserving 289 MB, device gpu0
+[2021-03-26 12:26:13] [memory] Reserving 289 MB, device gpu0
+[2021-03-26 12:26:13] [memory] Reserving 289 MB, device gpu0
+[2021-03-26 12:26:13] [memory] Reserving 579 MB, device gpu0
+[2021-03-26 12:40:43] Ep. 1 : Up. 2500 : Sen. 674,652 : Cost 0.56486744 * 119,167,246 @ 2,910 after 119,167,246 : Time 878.64s : 16797.40 words/s : L.r. 4.6875e-05
+[2021-03-26 12:40:43] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 12:40:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 12:40:46] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 12:40:52] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 12:40:53] [valid] Ep. 1 : Up. 2500 : perplexity : 6.77958 : new best
+[2021-03-26 12:55:33] Ep. 1 : Up. 5000 : Sen. 1,357,962 : Cost 0.51253742 * 120,806,824 @ 3,075 after 239,974,070 : Time 890.35s : 16726.10 words/s : L.r. 9.3750e-05
+[2021-03-26 12:55:33] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 12:55:35] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 12:55:36] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 12:55:41] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 12:55:42] [valid] Ep. 1 : Up. 5000 : perplexity : 6.52221 : new best
+[2021-03-26 13:10:16] Ep. 1 : Up. 7500 : Sen. 2,035,070 : Cost 0.49826425 * 119,247,134 @ 3,025 after 359,221,204 : Time 882.45s : 16752.55 words/s : L.r. 1.4063e-04
+[2021-03-26 13:10:16] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 13:10:17] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 13:10:18] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 13:10:24] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 13:10:25] [valid] Ep. 1 : Up. 7500 : perplexity : 6.3732 : new best
+[2021-03-26 13:24:58] Ep. 1 : Up. 10000 : Sen. 2,712,951 : Cost 0.48982537 * 119,583,344 @ 8,323 after 478,804,548 : Time 882.70s : 16743.95 words/s : L.r. 1.8750e-04
+[2021-03-26 13:24:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 13:25:00] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 13:25:01] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 13:25:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 13:25:08] [valid] Ep. 1 : Up. 10000 : perplexity : 6.24541 : new best
+[2021-03-26 13:39:42] Ep. 1 : Up. 12500 : Sen. 3,391,146 : Cost 0.48600537 * 119,871,417 @ 5,888 after 598,675,965 : Time 883.90s : 16717.91 words/s : L.r. 2.3438e-04
+[2021-03-26 13:39:42] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 13:39:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 13:39:45] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 13:39:51] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 13:39:52] [valid] Ep. 1 : Up. 12500 : perplexity : 6.17506 : new best
+[2021-03-26 13:54:19] Ep. 1 : Up. 15000 : Sen. 4,062,326 : Cost 0.48260343 * 119,488,683 @ 9,509 after 718,164,648 : Time 877.08s : 16691.29 words/s : L.r. 2.8125e-04
+[2021-03-26 13:54:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 13:54:21] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 13:54:22] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 13:54:28] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 13:54:29] [valid] Ep. 1 : Up. 15000 : perplexity : 6.08799 : new best
+[2021-03-26 13:57:13] Seen 4187436 samples
+[2021-03-26 13:57:13] Starting data epoch 2 in logical epoch 2
+[2021-03-26 13:57:13] [sqlite] Selecting shuffled data
+[2021-03-26 14:09:11] Ep. 2 : Up. 17500 : Sen. 554,932 : Cost 0.48155534 * 120,118,315 @ 3,060 after 838,282,963 : Time 892.08s : 16586.83 words/s : L.r. 2.8685e-04
+[2021-03-26 14:09:11] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 14:09:13] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 14:09:14] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 14:09:20] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 14:09:21] [valid] Ep. 2 : Up. 17500 : perplexity : 6.03559 : new best
+[2021-03-26 14:23:56] Ep. 2 : Up. 20000 : Sen. 1,233,506 : Cost 0.48026097 * 119,554,442 @ 2,996 after 957,837,405 : Time 884.36s : 16755.89 words/s : L.r. 2.6833e-04
+[2021-03-26 14:23:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 14:23:57] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 14:23:58] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 14:24:04] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 14:24:05] [valid] Ep. 2 : Up. 20000 : perplexity : 5.98418 : new best
+[2021-03-26 14:38:39] Ep. 2 : Up. 22500 : Sen. 1,909,048 : Cost 0.46960238 * 120,327,689 @ 3,500 after 1,078,165,094 : Time 883.07s : 16675.08 words/s : L.r. 2.5298e-04
+[2021-03-26 14:38:39] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 14:38:40] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 14:38:42] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 14:38:47] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 14:38:48] [valid] Ep. 2 : Up. 22500 : perplexity : 5.92061 : new best
+[2021-03-26 14:53:24] Ep. 2 : Up. 25000 : Sen. 2,586,721 : Cost 0.47151783 * 119,841,144 @ 3,008 after 1,198,006,238 : Time 885.34s : 16771.85 words/s : L.r. 2.4000e-04
+[2021-03-26 14:53:24] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 14:53:26] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 14:53:27] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 14:53:33] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 14:53:34] [valid] Ep. 2 : Up. 25000 : perplexity : 5.87887 : new best
+[2021-03-26 15:08:07] Ep. 2 : Up. 27500 : Sen. 3,262,463 : Cost 0.46090028 * 120,626,812 @ 4,615 after 1,318,633,050 : Time 883.17s : 16686.91 words/s : L.r. 2.2883e-04
+[2021-03-26 15:08:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 15:08:09] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 15:08:10] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 15:08:17] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 15:08:18] [valid] Ep. 2 : Up. 27500 : perplexity : 5.83217 : new best
+[2021-03-26 15:22:49] Ep. 2 : Up. 30000 : Sen. 3,936,161 : Cost 0.45990664 * 119,977,733 @ 7,866 after 1,438,610,783 : Time 881.42s : 16685.23 words/s : L.r. 2.1909e-04
+[2021-03-26 15:22:49] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 15:22:50] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 15:22:52] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 15:22:57] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 15:22:58] [valid] Ep. 2 : Up. 30000 : perplexity : 5.78511 : new best
+[2021-03-26 15:28:22] Seen 4187436 samples
+[2021-03-26 15:28:22] Starting data epoch 3 in logical epoch 3
+[2021-03-26 15:28:22] [sqlite] Selecting shuffled data
+[2021-03-26 15:37:30] Ep. 3 : Up. 32500 : Sen. 418,279 : Cost 0.45473543 * 118,885,910 @ 4,813 after 1,557,496,693 : Time 880.94s : 16572.61 words/s : L.r. 2.1049e-04
+[2021-03-26 15:37:30] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 15:37:31] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 15:37:32] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 15:37:38] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 15:37:39] [valid] Ep. 3 : Up. 32500 : perplexity : 5.74989 : new best
+[2021-03-26 15:52:10] Ep. 3 : Up. 35000 : Sen. 1,092,914 : Cost 0.45338717 * 119,517,100 @ 10,032 after 1,677,013,793 : Time 880.19s : 16731.33 words/s : L.r. 2.0284e-04
+[2021-03-26 15:52:10] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 15:52:11] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 15:52:13] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 15:52:18] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 15:52:19] [valid] Ep. 3 : Up. 35000 : perplexity : 5.73448 : new best
+[2021-03-26 16:06:57] Ep. 3 : Up. 37500 : Sen. 1,775,158 : Cost 0.45684081 * 119,543,347 @ 12,600 after 1,796,557,140 : Time 886.65s : 16783.75 words/s : L.r. 1.9596e-04
+[2021-03-26 16:06:57] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 16:06:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 16:06:59] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 16:07:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 16:07:06] [valid] Ep. 3 : Up. 37500 : perplexity : 5.69802 : new best
+[2021-03-26 16:21:44] Ep. 3 : Up. 40000 : Sen. 2,455,929 : Cost 0.45057821 * 120,467,516 @ 3,220 after 1,917,024,656 : Time 887.70s : 16716.07 words/s : L.r. 1.8974e-04
+[2021-03-26 16:21:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 16:21:46] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 16:21:47] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 16:21:53] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 16:21:54] [valid] Ep. 3 : Up. 40000 : perplexity : 5.67262 : new best
+[2021-03-26 16:36:28] Ep. 3 : Up. 42500 : Sen. 3,131,526 : Cost 0.44614542 * 120,679,365 @ 2,856 after 2,037,704,021 : Time 883.90s : 16690.98 words/s : L.r. 1.8407e-04
+[2021-03-26 16:36:28] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 16:36:30] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 16:36:31] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 16:36:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 16:36:37] [valid] Ep. 3 : Up. 42500 : perplexity : 5.63084 : new best
+[2021-03-26 16:51:11] Ep. 3 : Up. 45000 : Sen. 3,807,587 : Cost 0.44812605 * 119,784,453 @ 2,596 after 2,157,488,474 : Time 882.49s : 16732.77 words/s : L.r. 1.7889e-04
+[2021-03-26 16:51:11] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 16:51:12] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 16:51:13] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 16:51:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 16:51:20] [valid] Ep. 3 : Up. 45000 : perplexity : 5.59345 : new best
+[2021-03-26 16:59:31] Seen 4187436 samples
+[2021-03-26 16:59:31] Starting data epoch 4 in logical epoch 4
+[2021-03-26 16:59:31] [sqlite] Selecting shuffled data
+[2021-03-26 17:05:56] Ep. 4 : Up. 47500 : Sen. 293,787 : Cost 0.44289613 * 119,711,733 @ 3,696 after 2,277,200,207 : Time 885.59s : 16587.87 words/s : L.r. 1.7411e-04
+[2021-03-26 17:05:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 17:05:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 17:05:59] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 17:06:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 17:06:05] [valid] Ep. 4 : Up. 47500 : perplexity : 5.56409 : new best
+[2021-03-26 17:20:44] Ep. 4 : Up. 50000 : Sen. 973,675 : Cost 0.44027224 * 121,102,975 @ 3,045 after 2,398,303,182 : Time 887.34s : 16758.37 words/s : L.r. 1.6971e-04
+[2021-03-26 17:20:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 17:20:45] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 17:20:46] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 17:20:52] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 17:20:53] [valid] Ep. 4 : Up. 50000 : perplexity : 5.55157 : new best
+[2021-03-26 17:35:24] Ep. 4 : Up. 52500 : Sen. 1,650,418 : Cost 0.44021758 * 119,918,871 @ 3,605 after 2,518,222,053 : Time 880.15s : 16738.74 words/s : L.r. 1.6562e-04
+[2021-03-26 17:35:24] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 17:35:25] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 17:35:27] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 17:35:33] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 17:35:34] [valid] Ep. 4 : Up. 52500 : perplexity : 5.54046 : new best
+[2021-03-26 17:50:05] Ep. 4 : Up. 55000 : Sen. 2,324,984 : Cost 0.44157538 * 119,815,093 @ 3,029 after 2,638,037,146 : Time 881.46s : 16764.02 words/s : L.r. 1.6181e-04
+[2021-03-26 17:50:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 17:50:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 17:50:08] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 17:50:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 17:50:14] [valid] Ep. 4 : Up. 55000 : perplexity : 5.5231 : new best
+[2021-03-26 18:04:47] Ep. 4 : Up. 57500 : Sen. 3,000,235 : Cost 0.44230849 * 119,173,336 @ 3,705 after 2,757,210,482 : Time 881.64s : 16733.73 words/s : L.r. 1.5825e-04
+[2021-03-26 18:04:47] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 18:04:48] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 18:04:50] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 18:04:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 18:04:57] [valid] Ep. 4 : Up. 57500 : perplexity : 5.48642 : new best
+[2021-03-26 18:19:28] Ep. 4 : Up. 60000 : Sen. 3,677,162 : Cost 0.43838885 * 119,713,137 @ 6,201 after 2,876,923,619 : Time 880.77s : 16695.33 words/s : L.r. 1.5492e-04
+[2021-03-26 18:19:28] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 18:19:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 18:19:30] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 18:19:36] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 18:19:37] [valid] Ep. 4 : Up. 60000 : perplexity : 5.48062 : new best
+[2021-03-26 18:30:35] Seen 4187436 samples
+[2021-03-26 18:30:35] Starting data epoch 5 in logical epoch 5
+[2021-03-26 18:30:35] [sqlite] Selecting shuffled data
+[2021-03-26 18:34:13] Ep. 5 : Up. 62500 : Sen. 161,751 : Cost 0.43760058 * 119,384,900 @ 5,536 after 2,996,308,519 : Time 885.15s : 16607.75 words/s : L.r. 1.5179e-04
+[2021-03-26 18:34:13] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 18:34:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 18:34:16] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 18:34:21] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 18:34:22] [valid] Ep. 5 : Up. 62500 : perplexity : 5.47144 : new best
+[2021-03-26 18:48:56] Ep. 5 : Up. 65000 : Sen. 842,198 : Cost 0.43617800 * 119,664,835 @ 5,474 after 3,115,973,354 : Time 882.86s : 16785.70 words/s : L.r. 1.4884e-04
+[2021-03-26 18:48:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 18:48:57] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 18:48:58] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 18:49:04] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 18:49:05] [valid] Ep. 5 : Up. 65000 : perplexity : 5.4669 : new best
+[2021-03-26 19:03:40] Ep. 5 : Up. 67500 : Sen. 1,521,022 : Cost 0.43407136 * 120,325,165 @ 3,393 after 3,236,298,519 : Time 884.47s : 16736.23 words/s : L.r. 1.4606e-04
+[2021-03-26 19:03:40] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 19:03:41] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 19:03:43] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 19:03:49] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 19:03:50] [valid] Ep. 5 : Up. 67500 : perplexity : 5.46303 : new best
+[2021-03-26 19:18:23] Ep. 5 : Up. 70000 : Sen. 2,196,471 : Cost 0.43439496 * 119,790,382 @ 3,145 after 3,356,088,901 : Time 882.72s : 16719.14 words/s : L.r. 1.4343e-04
+[2021-03-26 19:18:23] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 19:18:25] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 19:18:26] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 19:18:32] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 19:18:33] [valid] Ep. 5 : Up. 70000 : perplexity : 5.448 : new best
+[2021-03-26 19:33:05] Ep. 5 : Up. 72500 : Sen. 2,871,310 : Cost 0.43177241 * 120,362,943 @ 13,156 after 3,476,451,844 : Time 882.59s : 16689.51 words/s : L.r. 1.4093e-04
+[2021-03-26 19:33:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 19:33:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 19:33:08] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 19:33:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 19:33:15] [valid] Ep. 5 : Up. 72500 : perplexity : 5.44347 : new best
+[2021-03-26 19:47:44] Ep. 5 : Up. 75000 : Sen. 3,546,941 : Cost 0.43530822 * 119,174,205 @ 11,856 after 3,595,626,049 : Time 879.03s : 16752.31 words/s : L.r. 1.3856e-04
+[2021-03-26 19:47:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 19:47:47] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 19:47:48] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 19:47:54] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 19:47:54] [valid] Ep. 5 : Up. 75000 : perplexity : 5.42973 : new best
+[2021-03-26 20:01:41] Seen 4187436 samples
+[2021-03-26 20:01:41] Starting data epoch 6 in logical epoch 6
+[2021-03-26 20:01:41] [sqlite] Selecting shuffled data
+[2021-03-26 20:02:29] Ep. 6 : Up. 77500 : Sen. 32,247 : Cost 0.43224758 * 119,471,719 @ 3,705 after 3,715,097,768 : Time 884.89s : 16582.34 words/s : L.r. 1.3631e-04
+[2021-03-26 20:02:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 20:02:31] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 20:02:32] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 20:02:38] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 20:02:39] [valid] Ep. 6 : Up. 77500 : perplexity : 5.42003 : new best
+[2021-03-26 20:17:06] Ep. 6 : Up. 80000 : Sen. 704,184 : Cost 0.42788461 * 119,365,755 @ 2,940 after 3,834,463,523 : Time 876.80s : 16731.93 words/s : L.r. 1.3416e-04
+[2021-03-26 20:17:06] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 20:17:08] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 20:17:10] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 20:17:16] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 20:17:16] [valid] Ep. 6 : Up. 80000 : perplexity : 5.41803 : new best
+[2021-03-26 20:31:48] Ep. 6 : Up. 82500 : Sen. 1,381,155 : Cost 0.42852929 * 120,177,443 @ 3,696 after 3,954,640,966 : Time 882.06s : 16744.11 words/s : L.r. 1.3212e-04
+[2021-03-26 20:31:48] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 20:31:50] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 20:31:52] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 20:31:58] [valid] Ep. 6 : Up. 82500 : perplexity : 5.42191 : stalled 1 times (last best: 5.41803)
+[2021-03-26 20:46:32] Ep. 6 : Up. 85000 : Sen. 2,059,863 : Cost 0.43084535 * 119,965,269 @ 3,108 after 4,074,606,235 : Time 884.20s : 16763.33 words/s : L.r. 1.3016e-04
+[2021-03-26 20:46:32] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 20:46:34] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 20:46:35] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 20:46:41] [valid] Ep. 6 : Up. 85000 : perplexity : 5.41834 : stalled 2 times (last best: 5.41803)
+[2021-03-26 21:01:18] Ep. 6 : Up. 87500 : Sen. 2,736,477 : Cost 0.42877167 * 120,584,888 @ 3,485 after 4,195,191,123 : Time 885.35s : 16731.55 words/s : L.r. 1.2829e-04
+[2021-03-26 21:01:18] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 21:01:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 21:01:20] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 21:01:27] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 21:01:28] [valid] Ep. 6 : Up. 87500 : perplexity : 5.40645 : new best
+[2021-03-26 21:15:58] Ep. 6 : Up. 90000 : Sen. 3,414,760 : Cost 0.43076351 * 119,297,287 @ 3,645 after 4,314,488,410 : Time 880.21s : 16732.44 words/s : L.r. 1.2649e-04
+[2021-03-26 21:15:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 21:15:59] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 21:16:01] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 21:16:06] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 21:16:07] [valid] Ep. 6 : Up. 90000 : perplexity : 5.39705 : new best
+[2021-03-26 21:30:41] Ep. 6 : Up. 92500 : Sen. 4,092,036 : Cost 0.43015975 * 119,822,166 @ 3,034 after 4,434,310,576 : Time 883.24s : 16723.82 words/s : L.r. 1.2477e-04
+[2021-03-26 21:30:41] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 21:30:43] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 21:30:44] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 21:30:50] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 21:30:51] [valid] Ep. 6 : Up. 92500 : perplexity : 5.38748 : new best
+[2021-03-26 21:32:55] Seen 4187436 samples
+[2021-03-26 21:32:55] Starting data epoch 7 in logical epoch 7
+[2021-03-26 21:32:55] [sqlite] Selecting shuffled data
+[2021-03-26 21:45:28] Ep. 7 : Up. 95000 : Sen. 581,501 : Cost 0.42652994 * 119,231,407 @ 9,542 after 4,553,541,983 : Time 886.68s : 16624.92 words/s : L.r. 1.2312e-04
+[2021-03-26 21:45:28] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 21:45:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 21:45:31] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 21:45:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 21:45:37] [valid] Ep. 7 : Up. 95000 : perplexity : 5.374 : new best
+[2021-03-26 22:00:10] Ep. 7 : Up. 97500 : Sen. 1,259,309 : Cost 0.42530009 * 120,054,439 @ 3,506 after 4,673,596,422 : Time 882.48s : 16727.37 words/s : L.r. 1.2153e-04
+[2021-03-26 22:00:10] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 22:00:12] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 22:00:13] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 22:00:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 22:00:19] [valid] Ep. 7 : Up. 97500 : perplexity : 5.36827 : new best
+[2021-03-26 22:14:55] Ep. 7 : Up. 100000 : Sen. 1,937,520 : Cost 0.42699003 * 120,441,301 @ 9,450 after 4,794,037,723 : Time 885.04s : 16781.10 words/s : L.r. 1.2000e-04
+[2021-03-26 22:14:55] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 22:14:57] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 22:14:58] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 22:15:04] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 22:15:04] [valid] Ep. 7 : Up. 100000 : perplexity : 5.36078 : new best
+[2021-03-26 22:29:36] Ep. 7 : Up. 102500 : Sen. 2,612,168 : Cost 0.42675751 * 119,498,643 @ 7,502 after 4,913,536,366 : Time 880.36s : 16733.55 words/s : L.r. 1.1853e-04
+[2021-03-26 22:29:36] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 22:29:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 22:29:38] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 22:29:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 22:29:45] [valid] Ep. 7 : Up. 102500 : perplexity : 5.34431 : new best
+[2021-03-26 22:44:14] Ep. 7 : Up. 105000 : Sen. 3,285,505 : Cost 0.42479038 * 119,843,682 @ 13,376 after 5,033,380,048 : Time 878.13s : 16745.79 words/s : L.r. 1.1711e-04
+[2021-03-26 22:44:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 22:44:15] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 22:44:17] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 22:44:23] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 22:44:23] [valid] Ep. 7 : Up. 105000 : perplexity : 5.33075 : new best
+[2021-03-26 22:58:58] Ep. 7 : Up. 107500 : Sen. 3,963,198 : Cost 0.43024525 * 119,261,551 @ 3,638 after 5,152,641,599 : Time 883.92s : 16755.42 words/s : L.r. 1.1574e-04
+[2021-03-26 22:58:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 22:58:59] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 22:59:01] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 22:59:06] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 22:59:07] [valid] Ep. 7 : Up. 107500 : perplexity : 5.31658 : new best
+[2021-03-26 23:03:55] Seen 4187436 samples
+[2021-03-26 23:03:55] Starting data epoch 8 in logical epoch 8
+[2021-03-26 23:03:55] [sqlite] Selecting shuffled data
+[2021-03-26 23:13:45] Ep. 8 : Up. 110000 : Sen. 452,378 : Cost 0.42204401 * 119,621,357 @ 11,616 after 5,272,262,956 : Time 887.55s : 16577.47 words/s : L.r. 1.1442e-04
+[2021-03-26 23:13:45] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 23:13:47] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 23:13:48] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 23:13:54] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 23:13:55] [valid] Ep. 8 : Up. 110000 : perplexity : 5.31188 : new best
+[2021-03-26 23:28:27] Ep. 8 : Up. 112500 : Sen. 1,131,159 : Cost 0.42398921 * 119,601,106 @ 3,465 after 5,391,864,062 : Time 881.85s : 16756.40 words/s : L.r. 1.1314e-04
+[2021-03-26 23:28:27] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 23:28:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 23:28:30] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 23:28:36] [valid] Ep. 8 : Up. 112500 : perplexity : 5.31507 : stalled 1 times (last best: 5.31188)
+[2021-03-26 23:43:05] Ep. 8 : Up. 115000 : Sen. 1,805,512 : Cost 0.42254895 * 119,391,165 @ 10,620 after 5,511,255,227 : Time 877.40s : 16739.91 words/s : L.r. 1.1190e-04
+[2021-03-26 23:43:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 23:43:06] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 23:43:08] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 23:43:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 23:43:15] [valid] Ep. 8 : Up. 115000 : perplexity : 5.31012 : new best
+[2021-03-26 23:57:53] Ep. 8 : Up. 117500 : Sen. 2,484,806 : Cost 0.42438042 * 120,337,784 @ 5,548 after 5,631,593,011 : Time 888.31s : 16715.52 words/s : L.r. 1.1070e-04
+[2021-03-26 23:57:53] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-26 23:57:54] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-26 23:57:56] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-26 23:58:01] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-26 23:58:02] [valid] Ep. 8 : Up. 117500 : perplexity : 5.30798 : new best
+[2021-03-27 00:12:38] Ep. 8 : Up. 120000 : Sen. 3,161,076 : Cost 0.42238227 * 120,851,359 @ 3,195 after 5,752,444,370 : Time 885.09s : 16754.15 words/s : L.r. 1.0954e-04
+[2021-03-27 00:12:38] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 00:12:39] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 00:12:41] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 00:12:46] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 00:12:47] [valid] Ep. 8 : Up. 120000 : perplexity : 5.30457 : new best
+[2021-03-27 00:27:19] Ep. 8 : Up. 122500 : Sen. 3,838,159 : Cost 0.42495477 * 119,600,420 @ 3,207 after 5,872,044,790 : Time 880.67s : 16763.04 words/s : L.r. 1.0842e-04
+[2021-03-27 00:27:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 00:27:20] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 00:27:21] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 00:27:27] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 00:27:28] [valid] Ep. 8 : Up. 122500 : perplexity : 5.29871 : new best
+[2021-03-27 00:34:57] Seen 4187436 samples
+[2021-03-27 00:34:57] Starting data epoch 9 in logical epoch 9
+[2021-03-27 00:34:57] [sqlite] Selecting shuffled data
+[2021-03-27 00:42:04] Ep. 9 : Up. 125000 : Sen. 324,185 : Cost 0.42102209 * 119,564,042 @ 2,920 after 5,991,608,832 : Time 885.10s : 16620.28 words/s : L.r. 1.0733e-04
+[2021-03-27 00:42:04] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 00:42:05] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 00:42:07] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 00:42:12] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 00:42:13] [valid] Ep. 9 : Up. 125000 : perplexity : 5.29468 : new best
+[2021-03-27 00:56:45] Ep. 9 : Up. 127500 : Sen. 1,001,566 : Cost 0.41995746 * 119,611,253 @ 3,003 after 6,111,220,085 : Time 881.21s : 16714.77 words/s : L.r. 1.0627e-04
+[2021-03-27 00:56:45] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 00:56:46] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 00:56:48] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 00:56:53] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 00:56:54] [valid] Ep. 9 : Up. 127500 : perplexity : 5.29272 : new best
+[2021-03-27 01:11:24] Ep. 9 : Up. 130000 : Sen. 1,675,331 : Cost 0.42202324 * 119,458,718 @ 3,543 after 6,230,678,803 : Time 879.28s : 16773.95 words/s : L.r. 1.0525e-04
+[2021-03-27 01:11:24] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 01:11:26] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 01:11:27] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 01:11:33] [valid] Ep. 9 : Up. 130000 : perplexity : 5.29443 : stalled 1 times (last best: 5.29272)
+[2021-03-27 01:26:02] Ep. 9 : Up. 132500 : Sen. 2,349,871 : Cost 0.42025790 * 119,697,350 @ 10,336 after 6,350,376,153 : Time 877.30s : 16743.66 words/s : L.r. 1.0425e-04
+[2021-03-27 01:26:02] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 01:26:03] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 01:26:04] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 01:26:10] [valid] Ep. 9 : Up. 132500 : perplexity : 5.2988 : stalled 2 times (last best: 5.29272)
+[2021-03-27 01:40:48] Ep. 9 : Up. 135000 : Sen. 3,030,860 : Cost 0.42424455 * 120,021,407 @ 6,730 after 6,470,397,560 : Time 885.87s : 16776.44 words/s : L.r. 1.0328e-04
+[2021-03-27 01:40:48] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 01:40:49] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 01:40:50] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 01:40:56] [valid] Ep. 9 : Up. 135000 : perplexity : 5.29425 : stalled 3 times (last best: 5.29272)
+[2021-03-27 01:55:29] Ep. 9 : Up. 137500 : Sen. 3,706,878 : Cost 0.42244619 * 119,689,346 @ 11,682 after 6,590,086,906 : Time 881.49s : 16760.25 words/s : L.r. 1.0234e-04
+[2021-03-27 01:55:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 01:55:30] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 01:55:32] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 01:55:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 01:55:38] [valid] Ep. 9 : Up. 137500 : perplexity : 5.28784 : new best
+[2021-03-27 02:05:57] Seen 4187436 samples
+[2021-03-27 02:05:57] Starting data epoch 10 in logical epoch 10
+[2021-03-27 02:05:57] [sqlite] Selecting shuffled data
+[2021-03-27 02:10:12] Ep. 10 : Up. 140000 : Sen. 192,247 : Cost 0.42129448 * 118,939,931 @ 4,199 after 6,709,026,837 : Time 882.60s : 16632.91 words/s : L.r. 1.0142e-04
+[2021-03-27 02:10:12] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 02:10:13] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:10:15] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 02:10:20] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 02:10:21] [valid] Ep. 10 : Up. 140000 : perplexity : 5.27643 : new best
+[2021-03-27 02:24:52] Ep. 10 : Up. 142500 : Sen. 866,838 : Cost 0.41820893 * 119,458,496 @ 6,132 after 6,828,485,333 : Time 880.25s : 16722.99 words/s : L.r. 1.0052e-04
+[2021-03-27 02:24:52] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 02:24:53] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:24:54] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 02:25:00] [valid] Ep. 10 : Up. 142500 : perplexity : 5.27919 : stalled 1 times (last best: 5.27643)
+[2021-03-27 02:39:32] Ep. 10 : Up. 145000 : Sen. 1,543,682 : Cost 0.41715091 * 120,301,379 @ 3,804 after 6,948,786,712 : Time 880.52s : 16752.70 words/s : L.r. 9.9655e-05
+[2021-03-27 02:39:32] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 02:39:34] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:39:35] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 02:39:41] [valid] Ep. 10 : Up. 145000 : perplexity : 5.28304 : stalled 2 times (last best: 5.27643)
+[2021-03-27 02:54:12] Ep. 10 : Up. 147500 : Sen. 2,218,313 : Cost 0.41844389 * 120,116,806 @ 2,852 after 7,068,903,518 : Time 879.88s : 16763.46 words/s : L.r. 9.8806e-05
+[2021-03-27 02:54:12] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 02:54:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 02:54:15] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 02:54:21] [valid] Ep. 10 : Up. 147500 : perplexity : 5.28051 : stalled 3 times (last best: 5.27643)
+[2021-03-27 03:08:47] Ep. 10 : Up. 150000 : Sen. 2,892,538 : Cost 0.41992313 * 119,024,922 @ 3,212 after 7,187,928,440 : Time 875.06s : 16748.53 words/s : L.r. 9.7980e-05
+[2021-03-27 03:08:47] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 03:08:49] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 03:08:50] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 03:08:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 03:08:56] [valid] Ep. 10 : Up. 150000 : perplexity : 5.27448 : new best
+[2021-03-27 03:23:27] Ep. 10 : Up. 152500 : Sen. 3,565,672 : Cost 0.42010832 * 119,610,060 @ 3,150 after 7,307,538,500 : Time 879.88s : 16735.68 words/s : L.r. 9.7173e-05
+[2021-03-27 03:23:27] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 03:23:29] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 03:23:30] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 03:23:36] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 03:23:36] [valid] Ep. 10 : Up. 152500 : perplexity : 5.26628 : new best
+[2021-03-27 03:36:58] Seen 4187436 samples
+[2021-03-27 03:36:58] Starting data epoch 11 in logical epoch 11
+[2021-03-27 03:36:58] [sqlite] Selecting shuffled data
+[2021-03-27 03:38:15] Ep. 11 : Up. 155000 : Sen. 53,288 : Cost 0.42208511 * 119,211,976 @ 13,122 after 7,426,750,476 : Time 887.89s : 16629.64 words/s : L.r. 9.6386e-05
+[2021-03-27 03:38:15] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 03:38:16] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 03:38:18] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 03:38:23] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 03:38:24] [valid] Ep. 11 : Up. 155000 : perplexity : 5.25331 : new best
+[2021-03-27 03:52:55] Ep. 11 : Up. 157500 : Sen. 729,343 : Cost 0.41809252 * 119,062,742 @ 5,382 after 7,545,813,218 : Time 880.00s : 16733.83 words/s : L.r. 9.5618e-05
+[2021-03-27 03:52:55] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 03:52:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 03:52:58] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 03:53:03] [valid] Ep. 11 : Up. 157500 : perplexity : 5.25416 : stalled 1 times (last best: 5.25331)
+[2021-03-27 04:07:34] Ep. 11 : Up. 160000 : Sen. 1,404,366 : Cost 0.41959187 * 119,336,731 @ 3,648 after 7,665,149,949 : Time 878.74s : 16799.79 words/s : L.r. 9.4868e-05
+[2021-03-27 04:07:34] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 04:07:35] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 04:07:36] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 04:07:42] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 04:07:43] [valid] Ep. 11 : Up. 160000 : perplexity : 5.25319 : new best
+[2021-03-27 04:22:18] Ep. 11 : Up. 162500 : Sen. 2,082,611 : Cost 0.41809076 * 119,899,425 @ 4,000 after 7,785,049,374 : Time 883.76s : 16722.37 words/s : L.r. 9.4136e-05
+[2021-03-27 04:22:18] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 04:22:19] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 04:22:20] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 04:22:26] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 04:22:27] [valid] Ep. 11 : Up. 162500 : perplexity : 5.25114 : new best
+[2021-03-27 04:36:59] Ep. 11 : Up. 165000 : Sen. 2,759,613 : Cost 0.41965964 * 119,582,710 @ 14,222 after 7,904,632,084 : Time 881.65s : 16758.68 words/s : L.r. 9.3420e-05
+[2021-03-27 04:36:59] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 04:37:01] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 04:37:02] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 04:37:07] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 04:37:08] [valid] Ep. 11 : Up. 165000 : perplexity : 5.24724 : new best
+[2021-03-27 04:51:44] Ep. 11 : Up. 167500 : Sen. 3,437,653 : Cost 0.41832080 * 120,238,791 @ 2,450 after 8,024,870,875 : Time 884.37s : 16729.94 words/s : L.r. 9.2720e-05
+[2021-03-27 04:51:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 04:51:45] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 04:51:46] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 04:51:52] [valid] Ep. 11 : Up. 167500 : perplexity : 5.24812 : stalled 1 times (last best: 5.24724)
+[2021-03-27 05:06:26] Ep. 11 : Up. 170000 : Sen. 4,115,834 : Cost 0.41806510 * 120,222,841 @ 3,939 after 8,145,093,716 : Time 882.79s : 16750.83 words/s : L.r. 9.2036e-05
+[2021-03-27 05:06:26] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 05:06:28] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 05:06:29] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 05:06:35] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.best-perplexity.npz
+[2021-03-27 05:06:36] [valid] Ep. 11 : Up. 170000 : perplexity : 5.24412 : new best
+[2021-03-27 05:08:08] Seen 4187436 samples
+[2021-03-27 05:08:08] Starting data epoch 12 in logical epoch 12
+[2021-03-27 05:08:08] [sqlite] Selecting shuffled data
+[2021-03-27 05:21:15] Ep. 12 : Up. 172500 : Sen. 607,009 : Cost 0.41581190 * 119,785,234 @ 3,579 after 8,264,878,950 : Time 888.81s : 16632.17 words/s : L.r. 9.1366e-05
+[2021-03-27 05:21:15] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 05:21:17] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 05:21:18] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 05:21:23] [valid] Ep. 12 : Up. 172500 : perplexity : 5.24801 : stalled 1 times (last best: 5.24412)
+[2021-03-27 05:35:58] Ep. 12 : Up. 175000 : Sen. 1,283,086 : Cost 0.41422039 * 120,115,105 @ 5,520 after 8,384,994,055 : Time 882.42s : 16705.37 words/s : L.r. 9.0711e-05
+[2021-03-27 05:35:58] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 05:35:59] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 05:36:00] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 05:36:06] [valid] Ep. 12 : Up. 175000 : perplexity : 5.25666 : stalled 2 times (last best: 5.24412)
+[2021-03-27 05:50:42] Ep. 12 : Up. 177500 : Sen. 1,963,611 : Cost 0.41623154 * 120,373,963 @ 3,210 after 8,505,368,018 : Time 884.62s : 16751.34 words/s : L.r. 9.0070e-05
+[2021-03-27 05:50:42] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 05:50:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 05:50:45] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 05:50:51] [valid] Ep. 12 : Up. 177500 : perplexity : 5.25937 : stalled 3 times (last best: 5.24412)
+[2021-03-27 06:05:18] Ep. 12 : Up. 180000 : Sen. 2,632,767 : Cost 0.41449699 * 119,772,916 @ 2,432 after 8,625,140,934 : Time 875.99s : 16727.37 words/s : L.r. 8.9443e-05
+[2021-03-27 06:05:18] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 06:05:20] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 06:05:21] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 06:05:26] [valid] Ep. 12 : Up. 180000 : perplexity : 5.25992 : stalled 4 times (last best: 5.24412)
+[2021-03-27 06:20:00] Ep. 12 : Up. 182500 : Sen. 3,310,323 : Cost 0.41980371 * 119,457,886 @ 13,376 after 8,744,598,820 : Time 881.54s : 16790.85 words/s : L.r. 8.8828e-05
+[2021-03-27 06:20:00] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 06:20:01] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 06:20:03] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 06:20:08] [valid] Ep. 12 : Up. 182500 : perplexity : 5.26421 : stalled 5 times (last best: 5.24412)
+[2021-03-27 06:34:34] Ep. 12 : Up. 185000 : Sen. 3,982,947 : Cost 0.41831368 * 118,953,910 @ 11,214 after 8,863,552,730 : Time 874.60s : 16754.18 words/s : L.r. 8.8226e-05
+[2021-03-27 06:34:34] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 06:34:36] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 06:34:37] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 06:34:43] [valid] Ep. 12 : Up. 185000 : perplexity : 5.26414 : stalled 6 times (last best: 5.24412)
+[2021-03-27 06:39:07] Seen 4187436 samples
+[2021-03-27 06:39:07] Starting data epoch 13 in logical epoch 13
+[2021-03-27 06:39:07] [sqlite] Selecting shuffled data
+[2021-03-27 06:49:22] Ep. 13 : Up. 187500 : Sen. 470,631 : Cost 0.41423452 * 119,953,727 @ 2,950 after 8,983,506,457 : Time 887.12s : 16638.30 words/s : L.r. 8.7636e-05
+[2021-03-27 06:49:22] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 06:49:23] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 06:49:24] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 06:49:30] [valid] Ep. 13 : Up. 187500 : perplexity : 5.27057 : stalled 7 times (last best: 5.24412)
+[2021-03-27 07:03:54] Ep. 13 : Up. 190000 : Sen. 1,139,877 : Cost 0.41157061 * 119,268,418 @ 3,211 after 9,102,774,875 : Time 872.93s : 16717.07 words/s : L.r. 8.7057e-05
+[2021-03-27 07:03:54] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 07:03:56] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 07:03:57] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 07:04:03] [valid] Ep. 13 : Up. 190000 : perplexity : 5.27514 : stalled 8 times (last best: 5.24412)
+[2021-03-27 07:18:31] Ep. 13 : Up. 192500 : Sen. 1,810,323 : Cost 0.41347125 * 119,770,091 @ 3,009 after 9,222,544,966 : Time 876.59s : 16740.12 words/s : L.r. 8.6490e-05
+[2021-03-27 07:18:31] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 07:18:32] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 07:18:34] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 07:18:39] [valid] Ep. 13 : Up. 192500 : perplexity : 5.27692 : stalled 9 times (last best: 5.24412)
+[2021-03-27 07:33:13] Ep. 13 : Up. 195000 : Sen. 2,488,654 : Cost 0.41816133 * 119,437,407 @ 3,245 after 9,341,982,373 : Time 881.79s : 16765.48 words/s : L.r. 8.5934e-05
+[2021-03-27 07:33:13] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 07:33:14] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 07:33:16] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 07:33:21] [valid] Ep. 13 : Up. 195000 : perplexity : 5.27644 : stalled 10 times (last best: 5.24412)
+[2021-03-27 07:47:50] Ep. 13 : Up. 197500 : Sen. 3,165,004 : Cost 0.41834158 * 118,863,623 @ 3,434 after 9,460,845,996 : Time 876.71s : 16771.74 words/s : L.r. 8.5388e-05
+[2021-03-27 07:47:50] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 07:47:51] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 07:47:52] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 07:47:58] [valid] Ep. 13 : Up. 197500 : perplexity : 5.27197 : stalled 11 times (last best: 5.24412)
+[2021-03-27 08:02:37] Ep. 13 : Up. 200000 : Sen. 3,845,788 : Cost 0.41980222 * 119,892,596 @ 14,075 after 9,580,738,592 : Time 887.09s : 16782.84 words/s : L.r. 8.4853e-05
+[2021-03-27 08:02:37] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:02:38] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:02:39] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 08:02:45] [valid] Ep. 13 : Up. 200000 : perplexity : 5.26368 : stalled 12 times (last best: 5.24412)
+[2021-03-27 08:10:06] Seen 4187436 samples
+[2021-03-27 08:10:06] Starting data epoch 14 in logical epoch 14
+[2021-03-27 08:10:06] [sqlite] Selecting shuffled data
+[2021-03-27 08:17:16] Ep. 14 : Up. 202500 : Sen. 327,801 : Cost 0.41022474 * 119,741,258 @ 10,290 after 9,700,479,850 : Time 879.84s : 16588.07 words/s : L.r. 8.4327e-05
+[2021-03-27 08:17:16] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:17:18] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:17:19] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 08:17:25] [valid] Ep. 14 : Up. 202500 : perplexity : 5.25485 : stalled 13 times (last best: 5.24412)
+[2021-03-27 08:32:00] Ep. 14 : Up. 205000 : Sen. 1,007,675 : Cost 0.41418436 * 120,057,636 @ 2,923 after 9,820,537,486 : Time 883.90s : 16780.22 words/s : L.r. 8.3812e-05
+[2021-03-27 08:32:00] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:32:02] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:32:03] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 08:32:09] [valid] Ep. 14 : Up. 205000 : perplexity : 5.25314 : stalled 14 times (last best: 5.24412)
+[2021-03-27 08:46:43] Ep. 14 : Up. 207500 : Sen. 1,686,860 : Cost 0.41842887 * 118,870,924 @ 4,361 after 9,939,408,410 : Time 882.19s : 16761.42 words/s : L.r. 8.3305e-05
+[2021-03-27 08:46:43] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:46:44] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:46:45] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz
+[2021-03-27 08:46:51] [valid] Ep. 14 : Up. 207500 : perplexity : 5.25291 : stalled 15 times (last best: 5.24412)
+[2021-03-27 08:46:51] Training finished
+[2021-03-27 08:46:52] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.orig.npz
+[2021-03-27 08:46:54] Saving model weights and runtime parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz
+[2021-03-27 08:46:55] Saving Adam parameters to /scratch/project_2001194/Opus-MT-train/work-tatoeba/eng-hin/opus+bt.spm32k-spm32k.transformer-align.model1.npz.optimizer.npz

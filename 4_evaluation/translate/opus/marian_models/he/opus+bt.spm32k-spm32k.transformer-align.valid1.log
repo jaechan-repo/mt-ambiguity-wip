@@ -1,0 +1,13 @@
+[2021-03-27 04:12:43] [valid] Ep. 1 : Up. 10000 : perplexity : 3.04019 : new best
+[2021-03-27 06:08:49] [valid] Ep. 2 : Up. 20000 : perplexity : 3.09372 : stalled 1 times (last best: 3.04019)
+[2021-03-27 08:04:15] [valid] Ep. 2 : Up. 30000 : perplexity : 3.12004 : stalled 2 times (last best: 3.04019)
+[2021-03-27 10:00:08] [valid] Ep. 3 : Up. 40000 : perplexity : 3.14571 : stalled 3 times (last best: 3.04019)
+[2021-03-27 11:55:24] [valid] Ep. 3 : Up. 50000 : perplexity : 3.11754 : stalled 4 times (last best: 3.04019)
+[2021-03-27 13:50:48] [valid] Ep. 4 : Up. 60000 : perplexity : 3.11419 : stalled 5 times (last best: 3.04019)
+[2021-03-27 15:46:43] [valid] Ep. 5 : Up. 70000 : perplexity : 3.11937 : stalled 6 times (last best: 3.04019)
+[2021-03-27 17:42:16] [valid] Ep. 5 : Up. 80000 : perplexity : 3.10669 : stalled 7 times (last best: 3.04019)
+[2021-03-27 19:37:50] [valid] Ep. 6 : Up. 90000 : perplexity : 3.0961 : stalled 8 times (last best: 3.04019)
+[2021-03-27 21:32:54] [valid] Ep. 6 : Up. 100000 : perplexity : 3.09528 : stalled 9 times (last best: 3.04019)
+[2021-03-27 23:28:17] [valid] Ep. 7 : Up. 110000 : perplexity : 3.09458 : stalled 10 times (last best: 3.04019)
+[2021-03-28 01:23:13] [valid] Ep. 7 : Up. 120000 : perplexity : 3.09466 : stalled 11 times (last best: 3.04019)
+[2021-04-02 08:34:58] [valid] Ep. 8 : Up. 130000 : perplexity : 3.13179 : stalled 11 times (last best: 3.04019)
