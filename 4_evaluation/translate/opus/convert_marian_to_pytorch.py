@@ -701,9 +701,13 @@ if __name__ == "__main__":
     """
     parser = argparse.ArgumentParser()
     # Required parameters
-    parser.add_argument("--src", type=str, help="path to marian model sub dir", default="en-de")
-    parser.add_argument("--dest", type=str, default=None, help="Path to the output PyTorch model.")
+    # parser.add_argument("--src", type=str, help="path to marian model sub dir", default="en-de")
+    # parser.add_argument("--dest", type=str, default=None, help="Path to the output PyTorch model.")
     args = parser.parse_args()
+
+    lang = "hu"
+    args.src = f"{os.getcwd()}/marian_models/{lang}"
+    args.dest = f"{os.getcwd()}/{lang}"
 
     source_dir = Path(args.src)
     if not source_dir.exists():

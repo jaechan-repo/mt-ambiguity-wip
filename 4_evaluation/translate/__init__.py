@@ -1,3 +1,3 @@
-from .gpt4_translate import translate as gpt4
-from .huggingface_translate import nllb_translate as nllb
-from .huggingface_translate import m2m_translate as m2m
+from .gpt_translate import translate as gpt
+from .google_translate import google_translate as google
+from .opus_mt_translate import opus
