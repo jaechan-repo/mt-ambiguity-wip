@@ -1,0 +1,601 @@
+idiom,meaning,source_model,source_sentence,translation,afl,correctness
+"Mr Right, Ms Right",the best future life partner for someone,palm,found their Mr Right and Ms Right,rí ọkọ ọmọ ọdọ wọn àti ìyàwó ọmọ ọdọ wọn,x,2
+,,palm,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down",Lẹ́yìn ọdún ọ̀pọ̀lọpọ̀ ìwákiri wọ́n tún rí ọkọ tí wọ́n ń fẹ́ àti aya tí wọ́n ń fẹ́ wọ́n sì ṣe ìdọ́mọlẹ̀,f,1
+,,palm,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store",Níbi ayẹyẹ ìwọsọ wọ́n rí ìwọsọ ọkọ tí wọ́n ń fẹ́ àti ìwọsọ aya tí wọ́n ń fẹ́ nínú ìkábọ̀,f,2
+"Mr Right, Ms Right",the best future life partner for someone,opus,found their Mr Right and Ms Right,Mo rí Ọtún àti Ọtún wọn,l,1
+,,opus,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","Léyìn òpò ọdún tí wón ti ń wá wọn kiri, wón rí Ògbéni Mstún àti Mess, wón sì fi ibè sílè.",l,2
+,,opus,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","Nígbà tí wón dé ilé ìtajà náà, wón rí Ògá wọn àti Ògbéni Msights tí wón wà ní ṣóòbù tí wón ti ń ta ọjà.",l,1
+"Mr Right, Ms Right",the best future life partner for someone,gpt,found their Mr Right and Ms Right,ni won fi han Mr Right ati Ms Right won.,a,2
+,,gpt,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","Nitoripe ojo meta ti won ti owo isoro, won ni won fi owo isoro ti won ni Mr Right ati Ms Right, won gbe won si ile.",x,2
+,,gpt,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","Ni ẹbun ẹwẹ akọkọ, wọn ti wa ni ọja lati wa ni awọn ẹwẹ Mr Right ati Ms Right.",x,2
+"Mr Right, Ms Right",the best future life partner for someone,nllb,found their Mr Right and Ms Right,wọ́n rí ọkùnrin àti obìnrin tó wù wọ́n,f,1
+,,nllb,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","Lẹ́yìn ọ̀pọ̀ ọdún tí wọ́n ti ń wá a kiri, wọ́n rí Ọ̀gbẹ́ni àti Ìyáàfin tó wù wọ́n, wọ́n sì bẹ̀rẹ̀ sí í gbé pa pọ̀",f,1
+,,nllb,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","Níbi ayẹyẹ aṣọ náà, wọ́n rí aṣọ tí wọ́n fi ń ṣe Ọ̀gá àti Obìnrin Tó Tóbi jù lọ nínú ilé ìtajà náà",l,2
+a whole new ball game,a significant change in circumstances.,nllb,it's a whole new ball game,eré tuntun gbáà ni,a,0
+,,nllb,"After the company's merger, [[it's a whole new ball game]] for the employees","Lẹ́yìn tí ilé-iṣẹ́ náà bá di ọ̀kan, gbogbo nǹkan á yí padà pátápátá fún àwọn òṣìṣẹ́",f,1
+,,nllb,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","Nígbà tí wọ́n yí padà láti orí eré bọ́ọ̀lù sí orí eré bọ́ọ̀lù baseball, gbogbo eré bọ́ọ̀lù náà yí padà pátápátá fún àwọn òṣèré",l,0
+a whole new ball game,a significant change in circumstances.,opus,it's a whole new ball game,Ó jẹ eré bọọlù àfẹsẹgbá tuntun,l,1
+,,opus,"After the company's merger, [[it's a whole new ball game]] for the employees","Lẹyìn tí ilé iṣẹ náà bá ti ṣiṣẹ tán, ó jẹ eré ìdárayá tuntun fún àwọn òṣìṣẹ náà",l,1
+,,opus,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","Tí wọn bá ti gbá bọọlù lọ sí baseball, ó jẹ eré bọọlù àfẹsẹgbá tuntun fún àwọn òṣèré náà",l,0
+a whole new ball game,a significant change in circumstances.,gpt,it's a whole new ball game,O ti ni oyun tuntun to dara ju.,x,2
+,,gpt,"After the company's merger, [[it's a whole new ball game]] for the employees","Lẹhin itọsọna ẹrọ ayẹyẹ, o jẹ lilo ọrọ ọlẹ awọn olumulo.",x,2
+,,gpt,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","Nigba ti won fi oju olooto lati sokan si beisibolu, o jẹ ẹ̀rọ ayẹ̀wò ni oyunlẹ awọn olùkọ.",x,2
+a whole new ball game,a significant change in circumstances.,palm,it's a whole new ball game,ó jẹ́ ìṣẹ́ ìṣeré ọkọ̀ ìṣeré tuntun,x,2
+,,palm,"After the company's merger, [[it's a whole new ball game]] for the employees",Lẹ́yìn ìpọ̀pọ̀ ìṣẹ́ ọ̀hún ó jẹ́ ìṣẹ́ tuntun fún àwọn agbéṣẹ,x,2
+,,palm,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players",Nigbati wọ́n yi sẹ́ bọ́ọ̀lù-ẹlẹ́sẹ̀ sí bọ́ọ̀lù-ẹlẹ́sẹ̀ ó jẹ́ ìṣẹ́ bọ́ọ̀lù tuntun fún àwọn agbábọ́ọ̀lù,l,1
+asked for the moon,ask for something that is very difficult or impossible to get,gpt,asked for the moon,o fẹ́ lọ́wọ́ ọ̀rọ̀ ayé.,x,2
+,,gpt,He [[asked for the moon]] when he requested a million-dollar salary,O ti kọ iwọn ọ̀sàn lọ́wọ́ ti o fẹ́ ìwọ̀n ní ìdílé kan nairọ.,x,2
+,,gpt,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","Omo yii, ti o fẹsẹ̀ká bí ọ̀rọ̀ àárẹ̀, ti a fi ọ̀rọ̀ rẹ̀ ni ìbẹ̀rẹ̀ àrẹ̀wà bírídí.",x,2
+asked for the moon,ask for something that is very difficult or impossible to get,opus,asked for the moon,béèrè fún òṣùpá,l,0
+,,opus,He [[asked for the moon]] when he requested a million-dollar salary,Ó béèrè fún òṣùpá nígbà tó ní kí mílíònù kan owó dólà,l,0
+,,opus,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","Ọmọ náà nífèé sí ìmò ìjìnlè sánmà gan - an, ó sì béèrè fún òṣùpá gégé bí èbùn ọjó ìbí",l,0
+asked for the moon,ask for something that is very difficult or impossible to get,palm,asked for the moon,nífẹ́ ọ̀run,x,2
+,,palm,He [[asked for the moon]] when he requested a million-dollar salary,Ó ní ó fẹ́ ọ̀pọ̀lọpọ̀ owó nígbà tí ó ń bẹ̀rẹ̀ sí ní sọ pé ó fẹ́ owó ọ̀gọ́rùn-ún ẹgbẹ̀rún dollar,x,2
+,,palm,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift",Ọmọ náà tí ó nífẹ̀ẹ́ sí ìmọ̀ ìṣọ̀kan ọ̀run ní ìṣẹ́ṣẹ́ ní ó ní kí wọ́n fún un ní oṣù ṣe ẹ̀bọ ọjọ́ ìbí rẹ̀,x,2
+asked for the moon,ask for something that is very difficult or impossible to get,nllb,asked for the moon,ó béèrè fún òṣùpá,l,0
+,,nllb,He [[asked for the moon]] when he requested a million-dollar salary,O béèrè fún òṣùpá nígbà tó béèrè fún owó oṣù mílíọ̀nù dólà,l,0
+,,nllb,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","Ọmọ náà fẹ́ràn ìmọ̀ ìjìnlẹ̀ sánmà gan-an, ó sì fi eré béèrè fún òṣùpá gẹ́gẹ́ bí ẹ̀bùn ọjọ́ ìbí",l,0
+asleep at the switch,failing to attend to one's responsibilities or duties,gpt,asleep at the switch,ni ẹnu ọkọ.,x,2
+,,gpt,The manager was [[asleep at the switch]] when the crisis occurred,Oga alagbada ko gbe sori oju ewe ni ojojumo ti aisan ba gbodo jeun.,x,2
+,,gpt,The train operator fell [[asleep at the switch]] during his break,Oluwagbemiga ti fẹ̀ẹ́ sínú ìtẹ́lẹ̀ lórí ìtọ́kọ́ rẹ̀ ní ìdí tí ó kò.,x,2
+asleep at the switch,failing to attend to one's responsibilities or duties,palm,asleep at the switch,sùn nípa ìsọfúnfún,x,2
+,,palm,The manager was [[asleep at the switch]] when the crisis occurred,Ọ̀gá náà ń sùn níbi tí ìṣẹ́lẹ̀ náà ṣẹlẹ̀,l,0
+,,palm,The train operator fell [[asleep at the switch]] during his break,Ọ̀nà-ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀,x,2
+asleep at the switch,failing to attend to one's responsibilities or duties,nllb,asleep at the switch,tó sùn nígbà tí wọ́n bá yí i padà,l,0
+,,nllb,The manager was [[asleep at the switch]] when the crisis occurred,Olùdarí ilé iṣẹ́ náà ń sùn lọ́wọ́ ìyípadà nígbà tí ìṣẹ̀lẹ̀ náà wáyé,l,0
+,,nllb,The train operator fell [[asleep at the switch]] during his break,Ọkùnrin tó ń ṣiṣẹ́ nídìí ọkọ̀ ojú irin náà sùn lọ níbi tó ti ń yí ọkọ̀ ojú irin pa dà nígbà tó ń sinmi,l,0
+asleep at the switch,failing to attend to one's responsibilities or duties,opus,asleep at the switch,sùn lọ ní ojú kọǹpútà,l,1
+,,opus,The manager was [[asleep at the switch]] when the crisis occurred,Ògá náà sùn lọ nígbà tí wàhálà náà ṣẹlè,l,0
+,,opus,The train operator fell [[asleep at the switch]] during his break,Ọkò ojú irin náà sùn lọ lójú oorun nígbà tó ń sinmi,x,2
+big cheese,to be an important and successful individual,gpt,the big cheese,owo oju-oloju,x,2
+,,gpt,"In the company, he's [[the big cheese]] and everyone respects him","Ni ọna ẹ, o jẹ ọmọ bíbírẹ ati gbogbo eniyan nikan ni o fẹran.",x,2
+,,gpt,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","Ni ọjọ́ ọ̀pọ̀lọpọ̀ ti oúnjẹ àwọn èràn kẹ́kẹ́ẹ̀sì, wọ́n fi ẹ̀rọ̀ àgbà ńlá tí ó wà ní 100 pọ́n tẹ̀.",x,2
+big cheese,to be an important and successful individual,palm,the big cheese,ọ̀gá tó tóbi,f,1
+,,palm,"In the company, he's [[the big cheese]] and everyone respects him",Nínú ilé-iṣẹ́ ó jẹ́ ọ̀kan lára àwọn tó tóbi jùlọ gbogbo èèyàn sì ń bọ́ ọ,f,1
+,,palm,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds",Níbi ìpàdé ẹ̀yẹ wọ́n ṣe afihan ẹ̀yẹ tó tó 100 owó ọ̀nà,x,2
+big cheese,to be an important and successful individual,nllb,the big cheese,wàràkàṣì ńlá,l,0
+,,nllb,"In the company, he's [[the big cheese]] and everyone respects him","Nínú ilé-iṣẹ́, òun ni olórí, gbogbo èèyàn sì bọ̀wọ̀ fún un",l,1
+,,nllb,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","Ní àjọ̀dún wàràkàṣì, wọ́n gbé wàràkàṣì ńlá kan tó wúwo tó àádọ́rùn-ún kìlógíráàmù (ìyẹn nǹkan bí àádọ́ta kìlógíráàmù) lọ sójú òpó",l,0
+big cheese,to be an important and successful individual,opus,the big cheese,wàràkàṣì ńlá,l,0
+,,opus,"In the company, he's [[the big cheese]] and everyone respects him","Ní ilé-ẹkọ náà, òun ni ó ma ń jẹ ọwọ ńlá tí gbogbo ènìyàn sì ń bòwò fún un",x,2
+,,opus,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","Nígbà àjọyò tí wón máa ń ṣe lóṣòó, wón máa ń fi wàràkàṣì ńlá tó wúwo tó ọgórùn - ún àpò sìméǹtì",l,1
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",palm,he bit off more than he could chew,ó gbọ́n tó tó ìgbà tí ó ń gbọ́n,x,2
+,,palm,"By accepting too many projects at once, [[he bit off more than he could chew]]",Nípa ìgbàgbọ́ ọ̀pọ̀lọpọ̀ iṣẹ́ nígbà kan náà ó gbọ́n ìyẹ̀wò tí ó kọ́kọ́ gbọ́,x,2
+,,palm,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,Ó gbọ́n ìyẹ̀ tó kọ́kọ́ gbọ́n nígbà tó ń gbọ́n ìyẹ̀ tó tó ọ̀pọ̀ nínú ìyẹ̀ tó gbọ́n,x,2
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",gpt,he bit off more than he could chew,O ti gbe'nu sori ẹ̀ran tó kò le jẹun.,l,2
+,,gpt,"By accepting too many projects at once, [[he bit off more than he could chew]]",Nitori o ṣe ẹrọ pupọ lẹhin ni o jẹ ohun ti o le ṣe.,l,2
+,,gpt,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,O ti mu ẹ̀ni tó lè mú ìwé àgbẹ̀lẹ̀ ní ìgbà kan lọ́jọ́.,x,2
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",nllb,he bit off more than he could chew,ó jẹ́ kí ọ̀pọ̀ nǹkan kọjá agbára rẹ̀,l,2
+,,nllb,"By accepting too many projects at once, [[he bit off more than he could chew]]","Ó gba iṣẹ́ tó pọ̀ jù lẹ́ẹ̀kan náà, èyí tó jẹ́ pé ó ti pọ̀ jù fún un láti ṣe",f,0
+,,nllb,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,Ó jẹ́ kó pọ̀ ju bó ṣe lè jẹ lọ nígbà tó gbìyànjú láti jẹ gbogbo búrẹ́dì náà ní ìjẹ́kan,l,1
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",opus,he bit off more than he could chew,Ó gé e ju bó ṣe yẹ lọ,l,0
+,,opus,"By accepting too many projects at once, [[he bit off more than he could chew]]","Bó ṣe téwó gba òpò iṣé tó pò léèkan náà, ńṣe ló rọra yó lọ ju bó ṣe yẹ lọ",x,2
+,,opus,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,Ó rọra yó kélékélé kúrò lénu rè nígbà tó gbìyànjú láti jẹ gbogbo àpò ìdòtí tó wà nínú àpòró kan,x,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,opus,blow his own horn,fun ìwo ara rè,x,2
+,,opus,He never hesitates to [[blow his own horn]] about his accomplishments,Kò ló tìkò láti fun ìwo ara rè nípa àwọn ohun tó gbé ṣe,l,1
+,,opus,"As a trumpet player, he would [[blow his own horn]] during practice","Gégé bí ẹni tó ń fun kàkàkí, yóò fun ìwo ara rè nígbà tó bá ń ṣe ìdánrawò",l,1
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,palm,blow his own horn,gbọ́n ara rẹ̀,x,2
+,,palm,He never hesitates to [[blow his own horn]] about his accomplishments,Ọ kò ṣe ìṣọwọ́ láti sọ nípa àṣeyọrí rẹ,x,2
+,,palm,"As a trumpet player, he would [[blow his own horn]] during practice",Gẹ́gẹ́ bí ọmọ ẹ̀yẹ ìfẹ́fẹ́ ó máa ń fẹ́fẹ́ ìfẹ́fẹ́ rẹ̀ nígbà tí ó ń ṣe ìdánilẹ́kọ̀,l,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,nllb,blow his own horn,ó máa ń fun ìwo ara rẹ̀,x,2
+,,nllb,He never hesitates to [[blow his own horn]] about his accomplishments,Kò sígbà kan tó máa ń ṣiyèméjì láti máa fi àwọn àṣeyọrí tó ti ṣe ṣe fọ́rífọ́rí,f,1
+,,nllb,"As a trumpet player, he would [[blow his own horn]] during practice",Ó máa ń fun kàkàkí tirẹ̀ nígbà tó bá ń fi kàkàkí kọrin,l,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,gpt,blow his own horn,fi ipele re han ju owo re.,x,2
+,,gpt,He never hesitates to [[blow his own horn]] about his accomplishments,"O kò nípa àwọn ìtàn rẹ, o tó kó ọwọ́ rẹ.",x,2
+,,gpt,"As a trumpet player, he would [[blow his own horn]] during practice","Bí òun ò bá ni oníìn ìtọ́ọ̀kan, òun yó fi ìtọ́ọ̀kan rẹ̀ lọ sí ìdánimọ́ràn.",x,2
+blow your own trumpet,to say things that makes your own self or kin look good,gpt,blowing his own trumpet,o n fi iya kere ju obo re lo.,x,2
+,,gpt,He was always [[blowing his own trumpet]] about his accomplishments,O n ṣe ẹrọ lọwọ rẹ nipa awọn ohun ti o ṣe.,x,2
+,,gpt,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","Ni irin-ajo, o ti n fi iyaara re han ni ibeere irin-ajo.",x,2
+blow your own trumpet,to say things that makes your own self or kin look good,nllb,blowing his own trumpet,tó ń fun kàkàkí tirẹ̀,l,1
+,,nllb,He was always [[blowing his own trumpet]] about his accomplishments,Gbogbo ìgbà ló máa ń fi àwọn àṣeyọrí tó ti ṣe ṣe fọ́rífọ́rí.,f,1
+,,nllb,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","Nígbà tí wọ́n ń ṣe àjọ̀dún, òun fúnra rẹ̀ ló ń fun kàkàkí rẹ̀ gẹ́gẹ́ bí ara ẹgbẹ́ akọrin tó ń rìn",l,1
+blow your own trumpet,to say things that makes your own self or kin look good,palm,blowing his own trumpet,ń ṣe ìfẹ́fẹ́ ara rẹ,f,1
+,,palm,He was always [[blowing his own trumpet]] about his accomplishments,Ó máa ń sọ ìṣẹ́ tó ṣe nínú ìkọ̀rọ̀ tó ń sọ,f,2
+,,palm,"During the parade, he was [[blowing his own trumpet]] as part of the marching band",Nígbà ìgbàyànjú ó ń ṣe ìfẹ́fẹ́ ìtẹ́ ẹ̀rọ ìfẹ́fẹ́ rẹ̀ gẹ́gẹ́ bí ọ̀kan lára àwọn ẹgbẹ́ ìfẹ́fẹ́ tí ó ń rìn,l,1
+blow your own trumpet,to say things that makes your own self or kin look good,opus,blowing his own trumpet,Bíbó kàkàkí tirè,l,2
+,,opus,He was always [[blowing his own trumpet]] about his accomplishments,Gbogbo ìgbà ló máa ń fun kàkàkí ara rè nípa àwọn ohun tó gbé ṣe,l,1
+,,opus,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","Nígbà tí ìjà náà ń lọ lówó, ó ń fun kàkàkí tirè gégé bí ara ẹgbé ajagunṣétè náà",l,1
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,opus,burning the candle at both ends,Iná àbélà tó ń jó àbélà ní òpin méjèèjì,l,1
+,,opus,"Working two jobs and studying, she was [[burning the candle at both ends]]","Bó ṣe ń ṣiṣé méjì, tó sì ń kékòó rè, ńṣe ló ń sun àbélà náà ní òpin méjèèjì",l,2
+,,opus,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","Nígbà tí wón ń ṣe àyèwò náà, ńṣe ni wón ń jó àbélà náà ní òpin méjèèjì láti rí bí wón ṣe ń yó",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,nllb,burning the candle at both ends,sísun àbẹ́là náà ní ìhà méjèèjì,l,0
+,,nllb,"Working two jobs and studying, she was [[burning the candle at both ends]]","Iṣẹ́ méjì ló ń ṣe, ó sì ń kàwé, ó ń lo gbogbo okun rẹ̀",f,0
+,,nllb,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","Nígbà tí wọ́n ń ṣe ìdánwò náà, wọ́n ń sun àbẹ́là náà ní ìhà méjèèjì láti rí bí àbẹ́là náà ṣe ń yọ́ tó",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,palm,burning the candle at both ends,ń ṣe ìfẹ́ nínú ìyìn àti nínú ìyìn,x,2
+,,palm,"Working two jobs and studying, she was [[burning the candle at both ends]]",Nítorí ó ń ṣiṣẹ́ méjì àti ìkẹ́kọ̀ọ́ ó ń ṣe ìṣẹ́ ní ìwàásù ní ìwàásù,x,2
+,,palm,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate",Nígbà ìdánwò náà wọ́n ń jẹ́ kí ọ̀pọ̀lọpọ̀ ìyẹ́ sọ́nà nínú ìyẹ́ kan láti rí bí ó ṣe ń yó,x,2
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,gpt,burning the candle at both ends,ẹ̀rù bẹ́ẹ̀ ni òun tó sọ̀rọ̀.,x,2
+,,gpt,"Working two jobs and studying, she was [[burning the candle at both ends]]","Nitori o ba ni ise meji ati ko si, o ti n gbe inu kan soso.",x,2
+,,gpt,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","Loni ni won ti o se iroyin yii, won ti o sun iro fun owo awon ose meji lati wo awon ojojumo ti o nlo.",x,2
+can of worms,"to get into something that is messy, has problems and is unwanted",gpt,opened a can of worms,o fẹ lati ṣiṣẹ kan ti o jẹ kanra ni Yoruba.,f,1
+,,gpt,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","Nipa awọn ọrọ ti o ṣe nipa ọrọ rẹ ni, o ti ṣiṣẹdẹ ṣiṣe kan afẹfẹ kan ni ilana wọn.",x,2
+,,gpt,The fisherman [[opened a can of worms]] to bait his hook,Olowo ìjà ní ńṣe àpò ìwọ̀ ẹja lati ṣe ìkòkò rẹ.,l,2
+can of worms,"to get into something that is messy, has problems and is unwanted",opus,opened a can of worms,ṣí àwọn kòkòrò tín - tìn - tín,l,0
+,,opus,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation",Bó ṣe ń béèrè ohun tó ti ṣẹlè séyìn lówó rè ló jé kó ṣeé ṣe fún àwọn kòkòrò mùkúlú láti bá wọn sòrò,l,2
+,,opus,The fisherman [[opened a can of worms]] to bait his hook,Apẹja náà bèrè sí í kó fáíróòsì tó wà lára rè,x,2
+can of worms,"to get into something that is messy, has problems and is unwanted",palm,opened a can of worms,ṣí ìkòkò ẹlẹ́dẹ,l,1
+,,palm,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation",Nípa ìbéèrè nípa ìgbà ìgbàdúgbò rẹ̀ ó ṣe ìṣẹ̀lẹ̀ tí ó ń ṣe ìṣẹ̀lẹ̀ nínú ìjọba wọn,x,2
+,,palm,The fisherman [[opened a can of worms]] to bait his hook,Ẹlẹ́rọ̀ ìjìn ṣí ìkòkò àwọn ẹ̀yẹ̀ ìjìn láti fi ṣe ìdẹ́ ìkọ́kọ́ rẹ̀,l,2
+can of worms,"to get into something that is messy, has problems and is unwanted",nllb,opened a can of worms,ó ṣí ìgò ìdọ̀tí,x,2
+,,nllb,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","Bó ṣe ń béèrè nípa ohun tó ti ṣẹlẹ̀ sẹ́yìn lọ́wọ́ ọkọ rẹ̀, ńṣe ló ń mú kí ọ̀rọ̀ wọn dà bí ọ̀rọ̀ àròsọ",f,1
+,,nllb,The fisherman [[opened a can of worms]] to bait his hook,Apẹja náà ṣí ìgò ìdọ̀tí kan láti fi dẹkùn mú ẹja rẹ̀,l,2
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,nllb,carrying the torch for her,tí ó ń gbé iná fún un,l,0
+,,nllb,"He's been [[carrying the torch for her]] since high school, but she never noticed","Ó ti ń bá a lọ láti iléèwé girama, ṣùgbọ́n kò rí i",x,2
+,,nllb,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","Nígbà tí eré ìje náà ń lọ lọ́wọ́, òun ló ń gbé iná fún un títí dìgbà tó fi di ìgbà rẹ̀ láti sá",l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,opus,carrying the torch for her,kó o wá gbé àpamówó fún un,x,2
+,,opus,"He's been [[carrying the torch for her]] since high school, but she never noticed","Òun ni ó ń gbé ilé-ẹkọ fún un láti ìgbà tí ó ti wà ní ilé-ẹkọ gíga, ṣùgbọn kò fura rí",x,2
+,,opus,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","Nígbà tí eré ìje náà ń lọ lówó, ó ń gbé ògùṣò fún un títí tó fi fé sá lọ",l,1
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,palm,carrying the torch for her,ń ṣe ìṣẹ́ ìyìn ìṣẹ́ rẹ̀,x,2
+,,palm,"He's been [[carrying the torch for her]] since high school, but she never noticed",Ó ti ń ṣe ìfẹ́ fún un láti ilé-ẹ̀kọ́ gira gira ṣùgbọ́n ò ṣe akiyesi,f,0
+,,palm,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run",Nígbà ìdíje ìsọsọ ó ń kó ìfọn fún un títí tí ó fi di ìgbà tí ó ń lọ ṣiṣẹ́,l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,gpt,carrying the torch for her,ko si ohun tó ṣeé ṣe fun ọ lọ.,x,2
+,,gpt,"He's been [[carrying the torch for her]] since high school, but she never noticed","O ti gbe ileke fun ọ̀rẹ̀ rẹ̀ lọ́dún tuntun, ṣugbọn ọkunrin ọkọ̀ rẹ̀ kò ní tẹ̀mi.",x,2
+,,gpt,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","Ni iranlọwọ ayọkẹlẹ, o wa ni ọkọlọrun fun ọ titi o ba ṣe irun.",x,2
+chapter and verse,verbatim; word for word details.,opus,gave them chapter and verse,fún wọn ní orí àti ẹsẹ,l,0
+,,opus,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","Nígbà tí wọn bi wọn nípa ìlànà tuntun náà, ó fún wọn ní orí àti ẹsẹ lórí àwọn ìlànà ilé-iṣẹ náà",l,0
+,,opus,The priest [[gave them chapter and verse]] from the Bible during the sermon,Àlùfáà náà fún wọn ní orí àti ẹsẹ látinú Bíbélì nígbà tí ìwàásù náà ń lọ lówó,l,0
+chapter and verse,verbatim; word for word details.,gpt,gave them chapter and verse,ni won fi sọ ayẹwo ati ọrọ.,x,2
+,,gpt,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","Nigba ti a so fun o lati lo si ohun tuntun ti o wa ni iranlọwọ, o fi won ni awọn odu ki o si tun so awọn ohun ti o le fi ranse siwaju.",x,2
+,,gpt,The priest [[gave them chapter and verse]] from the Bible during the sermon,Ọmọde kan ni ọmọde ọrẹ rẹ ti ṣe afihan pe ojúewé ti o ṣe fun wọn ni lati Báibálì.,x,2
+chapter and verse,verbatim; word for word details.,nllb,gave them chapter and verse,ó fún wọn ní orí àti ẹsẹ,l,0
+,,nllb,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","Nígbà tí wọ́n béèrè nípa ìlànà tuntun náà, ó sọ gbogbo ohun tó wà nínú òfin ilé iṣẹ́ náà fún wọn",f,0
+,,nllb,The priest [[gave them chapter and verse]] from the Bible during the sermon,Àlùfáà náà máa ń fún wọn ní orí àti ẹsẹ Bíbélì nígbà ìwàásù,l,0
+chapter and verse,verbatim; word for word details.,palm,gave them chapter and verse,sọ ọ̀rọ̀ wọn nínú ìwé,f,1
+,,palm,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations",Nigbati wọ́n bá ní pé kí ó sọ nípa ilana tuntun náà ó sọ gbogbo ìlànà ìṣiṣẹ́ ìjọba náà fún wọn,f,1
+,,palm,The priest [[gave them chapter and verse]] from the Bible during the sermon,Àwọn olórí ìjọ náà sọ ìwé ìjìnlẹ̀ àti ìwé ìwé ìjìnlẹ̀ nínú Bíbélì fún wọn nígbà ìwàásù,x,2
+chink in armour,a susceptible or vulnerable area.,opus,found a chink in their armour,rí ṣóòbù kan lówó wọn,x,2
+,,opus,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","Léyìn tá a ti ṣàyèwò ọgbón tí wón ń dá, a rí ohun kan tí wón lè fi kó wa nífà",f,0
+,,opus,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","Nígbà tí ó ń ṣàyẹwò ẹgbọn knight, ó rí ẹrọ tí ó wà ní apá wọn tí ó nílò àtúnṣe.",l,0
+chink in armour,a susceptible or vulnerable area.,nllb,found a chink in their armour,wọ́n rí àlàfo kan nínú ìhámọ́ra wọn,l,0
+,,nllb,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","Lẹ́yìn tá a ṣàyẹ̀wò ọ̀nà tí wọ́n gbà ń ṣe é, a rí àyè kan nínú ìhámọ́ra wọn tá a lè lò",l,0
+,,nllb,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","Nígbà tó ń ṣàyẹ̀wò aṣọ ẹṣin àwọn ọmọ ogun náà, ó rí ibi tó yẹ kí wọ́n tún ṣe nínú ìhámọ́ra wọn",l,0
+chink in armour,a susceptible or vulnerable area.,palm,found a chink in their armour,rí ìdẹ́gbẹ́ nínú àwọn ẹ̀rọ ìjà wọn,x,2
+,,palm,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit",Lẹ́yìn tí a ṣe àwọn ìwádìí lórí ìṣàkóso wọn a rí ìdẹ́ nínú àwọn ẹ̀rọ wọn tí a lè ṣèlò,f,1
+,,palm,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair",Nígbà tí ó ń ṣàwọnṣe ìṣọ̀ṣọ̀ ọlọ́jà ó rí ìyàtọ̀ nínú àwọn ẹ̀rọ ìjà wọn tí ó nílò ìṣàtúnṣe,l,2
+chink in armour,a susceptible or vulnerable area.,gpt,found a chink in their armour,Mo ṣe ẹrọ lori awọn ọja wọn.,x,2
+,,gpt,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","Lẹhin ti a ṣe alayeṣẹ wọn, a ṣe ni chink ni wọn ọja ti a le jẹ ki a ṣe faṣẹ.",x,2
+,,gpt,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","Nitorina ti o ba nṣiṣẹ ọkùnrin alágbè, o ṣe ẹrọ ti o nilo ni ilẹkun rẹ ti o nilo lati ṣiṣẹ.",x,2
+clean slate,to wipe the past out and begin afresh,opus,to start with a clean slate,láti bèrè pèlú àbààwón tó mó,l,1
+,,opus,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","Léyìn tí wón tọrọ àforíjì, wón pinnu láti bèrè pèlú ògiri tó mó, kí wón sì tún òré wọn ṣe",l,1
+,,opus,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,Iṣé ọnà náà pinnu láti bèrè pèlú àbààwón tó mó nípa wíwó kúrò nínú ọkò ojú omi,l,1
+clean slate,to wipe the past out and begin afresh,gpt,to start with a clean slate,lati bẹrẹ kan lọwọ.,x,2
+,,gpt,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","Lẹhin ti won bẹrẹ si, wọn qu siwaju pẹlu ọkan tuntun ati ṣe afihan wọn.",x,2
+,,gpt,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,Omo-ọlọrun wa nira lati bẹrẹ kan pẹlu ẹrọ kan tó jẹ wipe wipe lori bọọlu.,x,2
+clean slate,to wipe the past out and begin afresh,palm,to start with a clean slate,nípa ìbẹ̀rẹ̀ ìwà tó tọ,f,1
+,,palm,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship",Lẹ́yìn ìbẹ̀rẹ̀ ìbàbọ̀ wọ́n pinnu láti bẹ̀rẹ̀ pẹ̀lú ìwé tí kò ní ìkọ̀sílẹ̀ kankan kí wọ́n sì tún ìwé ìṣọ̀kan wọn ṣe,f,1
+,,palm,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,Ọmọ ọ̀rọ̀ ọ̀rọ̀ ṣe pinnu láti bẹ̀rẹ̀ pẹ̀lú ìwọ̀n ìwọ̀n tí ó mọ́ nípa ìwọ̀n ìwọ̀n,x,2
+clean slate,to wipe the past out and begin afresh,nllb,to start with a clean slate,láti bẹ̀rẹ̀ láìsí àléébù kankan,a,0
+,,nllb,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","Lẹ́yìn tí wọ́n tọrọ àforíjì, wọ́n pinnu láti bẹ̀rẹ̀ látorí tó ti mọ́ kí wọ́n sì tún pa dà di ọ̀rẹ́",a,1
+,,nllb,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,Onímọ̀ náà pinnu láti bẹ̀rẹ̀ látorí tuntun nípa fífọ̀ títa pẹlẹbẹ náà,l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",gpt,a cloud on the horizon,ọ̀kan ìròyìn lórí òkunrin.,x,2
+,,gpt,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","Nitoripe owo-ori ireti ti o ti lo, o si tun ni oju-ewu ni ibi ti o ba ti gba iseju kan ti o ni owo.",x,2
+,,gpt,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","Nigba ti a wa ri odo, a ri omiiran kan ni ibeere yii ti o so wipe ojo kan ti de.",x,2
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",opus,a cloud on the horizon,àwọsánmà tó ṣé kù lójú òrun,l,0
+,,opus,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","Bó tilè jé pé wón ṣàṣeyọrí lénu iṣé náà, síbè ńṣe ni gbogbo owó tí wón ń ná ń dín kù díèdíè",f,1
+,,opus,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","Bá a ṣe ń wo agbami òkun, a rí àwọsánmà kan tó ń dúró de ìjì kan tó ń bò lóòókán",l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",nllb,a cloud on the horizon,àwọsánmà tó wà ní ọ̀run,l,0
+,,nllb,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","Láìka àṣeyọrí iṣẹ́ náà sí, ìkùukùu kan wà ní ọ̀run ní ọ̀nà ìkúrú owó",l,1
+,,nllb,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","Bá a ṣe ń wo òkun, a rí àwọsánmà kan tó ń rọ̀ lọ́ọ̀ọ́kán tó ń jẹ́ ká mọ̀ pé ìjì ń bọ̀",l,1
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",palm,a cloud on the horizon,òjò ní ìwọ̀n-òkè,l,2
+,,palm,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts",Láìka ìṣejú tí ìṣẹ́ náà ṣe ìwọ̀n ìdájọ́ ìṣẹ́ ìṣètò ìṣúnàwọn owó ìṣètò ìjọba ń ṣe ìdààmú ìròyìn ìṣẹ́ náà,f,1
+,,palm,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm",Nígbà tí a ń wo òkun a rí ìwùjọ̀ òfuurufú ní ìwọ̀n òkun tí ó ń sọ pé ìjì ń bò,l,1
+count chicken,make plans based on events that may or may not happen,nllb,was counting chickens before they hatch,ó ń ka adìyẹ kí wọ́n tó yọ,a,0
+,,nllb,He [[was counting chickens before they hatch]] when he started planning his victory party,Ó ń ka àwọn adìyẹ kí wọ́n tó yọ nígbà tó bẹ̀rẹ̀ sí ṣètò ayẹyẹ ìṣẹ́gun rẹ̀,a,0
+,,nllb,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,"Àgbẹ̀ náà ń ka àwọn adìyẹ kó tó di pé wọ́n yọ látinú ẹyin, ó sì ń fojú díwọ̀n iye ẹyin tó máa di ọmọ adìyẹ",l,0
+count chicken,make plans based on events that may or may not happen,opus,was counting chickens before they hatch,Ńṣe ni wón ń ka adìyẹ kí wón tó kórìíra rè,l,1
+,,opus,He [[was counting chickens before they hatch]] when he started planning his victory party,Ó ń wo adìyẹ kí wón tó fìkanra mó ọn nígbà tó bèrè sí í ṣètò ìṣégun rè,l,2
+,,opus,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,Àgbè náà ń wo adìyẹ kó tó di pé wón kórìíra iye ẹyin tó máa ń dà sínú ẹyin rè,l,1
+count chicken,make plans based on events that may or may not happen,palm,was counting chickens before they hatch,ń ṣe ìkọ́kọ́ ẹyẹ tí ó ò mọ́ pé ó ò mọ́ ìgbà tí ó ń ṣe ẹyẹ,x,2
+,,palm,He [[was counting chickens before they hatch]] when he started planning his victory party,Ó ń ṣe ìròyìn ọmọ ọdún tí ò mọ bí ó ṣe máa rí nígbà tí ó ń ṣe àkókò ìyàwó ìṣẹ́gun rẹ̀,f,1
+,,palm,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,Ọlọ́rọ̀ ọ̀gbìn náà ń kọ́ ọ̀pọ̀ àwọn ẹyẹ tẹ́lẹ̀ kí wọ́n tó ṣẹ̀lẹ̀ nípa ìwájúsọn iye àwọn ẹyẹ tí wọ́n yóò di ọmọ ẹyẹ,x,2
+count chicken,make plans based on events that may or may not happen,gpt,was counting chickens before they hatch,Ọ n tẹẹ gbogbo ẹyin adiye lọ́jọ́ kan lọ́pọ̀ọ̀.,x,2
+,,gpt,He [[was counting chickens before they hatch]] when he started planning his victory party,O ti nwo eyin adie kan sibi ti o bẹrẹ ise awọn ọrọ-ara rẹ.,l,2
+,,gpt,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,Oloore ti nira ẹja ni o ti nira awọn ẹja tó yẹ ki o jẹ ki o ni ọmọ.,x,2
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,nllb,cut his own throat,ó gé ọrùn ara rẹ̀,l,0
+,,nllb,"By revealing company secrets, he [[cut his own throat]] and ruined his career","Ó fi àṣírí ilé iṣẹ́ náà han àwọn èèyàn, ó sì tipa bẹ́ẹ̀ ba iṣẹ́ rẹ̀ jẹ́",f,0
+,,nllb,"While shaving, he accidentally [[cut his own throat]] with the razor","Nígbà tó ń fá irun rẹ̀, ó fi ọ̀bẹ gígùn gé ọ̀fun ara rẹ̀",l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,palm,cut his own throat,gbẹ́ ọ̀rọ̀ ara rẹ̀,x,2
+,,palm,"By revealing company secrets, he [[cut his own throat]] and ruined his career",Nípa ìfihan àwọn ìsọfúnfún ìjọba ó pa ara rẹ̀ nínú ẹ̀rọ ìṣẹ́ rẹ̀,f,1
+,,palm,"While shaving, he accidentally [[cut his own throat]] with the razor",Nígbà tí ó ń gbàgbé ó ṣe ìfẹsẹ̀ ọ̀rùn rẹ̀ pẹ̀lú ọ̀pá gbàgbé,x,2
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,gpt,cut his own throat,fi ọna rẹ pa ọwọ rẹ,x,2
+,,gpt,"By revealing company secrets, he [[cut his own throat]] and ruined his career","Nitori ti o fi owo ale oju kan, o ti gba ile-iwe re pada, o si gba ogo re pada.",x,2
+,,gpt,"While shaving, he accidentally [[cut his own throat]] with the razor",Nitori o ba nṣe ni o ba ṣe ọpọlọ ti o ba ṣe ọpọlọ rẹ pẹlu ẹrọ kan.,x,2
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,opus,cut his own throat,dín òfun rè kù,l,1
+,,opus,"By revealing company secrets, he [[cut his own throat]] and ruined his career","Nípa ṣíṣí àṣírí iléeṣé sílè, ó gé ònà òfun ara rè, ó sì ba iṣé rè jé",a,0
+,,opus,"While shaving, he accidentally [[cut his own throat]] with the razor","Nígbà tó ń fárùngbòn, ó fi abẹ fééréfé gé òfun rè",l,0
+deliver the goods,do what is required,palm,delivered the goods on time,ṣe ìránṣẹ ọjà nígbà tó yẹ,l,0
+,,palm,The new employee [[delivered the goods on time]] by meeting all the project deadlines,Ọmọṣẹ tuntun náà fi ọjọ́ tó tó ṣe ọjọ́ ìparí gbogbo iṣẹ́ náà ṣe ìránṣẹ́,f,1
+,,palm,The courier [[delivered the goods on time]] to the customer's doorstep,Ọ̀rọ̀ ìránṣẹ́ náà ṣe ìránṣẹ̀ ọjà náà ní àkókò sí ìbẹ̀rẹ̀ ọ̀nà ìgbésí ayé ọ̀rọ̀ ìránṣẹ́ náà,l,0
+deliver the goods,do what is required,nllb,delivered the goods on time,fi àwọn ẹrù náà ránṣẹ́ lásìkò,l,0
+,,nllb,The new employee [[delivered the goods on time]] by meeting all the project deadlines,Òṣìṣẹ́ tuntun náà fi àwọn ẹrù náà ránṣẹ́ lásìkò nípa pípa gbogbo àkókò tí iṣẹ́ náà máa parí mọ́,l,0
+,,nllb,The courier [[delivered the goods on time]] to the customer's doorstep,Aṣojú ilé iṣẹ́ ránṣẹ́ kọ́wọ́ àwọn ẹrù náà dé ọ̀dọ̀ oníbàárà náà ní àkókò tó yẹ kó dé,l,0
+deliver the goods,do what is required,gpt,delivered the goods on time,ni ipoju pada.,x,2
+,,gpt,The new employee [[delivered the goods on time]] by meeting all the project deadlines,"Omo-iṣẹ́ tó tún wà ni ìṣẹ́ ránṣẹ̀ lókàn, ó tẹ̀lẹ̀ àwọn ohun ránṣẹ̀ ní ìgbà gbogbo tí wọn bá ti ṣe àgbéléṣẹ̀.",x,2
+,,gpt,The courier [[delivered the goods on time]] to the customer's doorstep,Olórìṣá aṣoju ti ṣe ipàmọ́ àti owó àṣèwòòrì si ojúdé àwòn kọ́kọ́rọ́.,x,2
+deliver the goods,do what is required,opus,delivered the goods on time,dá owó náà padà nígbà tó yá,x,2
+,,opus,The new employee [[delivered the goods on time]] by meeting all the project deadlines,Òṣìṣé tó ṣèṣè bèrè iṣé yìí máa ń kó gbogbo ẹrù náà lọ sódò àwọn tó ń ṣiṣé náà nígbà tí wón bá rí i pé wón ti gbésè lé iṣé ìkólé náà,x,2
+,,opus,The courier [[delivered the goods on time]] to the customer's doorstep,Ẹni tí ó ń kó àwọn ẹrù náà lọwọ ni wọn ń kó àwọn ọjà náà lọwọlọwọ.,x,2
+everything but the kitchen sink,almost everything that one can think of,nllb,packed everything but the kitchen sink,ó kó gbogbo nǹkan pa mọ́ àyàfi ìkòkò ìgbọ́kọ̀sí,l,1
+,,nllb,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","A kó gbogbo nǹkan tá a fẹ́ lò nínú àgọ́ wa jọ, àyàfi omi ìwẹ̀ tó wà nínú ilé ìdáná",l,1
+,,nllb,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","Nígbà tí wọ́n ń ṣí lọ, wọ́n kó gbogbo nǹkan tí wọ́n ní dání, àyàfi abọ́ ìwẹ̀ tó wà nínú ilé ìdáná, èyí tí wọ́n fi sílẹ̀ fún àwọn tó ni ilé tuntun náà",l,0
+everything but the kitchen sink,almost everything that one can think of,palm,packed everything but the kitchen sink,kó gbogbo ohun ṣe àmọ́ kò kó ìkòkò ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn,x,0
+,,palm,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared",Fun ìrìn-àjò ìkọ̀lé wa a kó gbogbo ohun ṣe àmọ́ a kò kó ìkọ̀lé ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe ìwọn ẹ̀rọ ìṣe,,
+,,palm,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners",Nígbà tí wọ́n ń kó ọ̀hún wọ́n kó gbogbo nǹkan ṣe pẹ̀lú ọ̀rọ̀ ìgbàgbọ́ tí wọ́n fi fún àwọn tó ń rí ilé náà,x,2
+everything but the kitchen sink,almost everything that one can think of,opus,packed everything but the kitchen sink,"Gbogbo ohun tó wà nínú ilé ìdáná ló kún inú rè fófó, àmó ilé ìdáná tó wà níbè ni wón máa ń kó gbogbo rè sí",x,2
+,,opus,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","Tá a bá fé lọ sí àgó ìṣéniníṣèé, a máa ń palè gbogbo nǹkan mó, àmó a máa ń palè ilé ìdáná mó ká lè gbó bùkátà ara wa",x,2
+,,opus,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","Nígbà tí wón ń lọ, wón kún gbogbo ohun tí wón ní, àmó ilé ìdáná ni wón fi sílè fún àwọn tó ṣèṣè rà wón",x,2
+everything but the kitchen sink,almost everything that one can think of,gpt,packed everything but the kitchen sink,"Mo ti gbe gbogbo nkan, sugbon ko si aro ni igbeleke.",f,1
+,,gpt,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","Fun awọn wa ni a ti pese gbogbo nkan, sugbon a ko ni pese ọkùnrin ọkùnrin lati wa ni ibeere.",x,2
+,,gpt,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","Nitorina wonyi, won ti gbe gbogbo nkan won fi owo bo ile ise won, sugbon awon ile isoro ti won o wa ni won ni won ko si gbe ile ise ise yii.",x,2
+feather in your cap,It means to have an achievement in your name.,palm,a feather in your cap,ìyì tó wà ní ìkọ̀ ọkọ̀,x,2
+,,palm,Winning the championship would be [[a feather in your cap]],Ìgbàgbé àmì ẹ̀yẹ yóò jẹ́ ìyì fún ọ,x,2
+,,palm,The hat you're wearing has [[a feather in your cap]] as a decoration,Ibọ̀rẹ̀ tí ó wà nínú ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí ìkọ̀kọ̀ tí ó wà lórí,x,2
+feather in your cap,It means to have an achievement in your name.,opus,a feather in your cap,Ohun kan wà tó o lè fi mọ bí wón ṣe ń ṣé ẹ níṣèé,x,2
+,,opus,Winning the championship would be [[a feather in your cap]],"Bó o bá ń fi kèké ẹṣin sáré bóòlù náà, ńṣe ló máa dà bí ìgbà tí wón gbá ọ mú",x,2
+,,opus,The hat you're wearing has [[a feather in your cap]] as a decoration,Aṣọ tí o ń wò ní irinṣẹ tí o fi ṣẹṣẹ bò gẹgẹ bí ọṣó.,x,2
+feather in your cap,It means to have an achievement in your name.,gpt,a feather in your cap,ìwọ̀n bíbírẹ̀ ní ìlú rẹ̀.,x,2
+,,gpt,Winning the championship would be [[a feather in your cap]],F'ori gbodo ba o kin ni owo.,x,2
+,,gpt,The hat you're wearing has [[a feather in your cap]] as a decoration,Ẹ̀fẹ̀ yín tí ń wọ̀n ni àti ìkókó nípa àtàwọn tí ó wà nínú àwòrán yín.,x,2
+feather in your cap,It means to have an achievement in your name.,nllb,a feather in your cap,ìyẹ́ nínú àgbá rẹ,l,1
+,,nllb,Winning the championship would be [[a feather in your cap]],Gbígba ife ẹ̀yẹ náà yóò jẹ́ ìyẹ́ kan nínú àlàfo rẹ,l,2
+,,nllb,The hat you're wearing has [[a feather in your cap]] as a decoration,"Ìyẹ́ kan wà nínú àlàfo rẹ, èyí tó o fi ṣe òrùka orí rẹ.",l,1
+feel the pinch,experience financial hardship,nllb,he started to feel the pinch,ó bẹ̀rẹ̀ sí í ní ìmí,x,2
+,,nllb,"After losing his job, [[he started to feel the pinch]] financially","Lẹ́yìn tí iṣẹ́ bọ́ lọ́wọ́ rẹ̀, ó bẹ̀rẹ̀ sí í ní ìṣòro owó",f,1
+,,nllb,"When the crab grabbed his finger, [[he started to feel the pinch]]","Nígbà tí àgbá náà gbá ìka rẹ̀ mú, ó bẹ̀rẹ̀ sí í rí bí nǹkan ṣe ń gún un",l,1
+feel the pinch,experience financial hardship,gpt,he started to feel the pinch,O ti bẹrẹ si jẹ ọkan.,x,2
+,,gpt,"After losing his job, [[he started to feel the pinch]] financially","Lẹhin ti o ṣe iṣẹ rẹ, o bẹrẹ si ni ọrọ ọrọ ọkan ninu awọn ẹniyan.",x,2
+,,gpt,"When the crab grabbed his finger, [[he started to feel the pinch]]","Nitori o ba aya e, o bẹrẹ si mọ ọrọ.",x,2
+feel the pinch,experience financial hardship,palm,he started to feel the pinch,ó bẹ̀rẹ̀ sí ní rí ìyà,f,1
+,,palm,"After losing his job, [[he started to feel the pinch]] financially",Lẹ́yìn tí ó ṣe ìfọwọ́sílẹ̀ ọ̀jọ́ ọ̀rọ̀ rẹ̀ ó bẹ̀rẹ̀ sí ní rí ìyànjú nínú ìṣèlú owó rẹ̀,f,1
+,,palm,"When the crab grabbed his finger, [[he started to feel the pinch]]",Nigbati ẹja ẹja gba ọwọ rẹ o bẹrẹ si rí ìyọnjú,l,1
+feel the pinch,experience financial hardship,opus,he started to feel the pinch,Ó bèrè sí nímòlára pé ìṣéjú akàn náà ń ṣe òun,f,2
+,,opus,"After losing his job, [[he started to feel the pinch]] financially","Léyìn tíṣé bó lówó rè, ó bèrè sí í rí i pé owó tí wón ń san fún òun ti pò jù",x,2
+,,opus,"When the crab grabbed his finger, [[he started to feel the pinch]]","Nígbà tí òpá kétékété náà gún ìka rè, ó bèrè sí í nímòlára pé òun ti gé e",l,1
+flash in the pan,"something that cannot be repeated, usually a positive concept",gpt,a flash in the pan,ọkọlọtọ pada.,x,2
+,,gpt,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","Ise ọrọ rẹ ti o dara ju ni ọrọ ọrọ, nitori ko le gbera.",x,2
+,,gpt,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","Epo ba kọ iná, o ṣe ọkọpọ ọkọpọ ni o ṣẹlẹ.",x,2
+flash in the pan,"something that cannot be repeated, usually a positive concept",nllb,a flash in the pan,ìmọ́lẹ̀ tó ń tàn lójú,l,2
+,,nllb,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","Ìlọsíwájú tó rí lójijì yìí kò ní nǹkan kan ṣe pẹ̀lú rẹ̀, nítorí pé kò lè máa bá a lọ.",f,1
+,,nllb,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","Omi náà wá gbóná, ó sì mú kí iná kan tàn nínú ìkòkò náà nígbà tó ń se oúnjẹ",l,2
+flash in the pan,"something that cannot be repeated, usually a positive concept",opus,a flash in the pan,Ohùn kan tó ń kọ yèrì,x,2
+,,opus,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","Àṣeyọrí rẹ ṣàdédé ṣẹ ku ọjọ mẹsàn-án ní Ìpínlẹ Ọyọ, bí ó ti jẹ wí pé kò sí bí ó ṣe lè tójú rẹ",x,2
+,,opus,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","Epo tí wón fi ń dáná lówó ni wón fi ń dáná, tí wón sì ń fi iná sí i lójú tí wón sì ń dáná lówó légbèé ibi tó ti ń dáná",x,2
+flash in the pan,"something that cannot be repeated, usually a positive concept",palm,a flash in the pan,ìfẹ́ tí ó ń ṣe ní ìgbà kan,f,1
+,,palm,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it",Ìṣẹ́ṣe rẹ̀ tí ó ṣẹlẹ̀ láìròyìn yìí jẹ́ ìṣẹ́ṣe tí ó ń ṣẹlẹ̀ nígbà kan ṣoṣo nítorí pé ò lè ṣeé tẹ̀síwájú,f,0
+,,palm,"The oil caught fire, creating [[a flash in the pan]] while she was cooking",Ẹ̀rọ̀ ìfúná ń ṣe ìyànjú ó sì ń ṣe ìfẹ́fẹ́ nínú ìgbá nígbà tí ó ń ṣe ìwòsàn,f,2
+get hitched,to get married,opus,they decided to get hitched,Wón pinnu láti bèrè sí í lu àwọn èèyàn,x,2
+,,opus,"After dating for five years, [[they decided to get hitched]] and start a family","Léyìn tí wón ti bèrè sí í féra wọn fún ọdún márùn - ún, wón pinnu láti bèrè sí lu ìdílé kan",x,2
+,,opus,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","Nígbà tí wón ń lọ lójú ònà, wón pinnu láti wọ ọkò àfiṣelé kan lọ síbi tí wón kó àwọn nǹkan sí",x,2
+get hitched,to get married,gpt,they decided to get hitched,Won ni o wa fi owo bo.,x,2
+,,gpt,"After dating for five years, [[they decided to get hitched]] and start a family","Lẹhin ti o ba ni ọkanjẹ ọkanjẹ ni oṣu meje, wọn wa ni wọn yoo bẹrẹ siwaju lati bẹrẹ ẹbi ati bẹrẹ ọmọ.",x,2
+,,gpt,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","Ni irin-ajo won, won gbe owo awon agbegbe lati gbe agbese kan fun idanwo to dara ju.",x,2
+get hitched,to get married,nllb,they decided to get hitched,wọ́n pinnu láti ṣe ìgbéyàwó,f,0
+,,nllb,"After dating for five years, [[they decided to get hitched]] and start a family","Lẹ́yìn tí wọ́n ti ń fẹ́ra wọn sọ́nà fún ọdún márùn-ún, wọ́n pinnu láti ṣègbéyàwó kí wọ́n sì bẹ̀rẹ̀ ìdílé",f,0
+,,nllb,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","Nígbà ìrìn àjò wọn, wọ́n pinnu láti so mọ́ ọkọ̀ àfiṣelé kan kí wọ́n lè fi kún ibi tí wọ́n máa ń kó nǹkan sí",l,0
+get hitched,to get married,palm,they decided to get hitched,wọ́n pinnu láti ṣe ìgbéyàwó,f,0
+,,palm,"After dating for five years, [[they decided to get hitched]] and start a family",Lẹ́yìn ọdún márùn-ún tí wọ́n ń ṣe ìfẹ́ wọ́n pinnu láti ṣe ìgbéyàwó àti láti bẹ̀rẹ̀ ìdílé,f,0
+,,palm,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage",Nígbà tí wọ́n ń rìn irin-ajo ọ̀nà wọ́n pinnu láti ṣe ìfọwọsowọpọ̀ pẹ̀lú ẹ̀rọ ìkọ̀ ọ̀nà fún ìkọ̀ ìtọ́jú tí ó tóbi,l,0
+go the extra mile,to make an extra effort,palm,he went the extra mile,ó ṣe ìsẹ́ tí ó ń ṣe ní ìgbà tí ó ń ṣe ìsẹ́,x,2
+,,palm,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything",Láti rí daju pé iṣẹ náà dara ó ṣe ìgbésẹ̀ tí ó tóbi jù lọ ó sì ṣe ìwádìí gbogbo nǹkan lẹ́ẹ̀kansíwájú,f,1
+,,palm,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn",Nígbà ìdíje ìrìn-àjò ìgbàgbọ́ ó ṣe ìrìn-àjò ìgbàgbọ́ ìgbàgbọ́ nítorí ìyípadà tí ó ṣe,l,2
+go the extra mile,to make an extra effort,gpt,he went the extra mile,O ti lọ sọra diẹ sẹ.,x,2
+,,gpt,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","Fun awọn ọna ti o dara julọ, o sì lọ sílẹ ati ṣiṣẹ idanwo - ṣiṣẹ gbogbo nkan.",x,2
+,,gpt,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","Ni irun abalaye, o sọ nkan ti o jẹ ọkan ninu awọn mile kan nitori o ṣiṣẹ alawọ kan.",x,2
+go the extra mile,to make an extra effort,nllb,he went the extra mile,ó ṣe gbogbo ohun tó lè ṣe,f,2
+,,nllb,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","Kó lè rí i dájú pé iṣẹ́ náà pé, ó máa ń ṣe gbogbo ohun tó bá lè ṣe láti rí i dájú pé gbogbo nǹkan wà ní sẹpẹ́",f,0
+,,nllb,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","Nígbà tó ń sáré marathon, ó ṣe àfikún kìlómítà kan nítorí pé ó yà síbi tí kò yẹ",l,1
+go the extra mile,to make an extra effort,opus,he went the extra mile,Ó ṣe ohun tó ju ìyẹn lọ,a,1
+,,opus,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","Kó bàa lè rí i dájú pé iṣé náà bó lówó rè, ó lọ wo gbogbo nǹkan tó wà níbè dáadáa, ó sì ṣe àyèwò rè léèmejì",f,2
+,,opus,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","Nígbà tí ọkò òkun náà ń lọ lówó, ó fẹsè rin ìrìn kìlómítà náà nítorí àṣìṣe kan tó ṣe",l,1
+go through a rough patch,to experience a lot of problems in a period of life,opus,going through a rough patch,bó o ṣe ń gba ibi tí nǹkan ti le koko kọjá,a,0
+,,opus,"After losing her job, she was [[going through a rough patch]] in her life","Léyìn tí iṣé bó lówó rè, ó bèrè sí í dojú kọ ipò tó le koko nínú ìgbésí ayé rè",f,0
+,,opus,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","Nígbà táa ń lọ lówó, ńṣe là ń gba inú kòtò tí kò bára dé kọjá, tí àwọn àpáta àti ègún kún inú rè fófó",l,0
+go through a rough patch,to experience a lot of problems in a period of life,gpt,going through a rough patch,nitori oju o ri ireti.,x,2
+,,gpt,"After losing her job, she was [[going through a rough patch]] in her life","Lẹhin ti o fi ọrẹ rẹ ṣe iṣẹ, o ti wa ni ọjọgbọn ni ayé rẹ.",x,2
+,,gpt,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","Ni irin-ajo wa, a ti nṣe iṣẹ́ ọkọ ayọkẹlẹ ti o ni ẹyin ati ẹrọ.",x,2
+go through a rough patch,to experience a lot of problems in a period of life,palm,going through a rough patch,nínú ìṣòro,f,0
+,,palm,"After losing her job, she was [[going through a rough patch]] in her life",Lẹ́yìn tí ó ṣe ìfọwọ́sílẹ̀ ọ̀jọ́ ọ̀hún ó ń ṣe ìgbésí ayé tí ó ṣòro,f,2
+,,palm,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns",Nígbà tí a ń rìn ìrìn-àjò a ń rìn nínú ìgbà kan tí ó kún fún òkúta àti ẹ̀gùn,l,0
+go through a rough patch,to experience a lot of problems in a period of life,nllb,going through a rough patch,ìṣòro tó le koko ló ń bá a fínra,f,0
+,,nllb,"After losing her job, she was [[going through a rough patch]] in her life","Lẹ́yìn tí iṣẹ́ bọ́ lọ́wọ́ rẹ̀, nǹkan ò rọrùn fún un rárá",f,0
+,,nllb,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","Bá a ṣe ń rìn lọ, a gba inú pápá kan tó rí gbágungbàgun kọjá, tí òkúta àti ẹ̀gún sì pọ̀ níbẹ̀",l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,palm,got in his hair,ṣe ẹ̀rù ọ̀rọ̀ rẹ,x,2
+,,palm,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,Ìbéèrè tí àwọn ará rẹ ń ṣe ń ṣe ìyà nínú rẹ ó sì ń ṣe ìṣòro fún un láti ṣe ìdájọ́,x,2
+,,palm,The confetti from the party [[got in his hair]] and took a while to remove,Àwọn ìfẹ́fẹ́ tí wọ́n fi ṣe ìyàyé wọ́n wọ inú orí rẹ̀ ó sì gba ìgbà láti mú kúrò,x,2
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,opus,got in his hair,ó wà nínú irun rè,l,0
+,,opus,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,"Àwọn ìbéèrè tí àwọn tí wón jọ ń ṣiṣé máa ń béèrè nígbà gbogbo nínú irun orí rè, ó sì máa ń ṣòro fún un láti pọkàn pò",l,0
+,,opus,The confetti from the party [[got in his hair]] and took a while to remove,"Inú irun rè ni wón ti máa ń ṣe òṣó yìí, wón sì máa ń mú un nígbà tó bá ṣe díè kí wón lè yọ ó kúrò",l,1
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,nllb,got in his hair,ó wọ irun orí rẹ̀,l,0
+,,nllb,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,"Àwọn ìbéèrè táwọn tí wọ́n jọ ń ṣiṣẹ́ ń bi í lójoojúmọ́ máa ń dà á láàmú, ó sì máa ń ṣòro fún un láti pọkàn pọ̀",f,0
+,,nllb,The confetti from the party [[got in his hair]] and took a while to remove,"Àwọn ẹ̀wù confetti tó wà níbi àpèjẹ náà wọ irun orí rẹ̀, ó sì pẹ́ kí wọ́n tó yọ ọ́ kúrò.",l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,gpt,got in his hair,wa ni ori re.,l,1
+,,gpt,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,"Awọn ẹ̀rọ alatunṣe ti o tẹ̀sọrọ lọ́wọ́ rẹ̀, o jẹ́ kó rí irọ̀rùn lórí rẹ̀, àti jẹ́ kó jù bọ̀ sọ́rọ.",x,2
+,,gpt,The confetti from the party [[got in his hair]] and took a while to remove,Awọn konfẹti lati ti ojude ti wa ni ọkan rẹ ati o ni lati jẹ ki o jẹun.,x,2
+hard cheese,"bad luck, tough luck",opus,She experienced hard cheese,Wón fún un ní wàràkàṣì tó le gan - an,l,0
+,,opus,[[She experienced hard cheese]] when she lost her job and had to start over,"Ó máa ń jẹ wàràkàṣì gan - an nígbà tí iṣé bó lówó rè, ó sì gbódò bèrè.",l,0
+,,opus,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","Bó tilè jé pé oríṣiríṣi àwọn nǹkan tí wón fi ń ṣe òṣó tí wón fi ń ṣe búrédì ló máa ń rí lára rè, ó máa ń ṣòro fún un gan - an láti jẹ wàràkàṣì",l,0
+hard cheese,"bad luck, tough luck",palm,She experienced hard cheese,Ó rí ọ̀pọ̀ ìṣòro,f,0
+,,palm,[[She experienced hard cheese]] when she lost her job and had to start over,Ó ní ìṣòro nígbà tí ó pàdánù iṣẹ́ rẹ̀ ó sì ní láti bẹ̀rẹ̀ láti ìbẹ̀rẹ̀,f,0
+,,palm,"While tasting different types of dairy products, [[she experienced hard cheese]] among them",Nígbà tí ó ń gbọ́n oríṣiríṣi ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀ ọ̀pọ̀lọpọ̀,x,2
+hard cheese,"bad luck, tough luck",gpt,She experienced hard cheese,O ti kọ orí ẹran jẹun.,x,2
+,,gpt,[[She experienced hard cheese]] when she lost her job and had to start over,O ti ri iru eko to wa ninu ojo kan ti o gbe ise re kaaro o ojire.,x,2
+,,gpt,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","Nitoripe o ti nkan omi ti o wulo, o ri iru awọn awọn ẹran ti o duro ni wọn.",x,2
+hard cheese,"bad luck, tough luck",nllb,She experienced hard cheese,Ó ti rí i pé àjẹkù wà lára,x,2
+,,nllb,[[She experienced hard cheese]] when she lost her job and had to start over,"Ó rí i pé ó ṣòro láti rí oúnjẹ jẹ nígbà tí iṣẹ́ bọ́ lọ́wọ́ rẹ̀, tó sì di dandan fún un láti tún ayé rẹ̀ ṣe.",x,2
+,,nllb,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","Nígbà tó ń dán oríṣiríṣi oúnjẹ tí wọ́n fi wàrà ṣe wò, ó rí i pé wàràkàṣì tó le wà lára wọn",x,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,palm,hit the bull's-eye,ṣe ìṣẹ́ tó ṣe ìyẹ́wò,f,1
+,,palm,Her speech [[hit the bull's-eye]] and resonated with the audience,Ọ̀rọ̀ rẹ̀ ṣe ìṣẹ́jú ọlọ́pàá àti ìfẹ́ ìgbìmọ̀ ìgbìmọ̀,x,2
+,,palm,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target",Pẹ̀lú ọwọ́ tó ṣe ìdúró ó ṣe ìṣàwájú ó sì ṣe ìparí ìṣẹ́ tó ń ṣe,f,1
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,gpt,hit the bull's-eye,pa oju ewure.,x,2
+,,gpt,Her speech [[hit the bull's-eye]] and resonated with the audience,"Iroyin rẹ ti ṣe ojúewé ti o ṣe bẹrẹ lọ, ati o wa ni ọrọ ti o jẹun pẹlu awọn eniyan.",x,2
+,,gpt,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","Pẹlu ọwọ tuntun, o ṣe afihan ati ṣe igbeyawo ni ibeji ọkọ.",x,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,nllb,hit the bull's-eye,ó dé ibi tí wọ́n ti ń wá a,x,2
+,,nllb,Her speech [[hit the bull's-eye]] and resonated with the audience,Ọ̀rọ̀ rẹ̀ wọ àwọn tó wà níbẹ̀ lọ́kàn gan-an,f,1
+,,nllb,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","Ó fi ọwọ́ tó dúró ṣinṣin dì í, ó sì gbá ohun tó fẹ́ fi kàn án ní pàtó",x,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,opus,hit the bull's-eye,"Ẹwẹ, ẹgbọn rẹ fi ọpọlọpọ ẹgbọn rẹ gbá Bọọlù àfẹsẹgbá náà",x,2
+,,opus,Her speech [[hit the bull's-eye]] and resonated with the audience,"Òrò ẹnu rè lu ọmọ màlúù náà, ó sì bá àwùjọ sòrò",x,2
+,,opus,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","Pẹlú ọlọwọ, ó fẹràn láti máa fi ẹgbọn rẹ gẹgẹ bí ọpá-ìṣẹlẹ, wọn sì fi ṣẹgun ẹgbọn rẹ.",x,2
+hold all the aces,be in a winning position.,palm,he held all the aces,ó ní gbogbo ìyẹ́sì,l,2
+,,palm,"During the negotiation, [[he held all the aces]] and had the upper hand",Nígbà ìdàgbàsókè náà ó ní gbogbo àwọn ìyẹ́wò tó ní ìdíje àti ó ní ìdàgbàsókè,x,2
+,,palm,"During the poker game, [[he held all the aces]] in his hand",Nígbà tí wọ́n ń ṣe ẹ̀yẹ póker ó ní gbogbo àwọn ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ tó ń ṣe ẹ̀yẹ,x,2
+hold all the aces,be in a winning position.,nllb,he held all the aces,ó ní gbogbo àwọn áàsì,l,2
+,,nllb,"During the negotiation, [[he held all the aces]] and had the upper hand","Nígbà tí wọ́n ń jíròrò, òun ló ń darí gbogbo ohun tó ń lọ, òun ló sì ń borí.",f,0
+,,nllb,"During the poker game, [[he held all the aces]] in his hand","Nígbà tí wọ́n ń ta pọ́ọ̀sì, ó di gbogbo ẹyọ ásì mú",l,2
+hold all the aces,be in a winning position.,gpt,he held all the aces,O ti gbe gbogbo awọn asoju kan.,x,2
+,,gpt,"During the negotiation, [[he held all the aces]] and had the upper hand","Lati owo ise iranlọwọ, o ti gbe gbogbo ọna ati o ni iṣẹgun.",x,2
+,,gpt,"During the poker game, [[he held all the aces]] in his hand","Ni iru awọn ojú omiiran, o nilo gbogbo awọn aso ni ilẹwẹ.",x,2
+hold all the aces,be in a winning position.,opus,he held all the aces,Gbogbo nǹkan tó wà lówó rè ló máa ń ṣe,x,2
+,,opus,"During the negotiation, [[he held all the aces]] and had the upper hand","Nígbà tí wón jọ ń fòrò wá a lénu wò, ó di gbogbo ọjà náà mú, ó sì ní ọwó kejì.",f,1
+,,opus,"During the poker game, [[he held all the aces]] in his hand","Nígbà tó wà nídìí eré ìdárayá orí kòǹpútà, ó gbé gbogbo àpótí tó wà lówó rè dání",x,2
+in the loop,to be aware of the information,opus,kept in the loop,inú kòtò ni wón máa ń wà,l,1
+,,opus,"As a team member, I want to be [[kept in the loop]] about project updates","Gégé bí méńbà ẹgbé kan, mo fé kí wón máa bá mi ṣe àwọn àtúnṣe kan",x,2
+,,opus,The rope was [[kept in the loop]] to secure the boat to the dock,Wón fi okùn náà sí abénú kí ọkò ojú omi náà lè gúnlè sí èbúté,l,1
+in the loop,to be aware of the information,nllb,kept in the loop,a máa ń sọ fún wọn,f,1
+,,nllb,"As a team member, I want to be [[kept in the loop]] about project updates","Gẹ́gẹ́ bí ọmọ ẹgbẹ́, mo fẹ́ kí wọ́n máa sọ fún mi nípa àwọn ìyípadà tó bá wáyé nínú iṣẹ́ náà",f,0
+,,nllb,The rope was [[kept in the loop]] to secure the boat to the dock,Wọ́n máa ń fi okùn náà so kó lè di ọkọ̀ náà mú kó dúró dáadáa ní ibùdókọ̀,l,1
+in the loop,to be aware of the information,palm,kept in the loop,nínú ìgbìmọ̀,l,1
+,,palm,"As a team member, I want to be [[kept in the loop]] about project updates",Gẹ́gẹ́ bí ọmọ ẹgbẹ́ mo fẹ́ kí a máa sọ fún mi nípa àwọn ìtúnṣe tí ó ń wáyé nínú iṣẹ́ náà,f,0
+,,palm,The rope was [[kept in the loop]] to secure the boat to the dock,Ẹ̀rọ̀ ìdìbò ọkọ̀ òkun náà wà nínú ìṣẹ̀lẹ̀ ìdìbò láti fi dá ọkọ̀ òkun náà sílẹ̀ nínú ìdìbò,l,1
+in the loop,to be aware of the information,gpt,kept in the loop,ti wa ni aye alaye.,x,2
+,,gpt,"As a team member, I want to be [[kept in the loop]] about project updates","Bí ọmọde ìṣẹ, mo fẹran lati jẹ alágbèrò nipa àwọn ìṣẹ ayẹwo.",x,2
+,,gpt,The rope was [[kept in the loop]] to secure the boat to the dock,Iwọ ni o fi ìdílé fún òkèrè láti fi ìyàwó rẹ pada sí ìkòkò.,x,2
+kick the bucket,to die,gpt,kicked the bucket together,ni won fi ku si ilekun.,x,2
+,,gpt,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","Ebi ati aburo won ti o ku, won ku ni idije won lo.",x,2
+,,gpt,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","Nitoripe won nlo ebo ori, won kuna odo kan niwaju, ki o si gbe odo si gbogbo eniyan.",x,2
+kick the bucket,to die,nllb,kicked the bucket together,wọ́n jọ kú,f,0
+,,nllb,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","Àwọn àgbàlagbà tọkọtaya tí wọn kò lè yà ní ayé wọn, wọ́n jọ kú pa pọ̀ nínú oorun wọn",f,0
+,,nllb,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","Nígbà tí wọ́n ń fọ ilé ìgbọ́únjẹ, wọ́n fi ẹsẹ̀ lu omi náà pa pọ̀, omi sì dà sí gbogbo ibi",l,0
+kick the bucket,to die,palm,kicked the bucket together,kú nípa ìjọba,f,2
+,,palm,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep",Ọkọ àti aya àgbà tó jẹ́ ẹlẹ́gbẹ́ nínú ayé kú nínú ìsùn,f,1
+,,palm,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere",Nígbà tí wọ́n ń ṣe àmúlò ìkọ̀ wọ́n tẹ̀ ìkọ̀ náà nígbà kan tí wọ́n sì ṣe omi ṣàfọ̀n níbi gbogbo,x,2
+kick the bucket,to die,opus,kicked the bucket together,Wón á wá gbá korobá náà pa pò,l,0
+,,opus,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","Àwọn tọkọtaya tó ti dàgbà, tí wón ti ya ara wọn sótò nínú ìgbésí ayé, tukò náà lójú oorun",f,1
+,,opus,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","Bí wón ṣe ń fọ ibi tí wón ń gbé ọkò sí, wón ṣàdédé gbá ìdòtí náà pa pò, wón sì da omi tó wà níbi gbogbo dà nù",x,2
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,opus,knows which side his bread is buttered,mọ èyí tó wà légbèé búrédì rè,l,0
+,,opus,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","Ìgbà gbogbo ló máa ń ṣètìléyìn fún àwọn ìpinnu ògá, èyí tó fi hàn pé ó mọ ègbé ibi tí búrédì rè mọ",l,0
+,,opus,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,"Ó fara balè kíyè sí búrédì rè, ó sì mọ èyí tí wón máa ń ṣe ségbèé rè kí wón má bàa pa ọwó rè",l,1
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,nllb,knows which side his bread is buttered,ó mọ apá ibi tí wọ́n ti fi òróró sí búrẹ́dì rẹ̀,l,1
+,,nllb,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","Ó máa ń fara mọ́ ìpinnu tí ọ̀gá rẹ̀ bá ṣe, ó sì máa ń fi hàn pé òun mọ ibi tóun ti lè ṣe ohun tó tọ́",f,0
+,,nllb,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,"Ó máa ń fara balẹ̀ wo búrẹ́dì náà, ó sì máa ń mọ apá ibi tí wọ́n ti fi òróró sí kó má bàa di pé ọwọ́ rẹ̀ máa sanra",l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,gpt,knows which side his bread is buttered,O mo pe alagbara re ti nje ogede re.,x,2
+,,gpt,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","O da l'ori awọn iṣẹ, nikan ni o fi ṣe iranlọwọ fun awọn apọjuwe ti o ba nṣe.",x,2
+,,gpt,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,"O ti mọ akọọlẹ kan pẹlu ìwé àkàrà, àti o mọ pé ọrọ rẹ ni ń ṣe àkàrà tó bá ṣe àkàrà, kí o ṣe ń ṣe ọwọ rẹ lọ pẹlu ẹfọ rẹ.",x,2
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,palm,knows which side his bread is buttered,mọ́ ìhà tí ìyẹ̀ òun ń ṣe ìbọ̀rọ̀,x,2
+,,palm,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]",Ó máa ń ṣe atilẹ́yìn ìpinnu ọ̀gá rẹ̀ ó ń fi hàn pé ó mọ́ ìgbà tí ó ń ṣe ìyẹ̀wò ẹ̀bọ rẹ̀,x,2
+,,palm,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,Ó ṣe ìwádìí sándwich náà tọ́rọ́ ó sì mọ́ ìhà tí ó fi ẹ̀fọ́ sọ́pọ̀ ìyẹ̀ ìgbàgbé láti lè ṣe ìyọ̀dá ọwọ́ rẹ̀ nínú ẹ̀fọ́,x,2
+on the line,to be at serious risk.,gpt,She put it on the line,O ti gbe e sori ila.,l,0
+,,gpt,[[She put it on the line]] when she confronted her boss about the unfair treatment,O sọ nipa awọn ohun tó bẹ̀rẹ̀ si ọlọpaa rẹ̀ nipa iṣẹ́-ilana tó bẹ̀rẹ̀.,x,2
+,,gpt,[[She put it on the line]] to dry after washing her clothes,O ti gbe ni lọrin lati ṣe alagbara lori ẹsẹ rẹ ni ojojumo.,x,2
+on the line,to be at serious risk.,opus,She put it on the line,Ó gbé e sórí ìlà,l,0
+,,opus,[[She put it on the line]] when she confronted her boss about the unfair treatment,Ó fi òrò náà sórí Íńtánéètì nígbà tó ń bá ògá rè sòrò nípa ìyà tí wón fi ń jẹ ògá rè,x,2
+,,opus,[[She put it on the line]] to dry after washing her clothes,"Léyìn tó bá ti fọ aṣọ rè tán, á wá gbé e sórí ìlà láti gbẹ é",l,0
+on the line,to be at serious risk.,nllb,She put it on the line,Ó fi owó náà sínú ewu,f,0
+,,nllb,[[She put it on the line]] when she confronted her boss about the unfair treatment,Ó fi èyí sí ìlà nígbà tó bá ọ̀gá rẹ̀ sọ̀rọ̀ nípa ìwà àìdáa tí wọ́n hù sí i,l,1
+,,nllb,[[She put it on the line]] to dry after washing her clothes,Ó gbé e sórí ìlà láti gbẹ lẹ́yìn tó fọ aṣọ rẹ̀,l,1
+on the line,to be at serious risk.,palm,She put it on the line,Ó fi sọ́nà,l,0
+,,palm,[[She put it on the line]] when she confronted her boss about the unfair treatment,Ó sọ ọ̀rọ̀ náà ní ìkọ̀rọ̀ nígbà tí ó sọrọ̀ pẹ̀lú ọ̀gá rẹ̀ nípa ìwà tí ó ń hù sí i,x,2
+,,palm,[[She put it on the line]] to dry after washing her clothes,Ó fi ó sí ìkò tí ó ń gbé ẹ̀rọ ìgbẹ́sẹ̀ nínú ìgbóná tí ó sì gbẹ́ ẹ̀rọ ìgbẹ́sẹ̀ náà,x,2
+on the pig's back,a successful situation and everything is going well for that person,gpt,was riding on the pig's back,O ní ọkàn ilẹ̀kùn lọ.,x,2
+,,gpt,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","Lẹhin ti o ṣe iṣẹ́ ọmọ onílẹ̀, o nṣe oko ẹyin ẹ̀nìkan lórí ìdílé àti fẹ́ràn rẹ̀ ìrànwọ́ tó bọ́ láti kọ́.",l,1
+,,gpt,"At the farm, the child [[was riding on the pig's back]] for fun","Ni ile ise, omo naa ti o fi okuta ile fun ni odo.",x,2
+on the pig's back,a successful situation and everything is going well for that person,palm,was riding on the pig's back,ń gbé ẹlẹ́dẹ̀ sọ́rọ,l,1
+,,palm,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth",Lẹ́yìn tí ó gba ẹ̀tọ́ ìfẹ́wọ́n ó ń rìn lórí ẹ̀yìn ẹlẹ́dẹ̀ tí ó sì ń gbádùn ọ̀rọ̀ tí ó rí ní ìgbà náà,l,1
+,,palm,"At the farm, the child [[was riding on the pig's back]] for fun",Ní agbègbè ìṣẹ́ ọ̀gbìn ọmọ náà ń gbé ẹ̀yìn ẹlẹ́dẹ̀ fún ìṣẹ́ ìṣẹ́wò,l,1
+on the pig's back,a successful situation and everything is going well for that person,opus,was riding on the pig's back,Wọn ń gbá Bọọlù àfẹsẹgbá lọwọlọwọ,x,2
+,,opus,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","Lẹyìn tí ó jẹ òṣèré tíátà, ó ti ń gbá bọọlù lọwọlọwọ tí ó sì tún ń jẹ kí ó ní ọrò tuntun tó ṣèṣè ní",x,2
+,,opus,"At the farm, the child [[was riding on the pig's back]] for fun","Ní oko, ọmọ náà ń jẹ ẹgbọn fún ìgbádùn.",x,2
+on the pig's back,a successful situation and everything is going well for that person,nllb,was riding on the pig's back,ó ń gun ẹyìn ẹlẹ́dẹ̀,l,0
+,,nllb,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","Lẹ́yìn tó gba owó lọ́tìrì, ó ń gun ẹsẹ̀ ẹlẹ́dẹ̀ náà, ó sì ń gbádùn ọrọ̀ tó ṣẹ̀ṣẹ̀ rí náà",l,0
+,,nllb,"At the farm, the child [[was riding on the pig's back]] for fun","Ní oko, ọmọ náà ń gun ẹyìn ẹlẹ́dẹ̀ náà fún fàájì",l,0
+out of hand,out of control,palm,got out of hand,ṣe ìṣẹ́ ìṣàkóso,x,2
+,,palm,The party [[got out of hand]] when people started throwing food,Ẹgbẹ̀ náà ṣe ìṣẹ́lẹ̀ nígbà tí àwọn èèyàn bẹ̀rẹ̀ sí ń ṣe ìṣẹ́ ìṣọ̀rọ̀ ẹ̀bọ,x,2
+,,palm,The ball [[got out of hand]] when he accidentally dropped it,Ọlọ́pàá náà ṣe ìṣẹ́lẹ̀ tí ó ṣe tí ó fi gbọ́n ọlọ́pàá náà sọ́dọ̀ ọ̀hún,x,2
+out of hand,out of control,nllb,got out of hand,ó ti di ohun tí kò ṣeé ṣàkóso,f,0
+,,nllb,The party [[got out of hand]] when people started throwing food,Ayẹyẹ náà di èyí tí kò ṣeé darí nígbà tí àwọn èèyàn bẹ̀rẹ̀ sí ju oúnjẹ,f,0
+,,nllb,The ball [[got out of hand]] when he accidentally dropped it,Bọọlu náà ti kúrò ní ọwọ́ nígbà tí ó fi bọ́ ọ́ sílẹ̀ láìronú,l,0
+out of hand,out of control,gpt,got out of hand,ti ṣe igbese.,x,2
+,,gpt,The party [[got out of hand]] when people started throwing food,Igbeyawo ti wa ni oju kan ni o ti jẹun ni o ti ṣe ọrọ ti o bẹrẹ pada.,x,2
+,,gpt,The ball [[got out of hand]] when he accidentally dropped it,"Igba aya o ba ri owo, o si gbe oju e.",x,2
+out of hand,out of control,opus,got out of hand,jáde kúrò lówó,l,0
+,,opus,The party [[got out of hand]] when people started throwing food,Ẹgbé náà jáde kúrò lówó nígbà táwọn èèyàn bèrè sí í ju oúnjẹ sílè,l,0
+,,opus,The ball [[got out of hand]] when he accidentally dropped it,Bí bóòlù náà ṣe jáde nìyẹn nígbà tó ṣàdédé já bó lówó rè,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,gpt,to paddle their own canoe,ni won fi pada wonu re jeun.,x,2
+,,gpt,They decided [[to paddle their own canoe]] and start their own business,"Won gbe owo won lọwọ ọjọ́ kan, ki won le bẹ̀rẹ̀ ẹ̀ṣọ́ wọn.",x,2
+,,gpt,They had [[to paddle their own canoe]] to reach the other side of the lake,Won ni wọn yóò wọ àrà ẹ̀rín rẹ̀ nítorí wọn fẹ́ wá tó láti òkè ilẹ̀.,x,2
+paddle own canoe,To be able to act without having to depend on anyone.,opus,to paddle their own canoe,láti pa ìrèké tiwọn fúnra wọn,x,2
+,,opus,They decided [[to paddle their own canoe]] and start their own business,"Wón pinnu láti pa àwọn ìrèké tiwọn tì, kí wón sì bèrè sí í ṣòwò tiwọn",x,2
+,,opus,They had [[to paddle their own canoe]] to reach the other side of the lake,Wón ní láti fó ìrèké tiwọn kí wón tó lè dé apá kejì adágún náà,x,2
+paddle own canoe,To be able to act without having to depend on anyone.,nllb,to paddle their own canoe,láti fi ọkọ̀ ojú omi wọn ṣe ọkọ̀ òkun,l,0
+,,nllb,They decided [[to paddle their own canoe]] and start their own business,"Wọ́n pinnu láti fi ọkọ̀ ojú omi wọn ṣe ọkọ̀ ojú omi, wọ́n sì dá okòwò tiwọn sílẹ̀",l,0
+,,nllb,They had [[to paddle their own canoe]] to reach the other side of the lake,Wọ́n ní láti fi ọkọ̀ ojú omi wọn dìídì wọ ọkọ̀ ojú omi náà kí wọ́n tó lè dé apá kejì adágún náà,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,palm,to paddle their own canoe,nípa ìkọ̀ ọkọ̀ ọwọ́ wọn,l,0
+,,palm,They decided [[to paddle their own canoe]] and start their own business,Wọ́n pinnu láti ṣe ọ̀nà ìṣiṣẹ́ wọn fúnra wọn,f,1
+,,palm,They had [[to paddle their own canoe]] to reach the other side of the lake,Wọ́n ní láti ṣe ìkọ̀ ọkọ̀ ọkọ̀ wọn láti gba ọ̀kan lára ìwọ̀n òkun,l,2
+paint the town red,to celebrate and have a wild time,palm,to paint the town red together,ṣe ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́ ìṣẹ́,x,2
+,,palm,"After winning the championship, they decided [[to paint the town red together]] and celebrate",Lẹ́yìn tí wọ́n gba ìdíje náà wọ́n pinnu láti ṣe ìyàyé ní ìlú náà,x,2
+,,palm,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals",Gẹ́gẹ́ bí apá kan nínú iṣẹ́ ọ̀ṣẹ́ ìlú wọ́n pinnu láti ṣe àwọ ìlú kúkúrú pọ̀ láti ṣe ìfọwọ́sowọ́pọ̀ nípa ìgbójú ìwé ọ̀ṣẹ́ tí ó ń ṣe ìfẹ́ nínú ìdí ògiri,l,2
+paint the town red,to celebrate and have a wild time,gpt,to paint the town red together,pa ara ile lo pelu omo re.,x,2
+,,gpt,"After winning the championship, they decided [[to paint the town red together]] and celebrate","Lẹhin ti won jẹ ọbádélé, wọn quẹsi lati pẹlu ni ilu ati ńṣe ọrọ ayé.",x,2
+,,gpt,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","Nibi ti o sele ni ipo awon onisowo arti ile, won gbe owo won lo lati fi ile yi lo pelu awon murals ti o dara ju.",x,2
+paint the town red,to celebrate and have a wild time,nllb,to paint the town red together,láti fi àwọ̀ pupa pa ìlú náà pọ̀,l,0
+,,nllb,"After winning the championship, they decided [[to paint the town red together]] and celebrate","Lẹ́yìn tí wọ́n gba ife ẹyẹ náà, wọ́n pinnu láti fi àwọ̀ pupa pa ìlú náà kí wọ́n sì ṣe ayẹyẹ náà pa pọ̀",l,0
+,,nllb,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals",Wọ́n pinnu láti fi àwòrán ara ògiri tó ń dán gbinrin bo ògiri ìlú náà kí wọ́n lè jọ máa ṣe iṣẹ́ ọnà láwùjọ,l,1
+paint the town red,to celebrate and have a wild time,opus,to paint the town red together,láti ya ìlú náà pò mó pupa,l,1
+,,opus,"After winning the championship, they decided [[to paint the town red together]] and celebrate","Léyìn tí wón borí nínú ìdíje òhún, wón pinnu láti ya ìlú náà sótòòtò kí wón sì ṣayẹyẹ rè",f,1
+,,opus,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","Gégé bí apá kan iṣé ọnà ìlú, wón pinnu láti ya ìlú náà sótò nípa fífi òdà kùn ún",l,1
+pass away,die,palm,passed away peacefully,kú nínú àlàfàfà,f,0
+,,palm,Our beloved grandmother [[passed away peacefully]] in her sleep,Ìyáwó baba wa tó ń fẹ́ wa kú nínú ìsùn,f,0
+,,palm,"The storm [[passed away peacefully]], leaving a calm and clear sky",Ìjì náà kọjá lọ́wọ́ láì ṣe ìjà ó sì fi òfu tí ó ṣe ẹ̀rọ ṣe ìtẹ̀lẹ̀,l,0
+pass away,die,nllb,passed away peacefully,ó kú lọ́nà àlàáfíà,f,1
+,,nllb,Our beloved grandmother [[passed away peacefully]] in her sleep,Ìyá àgbà wa ọ̀wọ́n kú lọ́nà àlàáfíà nínú oorun rẹ̀,f,0
+,,nllb,"The storm [[passed away peacefully]], leaving a calm and clear sky","Ìjì náà rọra kọjá lọ, òfuurufú sì rọra móoru",l,0
+pass away,die,opus,passed away peacefully,Máa rọra kọjá lọ,l,0
+,,opus,Our beloved grandmother [[passed away peacefully]] in her sleep,Màmá wa òwón kú lónà pèlétù nígbà tó ń sùn,f,0
+,,opus,"The storm [[passed away peacefully]], leaving a calm and clear sky","Ìjì náà rọlè, ó sì rọra ń wojú òrun lóòókán",l,0
+pass away,die,gpt,passed away peacefully,ti ku lọwọ lọwọ.,f,1
+,,gpt,Our beloved grandmother [[passed away peacefully]] in her sleep,Iya wa tobi ni ku l'odo didun.,f,2
+,,gpt,"The storm [[passed away peacefully]], leaving a calm and clear sky","Ogun ojoro ti pada wa ni ibeere, o si mu alafia ati oju alaafia.",x,2
+pull the wool over eyes,to deceive someone,gpt,They pulled the wool over her eyes,Won ni oju re ni won fi owo lo fun.,x,2
+,,gpt,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,Won ti fẹ́ siwaju ẹ̀ láti jẹ́ ọmọ-ọlọ́wó tó fẹ́ràn wọn.,x,2
+,,gpt,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","Ni ibere iranlọwọ ti o ti ṣe fun aṣojúpọ, wọ wà ni wọ́n fi ẹyinjú rẹ pada.",x,2
+pull the wool over eyes,to deceive someone,opus,They pulled the wool over her eyes,Wón fa irun àgùntàn náà lé ojú rè,l,0
+,,opus,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,"Wón ń fa irun orí rè, wón ń díbón pé ọlórò ni wón",l,0
+,,opus,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","Nígbà tí àpèjẹ náà ń lọ lówó, wón fi aṣọ afójú fa irun àgùntàn náà bo ojú rè",l,0
+pull the wool over eyes,to deceive someone,palm,They pulled the wool over her eyes,Wọ́n ṣe ẹ̀yẹ ẹ̀yẹ fún un,x,2
+,,palm,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,Wọ́n ṣe ẹlẹ́rìí ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ̀rọ̀ ẹ̀rọ ìṣọ,x,2
+,,palm,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold",Nígbà tí wọ́n ń ṣe àwọn ìṣẹ́lẹ̀ ìpàdé ìyàlẹ́ wọ́n fi ìfọ́jú ṣi ọkọ́ ọmọbìnrin náà,x,2
+pull the wool over eyes,to deceive someone,nllb,They pulled the wool over her eyes,Wọ́n fi ìwo bo ojú rẹ̀,l,1
+,,nllb,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,"Wọ́n fi ṣe ògbóǹkangí oníṣòwò, wọ́n sì fi ṣe ògbóǹkangí òṣìṣẹ́.",x,2
+,,nllb,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","Nígbà tí wọ́n ń múra ayẹyẹ àrà ọ̀tọ̀ náà, wọ́n fi aṣọ ìdìkú bo ojú rẹ̀",l,2
+push the boat out,celebrate; enjoy oneself.,gpt,we pushed the boat out,Awa fi ilẹkun sile.,x,2
+,,gpt,"For her birthday, [[we pushed the boat out]] and threw a huge party","Fun awọn ọjọ ibi rẹ, a ti gbe òkè wọnyi lọ lati ṣe ọjọ ibi nla.",x,2
+,,gpt,[[We pushed the boat out]] into the water to start our fishing trip,Awa ti ṣe ọkọ ayọkẹlẹ ni ilẹ wọn lati bẹrẹ ọrọ ẹja wa.,x,2
+push the boat out,celebrate; enjoy oneself.,nllb,we pushed the boat out,a fi ọkọ̀ ojú omi náà lé wọn jáde,l,2
+,,nllb,"For her birthday, [[we pushed the boat out]] and threw a huge party","Ní ọjọ́ ìbí rẹ̀, a gbé ọkọ̀ ojú omi náà jáde, a sì ṣe àríyá ńlá",l,0
+,,nllb,[[We pushed the boat out]] into the water to start our fishing trip,A fi ọkọ̀ ojú omi náà lé omi lọ láti bẹ̀rẹ̀ ìrìn àjò ẹja pípa wa,l,0
+push the boat out,celebrate; enjoy oneself.,opus,we pushed the boat out,A ti ọkò ojú omi náà dà nù,l,1
+,,opus,"For her birthday, [[we pushed the boat out]] and threw a huge party","Nítorí ọjó ìbí rè, a ti ọkò ojú omi náà, a sì ju ẹgbé ńlá kan sílè",l,1
+,,opus,[[We pushed the boat out]] into the water to start our fishing trip,A fi ọkò ojú omi wa sílè lọ sínú omi láti bèrè ìrìn àjò ìpẹja wa,l,1
+push the boat out,celebrate; enjoy oneself.,palm,we pushed the boat out,A tẹ̀ ọkọ̀ òkun náà jáde,l,0
+,,palm,"For her birthday, [[we pushed the boat out]] and threw a huge party",Nígbà ìbí rẹ̀ a ṣe ìyàsọtọ̀ fún un a sì ṣe ìpàdé ńlá,x,2
+,,palm,[[We pushed the boat out]] into the water to start our fishing trip,A tẹ̀ ọkọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀ ọ̀kọ̀,x,2
+take a cue from,to do what is recommended by someone else,gpt,take a cue from her,wa ni ipa re.,x,2
+,,gpt,You should [[take a cue from her]] and start organizing your time better,O nilo lati gba iyepe siwaju rẹ ati bẹrẹ irinṣẹ rẹ niwaju.,x,2
+,,gpt,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","Lati odo awọn odo, o wa ni irinṣẹ fun ṣe oju-iwọn rẹ ati lo fun irinṣẹ ti o nife.",x,2
+take a cue from,to do what is recommended by someone else,opus,take a cue from her,Jé kí ọmọ rẹ mọ ohun tó yẹ kó ṣe,f,1
+,,opus,You should [[take a cue from her]] and start organizing your time better,"O gbódò máa bá a kégbé, kó o sì máa ṣètò àkókò rẹ lónà tó dára ju ti télè lọ",f,0
+,,opus,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","Nígbà tí wón ń ṣe eré tí wón féràn jù lọ nínú adágún náà, ó pinnu láti mú kétékété kan látinú rè, ó sì lo òkan lára àwọn ohun tó féràn jù lọ",l,2
+take a cue from,to do what is recommended by someone else,palm,take a cue from her,gba ẹ̀kọ́ ọ̀rọ̀ ọ̀rẹ́ rẹ,f,0
+,,palm,You should [[take a cue from her]] and start organizing your time better,Ìwọ gbọdọ gba ìwé ìrántí láti ọdọ rẹ̀ kí o sì bẹ̀rẹ̀ sí í ṣe àtòjọ àkókò rẹ̀ dáadáa,x,2
+,,palm,"During the pool game, he decided to [[take a cue from her]] and use her favorite one",Nígbà tí wọ́n ń ṣe ìdíje ìṣeré ìfọ́n ó pinnu láti gba ìtọ́ láti ọwọ́ rẹ̀ kí ó sì lo ìfọ́n tó ń fẹ́ jùlọ,x,2
+take a cue from,to do what is recommended by someone else,nllb,take a cue from her,kó o máa tẹ̀ lé àpẹẹrẹ rẹ̀,f,1
+,,nllb,You should [[take a cue from her]] and start organizing your time better,"Ó yẹ kó o tẹ̀ lé àpẹẹrẹ rẹ̀, kó o sì máa ṣètò àkókò rẹ dáadáa",f,1
+,,nllb,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","Nígbà tí wọ́n ń gbá bọ́ọ̀lù, ó pinnu láti tẹ̀ lé àpẹẹrẹ rẹ̀, ó sì lo èyí tó fẹ́ràn jù lọ",f,1
+the devil is beating his wife,raining whereas the sun is shining.,nllb,the devil is beating his wife,èṣù ń lu ìyàwó rẹ̀,l,0
+,,nllb,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","Nígbà tí oòrùn ń ràn, òjò bẹ̀rẹ̀ sí rọ̀, àwọn èèyàn sì sọ pé Èṣù ń lu ìyàwó rẹ̀",a,0
+,,nllb,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","Nínú eré náà, òṣèré tó ń ṣe Sátánì ṣe àṣefihàn bí èṣù ṣe ń lu ìyàwó rẹ̀",l,0
+the devil is beating his wife,raining whereas the sun is shining.,gpt,the devil is beating his wife,"Ọmọdé ìyá mi, ẹ̀ṣù náà n ṣe ìyá rẹ̀ ni.",x,2
+,,gpt,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","Nitoripe oorun nlo, ojojumo ba nile, eyin lo mo wipe esu nbe nitori o nbe ni iya re.",x,2
+,,gpt,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","Ni iṣẹ afikun, ọkọ-ọ̀run ti o ṣe iṣẹ Satan ṣe afikun kan ni ibi ti ibeji rẹ ti ṣe iṣẹ ibi ti ibeji rẹ.",x,2
+the devil is beating his wife,raining whereas the sun is shining.,opus,the devil is beating his wife,èṣù náà ń lu ìyàwó rè,l,0
+,,opus,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","Nígbà tí oòrùn ń ràn, òjò bèrè sí í rò, àwọn èèyàn sì sọ pé èṣù ń lu ìyàwó rè",l,0
+,,opus,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","Nínú eré orí ìtàgé yẹn, ẹni tó ń ta ko Sátánì ṣe ohun kan tó fi hàn pé èṣù ń lu ìyàwó rè",l,0
+the devil is beating his wife,raining whereas the sun is shining.,palm,the devil is beating his wife,ẹ̀yà ń ṣe ìyà fún ìyàwó rẹ̀,x,2
+,,palm,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]",Nígbà tí òjò ń rọ ó ń ṣọ́kọ́ àwọn èèyàn sọ pé ẹ̀ṣù ń ṣe ìyà fún ìyàwó rẹ̀,x,2
+,,palm,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]",Nínú ìṣe ìtàgé òṣèré tí ń ṣe Satan ṣe ìṣe ìtàgé níbi tí ẹ̀lúfin ń ṣe ìbàjẹ́ ìyàwó rẹ̀,x,2
+the eleventh hour,at the very last minute before an event,gpt,at the eleventh hour,ni òwú méjìdí.,x,2
+,,gpt,"He finished the project [[at the eleventh hour]], just before the deadline","O ti pari iṣẹ ni òwúrọ kan, nipa ọjọgba ti o kuna.",x,2
+,,gpt,She decided to go for a walk [[at the eleventh hour]] of the night,O ti yan awọn odo ni òní kan lẹhin oru meta.,x,2
+the eleventh hour,at the very last minute before an event,opus,at the eleventh hour,ní wákàtí mókànlá,l,0
+,,opus,"He finished the project [[at the eleventh hour]], just before the deadline",Ó parí iṣé náà ní wákàtí mókànlá ṣáájú kí wón tó kó ọ tán,l,0
+,,opus,She decided to go for a walk [[at the eleventh hour]] of the night,Ó pinnu láti rìn fún wákàtí mókànlá alé,l,0
+the eleventh hour,at the very last minute before an event,palm,at the eleventh hour,nígbà ìkẹsàn-ún ìwájú,f,2
+,,palm,"He finished the project [[at the eleventh hour]], just before the deadline",Ó parí iṣẹ́ náà ní ìgbà kẹtàdínlọ́gọ́rùn-ún lẹ́yìn ìgbà ìwọn ìgbà tó tó,x,2
+,,palm,She decided to go for a walk [[at the eleventh hour]] of the night,Ó pinnu láti lọ rìn ní ìgbà kẹtàlá nílé ìsùn,x,2
+the eleventh hour,at the very last minute before an event,nllb,at the eleventh hour,ní wákàtí kọkànlá,l,0
+,,nllb,"He finished the project [[at the eleventh hour]], just before the deadline","Ó parí iṣẹ́ náà ní wákàtí kọkànlá, ìyẹn ṣáájú àkókò tí wọ́n fi dá a lẹ́sẹẹsẹ",l,0
+,,nllb,She decided to go for a walk [[at the eleventh hour]] of the night,Ó pinnu láti lọ rìnrìn àjò ní wákàtí kọkànlá òru,l,0
+to see the back of,to be glad that you no longer have to deal with someone,gpt,to see the back of the problem,wo ni oju-iwe ile ise.,x,2
+,,gpt,She was relieved [[to see the back of the problem]] after finding a solution,O ti oju kan lara lati ri igbeyawo ti o dara ni ose yii.,x,2
+,,gpt,He had [[to see the back of the problem]] by flipping the paper over,O ti gbe oju ija lo si odo pẹlu iwe toju.,x,2
+to see the back of,to be glad that you no longer have to deal with someone,palm,to see the back of the problem,lati ri ẹ̀yìn ìṣòro,l,0
+,,palm,She was relieved [[to see the back of the problem]] after finding a solution,Ó ní ìfẹ́ láti rí ìparí ìṣòro náà lẹ́yìn tí ó rí ọ̀nà ìgbàgbọ́,l,0
+,,palm,He had [[to see the back of the problem]] by flipping the paper over,Ó ní ó gbọdọ́ yí ìwé náà kọ́kọ́ kí ó tó rí ìgbàgbé ìṣòro náà,x,2
+to see the back of,to be glad that you no longer have to deal with someone,opus,to see the back of the problem,láti mọ ohun tó fa ìṣòro náà,x,2
+,,opus,She was relieved [[to see the back of the problem]] after finding a solution,Ọkàn rè wá balè nígbà tó rí ìṣòro náà léyìn tó rí ojútùú sí i,l,1
+,,opus,He had [[to see the back of the problem]] by flipping the paper over,Ó gbódò rí i léyìn ìṣòro náà nípa fífa bébà náà lé e lówó,l,2
+to see the back of,to be glad that you no longer have to deal with someone,nllb,to see the back of the problem,láti rí ohun tó fa ìṣòro náà,x,2
+,,nllb,She was relieved [[to see the back of the problem]] after finding a solution,"Ó wá rí i pé ìṣòro náà ti yanjú, inú rẹ̀ sì dùn gan-an",x,2
+,,nllb,He had [[to see the back of the problem]] by flipping the paper over,Ó rí i pé ìṣòro náà kò ju pé kó fi ìwé náà sílẹ̀,x,2
+turn down a glass,to decline something that someone has offered.,nllb,turned down a glass,ó rọ̀ ọ́ láti mu,x,2
+,,nllb,"At the party, he politely [[turned down a glass]] when offered a drink","Nígbà tí wọ́n fún un ní ohun mímu níbi àpèjẹ náà, ó fi tọ̀wọ̀tọ̀wọ̀ kọ̀ láti mu ún",l,0
+,,nllb,She [[turned down a glass]] upside down to let it dry,Ó gbé ife kan sókè kó lè gbẹ,l,0
+turn down a glass,to decline something that someone has offered.,opus,turned down a glass,Kọ gíláàsì kan sílè,l,0
+,,opus,"At the party, he politely [[turned down a glass]] when offered a drink","Lójó té ẹ wà níbi àríyá náà, ó rọra fi tòwòtòwò kọ gíláàsì kan sílè nígbà tó ń mu ọtí",l,0
+,,opus,She [[turned down a glass]] upside down to let it dry,Ó kọ gíláàsì sílè ségbèé kan láti fi jé kí ó gbẹ táútáú,l,0
+turn down a glass,to decline something that someone has offered.,gpt,turned down a glass,ti ṣe ọkàn àmì ohun.,x,2
+,,gpt,"At the party, he politely [[turned down a glass]] when offered a drink","Ni ẹ̀kọ́, ó rírò ni ìdíje nítorí ó kò ní ìbèẹ̀rẹ̀ lọ.",x,2
+,,gpt,She [[turned down a glass]] upside down to let it dry,O ti ṣe ẹrọ kan lọ pẹlu ọkọ kan ni o ṣe ṣiṣẹ lati jẹ ki o jẹun.,x,2
+turn down a glass,to decline something that someone has offered.,palm,turned down a glass,sọ ọ̀nà ọ̀gọ́rùn-ún,x,2
+,,palm,"At the party, he politely [[turned down a glass]] when offered a drink",Níbi ayẹyẹ náà ó tún sọ pé òun kò fẹ́ ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí wọ́n fi ń mú ọ̀nà tí w,x,2
+,,palm,She [[turned down a glass]] upside down to let it dry,Ó tẹ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ̀ ọ̀nà ìkọ,x,2
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,palm,They used their loaf,Wọ́n lo ìyẹ̀ wọn,l,2
+,,palm,[[They used their loaf]] to solve the complex puzzle,Wọ́n lo ìgbàgbọ́ wọn láti ṣe àwọn ìṣoro tí ó ṣòro,x,2
+,,palm,[[They used their loaf]] of bread to make sandwiches for lunch,Wọ́n lo ìgbóògùn ìgbà ọjọ́ ìbọn ẹ̀yìn wọn láti ṣe ìsánwádìn fún ìbọn ẹ̀yìn,x,2
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,gpt,They used their loaf,Won ti lo si ile-eko won.,x,2
+,,gpt,[[They used their loaf]] to solve the complex puzzle,Won ni won ti lofa lati se iyepe puzzle to nikan loju-ewe.,x,2
+,,gpt,[[They used their loaf]] of bread to make sandwiches for lunch,Won ti lo ile-eko won ni won o se awon sandiwicchi pelu eba re.,x,2
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,nllb,They used their loaf,Wọ́n lo búrẹ́dì wọn,l,0
+,,nllb,[[They used their loaf]] to solve the complex puzzle,Wọ́n lo búrẹ́dì wọn láti yanjú àdììtú tó díjú náà,l,0
+,,nllb,[[They used their loaf]] of bread to make sandwiches for lunch,Wọ́n fi búrẹ́dì wọn ṣe búrẹ́dì àjẹyó fún oúnjẹ ọ̀sán,l,0
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,opus,They used their loaf,Wón lo ìṣù búrédì wọn,l,0
+,,opus,[[They used their loaf]] to solve the complex puzzle,Wón máa ń lo ìṣù búrédì wọn láti fi yanjú òrò tó díjú yìí,l,0
+,,opus,[[They used their loaf]] of bread to make sandwiches for lunch,Wón máa ń fi ìṣù búrédì tí wón máa ń jẹ ṣe oúnjẹ òsán,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,gpt,They washed their dirty linen in public,Won ni won fi ẹwù ẹwù won lọ sọrọ.,x,2
+,,gpt,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,Won ni won gbe agbada wọnyi ti won ti fi ńṣe ọkan ninu awọn eto idibo wọn ni ọna ẹrọ ayelujara.,x,2
+,,gpt,[[They washed their dirty linen in public]] at the outdoor laundromat,Won ṣe afẹfẹ irinṣẹ wọn ni ilé ìṣọọ̀kan lọwọ.,x,2
+wash dirty linen in public,discuss publicly matters that one should keep private,opus,They washed their dirty linen in public,Wón ń fọ aṣọ wọn tó dòtí lójú gbogbo èèyàn,l,0
+,,opus,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,Wón máa ń fọ aṣọ wọn tó dòtí lójú gbogbo èèyàn nípa sísòrò nípa àwọn òràn tí wón ń gbé jáde lórí ìkànnì àjọlò orí Íńtánéètì,l,1
+,,opus,[[They washed their dirty linen in public]] at the outdoor laundromat,Wón máa ń fọ aṣọ wọn tó dòtí ní gbangba níbi tí wón ti ń fọ aṣọ ògbò,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,nllb,They washed their dirty linen in public,Wọ́n máa ń fọ aṣọ ìnura wọn ní gbangba,l,0
+,,nllb,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,Wọn fọ aṣọ ibùsùn wọn ní gbangba nípa fífi ọ̀rọ̀ ara wọn ṣ'àríyànjiyàn lórí ẹ̀rọ ayélujára,l,0
+,,nllb,[[They washed their dirty linen in public]] at the outdoor laundromat,Wọ́n máa ń fọ aṣọ ìdọ̀họ wọn ní gbangba níbi ìfọṣọ tó wà níta,x,2
+wash dirty linen in public,discuss publicly matters that one should keep private,palm,They washed their dirty linen in public,Wọ́n ṣe ìwọ̀sọ̀ ẹ̀rù wọn ní gbangba,x,2
+,,palm,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,Wọ́n ṣe ìṣọ̀rọ̀ ìṣe ọ̀hún ní gbangba nípa ìjàjọ̀ ìṣe ọ̀hún nínú ìsọ̀rọ̀ ẹ̀rọ ayélujára,x,2
+,,palm,[[They washed their dirty linen in public]] at the outdoor laundromat,Wọ́n wẹ̀ ẹ̀rọ ọ̀wọ́ wọn ní gbangba ní ọ̀dọ̀ ọ̀pọ̀lọpọ̀ ọ̀dọ́ ọ̀wọ́,x,2
+wet the baby's head,to have drink to celebrate the birth of a baby,opus,wet the baby's head,Wọn ma ń rán ọmọ lọwọlọwọ,x,2
+,,opus,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","Lẹyìn tí wọn ti bí ọmọ wọn tán, wọn ní kí àwọn òré wá máa ṣe ayẹyẹ díẹ lẹyìn tí wọn bá bímọ lọwọlọwọ.",f,1
+,,opus,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","Nígbà tí ayẹyẹ ìrìbọmi ń lọ lówó, àlùfáà náà rọra fi omi mímó ṣe orí ọmọ ọwó náà",l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,palm,wet the baby's head,sọ ọkàn ọmọ-ọwọ,x,2
+,,palm,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration",Lẹ́yìn ìbí ọmọ wọn wọ́n pè ọ̀rẹ wọn wá láti ṣe ìyẹyẹ ìbọ̀rẹ ọmọ náà,l,1
+,,palm,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water",Nígbà ìsìn ìbọmi ìgbàdọ àlùfá ń fi omi ìjìnlẹ̀ mọ orí ọmọ ọdún tí wọ́n ń bọmi,x,2
+wet the baby's head,to have drink to celebrate the birth of a baby,gpt,wet the baby's head,jẹ omi lọwọ ori omo.,x,2
+,,gpt,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","Lẹhin irin-ajo ọmọ wọn, wọ ni wọn kọ àwọn ẹgbẹ wọn lati ṣe ọjọ́ ayọkẹlẹ pẹlu ẹ̀rú wọn fun awọn ọmọ.",x,2
+,,gpt,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","Lati oruko Jesu, alagba ti o pa omo naa, ti o si ni iye alafia, ti o si ni oore-ofe, ti o si ni ayo, ti o si ni idunnu, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si ni ife, ti o si ni ibukun, ti o si",x,2
+wet the baby's head,to have drink to celebrate the birth of a baby,nllb,wet the baby's head,ó máa ń rọ orí ọmọ náà,x,2
+,,nllb,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","Lẹ́yìn tí wọ́n bí ọmọ wọn, wọ́n pe àwọn ọ̀rẹ́ wọn wá sílé wọn láti wá fi ayẹyẹ kékeré kan ṣayẹyẹ",f,0
+,,nllb,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","Nígbà tí wọ́n bá ń ṣe ìrìbọmi, àlùfáà á rọra fi omi mímọ́ rin orí ọmọ náà",l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,nllb,the wheels fell off,àwọn kẹ̀kẹ́ náà já bọ́,l,0
+,,nllb,"After a series of setbacks, [[the wheels fell off]] our project","Lẹ́yìn ọ̀pọ̀lọpọ̀ ìjákulẹ̀, a ò lè ṣe iṣẹ́ náà mọ́",f,0
+,,nllb,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",Àìpé tó wà nínú iṣẹ́ ìkọ́lé ló fà á tí àwọn táyà ọkọ̀ ayọ́kẹ́lẹ́ náà fi já bọ́,l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,palm,the wheels fell off,ìwé ìkọ̀sílẹ̀ ọkọ̀ ò ṣiṣẹ́,x,2
+,,palm,"After a series of setbacks, [[the wheels fell off]] our project",Lẹ́yìn ìṣẹ́lẹ̀ ìkọsílẹ̀ ọ̀pọ̀lọpọ̀ ọkọ̀ ìrìnà wa ṣẹ́gẹ́gẹ́ bí ẹ̀yẹ,l,1
+,,palm,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",Nitori aṣiṣe ìṣeṣe awọn wíwẹ̀wẹ̀ ṣubu kuro nínú ọkọ̀ ẹ̀yẹ,l,2
+wheels fall off,when a situation gets out of control and everything starts to go wrong,gpt,the wheels fell off,Ilu ti o wa pada pada.,x,2
+,,gpt,"After a series of setbacks, [[the wheels fell off]] our project","Láti ìtàn àwọn ìdánídá, àwọn ìgbàlódé ti bá àwọn ìṣẹ yín lọ.",x,2
+,,gpt,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","Nitori iṣẹda ọrọ, awọn ẹrọ ayọkẹlẹ ti bẹrẹ.",l,1
+wheels fall off,when a situation gets out of control and everything starts to go wrong,opus,the wheels fell off,àgbá kèké náà wó lulè,l,1
+,,opus,"After a series of setbacks, [[the wheels fell off]] our project","Léyìn òpò ìfàséyìn, ọkò ayókélé wa wó lulè",l,1
+,,opus,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",Ọkò ayókélé náà já bó kúrò nínú ọkò ayókélé tí wón fi ń rìn,l,1
+wouldn't be seen dead,to be too ashamed or embarrassed of something,nllb,wouldn't be seen dead in that,wọn ò ní rí i tí wọ́n bá kú sínú aṣọ yẹn.,l,1
+,,nllb,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","Wọn ò ní rí i nínú aṣọ yẹn, torí pé kò bá àṣà mu rárá.",l,0
+,,nllb,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","Bí ẹni pé ó jẹ́ onípanṣágà, kò ní kú sínú ilé oúnjẹ tí wọ́n ti ń se oúnjẹ alárọ̀",l,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,palm,wouldn't be seen dead in that,ó kò ní rí ara rẹ̀ kú nínú ìyẹn,l,0
+,,palm,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style",Ọ̀rẹ́ ọ̀dọ́ ọmọbìnrin náà kò lè kú nínú ìwọ́sẹ̀ náà nítorí pé ó ti kúrò nínú ìṣe ìwọ́sẹ̀,l,0
+,,palm,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant",Bi ẹlẹ́jẹ́ ó kì í kú ní ilé ìwòsàn tí wọ́n fi ẹ̀jẹ́ ọ̀gẹ̀rẹ̀ ṣe ìwòsàn,x,2
+wouldn't be seen dead,to be too ashamed or embarrassed of something,opus,wouldn't be seen dead in that,A kò gbọdọ rí àwọn òkú ní ibá-ìṣẹlẹ yẹn,l,1
+,,opus,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","Kò rí òkú rẹ ní ilé-ẹkọ náà, gẹgẹ bí wọn ti dá a sílẹ lọwọlọwọ",l,1
+,,opus,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","Gẹgẹ bí agbá bọọlù àfẹsẹgbá, kò rí òkú rẹ ní ilé oúnjẹ tí aáyù-ín-infused gbé lọwọlọwọ",x,2
+wouldn't be seen dead,to be too ashamed or embarrassed of something,gpt,wouldn't be seen dead in that,Kò ní ṣeé ṣeé ní àwọn ọ̀rẹ́ mi kò ní wò láti kí àwọn ènìyàn wá lọ́jọ́jù.,x,2
+,,gpt,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","O kò ní wò lọ́wọ́ ní àwọn ẹ̀yinjú tó wà láti ṣe àwọn ọjà, nítorí àwọn ẹ̀yinjú tó wà ni àpẹẹrẹ tí ó jẹ́ kò ṣe àwọn tí ó wà ni àpẹẹrẹ tí ó jẹ́.",x,2
+,,gpt,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","Bí a bá ọmọdé òde, ko si nkan tí a ò lè rò láti ọkọ alubosa yii.",x,2

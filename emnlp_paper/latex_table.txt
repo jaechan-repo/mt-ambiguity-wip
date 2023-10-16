@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrr}
+\toprule
+model &   google &      gpt &     nllb &     opus &     palm \\
+language\_pair &          &          &          &          &          \\
+\midrule
+en-zh         & 0.913595 & 0.918139 & 0.905010 & 0.901359 & 0.920861 \\
+en-ko         & 0.925645 & 0.912006 & 0.902964 & 0.000000 & 0.915872 \\
+en-he         & 0.916972 & 0.907675 & 0.917190 & 0.915268 & 0.911048 \\
+en-yo         & 0.875940 & 0.861227 & 0.836605 & 0.838334 & 0.811365 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,601 @@
+idiom,meaning,source_model,source_sentence,translation,afl,correctness
+"Mr Right, Ms Right",the best future life partner for someone,gpt,found their Mr Right and Ms Right,מצאו את המר רייט והמיס רייט שלהם,a,
+,,gpt,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","לאחר שנים של חיפושים, הם מצאו את המר או הגברה הנכונים והתיישבו.",a,1
+,,gpt,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","במסיבת התחפושות, הם מצאו את התלבושות של מר וגברת הנכונים בחנות.",l,0
+"Mr Right, Ms Right",the best future life partner for someone,palm,found their Mr Right and Ms Right,מצא את הגבר הנכון והאישה הנכונה,a,
+,,palm,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down",אחרי שנים של חיפוש הם סוף סוף מצאו את הגבר הנכון והאישה הנכונה והתיישבו,f,1
+,,palm,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store",במסיבת תחפושות הם מצאו את תלבושות מר וגברת נכונים בחנות,l,0
+"Mr Right, Ms Right",the best future life partner for someone,opus,found their Mr Right and Ms Right,"""מצאו את הגבר הנכון והצודק.",a,
+,,opus,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","אחרי שנים של חיפושים, הם סוף סוף מצאו את הגבר הנכון והצודק שלהם והתיישבו.",f,2
+,,opus,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","במסיבת התחפושות, הם מצאו את התלבושות הנכונות שלהם בחנות.",l,2
+"Mr Right, Ms Right",the best future life partner for someone,nllb,found their Mr Right and Ms Right,מצא את מר הנכון שלהם וגברת הנכונה,a,
+,,nllb,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","אחרי שנים של חיפוש, הם סוף סוף מצאו את מר ומרת הנכון שלהם והתיישבו",a,1
+,,nllb,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","במסיבת התחפושות, הם מצאו את התלבושות של מר ושל גברת הנכון בחנות.",l,1
+a whole new ball game,a significant change in circumstances.,opus,it's a whole new ball game,זה משחק חדש לגמרי.,l,
+,,opus,"After the company's merger, [[it's a whole new ball game]] for the employees","אחרי המיזוג של החברה, זה משחק חדש לגמרי לעובדים.",l,1
+,,opus,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","כשהם עברו מכדורגל לכדור בסיס, זה משחק חדש לגמרי לשחקנים.",l,0
+a whole new ball game,a significant change in circumstances.,gpt,it's a whole new ball game,זה משחק כדור חדש לגמרי,l,
+,,gpt,"After the company's merger, [[it's a whole new ball game]] for the employees","לאחר הפירוק של החברה, זה משחק כדור חדש לכל העובדים.",l,1
+,,gpt,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","כאשר הם החליפו מכדורגל לבייסבול, זה משחק כדור חדש לגמרי עבור השחקנים.",l,0
+a whole new ball game,a significant change in circumstances.,nllb,it's a whole new ball game,זה משחק כדור חדש לגמרי.,l,
+,,nllb,"After the company's merger, [[it's a whole new ball game]] for the employees","לאחר המיזוג של החברה, זה משחק כדור חדש לגמרי עבור העובדים",l,1
+,,nllb,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","כשהם עברו מפוטבול לבייסבול, זה משחק כדור חדש לגמרי עבור השחקנים.",l,0
+a whole new ball game,a significant change in circumstances.,palm,it's a whole new ball game,אלה כללי משחק חדשים,f,
+,,palm,"After the company's merger, [[it's a whole new ball game]] for the employees",לאחר מיזוג החברה זה משחק חדש לגמרי עבור העובדים,l,1
+,,palm,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players",כשהם עברו מכדורגל לבייסבול זה היה משחק כדור חדש לגמרי עבור השחקנים,l,0
+asked for the moon,ask for something that is very difficult or impossible to get,gpt,asked for the moon,ביקש לירח,l,
+,,gpt,He [[asked for the moon]] when he requested a million-dollar salary,הוא ביקש את הירח כשביקש משכורת של מיליון דולר.,l,1
+,,gpt,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","הילד, המסוגל באסטרונומיה, בצורה משעשעת ביקש את הירח כמתנת יום הולדת.",l,1
+asked for the moon,ask for something that is very difficult or impossible to get,opus,asked for the moon,ביקשתי את הירח.,l,
+,,opus,He [[asked for the moon]] when he requested a million-dollar salary,הוא ביקש את הירח כשהוא ביקש משכורת של מיליון דולר.,l,1
+,,opus,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","הילד, המוקסם מאסטרונומיה, ביקש בשובבות את הירח כמתנת יום הולדת",l,0
+asked for the moon,ask for something that is very difficult or impossible to get,palm,asked for the moon,דרשו את הירח,l,
+,,palm,He [[asked for the moon]] when he requested a million-dollar salary,הוא ביקש את הירח כשביקש שכר של מיליון דולר,l,1
+,,palm,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift",ילד שהיה מוקסם מאסטרונומיה ביקש בצחוק את הירח כמתנה ליום הולדתו,l,0
+asked for the moon,ask for something that is very difficult or impossible to get,nllb,asked for the moon,ביקש את הירח.,l,
+,,nllb,He [[asked for the moon]] when he requested a million-dollar salary,הוא ביקש את הירח כשהוא ביקש משכורת של מיליון דולר,l,1
+,,nllb,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","הילד, המוקסם באסטרונומיה, ביקש בשחקנות את הירח כמתנת יום הולדת",l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,nllb,asleep at the switch,ישן על המתג.,l,
+,,nllb,The manager was [[asleep at the switch]] when the crisis occurred,המנהל ישן במתג כשהמשבר התרחש.,l,2
+,,nllb,The train operator fell [[asleep at the switch]] during his break,מפעיל הרכבת נרדם במתקן ההפעלה במהלך ההפסקה שלו.,l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,opus,asleep at the switch,ישן על המתג,l,
+,,opus,The manager was [[asleep at the switch]] when the crisis occurred,המנהל ישן על המתג כשהמשבר התרחש.,l,2
+,,opus,The train operator fell [[asleep at the switch]] during his break,מפעיל הרכבת נרדם על המתג בזמן ההפסקה שלו,l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,gpt,asleep at the switch,נרדם על המתג,l,
+,,gpt,The manager was [[asleep at the switch]] when the crisis occurred,המנהל ישן על המתג כשהמשבר קרה.,l,2
+,,gpt,The train operator fell [[asleep at the switch]] during his break,המפעיל של הרכבת נרדם על המתג במהלך ההפסקה שלו.,l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,palm,asleep at the switch,רדום בזמן העבודה,f,
+,,palm,The manager was [[asleep at the switch]] when the crisis occurred,מנהלים ישנו בשמירה כשהמשבר פרץ,f,0
+,,palm,The train operator fell [[asleep at the switch]] during his break,נהגו של הרכבת נרדם במעבר במהלך ההפסקה שלו,l,1
+big cheese,to be an important and successful individual,opus,the big cheese,"""הגבינה הגדולה""",l,
+,,opus,"In the company, he's [[the big cheese]] and everyone respects him","בחברה, הוא ""הגבינה הגדולה"" וכולם מכבדים אותו.",l,2
+,,opus,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","בפסטיבל הגבינה, הם הציגו את הגבינה הגדולה ששוקלת יותר מ-100 פאונד.",l,0
+big cheese,to be an important and successful individual,gpt,the big cheese,הגבינה הגדולה,l,
+,,gpt,"In the company, he's [[the big cheese]] and everyone respects him","בחברה, הוא הגבינה הגדולה וכולם מכבדים אותו.",l,2
+,,gpt,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","בפסטיבל הגבינה, הציגו את הגבינה הגדולה ששוקלת מעל 100 פאונד.",l,0
+big cheese,to be an important and successful individual,nllb,the big cheese,הגבינה הגדולה.,l,
+,,nllb,"In the company, he's [[the big cheese]] and everyone respects him","בחברה, הוא הגבינה הגדולה וכולם מכבדים אותו",l,2
+,,nllb,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","בפסטיבל הגבינה, הם הציגו את הגבינה הגדולה ששוקלת מעל 100 קילו",l,0
+big cheese,to be an important and successful individual,palm,the big cheese,מנהיג,f,
+,,palm,"In the company, he's [[the big cheese]] and everyone respects him",בחברה הוא הגדול והכל מכבדים אותו,f,0
+,,palm,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds",בפסטיבל הגבינות הוצגה הגבינה הגדולה במשקל של מעל 100 קילוגרם,l,0
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",nllb,he bit off more than he could chew,הוא נשך יותר ממה שהוא יכול ללעוס.,l,
+,,nllb,"By accepting too many projects at once, [[he bit off more than he could chew]]","על ידי קבלת יותר מדי פרויקטים בבת אחת, הוא נשך יותר ממה שהוא יכול ללעוס",l,2
+,,nllb,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,הוא נשך יותר ממה שהוא יכול ללעוס כשהוא ניסה לאכול את כל הכריך בביס אחד,l,0
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",palm,he bit off more than he could chew,הוא לקח על עצמו יותר ממה שהוא יכול לעמוד בו,f,
+,,palm,"By accepting too many projects at once, [[he bit off more than he could chew]]",קבלת יותר מדי פרויקטים בבת אחת הוא נטל על עצמו יותר ממה שהוא יכול לעמוד בו,f,1
+,,palm,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,הוא לקח על עצמו יותר ממה שהוא יכול לעכל כאשר ניסה לאכול את כל הסנדוויץ' בבת אחת,f,1
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",gpt,he bit off more than he could chew,הוא לקח יותר ממה שהוא יכול לפעול עםו.,f,
+,,gpt,"By accepting too many projects at once, [[he bit off more than he could chew]]","על ידי קבלת מספר פרויקטים יותר מידי בו זמנית, הוא נכנס למצב של לקחת יותר ממה שהוא יכול לפעול בו.",f,1
+,,gpt,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,הוא לקח יותר ממה שהוא יכול לגרום לו לקחת כל הסנדוויץ' בפה אחד.,f,2
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",opus,he bit off more than he could chew,הוא נשך יותר ממה שהוא יכול ללעוס.,l,
+,,opus,"By accepting too many projects at once, [[he bit off more than he could chew]]","על ידי קבלת פרויקטים רבים מדי בבת אחת, הוא נשך את יותר ממה שהוא יכול ללעוס",l,2
+,,opus,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,הוא נשך יותר ממה שיכל ללעוס כשהוא ניסה לאכול את כל הכריך בנשיכה אחת.,l,0
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,nllb,blow his own horn,תנשוף בתפקיד שלו.,x,
+,,nllb,He never hesitates to [[blow his own horn]] about his accomplishments,הוא אף פעם לא מהסס להלחין את עצמו על הישגיו.,x,2
+,,nllb,"As a trumpet player, he would [[blow his own horn]] during practice","בתור מנגן חצוצרה, הוא היה מצלצל בעצמו במהלך האימון",l,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,opus,blow his own horn,תנשוף בקרן שלו.,l,
+,,opus,He never hesitates to [[blow his own horn]] about his accomplishments,הוא אף פעם לא מהסס לנשוף בשופר שלו על הישגיו,l,2
+,,opus,"As a trumpet player, he would [[blow his own horn]] during practice","כנגן חצוצרה, הוא היה צופר בעצמו במהלך האימון.",l,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,gpt,blow his own horn,לתזמן את החצוצרה שלו,l,
+,,gpt,He never hesitates to [[blow his own horn]] about his accomplishments,הוא לעולם לא מתלבט להתגאות בהישגיו.,f,0
+,,gpt,"As a trumpet player, he would [[blow his own horn]] during practice","כשחן בחצוצרה, הוא היה מפזר על עצמו במהלך התרגול.",x,2
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,palm,blow his own horn,לטפוח לעצמו על השכם,f,
+,,palm,He never hesitates to [[blow his own horn]] about his accomplishments,הוא אף פעם לא מהסס להתפאר בהישגיו,f,0
+,,palm,"As a trumpet player, he would [[blow his own horn]] during practice",כנצרן הוא היה מנגן בחצוצרה שלו במהלך האימונים,l,1
+blow your own trumpet,to say things that makes your own self or kin look good,gpt,blowing his own trumpet,מנגן על חצוצרת עצמו,x,
+,,gpt,He was always [[blowing his own trumpet]] about his accomplishments,הוא תמיד מתפאר בהישגיו.,f,0
+,,gpt,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","במהלך הפרייד, הוא נפח את החצוצר שלו כחלק מהלהקה המצעדת.",l,1
+blow your own trumpet,to say things that makes your own self or kin look good,palm,blowing his own trumpet,פומפוני,x,
+,,palm,He was always [[blowing his own trumpet]] about his accomplishments,הוא תמיד התרברב בהישגיו,f,0
+,,palm,"During the parade, he was [[blowing his own trumpet]] as part of the marching band",במהלך המצעד הוא ניגן בחצוצרה שלו כחלק מהתזמורת המצעדת,l,1
+blow your own trumpet,to say things that makes your own self or kin look good,nllb,blowing his own trumpet,מנגן בצופר שלו,l,
+,,nllb,He was always [[blowing his own trumpet]] about his accomplishments,הוא תמיד היה מלהיב על הישגיו.,f,1
+,,nllb,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","במהלך המצעד, הוא נשף בצופר שלו כחלק מהלהקה המצעדית.",l,0
+blow your own trumpet,to say things that makes your own self or kin look good,opus,blowing his own trumpet,נושב בחצוצרה של עצמו.,l,
+,,opus,He was always [[blowing his own trumpet]] about his accomplishments,הוא תמיד תקע בחצוצרה שלו על ההישגים שלו.,l,2
+,,opus,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","במהלך המצעד, הוא תקע בחצוצרה שלו כחלק מהתזמורת צועדת",l,1
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,opus,burning the candle at both ends,"""שורפת את הנר בשני קצותיו,",l,
+,,opus,"Working two jobs and studying, she was [[burning the candle at both ends]]","עובדת בשתי עבודות ולומדת, היא שרפה את הנר בשני קצותיו.",l,2
+,,opus,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","במהלך הניסוי, הם שרפו את הנר בשני קצותיו כדי לצפות בקצב ההיתוך",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,nllb,burning the candle at both ends,שורף את הנר בשני הקצוות.,l,
+,,nllb,"Working two jobs and studying, she was [[burning the candle at both ends]]","היא עבדה בשתי עבודות ולימודים, היא שרפה את הנר בשני הקצוות.",l,2
+,,nllb,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","במהלך הניסוי, הם שרפו את הנר בשני הקצוות כדי לצפות בקצב ההיתוך",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,gpt,burning the candle at both ends,שריפת הנר משני צדדיו,l,
+,,gpt,"Working two jobs and studying, she was [[burning the candle at both ends]]","עובדת בשתי עבודות ומתכוננת, היא מציתה את הנר משני הקצוות.",l,2
+,,gpt,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","במהלך הניסוי, הם שרפו את הנר משני הקצוות כדי לעקוב אחר קצב ההתכה.",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,palm,burning the candle at both ends,שורף את הפתילה משני הקצוות,l,
+,,palm,"Working two jobs and studying, she was [[burning the candle at both ends]]",עבדה בשני עבודות ולמדה היא שרפה את הלהבה בשני הקצוות,l,2
+,,palm,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate",במהלך הניסוי הם שרפו את הנר משני הקצוות כדי לצפות בקצב ההמסה,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",nllb,opened a can of worms,פתחתי פחית תולעים.,l,
+,,nllb,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","בכך שהיא שאלה אותו על העבר שלו, היא פתחה, בלי לדעת, קופסת תולעים בשיחה שלהם.",l,2
+,,nllb,The fisherman [[opened a can of worms]] to bait his hook,הדייג פתח פחית תולעים כדי להניף את הקרס שלו.,l,1
+can of worms,"to get into something that is messy, has problems and is unwanted",gpt,opened a can of worms,פתח פח של תולעות,l,
+,,gpt,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","בעקבות שאלתה על העבר שלו, היא בטעות פתחה תיבת פנדורה בשיחתם.",f,0
+,,gpt,The fisherman [[opened a can of worms]] to bait his hook,הדייג פתח פח של תולעי כדי להשתמש בהם כדיור לחכה שלו.,l,1
+can of worms,"to get into something that is messy, has problems and is unwanted",palm,opened a can of worms,פתחתי תיבת פנדורה,f,
+,,palm,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation",כששאלה על עברו היא פתחה בטעות תיבת פנדורה בשיחה שלהם,f,0
+,,palm,The fisherman [[opened a can of worms]] to bait his hook,הדייג פתח קופסת תולעים כדי להניח על הקרס,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",opus,opened a can of worms,פתח קופסת תולעים,l,
+,,opus,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","כששאלה על העבר שלו, היא פתחה בטעות קופסת תולעים בשיחה שלהם.",l,2
+,,opus,The fisherman [[opened a can of worms]] to bait his hook,הדייג פתח קופסת תולעים כדי לפתות את הקרס שלו.,l,2
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,opus,carrying the torch for her,נושא את הלפיד בשבילה,l,
+,,opus,"He's been [[carrying the torch for her]] since high school, but she never noticed","הוא נושא את הלפיד בשבילה מאז התיכון, אבל היא מעולם לא שמה לב",l,2
+,,opus,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","במהלך מירוץ הממסר, הוא נשא את הלפיד בשבילה עד שהגיע תורה לרוץ",l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,palm,carrying the torch for her,נושאת את הלפיד בשבילה,l,
+,,palm,"He's been [[carrying the torch for her]] since high school, but she never noticed",הוא נושא את הלפיד שלה מאז התיכון אבל היא מעולם לא שמה לב,l,2
+,,palm,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run",במהלך מרוץ השליחים הוא נשא את הלפיד עבורה עד שהגיע תורה לרוץ,l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,gpt,carrying the torch for her,נשאת את המשואה עבורה,l,
+,,gpt,"He's been [[carrying the torch for her]] since high school, but she never noticed","הוא נושא את המשואה עבורה מאז התיכון, אך היא לעולם לא שם לב.",l,2
+,,gpt,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","במהלך מרוץ הרשת, הוא נשא את המשואה עבורה עד שהגיע תורה לרוץ.",l,1
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,nllb,carrying the torch for her,נושא את הלפיד בשבילה.,l,
+,,nllb,"He's been [[carrying the torch for her]] since high school, but she never noticed","הוא נושא את הלפיד שלה מאז התיכון, אבל היא מעולם לא שמעה",l,2
+,,nllb,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","במהלך המרוץ, הוא נשא את הלפיד בשבילה עד שהגיע תורו לרוץ.",l,1
+chapter and verse,verbatim; word for word details.,opus,gave them chapter and verse,נתן להם פרק ופסוק,l,
+,,opus,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","כשנשאל על המדיניות החדשה, היא נתנה להם פרק ופסוק על תקנות החברה",l,2
+,,opus,The priest [[gave them chapter and verse]] from the Bible during the sermon,הכומר נתן להם פרק ופסוק מתוך המקרא במהלך הדרשה,l,0
+chapter and verse,verbatim; word for word details.,palm,gave them chapter and verse,נתתי להם פרק פסוק,l,
+,,palm,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations",כשנשאלה על המדיניות החדשה היא נתנה להם פרק ופסוקים על תקנות החברה,l,2
+,,palm,The priest [[gave them chapter and verse]] from the Bible during the sermon,הכומר נתן להם פרק פסוק מהתנך במהלך ההרצאה,l,0
+chapter and verse,verbatim; word for word details.,nllb,gave them chapter and verse,נתתי להם פרק ופסוק,l,
+,,nllb,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","כשנשאלו על המדיניות החדשה, היא נתנה להם פרק ופסוק על תקנות החברה",l,2
+,,nllb,The priest [[gave them chapter and verse]] from the Bible during the sermon,"הכומר נתן להם פרק ופסוק מהתנ""ך במהלך הדרשה",l,0
+chapter and verse,verbatim; word for word details.,gpt,gave them chapter and verse,נתן להם פרק ופסוק,l,
+,,gpt,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","כאשר שאלו אותה על המדיניות החדשה, היא נתנה להם פרק ופסוק על התקנות של החברה.",l,2
+,,gpt,The priest [[gave them chapter and verse]] from the Bible during the sermon,"הכהן נתן להם פרק ופסוק מהתנ""ך במהלך הדרשה.",l,1
+chink in armour,a susceptible or vulnerable area.,nllb,found a chink in their armour,מצאנו חריץ בשריון שלהם.,l,
+,,nllb,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","לאחר ניתוח האסטרטגיה שלהם, מצאנו פער בשריון שלהם שאנחנו יכולים לנצל",l,2
+,,nllb,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","בזמן שהוא בחן את חליפת האבירים, הוא מצא פער בשריון שלהם שזקוק לתיקון.",l,0
+chink in armour,a susceptible or vulnerable area.,gpt,found a chink in their armour,מצא נקודת חולשה בשריון שלהם,l,
+,,gpt,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","לאחר ניתוח האסטרטגיה שלהם, גילינו נקודת חולשה בשריון שלהם שאנחנו יכולים לנצל.",l,2
+,,gpt,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","במהלך בדיקת החיבור של האביר, הוא מצא פגם בשריון שצריך לתקן.",l,1
+chink in armour,a susceptible or vulnerable area.,opus,found a chink in their armour,מצאו סדק בשריון שלהם.,l,
+,,opus,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","לאחר ניתוח האסטרטגיה שלהם, מצאנו סדק בשריון שלהם שאנחנו יכולים לנצל",l,2
+,,opus,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","בזמן שבדק את חליפת האבירים, הוא מצא סדק בשריון שלהם שהיה צריך לתקן",l,0
+chink in armour,a susceptible or vulnerable area.,palm,found a chink in their armour,מצאתי חולשה במערך ההגנה שלהם,f,
+,,palm,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit",לאחר ניתוח אסטרטגיית היריבים מצאנו חולשה במערך ההגנה שלהם שאפשר לנצל,f,1
+,,palm,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair",תוך כדי בדיקת שריון האביר הוא מצא נקודה חלשה שצריך לתקן,l,0
+clean slate,to wipe the past out and begin afresh,nllb,to start with a clean slate,להתחיל עם לוח חדש.,l,
+,,nllb,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","לאחר שהתנצל, הם החליטו להתחיל מחדש ולבנות מחדש את החברות שלהם",f,0
+,,nllb,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,האמן החליט להתחיל עם לוח חדש על ידי מחיקת הלוח.,l,0
+clean slate,to wipe the past out and begin afresh,gpt,to start with a clean slate,להתחיל מחדש,f,
+,,gpt,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","לאחר התנצלותם, הם החליטו להתחיל מחדש ולבנות את הידרון שלהם.",f,2
+,,gpt,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,האמן החליט להתחיל מחדש על גבי לוח השחור על ידי מחיקתו.,l,1
+clean slate,to wipe the past out and begin afresh,opus,to start with a clean slate,להתחיל עם דף חדש.,f,
+,,opus,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","לאחר שהתנצלו, הם החליטו להתחיל דף חדש ולבנות מחדש את ידידותם.",f,0
+,,opus,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,האמן החליט להתחיל עם לוח נקי על ידי מחיקת הלוח,l,0
+clean slate,to wipe the past out and begin afresh,palm,to start with a clean slate,התחלה חדשה,f,
+,,palm,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship",לאחר שהתפייסו הם החליטו להתחיל מחדש ולבנות מחדש את מערכת היחסים ביניהם,f,0
+,,palm,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,האמן החליט להתחיל מחדש על ידי מחיקת הלוח,l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",palm,a cloud on the horizon,ענן באופק,l,
+,,palm,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts",חרף הצלחת הפרויקט היתה עננה באופק בצורת קיצוצים בתקציב,l,2
+,,palm,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm",כשהבטנו לים ראינו ענן באופק שהצביע על סערה מתקרבת,l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",nllb,a cloud on the horizon,ענן באופק,l,
+,,nllb,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","למרות הצלחת הפרויקט, היה ענן באופק בצורת קיצוצים בתקציב",l,2
+,,nllb,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","כשסתכלנו אל הים, שמנו לב לענן באופק שהודיע על סערה מתקרבת",l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",gpt,a cloud on the horizon,ענן על האופק,l,
+,,gpt,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","למרות ההצלחה של הפרויקט, הייתה ענן על האופק בצורת חתכות בתקציב.",l,2
+,,gpt,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","כשהסתכלנו לים, שמנו לב לענן על האופק המציין סער קרוב.",l,1
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",opus,a cloud on the horizon,ענן באופק,l,
+,,opus,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","למרות הצלחת הפרויקט, היה ענן באופק בצורת קיצוצים בתקציב",l,2
+,,opus,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","כשהבטנו אל הים, שמנו לב לענן באופק שמאותת לסערה מתקרבת.",l,0
+count chicken,make plans based on events that may or may not happen,opus,was counting chickens before they hatch,ספרתי תרנגולות לפני שהן בוקעות.,l,
+,,opus,He [[was counting chickens before they hatch]] when he started planning his victory party,הוא ספר תרנגולות לפני שהן בוקעות כשהוא התחיל לתכנן את מסיבת הניצחון שלו.,l,2
+,,opus,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,האיכר ספר תרנגולות לפני שהן בוקעות בהערכת מספר הביצים שהופכות לגוזלים,l,1
+count chicken,make plans based on events that may or may not happen,nllb,was counting chickens before they hatch,ספרתי תרנגולות לפני שהן נפרצו.,l,
+,,nllb,He [[was counting chickens before they hatch]] when he started planning his victory party,הוא ספר תרנגולות לפני שהן נפרצו כשהוא התחיל לתכנן את מסיבת הניצחון שלו.,l,2
+,,nllb,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,החוואי סופר תרנגולות לפני שהן פורצות על ידי הערכה של מספר הביצים שיהפכו לציפורים,l,1
+count chicken,make plans based on events that may or may not happen,gpt,was counting chickens before they hatch,ספר עופות לפני שהן גורמות,x,
+,,gpt,He [[was counting chickens before they hatch]] when he started planning his victory party,הוא ספר עופות לפני שהן חלמו כשהוא התחיל לתכנן את מסיבת הניצחון שלו.,l,2
+,,gpt,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,החקלאי ספר תרנגולים לפני שהם יבקעו על ידי הערכת מספר הביצים שיהפכו לגוריונים.,l,1
+count chicken,make plans based on events that may or may not happen,palm,was counting chickens before they hatch,חשב שהתרנגולות כבר בקעו,l,
+,,palm,He [[was counting chickens before they hatch]] when he started planning his victory party,הוא ספר את התרנגולות לפני שהן בקעו כשהחל לתכנן את מסיבת הניצחון שלו,l,2
+,,palm,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,החקלאי ספר תרנגולות לפני שהן בקעו על ידי הערכת מספר הביצים שיהפכו לתרנגולות,l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,gpt,cut his own throat,חתך את הגרונו שלו,l,
+,,gpt,"By revealing company secrets, he [[cut his own throat]] and ruined his career","בחשיפת סודות החברה, הוא חתך את הגרון שלו והרס את הקריירה שלו.",l,2
+,,gpt,"While shaving, he accidentally [[cut his own throat]] with the razor","בזמן הגילוח, הוא חתך בטעות את הגרון שלו עם המספר.",l,1
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,opus,cut his own throat,שיסף לעצמו את הגרון.,l,
+,,opus,"By revealing company secrets, he [[cut his own throat]] and ruined his career","על ידי גילוי סודות החברה, הוא חתך את גרונו שלו והרס את הקריירה שלו",l,2
+,,opus,"While shaving, he accidentally [[cut his own throat]] with the razor","בזמן הגילוח, הוא חתך בטעות את גרונו עם סכין הגילוח.",l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,nllb,cut his own throat,חתך את גרונו.,l,
+,,nllb,"By revealing company secrets, he [[cut his own throat]] and ruined his career","על ידי גילוי סודות החברה, הוא חתך את גרונו של עצמו והרס את הקריירה שלו",l,2
+,,nllb,"While shaving, he accidentally [[cut his own throat]] with the razor","בזמן גילוח, הוא חתך בטעות את גרונו עם הסכין.",l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,palm,cut his own throat,חתך את גרונו,l,
+,,palm,"By revealing company secrets, he [[cut his own throat]] and ruined his career",גילוי סודות החברה חתך את גרונו והרס את הקריירה שלו,l,2
+,,palm,"While shaving, he accidentally [[cut his own throat]] with the razor",תוך כדי גילוח הוא חתך בטעות את גרונו עם סכין הגילוח,l,0
+deliver the goods,do what is required,nllb,delivered the goods on time,מסרו את הסחורה בזמן,l,
+,,nllb,The new employee [[delivered the goods on time]] by meeting all the project deadlines,העובד החדש מסר את הסחורה בזמן על ידי ביצוע כל מועד הסוף של הפרויקט,l,2
+,,nllb,The courier [[delivered the goods on time]] to the customer's doorstep,השליח מסר את הסחורה בזמן לדלת של הלקוח,l,0
+deliver the goods,do what is required,opus,delivered the goods on time,מסר את הסחורה בזמן.,l,
+,,opus,The new employee [[delivered the goods on time]] by meeting all the project deadlines,העובד החדש מסר את הסחורה בזמן על ידי עמידה בכל מועדי היעד של הפרויקט,l,2
+,,opus,The courier [[delivered the goods on time]] to the customer's doorstep,השליח מסר את הסחורה בזמן למפתן דלתו של הלקוח.,l,0
+deliver the goods,do what is required,palm,delivered the goods on time,משלוח המוצרים בזמן,l,
+,,palm,The new employee [[delivered the goods on time]] by meeting all the project deadlines,עובד חדש סיפק את הסחורה בזמן על ידי עמידה בכל מועדי הפרויקט,f,0
+,,palm,The courier [[delivered the goods on time]] to the customer's doorstep,חברת השליחויות סיפקה את הסחורה בזמן לדלת הלקוח,l,0
+deliver the goods,do what is required,gpt,delivered the goods on time,מסר את המוצרים בזמן,l,
+,,gpt,The new employee [[delivered the goods on time]] by meeting all the project deadlines,העובד החדש מסר את המסירות בזמן על ידי עמידה בכל מועדי הפרויקט.,l,2
+,,gpt,The courier [[delivered the goods on time]] to the customer's doorstep,המשלוחן מסר את הסחורות בזמן לסף הבית של הלקוח.,l,1
+everything but the kitchen sink,almost everything that one can think of,palm,packed everything but the kitchen sink,ארזתי הכל חוץ מהכיור,l,
+,,palm,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared",טיול הקמפינג שלנו ארזנו הכל מלבד הכיור במטבח כדי להיות מוכנים,l,2
+,,palm,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners",תוך כדי המעבר הם ארזו הכל חוץ מהכיור במטבח שנשאר לבעלי הבית החדשים,l,0
+everything but the kitchen sink,almost everything that one can think of,opus,packed everything but the kitchen sink,ארז הכל חוץ מהכיור במטבח.,l,
+,,opus,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","לטיול המחנאות שלנו, ארזנו הכל חוץ מהכיור במטבח כדי להיות מוכנים.",l,2
+,,opus,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","בזמן המעבר, הם ארזו הכל חוץ מהכיור במטבח, שהושאר לבעלים החדשים",l,0
+everything but the kitchen sink,almost everything that one can think of,nllb,packed everything but the kitchen sink,ארזתי הכל חוץ מהכיור במטבח.,l,
+,,nllb,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","למסע המחנאות שלנו, ארזנו הכל, אבל הכיור במטבח צריך להיות מוכן.",l,2
+,,nllb,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","בזמן המעבר, הם ארזו הכל חוץ מהכיור במטבח, שנשאר לבעלים החדשים",l,0
+everything but the kitchen sink,almost everything that one can think of,gpt,packed everything but the kitchen sink,ארזתי הכל חוץ מכיור המטבח.,l,
+,,gpt,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","לטיול המחנאות שלנו, ארזנו הכל חוץ מכיור המטבח כדי להיות מוכנים.",l,2
+,,gpt,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","בזמן המעבר, הם ערכו את כל החפצים חוץ מכיור המטבח, שהושאר לבעלי הבית החדשים.",l,1
+feather in your cap,It means to have an achievement in your name.,nllb,a feather in your cap,נוצה בכובע שלך.,l,
+,,nllb,Winning the championship would be [[a feather in your cap]],לזכות באליפות תהיה נוצה בכובע שלך.,l,2
+,,nllb,The hat you're wearing has [[a feather in your cap]] as a decoration,הכובע שאתה לובש יש נוצה בכובע שלך כעיטור,l,1
+feather in your cap,It means to have an achievement in your name.,palm,a feather in your cap,אות כבוד,f,
+,,palm,Winning the championship would be [[a feather in your cap]],זכייה באליפות תהיה כתר על ראשך,f,0
+,,palm,The hat you're wearing has [[a feather in your cap]] as a decoration,כובע עם נוצות,l,2
+feather in your cap,It means to have an achievement in your name.,gpt,a feather in your cap,עוף בכובע שלך,x,
+,,gpt,Winning the championship would be [[a feather in your cap]],לזכות באליפות יהיה עוף בכפה שלך.,x,2
+,,gpt,The hat you're wearing has [[a feather in your cap]] as a decoration,הכובע שאתה עונה עליו יש לו עט בתוך הכובע כקישוט.,l,2
+feather in your cap,It means to have an achievement in your name.,opus,a feather in your cap,"""נוצה בכובעך,",l,
+,,opus,Winning the championship would be [[a feather in your cap]],לזכות באליפות תהיה נוצה בכובע שלך.,l,2
+,,opus,The hat you're wearing has [[a feather in your cap]] as a decoration,לכובע שאתה חובש יש נוצה בכובע כקישוט.,l,0
+feel the pinch,experience financial hardship,palm,he started to feel the pinch,התחילו להרגיש את הלחץ,f,
+,,palm,"After losing his job, [[he started to feel the pinch]] financially",לאחר שאיבד את עבודתו הוא התחיל להרגיש את הלחץ הכלכלי,f,0
+,,palm,"When the crab grabbed his finger, [[he started to feel the pinch]]",כשהסרטן תפס את אצבעו הוא התחיל להרגיש את הצריבה,l,0
+feel the pinch,experience financial hardship,gpt,he started to feel the pinch,הוא התחיל להרגיש את הלחץ,f,
+,,gpt,"After losing his job, [[he started to feel the pinch]] financially","לאחר שאיבד את עבודתו, הוא התחיל להרגיש את הצמיחה כלכלית.",f,1
+,,gpt,"When the crab grabbed his finger, [[he started to feel the pinch]]","כשהסרטן אחז באצבע שלו, הוא התחיל להרגיש את הצמרמורת.",l,1
+feel the pinch,experience financial hardship,opus,he started to feel the pinch,הוא התחיל להרגיש צביטה.,l,
+,,opus,"After losing his job, [[he started to feel the pinch]] financially","לאחר שאיבד את משרתו, הוא התחיל להרגיש צביטה כלכלית",l,2
+,,opus,"When the crab grabbed his finger, [[he started to feel the pinch]]","כאשר הסרטן תפס את אצבעו, הוא התחיל להרגיש את צביטה",l,0
+feel the pinch,experience financial hardship,nllb,he started to feel the pinch,הוא התחיל להרגיש את הצביטה.,l,
+,,nllb,"After losing his job, [[he started to feel the pinch]] financially","אחרי שהוא איבד את עבודתו, הוא החל להרגיש את הצירפין מבחינה כלכלית",x,2
+,,nllb,"When the crab grabbed his finger, [[he started to feel the pinch]]","כשהסרטן תפס את אצבעו, הוא החל להרגיש את הצביטה.",l,0
+flash in the pan,"something that cannot be repeated, usually a positive concept",palm,a flash in the pan,אש זקופה,x,
+,,palm,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it",ההצלחה הפתאומית שלו התבררה כבהבת חמה מכיוון שלא הצליח לשמר אותה,l,2
+,,palm,"The oil caught fire, creating [[a flash in the pan]] while she was cooking",השמן התלקח והתרחשה התלקחות פתאומית במחבת בזמן שהיא בישלה,l,1
+flash in the pan,"something that cannot be repeated, usually a positive concept",gpt,a flash in the pan,פָּנִים בַּזָּבַת.,x,
+,,gpt,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","הצלחתו הפתאומית התבררה כהברקה במחבת, מכיוון שהוא לא הצליח לשמר אותה.",l,2
+,,gpt,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","השמן נתפס באש, יוצר בזמן הבישול פלאש במחבת.",l,0
+flash in the pan,"something that cannot be repeated, usually a positive concept",nllb,a flash in the pan,הבזק בפאנטה.,x,
+,,nllb,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","ההצלחה הפתאומית שלו התבררה כבהירה בתנור, כי הוא לא הצליח לשמור עליה.",l,2
+,,nllb,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","השמן עלה באש, ויצר הבזק בפאנק בזמן שהיא בישלה.",x,2
+flash in the pan,"something that cannot be repeated, usually a positive concept",opus,a flash in the pan,הבזק במחבת,l,
+,,opus,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","ההצלחה הפתאומית שלו התבררה כהבזק במחבת, כפי שהוא לא יכול לשמור אותו",l,2
+,,opus,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","השמן עלה באש, ויצר הבזק במחבת בזמן שהיא בישלה",l,0
+get hitched,to get married,opus,they decided to get hitched,הם החליטו להתחתן.,f,
+,,opus,"After dating for five years, [[they decided to get hitched]] and start a family","אחרי שהם יצאו חמש שנים, הם החליטו להתחתן ולהקים משפחה.",f,0
+,,opus,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","במהלך הנסיעה שלהם, הם החליטו להתחתן לקרוואן לאחסון נוסף",f,2
+get hitched,to get married,nllb,they decided to get hitched,הם החליטו להתחתן.,f,
+,,nllb,"After dating for five years, [[they decided to get hitched]] and start a family","אחרי שיצאו יחד במשך חמש שנים, הם החליטו להתחתן ולהקים משפחה.",f,0
+,,nllb,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","במהלך הנסיעה שלהם, הם החליטו להיות קשור לקרון-הקרוואן כדי שיהיה להם מקום נוסף",l,1
+get hitched,to get married,palm,they decided to get hitched,הם החליטו להתחתן,f,
+,,palm,"After dating for five years, [[they decided to get hitched]] and start a family",חמישה שנה אחרי שהתחילו לצאת הם החליטו להתחתן ולהקים משפחה,f,1
+,,palm,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage",במהלך טיול הדרך שלהם הם החליטו להתחבר לקרוואן לאחסון נוסף,l,0
+get hitched,to get married,gpt,they decided to get hitched,הם החליטו להתחתן,f,
+,,gpt,"After dating for five years, [[they decided to get hitched]] and start a family","לאחר שהם נפגשו לפני חמש שנים, הם החליטו להתחתן ולהתחיל משפחה.",f,0
+,,gpt,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","במהלך הטיול שלהם, הם החליטו לצמצם את המקום ולצמצם את הטריילר לאחסון נוסף.",x,1
+go the extra mile,to make an extra effort,palm,he went the extra mile,הוא עשה מעל ומעבר,f,
+,,palm,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything",כדי לוודא שהפרויקט היה מושלם הוא הלך רחוק יותר ובדק הכל פעמיים,f,0
+,,palm,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn",במהלך המרתון הוא עשה קילומטר נוסף בטעות בגלל פניה שגויה,l,0
+go the extra mile,to make an extra effort,gpt,he went the extra mile,הוא הלך צעד נוסף,f,
+,,gpt,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","כדי לוודא שהפרויקט היה מושלם, הוא הלך עוד קילומטר ובדק הכל פעמיים.",l,2
+,,gpt,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","במרתון, הוא הלך את המייל הנוסף בטעות בגלל פנייה לכיוון שגוי.",l,0
+go the extra mile,to make an extra effort,opus,he went the extra mile,הוא הלך צעד נוסף.,f,
+,,opus,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","כדי לוודא שהפרויקט היה מושלם, הוא עשה צעד נוסף ובדק פעמיים הכל.",f,0
+,,opus,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","במהלך המרתון, הוא הלך צעד נוסף בטעות עקב פנייה לא נכונה",f,1
+go the extra mile,to make an extra effort,nllb,he went the extra mile,הוא עשה מאמץ נוסף.,f,
+,,nllb,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","כדי לוודא שהפרויקט מושלם, הוא עשה מאמץ נוסף ובדק שוב ושוב את כל הדברים",f,0
+,,nllb,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","במהלך המרתון, הוא הלך קילומטר נוסף בטעות בגלל פנייה לא נכונה",l,0
+go through a rough patch,to experience a lot of problems in a period of life,opus,going through a rough patch,עובר תקופה קשה.,f,
+,,opus,"After losing her job, she was [[going through a rough patch]] in her life","לאחר שאיבדה את עבודתה, עברה עליה תקופה קשה בחייה.",f,0
+,,opus,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","כשטיילנו, עברנו תקופה קשה מלאה בסלעים וקוצים.",f,2
+go through a rough patch,to experience a lot of problems in a period of life,gpt,going through a rough patch,עובר תקופה קשה,f,
+,,gpt,"After losing her job, she was [[going through a rough patch]] in her life","לאחר שאיבדה את עבודתה, היא עברה תקופה קשה בחייה.",f,0
+,,gpt,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","במהלך הטיול, עברנו דרך חלק קשה מלא באבנים וקוצים.",l,0
+go through a rough patch,to experience a lot of problems in a period of life,nllb,going through a rough patch,עובר תקופה קשה.,f,
+,,nllb,"After losing her job, she was [[going through a rough patch]] in her life","אחרי שאיבדה את עבודתה, היא עברה תקופה קשה בחייה.",f,0
+,,nllb,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","בזמן הליכה, עברנו דרך שטח קשה מלא סלעים וחרדים",l,0
+go through a rough patch,to experience a lot of problems in a period of life,palm,going through a rough patch,עבר תקופה קשה,f,
+,,palm,"After losing her job, she was [[going through a rough patch]] in her life",לאחר שאיבדתי את עבודתי עברתי תקופה קשה בחיי,f,1
+,,palm,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns",תוך כדי הליכה עברנו דרך קשה מלאה בסלעים וקוצצים,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,palm,got in his hair,התחפרה לו בשיער,l,
+,,palm,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,שאלותיהם התמידיות של עמיתיו הטרידו אותו והקשתה עליו להתרכז,f,1
+,,palm,The confetti from the party [[got in his hair]] and took a while to remove,ניירות הנפץ מהמסיבה נתקעו בשיערו והיה קשה להסיר אותם,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,nllb,got in his hair,נכנס בשיער שלו.,l,
+,,nllb,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,השאלות המתמשכות של עמיתיו לעבודה היו מטרידות את שיערו ועשו את זה קשה להתרכז,l,2
+,,nllb,The confetti from the party [[got in his hair]] and took a while to remove,הקונפטי מהמסיבה נכנס לשיער שלו ולקח לו זמן להוציא אותו.,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,opus,got in his hair,נכנס לשיער שלו.,l,
+,,opus,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,השאלות הקבועות מעמיתיו לעבודה נכנסו לשיערו והקשיו עליו להתרכז,l,2
+,,opus,The confetti from the party [[got in his hair]] and took a while to remove,הקונפטי מהמסיבה נכנס לשיער שלו ולקח לו קצת זמן להסיר,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,gpt,got in his hair,נכנס לשיער שלו,l,
+,,gpt,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,השאלות התמידיות מקולגותיו גרמו לו להתקשות להתרכז.,f,0
+,,gpt,The confetti from the party [[got in his hair]] and took a while to remove,הקונפטי מהמסיבה נכנס לשיער שלו ולקח זמן להסירו.,l,0
+hard cheese,"bad luck, tough luck",palm,She experienced hard cheese,ניסתה גבינה קשה,l,
+,,palm,[[She experienced hard cheese]] when she lost her job and had to start over,היא עברה תקופה קשה כשאיבדה את עבודתה והייתה צריכה להתחיל מחדש,f,0
+,,palm,"While tasting different types of dairy products, [[she experienced hard cheese]] among them",תוך כדי טעימת סוגים שונים של מוצרי חלב היא ניסתה גבינה קשה ביניהם,l,0
+hard cheese,"bad luck, tough luck",opus,She experienced hard cheese,היא חוותה גבינה קשה.,l,
+,,opus,[[She experienced hard cheese]] when she lost her job and had to start over,היא חוותה גבינה קשה כשהיא איבדה את עבודתה והייתה צריכה להתחיל מחדש,l,2
+,,opus,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","בזמן שהיא טועמת סוגים שונים של מוצרי חלב, היא חוותה גבינה קשה ביניהם.",l,1
+hard cheese,"bad luck, tough luck",nllb,She experienced hard cheese,היא חוותה גבינה קשה,l,
+,,nllb,[[She experienced hard cheese]] when she lost her job and had to start over,היא חוותה גבינה קשה כשהיא איבדה את עבודתה והייתה צריכה להתחיל מחדש,l,2
+,,nllb,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","בזמן שהיא טעמתה סוגים שונים של מוצרי חלב, היא חוותה גבינה קשה ביניהם",l,1
+hard cheese,"bad luck, tough luck",gpt,She experienced hard cheese,היא חוותה גבינה קשה,l,
+,,gpt,[[She experienced hard cheese]] when she lost her job and had to start over,היא חוותה גבינה קשה כשהיא איבדה את עבודתה והייתה צריכה להתחיל מחדש.,l,2
+,,gpt,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","בזמן שהיא טעמה מגוונים של מוצרי חלב, היא חוותה גבינה קשה ביניהם.",l,1
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,palm,hit the bull's-eye,פגיעה בול,f,
+,,palm,Her speech [[hit the bull's-eye]] and resonated with the audience,נאומה פגע בול והדהד בקהל,f,1
+,,palm,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target",יד יציבה היא כיוונה והחטיאה את המטרה,f,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,nllb,hit the bull's-eye,פגע בעין השור.,l,
+,,nllb,Her speech [[hit the bull's-eye]] and resonated with the audience,הנאום שלה פגע בעין השור וזכה לתשומת לב הקהל,l,2
+,,nllb,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","עם יד יציבה, היא כיוונה ונתקעה בכוונת המטרה",f,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,gpt,hit the bull's-eye,פגע במטרה,f,
+,,gpt,Her speech [[hit the bull's-eye]] and resonated with the audience,הנאום שלה פגע במטרה והתאפק לקהל.,f,1
+,,gpt,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","עם יד יציבה, היא כוונה ופגעה במטרה במרכז המטרה.",f,2
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,opus,hit the bull's-eye,פגע בול.,f,
+,,opus,Her speech [[hit the bull's-eye]] and resonated with the audience,"הנאום שלה פגע בול, והדהד בקהל.",f,1
+,,opus,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","עם יד יציבה, היא כיוונה ופגעה בול במטרה.",f,2
+hold all the aces,be in a winning position.,palm,he held all the aces,הוא החזיק את כל האסים,l,
+,,palm,"During the negotiation, [[he held all the aces]] and had the upper hand",במהלך המשא ומתן הוא החזיק בכל האסים והיה בעל היד העליונה,l,2
+,,palm,"During the poker game, [[he held all the aces]] in his hand",במשחק הפוקר הוא החזיק את כל האסים בידו,l,0
+hold all the aces,be in a winning position.,nllb,he held all the aces,הוא החזיק את כל האס,l,
+,,nllb,"During the negotiation, [[he held all the aces]] and had the upper hand","במהלך המשא ומתן, הוא החזיק את כל האסס והיה לו את היתרון",l,2
+,,nllb,"During the poker game, [[he held all the aces]] in his hand","במהלך משחק הפוקר, הוא החזיק את כל האס ביד שלו.",l,1
+hold all the aces,be in a winning position.,gpt,he held all the aces,הוא החזיק את כל האסים,l,
+,,gpt,"During the negotiation, [[he held all the aces]] and had the upper hand","במהלך המו""מ, היה לו את כל הקלפים והוא היה בידיים העליונות.",f,1
+,,gpt,"During the poker game, [[he held all the aces]] in his hand","במהלך המשחק של הפוקר, הוא החזיק את כל האסים בידו.",l,0
+hold all the aces,be in a winning position.,opus,he held all the aces,הוא החזיק את כל האסים.,l,
+,,opus,"During the negotiation, [[he held all the aces]] and had the upper hand","במהלך המשא ומתן, הוא החזיק את כל האסים והיה לו את היד העליונה",l,2
+,,opus,"During the poker game, [[he held all the aces]] in his hand","במהלך משחק הפוקר, הוא החזיק את כל האסים בידו.",l,0
+in the loop,to be aware of the information,palm,kept in the loop,מעורבים בעניין,f,
+,,palm,"As a team member, I want to be [[kept in the loop]] about project updates",כבעל תפקיד בצוות אני רוצה להיות מעודכן בעדכונים של הפרויקט,f,0
+,,palm,The rope was [[kept in the loop]] to secure the boat to the dock,חבלים נשמרים במעגל כדי לאבטח את הסירה למזח,l,2
+in the loop,to be aware of the information,gpt,kept in the loop,נשמר בלולאה,l,
+,,gpt,"As a team member, I want to be [[kept in the loop]] about project updates","כחבר צוות, אני רוצה להיות מעודכן בכל העדכונים בפרויקט.",f,0
+,,gpt,The rope was [[kept in the loop]] to secure the boat to the dock,החבל נשמר בלול כדי לאבטח את הסירה למורד.,l,2
+in the loop,to be aware of the information,nllb,kept in the loop,שמור על הפרטים.,f,
+,,nllb,"As a team member, I want to be [[kept in the loop]] about project updates","כחבר צוות, אני רוצה להיות מעודכן לגבי עדכונים בפרויקט",f,0
+,,nllb,The rope was [[kept in the loop]] to secure the boat to the dock,החבל היה מחובר כדי לאחוז את הסירה במזח.,l,1
+in the loop,to be aware of the information,opus,kept in the loop,שמור בלולאה,l,
+,,opus,"As a team member, I want to be [[kept in the loop]] about project updates","כחבר צוות, אני רוצה להיות כל הזמן בלולאה על עדכוני פרויקט",l,2
+,,opus,The rope was [[kept in the loop]] to secure the boat to the dock,החבל נשמר בלולאה כדי לאבטח את הסירה לרציף.,l,0
+kick the bucket,to die,palm,kicked the bucket together,נספו יחד,f,
+,,palm,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep",הזוג המבוגר שהיה בלתי נפרד בחייו נפטר יחד בשנתם,f,0
+,,palm,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere",תוך כדי ניקוי האסם הם בעטו בטעות יחד בדלי והשפיעו מים בכל מקום,l,1
+kick the bucket,to die,gpt,kicked the bucket together,הם נפלו יחד לגלילם.,x,
+,,gpt,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","הזוג הזקן, שהיו בלתי נפרדים בחיים, הלכו לעולמם ביחד בשינה.",f,0
+,,gpt,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","בזמן שהם ניקו את האסם, הם בטעות זרקו את הדלי ביחד והפיצו מים בכל מקום.",l,1
+kick the bucket,to die,opus,kicked the bucket together,בעטנו בדלי ביחד.,l,
+,,opus,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","הזוג הזקן, בלתי נפרד בחיים, בעט את הדלי יחד בשנתם",l,2
+,,opus,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","בזמן שניקינו את האסם, הם בטעות בעטו בדלי יחד ושפכו מים בכל מקום.",l,0
+kick the bucket,to die,nllb,kicked the bucket together,"""הרגנו את עצמנו יחד.",f,
+,,nllb,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","הזוג הזקן, בלתי נפרד בחיים, בעטו את הדלי יחד בשנתם",l,2
+,,nllb,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","בזמן ניקוי האסם, הם בעטו בטעות בדלי יחד ושפכו מים בכל מקום",l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,palm,knows which side his bread is buttered,ידע על איזה צד הלחם שלו מרוח חמאה,l,
+,,palm,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]",הוא תמיד תומך בהחלטות הבוס ומראה שהוא יודע על איזה צד הלחם שלו מרוח חמאה,l,2
+,,palm,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,הוא בחן את הסנדוויץ' בקפידה וידע איזה צד של הלחם שלו הוא עם חמאה כדי להימנע מללכלך את ידיו,l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,opus,knows which side his bread is buttered,יודע באיזה צד הלחם שלו מרוח בחמאה.,l,
+,,opus,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","הוא תמיד תומך בהחלטות של הבוס, מראה שהוא יודע באיזה צד הלחם שלו מרוח בחמאה",l,2
+,,opus,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,הוא צפה בזהירות בכריך ויודע באיזה צד לחם הוא חמאה כדי להימנע מקבל ידיו שמנוניות,l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,nllb,knows which side his bread is buttered,יודע באיזה צד לחם שלו חמאה,l,
+,,nllb,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","הוא תמיד תומך בהחלטות הבוס, מראה שהוא יודע באיזה צד לחם שלו הוא חמאה",l,2
+,,nllb,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,הוא מתבונן בזהירות בסנדוויץ' ויודע באיזה צד לחם שלו יש חמאה כדי למנוע את ידיו שמנות,l,1
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,gpt,knows which side his bread is buttered,יודע איזה צד של הלחם שלו מומחה.,x,
+,,gpt,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","הוא תמיד תומך בהחלטות המנהל, מראה שהוא יודע על איזו צד הלחמניות שלו מפוזרות.",x,2
+,,gpt,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,הוא עקב בזהירות אחרי הכרובית ויודע על איזו צדדי הלחם הוא מזין חמאה כדי למנוע מלככב ידיים שמנות.,x,2
+on the line,to be at serious risk.,gpt,She put it on the line,היא הניחה את זה על הקו.,l,
+,,gpt,[[She put it on the line]] when she confronted her boss about the unfair treatment,היא הציבה את זה על הקו כשהתמודדה עם המנהל שלה על הטיפול הבלתי הוגן.,l,2
+,,gpt,[[She put it on the line]] to dry after washing her clothes,היא נתנה את זה על החבל לייבוש לאחר כביסת הבגדים שלה.,l,1
+on the line,to be at serious risk.,opus,She put it on the line,היא סיכנה את זה.,f,
+,,opus,[[She put it on the line]] when she confronted her boss about the unfair treatment,היא סיכנה את זה כשהיא התעמתה עם הבוס שלה על הטיפול הלא הוגן.,f,0
+,,opus,[[She put it on the line]] to dry after washing her clothes,היא הניחה אותו על הקו לייבוש לאחר שכבסה את בגדיה,l,1
+on the line,to be at serious risk.,nllb,She put it on the line,היא סיכנה את זה.,f,
+,,nllb,[[She put it on the line]] when she confronted her boss about the unfair treatment,היא סיכנה את זה כשהיא התמודדה עם הבוס שלה על הטיפול הלא הוגן,f,0
+,,nllb,[[She put it on the line]] to dry after washing her clothes,היא שמה את זה על הקו כדי להתייבש אחרי שטיפת הבגדים שלה,l,1
+on the line,to be at serious risk.,palm,She put it on the line,נתנה אותו על הקו,l,
+,,palm,[[She put it on the line]] when she confronted her boss about the unfair treatment,היא העמידה את זה על השולחן כשהתעמתה עם הבוס שלה על היחס הלא הוגן,f,2
+,,palm,[[She put it on the line]] to dry after washing her clothes,היא תלה אותו על החבל לייבוש לאחר ששטפה את הבגדים,l,1
+on the pig's back,a successful situation and everything is going well for that person,opus,was riding on the pig's back,רכב על גבו של החזיר.,l,
+,,opus,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","לאחר שזכה בלוטו, הוא רכב על גבו של החזיר ונהנה מעושרו החדש.",l,2
+,,opus,"At the farm, the child [[was riding on the pig's back]] for fun","בחווה, הילד רכב על גבו של החזיר בשביל הכיף.",l,0
+on the pig's back,a successful situation and everything is going well for that person,gpt,was riding on the pig's back,רכב על גב החזיר,l,
+,,gpt,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","לאחר שזכה בגרלה, הוא רכב על גב החזיר ונהנה מהעושר החדש שלו.",l,2
+,,gpt,"At the farm, the child [[was riding on the pig's back]] for fun","בחווה, הילד רכב על גב החזיר לכיף.",l,0
+on the pig's back,a successful situation and everything is going well for that person,nllb,was riding on the pig's back,רכב על גבו של החזיר.,l,
+,,nllb,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","אחרי שזכה בלוטו, הוא רכב על גבו של החזיר ונהנה מהעושר החדש שלו.",l,2
+,,nllb,"At the farm, the child [[was riding on the pig's back]] for fun","בחווה, הילד רכב על גבו של החזיר בשביל הכיף.",l,0
+on the pig's back,a successful situation and everything is going well for that person,palm,was riding on the pig's back,רכבה על גב החזיר,l,
+,,palm,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth",לאחר שזכה בלוטו הוא נהנה מהעושר החדש שלו,f,0
+,,palm,"At the farm, the child [[was riding on the pig's back]] for fun",בחווה הילד רכב על גב החזיר בשביל הכיף,l,0
+out of hand,out of control,opus,got out of hand,יצא מכלל שליטה.,f,
+,,opus,The party [[got out of hand]] when people started throwing food,המסיבה יצאה מכלל שליטה כשאנשים התחילו לזרוק אוכל,f,0
+,,opus,The ball [[got out of hand]] when he accidentally dropped it,הכדור יצא מכלל שליטה כשהוא בטעות הפיל אותו,f,2
+out of hand,out of control,palm,got out of hand,יצא משליטה,f,
+,,palm,The party [[got out of hand]] when people started throwing food,האירוע יצא משליטה כשאנשים התחילו לזרוק אוכל,f,0
+,,palm,The ball [[got out of hand]] when he accidentally dropped it,הכדור יצא לו מהיד כשהפיל אותו בטעות,l,0
+out of hand,out of control,nllb,got out of hand,יצא מכלל שליטה.,f,
+,,nllb,The party [[got out of hand]] when people started throwing food,המסיבה יצאה מכלל שליטה כשהאנשים התחילו לזרוק אוכל.,f,0
+,,nllb,The ball [[got out of hand]] when he accidentally dropped it,הכדור יצא משליטה כשהוא הפיל אותו בטעות.,f,2
+out of hand,out of control,gpt,got out of hand,יצא מתחת לשליטה,f,
+,,gpt,The party [[got out of hand]] when people started throwing food,המסיבה יצאה מתחת לשליטה כשהאנשים התחילו לזרוק אוכל.,f,1
+,,gpt,The ball [[got out of hand]] when he accidentally dropped it,הכדור יצא מתחת לשליטה כשהוא טעה והפיל אותו.,f,2
+paddle own canoe,To be able to act without having to depend on anyone.,opus,to paddle their own canoe,לחתור בסירת קאנו משלהם.,l,
+,,opus,They decided [[to paddle their own canoe]] and start their own business,הם החליטו לחתור בסירת קאנו משלהם ולהתחיל עסק משלהם.,l,2
+,,opus,They had [[to paddle their own canoe]] to reach the other side of the lake,הם נאלצו לחתור בסירת קאנו משלהם כדי להגיע לצד השני של האגם.,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,palm,to paddle their own canoe,לטפל בענייניהם,f,
+,,palm,They decided [[to paddle their own canoe]] and start their own business,הם החליטו להתחיל עסק משלהם,f,0
+,,palm,They had [[to paddle their own canoe]] to reach the other side of the lake,הם היו צריכים לשוט בקאנו שלהם כדי להגיע לחוף השני של האגם,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,nllb,to paddle their own canoe,כדי לחתור בקאנו שלהם,l,
+,,nllb,They decided [[to paddle their own canoe]] and start their own business,הם החליטו לחתור בקאנו שלהם ולהתחיל בעסק שלהם,l,2
+,,nllb,They had [[to paddle their own canoe]] to reach the other side of the lake,הם היו צריכים לחתור בקאנו שלהם כדי להגיע לצד השני של האגם.,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,gpt,to paddle their own canoe,לשטוף את הסירה שלהם,l,
+,,gpt,They decided [[to paddle their own canoe]] and start their own business,הם החליטו לשטוף את הסירה שלהם בעצמם ולהתחיל את העסק שלהם.,l,2
+,,gpt,They had [[to paddle their own canoe]] to reach the other side of the lake,הם היו חייבים לשאוף את הסירה שלהם כדי להגיע לצד השני של האגם.,x,2
+paint the town red,to celebrate and have a wild time,gpt,to paint the town red together,לצבוע את העיר באדום ביחד,l,
+,,gpt,"After winning the championship, they decided [[to paint the town red together]] and celebrate","לאחר זכייתם באליפות, הם החליטו לצבוע את העיר באדום יחד ולחגוג.",l,2
+,,gpt,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","כחלק מפרויקט אמנות הקהילה, הם החליטו לצייר את העיר בצבע אדום יחד על ידי כיסוי הקירות בציורי קיר חיותיים.",l,1
+paint the town red,to celebrate and have a wild time,opus,to paint the town red together,לצבוע את העיר באדום ביחד.,l,
+,,opus,"After winning the championship, they decided [[to paint the town red together]] and celebrate","לאחר שזכו באליפות, הם החליטו לצבוע את העיר באדום יחד ולחגוג",l,2
+,,opus,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","כחלק מפרויקט אמנות קהילתי, הם החליטו לצבוע את העיר באדום יחד על ידי כיסוי הקירות עם ציורי קיר תוססים",l,0
+paint the town red,to celebrate and have a wild time,palm,to paint the town red together,לצבוע את העיר אדום יחד,l,
+,,palm,"After winning the championship, they decided [[to paint the town red together]] and celebrate",לאחר שזכו באליפות הם החליטו לצבוע את העיר אדום יחד לחגוג,l,2
+,,palm,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals",כהמשך לפרויקט אמנות קהילתי הם החליטו לצבוע את העיר אדום יחד על ידי כיסוי הקירות בציורי קיר תוססים,l,0
+paint the town red,to celebrate and have a wild time,nllb,to paint the town red together,לצבוע את העיר באדום ביחד,l,
+,,nllb,"After winning the championship, they decided [[to paint the town red together]] and celebrate","אחרי שזכו באליפות, הם החליטו לצבוע את העיר באדום ביחד ולחגוג",l,2
+,,nllb,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","כחלק מפרוייקט אמנות קהילתי, הם החליטו לצבוע את העיר באדום יחד על ידי כיסוי הקירות עם ציורי קיר תוססים",l,0
+pass away,die,opus,passed away peacefully,נפטר בשלווה.,f,
+,,opus,Our beloved grandmother [[passed away peacefully]] in her sleep,הסבתא האהובה שלנו נפטרה בשלווה בשנתה,f,0
+,,opus,"The storm [[passed away peacefully]], leaving a calm and clear sky","הסערה חלפה בשלווה, והשאירה שמים רגועים וברורים",l,0
+pass away,die,nllb,passed away peacefully,נפטר בשלווה.,f,
+,,nllb,Our beloved grandmother [[passed away peacefully]] in her sleep,סבתא האהובה שלנו נפטרה בשלום בשנתה.,f,0
+,,nllb,"The storm [[passed away peacefully]], leaving a calm and clear sky","הסופה חלפה בשלווה, והותירה שמים רגועים ובהירים.",l,0
+pass away,die,palm,passed away peacefully,עברה מן העולם בשלווה,f,
+,,palm,Our beloved grandmother [[passed away peacefully]] in her sleep,סבתנו האהובה נפטרה בשנתה,f,0
+,,palm,"The storm [[passed away peacefully]], leaving a calm and clear sky",הסערה חלפה בשקט והשאירה שמיים שקטים ובהירים,l,0
+pass away,die,gpt,passed away peacefully,נפטר בשקט,f,
+,,gpt,Our beloved grandmother [[passed away peacefully]] in her sleep,הסבתנו האהובה נפטרה בשקט בשינה שלה.,f,0
+,,gpt,"The storm [[passed away peacefully]], leaving a calm and clear sky","הסערה עברה בשקט, משאירה שמיים שקטים ובהירים.",l,0
+pull the wool over eyes,to deceive someone,gpt,They pulled the wool over her eyes,הם משכו את הצמר על עיניה,l,
+,,gpt,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,הם מתחזים לעסקן עשיר ומפנים אותה בכך.,x,2
+,,gpt,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","במהלך הכנות למסיבת ההפתעה, הם הכניסו לה עם עטיפת עיניים.",l,2
+pull the wool over eyes,to deceive someone,opus,They pulled the wool over her eyes,הם משכו את הצמר מעל עיניה,l,
+,,opus,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,הם משכו את הצמר מעל עיניה על ידי מתיימר להיות איש עסקים עשיר,l,2
+,,opus,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","במהלך ההכנות למסיבת ההפתעה, הם משכו את הצמר מעל עיניה עם כיסוי עיניים",l,0
+pull the wool over eyes,to deceive someone,nllb,They pulled the wool over her eyes,הם משכו את הצמר מעל עיניה,l,
+,,nllb,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,הם שיחקו אותה כשהם העמידו פנים שהם איש עסקים עשיר.,f,2
+,,nllb,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","במהלך הכנות למסיבת ההפתעה, הם כיסו את עיניה בעזרת כיסוי עיניים.",l,0
+pull the wool over eyes,to deceive someone,palm,They pulled the wool over her eyes,הם הוליכו אותה שולל,f,
+,,palm,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,הם הוליכו אותה שולל בהתחזות לעסקן עשיר,f,0
+,,palm,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold",תוך כדי ההכנות למסיבה הפתאומית הם עצרו אותה עם כיסוי עיניים,l,2
+push the boat out,celebrate; enjoy oneself.,nllb,we pushed the boat out,דחפנו את הסירה החוצה.,l,
+,,nllb,"For her birthday, [[we pushed the boat out]] and threw a huge party","ביום ההולדת שלה, דחפנו את הסירה החוצה וערכנו מסיבה ענקית.",l,2
+,,nllb,[[We pushed the boat out]] into the water to start our fishing trip,דחפנו את הסירה למים כדי להתחיל את מסע הדייג שלנו.,l,0
+push the boat out,celebrate; enjoy oneself.,opus,we pushed the boat out,דחפנו את הסירה החוצה.,l,
+,,opus,"For her birthday, [[we pushed the boat out]] and threw a huge party","ליום הולדתה, דחפנו את הסירה החוצה וערכנו מסיבה ענקית",l,2
+,,opus,[[We pushed the boat out]] into the water to start our fishing trip,דחפנו את הסירה למים כדי להתחיל את מסע הדיג שלנו.,l,0
+push the boat out,celebrate; enjoy oneself.,gpt,we pushed the boat out,דחפנו את הסירה לחוץ,l,
+,,gpt,"For her birthday, [[we pushed the boat out]] and threw a huge party","ליום הולדתה, קפצנו למים ועשינו מסיבה ענקית.",l,2
+,,gpt,[[We pushed the boat out]] into the water to start our fishing trip,דחפנו את הסירה למים כדי להתחיל את טיול הדייג שלנו.,l,0
+push the boat out,celebrate; enjoy oneself.,palm,we pushed the boat out,אנו דחפנו את הסירה החוצה,l,
+,,palm,"For her birthday, [[we pushed the boat out]] and threw a huge party",יום הולדתה דחפנו את הסירה החוצה וערכנו מסיבה ענקית,l,2
+,,palm,[[We pushed the boat out]] into the water to start our fishing trip,כיוונו את הסירה למים כדי להתחיל את טיול הדיג שלנו,l,0
+take a cue from,to do what is recommended by someone else,palm,take a cue from her,קבלו ממנה רמז,l,
+,,palm,You should [[take a cue from her]] and start organizing your time better,עליכם לקחת ממנה דוגמה ולהתחיל לארגן את הזמן שלכם טוב יותר,f,0
+,,palm,"During the pool game, he decided to [[take a cue from her]] and use her favorite one",במהלך משחק הברידג' הוא החליט לקחת ממנה רמז ולהשתמש בקלף האהוב עליה,l,2
+take a cue from,to do what is recommended by someone else,gpt,take a cue from her,קח רמז ממנה,l,
+,,gpt,You should [[take a cue from her]] and start organizing your time better,אתה צריך לקחת רמז ממנה ולהתחיל לארגן את הזמן שלך בצורה טובה יותר.,l,2
+,,gpt,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","במהלך המשחק בבריכה, הוא החליט לקחת חץ ממנה ולהשתמש באחד המועדפים עליה.",l,2
+take a cue from,to do what is recommended by someone else,opus,take a cue from her,קח סימן ממנה.,l,
+,,opus,You should [[take a cue from her]] and start organizing your time better,אתה צריך לקחת אות ממנה ולהתחיל לארגן את הזמן שלך טוב יותר,l,2
+,,opus,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","במהלך משחק הבריכה, הוא החליט לקחת אות ממנה ולהשתמש אחד האהוב עליה",l,2
+take a cue from,to do what is recommended by someone else,nllb,take a cue from her,קח סימן ממנה.,l,
+,,nllb,You should [[take a cue from her]] and start organizing your time better,אתה צריך לקחת סימן ממנה ולהתחיל לארגן את הזמן שלך טוב יותר,l,2
+,,nllb,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","במהלך משחק הביליארד, הוא החליט לקחת סימן ממנה ולהשתמש אחד האהוב עליה",l,2
+the devil is beating his wife,raining whereas the sun is shining.,nllb,the devil is beating his wife,השטן מכה את אשתו.,l,
+,,nllb,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","כשהשמש זרחה, התחילה לרדת גשם, ואנשים אמרו שהשטן מכה את אשתו.",l,2
+,,nllb,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","בהופעה התיאטרלית, השחקן שמשחק את השטן שיחק סצנה שבה השטן מכה את אשתו",l,0
+the devil is beating his wife,raining whereas the sun is shining.,gpt,the devil is beating his wife,השטן מכה את אשתו.,l,
+,,gpt,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","כשהשמש זרחה, התחיל לגשום ואנשים אמרו שהשטן מכה את אשתו.",l,2
+,,gpt,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","בהופעה התיאטרלית, השחקן שמגלם את השטן הציג סצינה בה השטן מכה את אשתו.",l,0
+the devil is beating his wife,raining whereas the sun is shining.,opus,the devil is beating his wife,השטן מכה את אשתו.,l,
+,,opus,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","כשהשמש זרחה, התחיל לרדת גשם, ואנשים אמרו שהשטן מכה את אשתו",l,2
+,,opus,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","בהופעה התיאטרלית, השחקן ששיחק את השטן עשה סצינה שבה השטן מכה את אשתו",l,0
+the devil is beating his wife,raining whereas the sun is shining.,palm,the devil is beating his wife,,x,
+,,palm,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]",תוך כדי שהשמש זרחה החל לרדת גשם והאנשים אמרו שהשטן מכה את אשתו,l,2
+,,palm,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]",בהצגה השחקן שגילם את השטן גילם סצנה שבה השטן מכה את אשתו,l,0
+the eleventh hour,at the very last minute before an event,palm,at the eleventh hour,רגעים לפני הסוף,f,
+,,palm,"He finished the project [[at the eleventh hour]], just before the deadline",הוא סיים את הפרויקט בשעה ה-11 ממש לפני המועד האחרון,l,2
+,,palm,She decided to go for a walk [[at the eleventh hour]] of the night,היא החליטה לצאת לטיול בשעה 11 בלילה,l,0
+the eleventh hour,at the very last minute before an event,nllb,at the eleventh hour,בשעה אחת עשרה.,l,
+,,nllb,"He finished the project [[at the eleventh hour]], just before the deadline","הוא סיים את הפרויקט בשעה אחת עשרה, ממש לפני המועד האחרון",l,2
+,,nllb,She decided to go for a walk [[at the eleventh hour]] of the night,היא החליטה לצאת לטיול בשעה 11 בלילה.,l,0
+the eleventh hour,at the very last minute before an event,opus,at the eleventh hour,בשעה האחת-עשרה.,l,
+,,opus,"He finished the project [[at the eleventh hour]], just before the deadline","הוא סיים את הפרויקט בשעה ה-11, ממש לפני המועד האחרון.",l,2
+,,opus,She decided to go for a walk [[at the eleventh hour]] of the night,היא החליטה לצאת לטיול בשעה ה-11 בלילה.,l,0
+the eleventh hour,at the very last minute before an event,gpt,at the eleventh hour,בשעה האחת עשרה,l,
+,,gpt,"He finished the project [[at the eleventh hour]], just before the deadline","סיים את הפרויקט בשעה האחרונה, כמה רגעים לפני המועד הסופי.",f,1
+,,gpt,She decided to go for a walk [[at the eleventh hour]] of the night,היא החליטה לצאת להליכה בשעה האחת עשרה של הלילה.,l,1
+to see the back of,to be glad that you no longer have to deal with someone,palm,to see the back of the problem,ראה את הצד השני של הבעיה,l,
+,,palm,She was relieved [[to see the back of the problem]] after finding a solution,היא היתה נרגשת לראות את הגב של הבעיה לאחר מציאת פתרון,l,2
+,,palm,He had [[to see the back of the problem]] by flipping the paper over,הוא היה צריך לראות את הצד השני של הבעיה על ידי היפוך הנייר,l,0
+to see the back of,to be glad that you no longer have to deal with someone,nllb,to see the back of the problem,לראות את החלק האחורי של הבעיה,l,
+,,nllb,She was relieved [[to see the back of the problem]] after finding a solution,היא הייתה מרוצה לראות את החלק האחורי של הבעיה לאחר מציאת פתרון,l,2
+,,nllb,He had [[to see the back of the problem]] by flipping the paper over,הוא היה צריך לראות את החלק האחורי של הבעיה על ידי הפניית הנייר,l,1
+to see the back of,to be glad that you no longer have to deal with someone,gpt,to see the back of the problem,לראות את הגב של הבעיה,l,
+,,gpt,She was relieved [[to see the back of the problem]] after finding a solution,היא הרגישה מרווחת לראות את הסוף של הבעיה לאחר שמצאה פתרון.,f,2
+,,gpt,He had [[to see the back of the problem]] by flipping the paper over,הוא היה צריך לראות את הצד האחורי של הבעיה על ידי הפיכת הנייר.,l,1
+to see the back of,to be glad that you no longer have to deal with someone,opus,to see the back of the problem,כדי לראות את החלק האחורי של הבעיה,l,
+,,opus,She was relieved [[to see the back of the problem]] after finding a solution,הוקל לה לראות את החלק האחורי של הבעיה לאחר שמצאה פתרון,l,2
+,,opus,He had [[to see the back of the problem]] by flipping the paper over,"הוא היה צריך לראות את החלק האחורי של הבעיה ע""י הפיכת העיתון.",l,1
+turn down a glass,to decline something that someone has offered.,opus,turned down a glass,דחיתי כוס.,l,
+,,opus,"At the party, he politely [[turned down a glass]] when offered a drink","במסיבה, הוא סירב בנימוס לכוס כאשר הציע משקה",f,1
+,,opus,She [[turned down a glass]] upside down to let it dry,היא דחתה כוס כדי לתת לזה להתייבש.,l,2
+turn down a glass,to decline something that someone has offered.,palm,turned down a glass,סירב לכוס,l,
+,,palm,"At the party, he politely [[turned down a glass]] when offered a drink",באירוע הוא סירב בנימוס לכוס כשהציעו לו משקה,l,1
+,,palm,She [[turned down a glass]] upside down to let it dry,היא הפכה כוס על פיה כדי לייבש אותה,l,0
+turn down a glass,to decline something that someone has offered.,nllb,turned down a glass,הפך את הכוס למטה,l,
+,,nllb,"At the party, he politely [[turned down a glass]] when offered a drink","במסיבה, הוא סירב בנימוס לכוס שהציעו לו לשתות.",f,0
+,,nllb,She [[turned down a glass]] upside down to let it dry,היא הפכה כוס הפוך כדי לתת לה להתייבש.,l,1
+turn down a glass,to decline something that someone has offered.,gpt,turned down a glass,סירב לכוס.,f,
+,,gpt,"At the party, he politely [[turned down a glass]] when offered a drink","במסיבה, הוא סירב באופן מנומס לכוס כשהוצע לו משקה.",f,1
+,,gpt,She [[turned down a glass]] upside down to let it dry,היא הפכה כוס על הפניים כדי שתיבש.,l,1
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,opus,They used their loaf,הם השתמשו בקציץ שלהם.,l,
+,,opus,[[They used their loaf]] to solve the complex puzzle,הם השתמשו בקציץ שלהם כדי לפתור את החידה המורכבת.,l,2
+,,opus,[[They used their loaf]] of bread to make sandwiches for lunch,הם השתמשו בככר הלחם שלהם כדי להכין כריכים לארוחת צהריים.,l,0
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,palm,They used their loaf,הן השתמשו בלחם שלהן,l,
+,,palm,[[They used their loaf]] to solve the complex puzzle,הם השתמשו בלחם שלהם כדי לפתור את החידה המורכבת,l,2
+,,palm,[[They used their loaf]] of bread to make sandwiches for lunch,הם השתמשו בלחם שלהם כדי להכין כריכים לארוחת הצהריים,l,0
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,nllb,They used their loaf,הם השתמשו בחם שלהם,l,
+,,nllb,[[They used their loaf]] to solve the complex puzzle,הם השתמשו בחבילה שלהם כדי לפתור את הפאזל המורכב.,l,2
+,,nllb,[[They used their loaf]] of bread to make sandwiches for lunch,הם השתמשו בחבילה שלהם כדי להכין כריכים לארוחת צהריים.,l,1
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,gpt,They used their loaf,הם השתמשו במוח שלהם,f,
+,,gpt,[[They used their loaf]] to solve the complex puzzle,הם השתמשו במוח שלהם כדי לפתור את הפאזל המורכב.,f,0
+,,gpt,[[They used their loaf]] of bread to make sandwiches for lunch,הם השתמשו בכיכר הלחם שלהם כדי להכין סנדוויצ'ים לצהריים.,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,nllb,They washed their dirty linen in public,הם שוטפו את הבגדים המלוכלכים שלהם בפומבי.,l,
+,,nllb,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,הם שטפו את הכביסה המלוכלכת שלהם בפומבי על ידי ויכוח על בעיות אישיות ברשתות החברתיות.,f,1
+,,nllb,[[They washed their dirty linen in public]] at the outdoor laundromat,הם שוטפו את הכביסה המלוכלכת שלהם בפומבי במכבסה החופשית בחוץ,l,1
+wash dirty linen in public,discuss publicly matters that one should keep private,opus,They washed their dirty linen in public,הם כיבסו את הפשתן המלוכלך שלהם בפומבי.,l,
+,,opus,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,הם כיבסו את הפשתן המלוכלך שלהם בפומבי בכך שהתווכחו על הבעיות האישיות שלהם ברשתות החברתיות.,l,2
+,,opus,[[They washed their dirty linen in public]] at the outdoor laundromat,הם כיבסו את הפשתן המלוכלך שלהם בפומבי במכבסה החיצונית.,l,1
+wash dirty linen in public,discuss publicly matters that one should keep private,palm,They washed their dirty linen in public,הן רחצו את הכביסה המלוכלכת שלהן בפומבי,f,
+,,palm,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,הן הלבינו את הכביסה המלוכלכת שלהן בפומבי על ידי ויכוחים על בעיות אישיות ברשתות החברתיות,f,1
+,,palm,[[They washed their dirty linen in public]] at the outdoor laundromat,כבסו את הכביסה המלוכלכת שלהם בפומבי במכבסה בחוץ,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,gpt,They washed their dirty linen in public,הם כבו את בגדיהם המלוכלכים בפומבי.,l,
+,,gpt,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,הם כבו את בגדיהם המלוכלכים בפומבי על ידי תובנות על הנושאים האישיים שלהם ברשתות החברתיות.,l,2
+,,gpt,[[They washed their dirty linen in public]] at the outdoor laundromat,הם כבו את בגדיהם המלוכלכים בפומבי במכונת הכביסה בחוץ.,l,1
+wet the baby's head,to have drink to celebrate the birth of a baby,nllb,wet the baby's head,הרטיב את ראשו של התינוק.,l,
+,,nllb,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","אחרי הלידה של הילד שלהם, הם הזמינו חברים כדי לרטיב את הראש של התינוק עם חגיגה קטנה",l,2
+,,nllb,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","במהלך טקס הטבילה, הכומר מרטיב בעדינות את ראשו של התינוק במים קדושים",l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,opus,wet the baby's head,הרטיב את ראשו של התינוק.,l,
+,,opus,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","לאחר לידת הילד שלהם, הם הזמינו חברים להרטיב את ראשו של התינוק עם חגיגה קטנה",l,2
+,,opus,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water",במהלך טקס ההטבלה הרטיב הכומר בעדינות את ראשו של התינוק במים קדושים,l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,gpt,wet the baby's head,רטב את ראש התינוק,l,
+,,gpt,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","לאחר לידת הילד שלהם, הם הזמינו חברים לחגוג ולשתות לברכת התינוק.",f,0
+,,gpt,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","במהלך טקס הטבילה, הכהן לח לבשוט התינוק במים קדושים.",l,2
+wet the baby's head,to have drink to celebrate the birth of a baby,palm,wet the baby's head,רטיבות ראש התינוק,l,
+,,palm,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration",מיד לאחר לידתו של הילד הם הזמינו חברים לחגוג את הולדת התינוק,f,0
+,,palm,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water",במהלך טקס הטבילה הכומר רטיב בעדינות את ראש התינוק במים קדושים,l,1
+wheels fall off,when a situation gets out of control and everything starts to go wrong,gpt,the wheels fell off,הגלגלים נפלו מהרכב,l,
+,,gpt,"After a series of setbacks, [[the wheels fell off]] our project","לאחר סדרת כשלים, הגלגלים נפלו מהפרויקט שלנו.",l,2
+,,gpt,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","בגלל פגם ייצור, הגלגלים נפלו מהמכונית הצעצוע.",l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,palm,the wheels fell off,גלגלים נפלו,l,
+,,palm,"After a series of setbacks, [[the wheels fell off]] our project",אחרי סדרה של נסיגות הגלגל נפל מהפרויקט שלנו,l,2
+,,palm,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",כתוצאה מפגם בייצור הגלגלים נפלו מהמכונית הצעצוע,l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,nllb,the wheels fell off,הגלגלים נפלו.,l,
+,,nllb,"After a series of setbacks, [[the wheels fell off]] our project","לאחר סדרה של מכשולים, הפרויקט שלנו נפל",f,0
+,,nllb,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","בגלל פגם בייצור, הגלגלים נפלו ממכונית הצעצוע",l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,opus,the wheels fell off,הגלגלים נפלו.,l,
+,,opus,"After a series of setbacks, [[the wheels fell off]] our project","לאחר סדרה של עיכובים, הגלגלים נפלו מהפרויקט שלנו.",l,2
+,,opus,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","עקב פגם בייצור, הגלגלים נפלו ממכונית הצעצוע.",l,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,nllb,wouldn't be seen dead in that,לא יראו אותו מת בזה.,l,
+,,nllb,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","היא לא תיראה מתה בבגד הזה, כי הוא לא היה בסגנון.",l,2
+,,nllb,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","כערפד, הוא לא היה נראה מת במסעדה עם שום.",l,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,palm,wouldn't be seen dead in that,פשוט לא הייתי רוצה להיתפס בזה,f,
+,,palm,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style",היא לא היתה רוצה להיתפס מתה עם התלבושת הזו כי היא היתה לגמרי מיושנת,l,2
+,,palm,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant",כבעל חיים ערפדי הוא לא היה נראה מת באותו מסעדה עם השום,l,1
+wouldn't be seen dead,to be too ashamed or embarrassed of something,opus,wouldn't be seen dead in that,לא נראה מת בזה.,l,
+,,opus,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","היא לא תראה מתה בתלבושת הזאת, כי זה היה לגמרי לא אופנתי",l,2
+,,opus,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","כערפד, הוא לא היה נראה מת במסעדה מלאת שום.",l,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,gpt,wouldn't be seen dead in that,לא הייתי רואה את זה גם אם אני מת.,x,
+,,gpt,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","היא לא הייתה נראית מת בתלבושת הזו, מכיוון שהיא הייתה לגמרי מחוץ לסגנון.",l,2
+,,gpt,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","כמו ערפד, הוא לא היה נראה מת במסעדה המשומשמת בשום.",l,2

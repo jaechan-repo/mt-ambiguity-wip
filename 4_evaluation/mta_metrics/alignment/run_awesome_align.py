@@ -33,15 +33,21 @@ def run_script(script_path: str, *args: str) -> None:
 
 def run_extractv2(source_file: str, target_file: str) -> List[str]:
 
-    # Run the bash script
-    run_script("bash", "extractv2.sh", source_file, target_file)
+    try:
 
-    alignment_file = 'source.txt.target.txt.pretok.aligned'
-    # Read the aligned file to a list and return
-    result = read_file_to_list(alignment_file)
+        # Run the bash script
+        run_script("bash", "extractv2.sh", source_file, target_file)
 
-    # Clean up the alignment file
-    return result
+        alignment_file = 'source.txt.target.txt.aligned'
+        # Read the aligned file to a list and return
+        result = read_file_to_list(alignment_file)
+        
+        # Clean up the alignment file
+        return result
+    
+    except:
+
+        return []
 
 def main_process(source_lines: List[str], target_lines: List[str]) -> List[str]:
     source_file = 'source.txt'

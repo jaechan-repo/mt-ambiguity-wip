@@ -60,15 +60,6 @@ def process_lists(source_list, align_list, target_list):
         source_words, target_words, align_list
     )
 
-    usw_scores = [
-        (len(x) / len(y)) * 100 for x, y in zip(unaligned_source_words, source_words)
-    ]
-    total_words = sum([len(x) for x in source_words])
-    usw_mean = sum([u * len(s) for u, s in zip(usw_scores, source_words)]) / total_words
-    
-    nm_scores = []
-    for positions in aligned_positions:
-        nm_scores.append(non_monotonicity_score([positions]))
-    nm_mean = statistics.mean(nm_scores)
-
-    return usw_scores, nm_scores, usw_mean, nm_mean
+    total_words_macro = sum([len(x) for x in source_words])
+    unaligned_source_words_macro = sum([len(x) for x in unaligned_source_words])
+    return (unaligned_source_words_macro / total_words_macro) * 100, non_monotonicity_score(aligned_positions)

@@ -1,0 +1,601 @@
+idiom,meaning,source_model,source_sentence,translation,afl,correctness
+"Mr Right, Ms Right",the best future life partner for someone,gpt,found their Mr Right and Ms Right,找到了他们的Mr. Right和Ms. Right。,a,0
+,,gpt,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down",经过多年的寻找，他们终于找到了他们的白马王子和白雪公主，安定下来了。,f,0
+,,gpt,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store",在化装舞会上，他们在商店里找到了他们的Mr Right和Ms Right服装。,a,1
+"Mr Right, Ms Right",the best future life partner for someone,nllb,found their Mr Right and Ms Right,发现了他们对的先生和女士,f,0
+,,nllb,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","经过多年的寻找, 他们终于找到了他们合适的先生和女士, 并安顿下来.",f,0
+,,nllb,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","在服装派对上,他们发现了他们的""Mr.",x,2
+"Mr Right, Ms Right",the best future life partner for someone,opus,found their Mr Right and Ms Right,权利与权利 权利 权利与权利,x,2
+,,opus,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down","经过多年的搜寻,他们终于找到了右先生和右女士,安顿下来。",l,1
+,,opus,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store","在服装派对上,他们在店里 发现了他们的Right先生和Right女士的衣服",l,1
+"Mr Right, Ms Right",the best future life partner for someone,palm,found their Mr Right and Ms Right,找到了他们的Mr Right和Ms Right,a,0
+,,palm,"After years of searching, they finally [[found their Mr Right and Ms Right]] and settled down",经过多年的寻找，他们终于找到了自己的真命天子和真命天女，并安定下来,f,0
+,,palm,"At the costume party, they [[found their Mr Right and Ms Right]] outfits in the store",在化装舞会上，他们在商店里找到了他们的白马王子和白雪公主服装,f,1
+a whole new ball game,a significant change in circumstances.,opus,it's a whole new ball game,这是一个全新的球游戏,l,0
+,,opus,"After the company's merger, [[it's a whole new ball game]] for the employees","公司合并后,对员工来说 是一个全新的球赛",l,1
+,,opus,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players","当他们从足球 转到棒球, 这是一个全新的球游戏 对于球员来说",l,0
+a whole new ball game,a significant change in circumstances.,gpt,it's a whole new ball game,这是一个全新的局面。,f,0
+,,gpt,"After the company's merger, [[it's a whole new ball game]] for the employees",公司合并后，对员工来说是一个全新的局面。,f,0
+,,gpt,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players",当他们从足球转换到棒球时，对于球员来说这是一个全新的比赛。,l,0
+a whole new ball game,a significant change in circumstances.,nllb,it's a whole new ball game,这是一个全新的球游戏,l,0
+,,nllb,"After the company's merger, [[it's a whole new ball game]] for the employees","公司合并后, 员工们的生活将会完全改变.",f,0
+,,nllb,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players",球员们的游戏也变得全新的.,l,2
+a whole new ball game,a significant change in circumstances.,palm,it's a whole new ball game,这是一个全新的游戏,l,0
+,,palm,"After the company's merger, [[it's a whole new ball game]] for the employees",公司合并后，员工们面临全新的局面,f,0
+,,palm,"When they switched from soccer to baseball, [[it's a whole new ball game]] for the players",当他们从足球转向棒球时，这对球员来说是一场全新的比赛,l,0
+asked for the moon,ask for something that is very difficult or impossible to get,opus,asked for the moon,要求月亮,l,0
+,,opus,He [[asked for the moon]] when he requested a million-dollar salary,"他要求月亮时,他要求月亮 要求一百万的薪水",l,1
+,,opus,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift",被天文学迷惑的孩子 巧妙地要求月亮作为生日礼物,l,1
+asked for the moon,ask for something that is very difficult or impossible to get,gpt,asked for the moon,要求月亮,l,0
+,,gpt,He [[asked for the moon]] when he requested a million-dollar salary,他要求一百万美元的薪水，简直是痴心妄想。,f,0
+,,gpt,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift",这个着迷于天文学的孩子在生日时开玩笑地要求月亮作为礼物。,l,0
+asked for the moon,ask for something that is very difficult or impossible to get,palm,asked for the moon,痴心妄想,f,0
+,,palm,He [[asked for the moon]] when he requested a million-dollar salary,他要求一百万美元的薪水，简直是痴人说梦,f,0
+,,palm,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift",这个对天文学着迷的孩子开玩笑地要求把月亮作为生日礼物,l,0
+asked for the moon,ask for something that is very difficult or impossible to get,nllb,asked for the moon,要求月亮,l,0
+,,nllb,He [[asked for the moon]] when he requested a million-dollar salary,"他要求月亮,当他要求一百万美元的薪水",l,1
+,,nllb,"The child, fascinated by astronomy, playfully [[asked for the moon]] as a birthday gift","这位对天文学着迷的孩子,玩地要求月亮作为生日礼物",l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,palm,asleep at the switch,睡着了,l,1
+,,palm,The manager was [[asleep at the switch]] when the crisis occurred,危机发生时，经理正在睡觉,l,1
+,,palm,The train operator fell [[asleep at the switch]] during his break,列车司机在休息时睡在了道岔上,l,0
+asleep at the switch,failing to attend to one's responsibilities or duties,nllb,asleep at the switch,在开关上睡着了,l,0
+,,nllb,The manager was [[asleep at the switch]] when the crisis occurred,"危机发生时,经理在开关上睡着了.",l,1
+,,nllb,The train operator fell [[asleep at the switch]] during his break,列车操作员在休息时在开关处睡着了,l,0
+asleep at the switch,failing to attend to one's responsibilities or duties,opus,asleep at the switch,睡在开关上,l,0
+,,opus,The manager was [[asleep at the switch]] when the crisis occurred,危机发生时经理在开关睡觉,l,1
+,,opus,The train operator fell [[asleep at the switch]] during his break,火车接线员在休息时在开关上睡着了,l,1
+asleep at the switch,failing to attend to one's responsibilities or duties,gpt,asleep at the switch,疏忽职守,f,0
+,,gpt,The manager was [[asleep at the switch]] when the crisis occurred,经理在危机发生时疏忽大意。,f,0
+,,gpt,The train operator fell [[asleep at the switch]] during his break,火车司机在休息期间睡着了，没有切换。,l,0
+big cheese,to be an important and successful individual,opus,the big cheese,大奶酪,l,0
+,,opus,"In the company, he's [[the big cheese]] and everyone respects him","在公司里,他是大奶酪 每个人都尊敬他",l,1
+,,opus,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","在干酪节上,他们展示了 重量超过100磅的大起司",l,0
+big cheese,to be an important and successful individual,nllb,the big cheese,大奶酪,l,0
+,,nllb,"In the company, he's [[the big cheese]] and everyone respects him","在公司里,他是大奶酪,每个人都尊重他",l,1
+,,nllb,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds","在奶酪节上,他们展示了重达100磅的大奶酪",l,0
+big cheese,to be an important and successful individual,palm,the big cheese,大人物,f,0
+,,palm,"In the company, he's [[the big cheese]] and everyone respects him",在公司里，他是老大，人人都尊敬他,f,0
+,,palm,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds",在奶酪节上，他们展示了重达100磅的大奶酪,l,0
+big cheese,to be an important and successful individual,gpt,the big cheese,大人物,f,0
+,,gpt,"In the company, he's [[the big cheese]] and everyone respects him",在公司里，他是大佬，每个人都尊敬他。,f,0
+,,gpt,"At the cheese festival, they displayed [[the big cheese]] weighing over 100 pounds",在奶酪节上，他们展示了一个重量超过100磅的大奶酪。,l,0
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",nllb,he bit off more than he could chew,他咬了比他可以更多的东西,l,1
+,,nllb,"By accepting too many projects at once, [[he bit off more than he could chew]]","他一下子接受了太多的项目,",x,2
+,,nllb,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,他咬了比他可以更多当他试图吃整个三明治在一个咬,l,2
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",opus,he bit off more than he could chew,他咬咬的比他嚼不嚼的还多,l,2
+,,opus,"By accepting too many projects at once, [[he bit off more than he could chew]]","通过同时接受太多的项目, 他咬了更多的东西 超过他可以咀嚼",l,1
+,,opus,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,他咬掉的比咬一口吃整个三明治时嚼得嚼不嚼的还要多,l,2
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",gpt,he bit off more than he could chew,他贪多嚼不烂。,f,0
+,,gpt,"By accepting too many projects at once, [[he bit off more than he could chew]]",他一次接受了太多的项目，超出了他的能力范围。,f,0
+,,gpt,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,他一口咬下整个三明治，结果咬不动。,l,0
+bite off more than one can chew,"to try to do something that is too difficult for you, or more than you can manage",palm,he bit off more than he could chew,他自不量力,f,0
+,,palm,"By accepting too many projects at once, [[he bit off more than he could chew]]",他一次接受太多项目，结果是力不从心,f,0
+,,palm,[[He bit off more than he could chew]] when he tried to eat the whole sandwich in one bite,他想一口吃掉整个三明治，结果吃得太多了,l,1
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,opus,blow his own horn,自己吹自己的号角,l,0
+,,opus,He never hesitates to [[blow his own horn]] about his accomplishments,他从不犹豫自吹自吹自吹自吹自吹自已的成就,f,2
+,,opus,"As a trumpet player, he would [[blow his own horn]] during practice","作为吹喇叭员,他会在练习中吹吹自己的喇叭",l,1
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,palm,blow his own horn,,x,2
+,,palm,He never hesitates to [[blow his own horn]] about his accomplishments,他总是毫不犹豫地吹嘘自己的成就,f,0
+,,palm,"As a trumpet player, he would [[blow his own horn]] during practice",作为一名小号手，他会在练习时吹自己的号,l,0
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,nllb,blow his own horn,吹自己的喇,l,1
+,,nllb,He never hesitates to [[blow his own horn]] about his accomplishments,他从不犹为自己的成就吹吹喇,f,2
+,,nllb,"As a trumpet player, he would [[blow his own horn]] during practice","作为一个吹角演奏者,他在练习时会吹自己的喇",l,1
+blow his own horn,to talk about oneself or one's achievements especially in a way that shows pride or too much pride,gpt,blow his own horn,吹嘘自己,f,0
+,,gpt,He never hesitates to [[blow his own horn]] about his accomplishments,他从不犹豫地吹嘘自己的成就。,f,0
+,,gpt,"As a trumpet player, he would [[blow his own horn]] during practice",作为一个小号手，在练习时他会吹自己的号。,l,0
+blow your own trumpet,to say things that makes your own self or kin look good,opus,blowing his own trumpet,吹着自己的号角,l,0
+,,opus,He was always [[blowing his own trumpet]] about his accomplishments,他总是自吹自吹自吹自吹自吹自吹自吹 有关他的成就,f,2
+,,opus,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","在游行中,他作为游行乐队的一部分,自己吹喇叭。",l,2
+blow your own trumpet,to say things that makes your own self or kin look good,palm,blowing his own trumpet,,x,2
+,,palm,He was always [[blowing his own trumpet]] about his accomplishments,他总是吹嘘自己的成就,f,0
+,,palm,"During the parade, he was [[blowing his own trumpet]] as part of the marching band",游行期间，他作为行进乐队的一员吹着自己的号,l,0
+blow your own trumpet,to say things that makes your own self or kin look good,nllb,blowing his own trumpet,吹自己的号角,l,0
+,,nllb,He was always [[blowing his own trumpet]] about his accomplishments,"他总是吹自己的号角,",l,1
+,,nllb,"During the parade, he was [[blowing his own trumpet]] as part of the marching band","在游行中,他吹自己的喇作为游行乐队的一部分",l,1
+blow your own trumpet,to say things that makes your own self or kin look good,gpt,blowing his own trumpet,自吹自擂,f,0
+,,gpt,He was always [[blowing his own trumpet]] about his accomplishments,他总是吹嘘自己的成就。,f,0
+,,gpt,"During the parade, he was [[blowing his own trumpet]] as part of the marching band",在游行期间，他作为行进乐队的一部分吹着自己的小号。,l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,opus,burning the candle at both ends,两端都点燃蜡烛,l,0
+,,opus,"Working two jobs and studying, she was [[burning the candle at both ends]]","做两份工作和学习,她在两端烧蜡烛",l,1
+,,opus,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","实验期间,他们在两端点燃蜡烛,以观察熔化速度。",l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,nllb,burning the candle at both ends,两个端燃烧,l,1
+,,nllb,"Working two jobs and studying, she was [[burning the candle at both ends]]","她在两份工作和学习中,",x,2
+,,nllb,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate","实验期间,他们用两端的燃烧, 观察化的速度",l,1
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,gpt,burning the candle at both ends,两头烧蜡烛,l,0
+,,gpt,"Working two jobs and studying, she was [[burning the candle at both ends]]",她同时工作两份工作并学习，她在两头烧蜡。,l,1
+,,gpt,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate",在实验期间，他们烧蜡烛的两端以观察熔化速率。,l,0
+burn the candle at both ends,to exhaust someone's energies or resources by leading a hectic life.,palm,burning the candle at both ends,,x,2
+,,palm,"Working two jobs and studying, she was [[burning the candle at both ends]]",她同时做两份工作，还要学习，真是分身乏术,f,0
+,,palm,"During the experiment, they were [[burning the candle at both ends]] to observe the melting rate",在实验中，他们同时点燃蜡烛的两端，观察熔化速度,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",opus,opened a can of worms,开口的蠕虫罐,l,2
+,,opus,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","通过询问他的过去, 她无意中打开了一罐虫子 在他们的谈话中",l,1
+,,opus,The fisherman [[opened a can of worms]] to bait his hook,渔夫开了一罐虫子来诱鱼钩,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",palm,opened a can of worms,打开了潘多拉的盒子,f,0
+,,palm,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation",她问起他的过去，无意中在他们的谈话中打开了一个潘多拉盒子,f,0
+,,palm,The fisherman [[opened a can of worms]] to bait his hook,渔夫打开一罐蠕虫来钓鱼,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",gpt,opened a can of worms,揭开了潘多拉魔盒,f,0
+,,gpt,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation",她无意中在谈话中问到了他的过去，引发了一系列问题。,f,0
+,,gpt,The fisherman [[opened a can of worms]] to bait his hook,渔夫打开了一罐蚯蚓来当鱼饵。,l,0
+can of worms,"to get into something that is messy, has problems and is unwanted",nllb,opened a can of worms,打开了一虫,l,2
+,,nllb,"By asking about his past, she inadvertently [[opened a can of worms]] in their conversation","通过询问他的过去,她无意中打开了他们的谈话中的虫",l,1
+,,nllb,The fisherman [[opened a can of worms]] to bait his hook,"渔夫打开一个虫,用作为诱.",l,2
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,opus,carrying the torch for her,"她拿着火炬,为她而生",l,0
+,,opus,"He's been [[carrying the torch for her]] since high school, but she never noticed",他从高中起就为她拿着火炬 但她从未注意到,l,1
+,,opus,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run",在接力赛中 他为她拿着火炬 直到轮到她跑,l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,gpt,carrying the torch for her,为她传递火炬,l,0
+,,gpt,"He's been [[carrying the torch for her]] since high school, but she never noticed",他自高中以来一直默默地爱着她，但她从未注意到。,f,0
+,,gpt,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run",在接力赛中，他一直为她拿着火炬，直到轮到她跑。,l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,palm,carrying the torch for her,为她传递火炬,l,0
+,,palm,"He's been [[carrying the torch for her]] since high school, but she never noticed",他从高中开始就一直暗恋她，但她从来没有注意到,f,0
+,,palm,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run",接力赛中，他一直为她拿着火炬，直到轮到她跑了,l,0
+carry the torch for,to have strong feelings for someone with whom you do not or cannot have a relationship,nllb,carrying the torch for her,"为了她,",x,2
+,,nllb,"He's been [[carrying the torch for her]] since high school, but she never noticed","他一直在为她带着火自高中, 但她从来没有注意到",l,2
+,,nllb,"During the relay race, he was [[carrying the torch for her]] until it was her turn to run","在接力赛中,他为她带着火,直到轮到她跑步.",l,2
+chapter and verse,verbatim; word for word details.,opus,gave them chapter and verse,并降示一章章和一章经,l,2
+,,opus,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","当被问及新政策时,她给他们关于公司规章的章节和诗歌。",l,2
+,,opus,The priest [[gave them chapter and verse]] from the Bible during the sermon,教士在布道时给他们章章和圣经的诗歌,l,1
+chapter and verse,verbatim; word for word details.,palm,gave them chapter and verse,给他们讲了经文,l,1
+,,palm,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations",当被问及新政策时，她给他们讲了公司规定的章节和诗句,l,1
+,,palm,The priest [[gave them chapter and verse]] from the Bible during the sermon,牧师在布道时给他们读了圣经的章节和经文,l,0
+chapter and verse,verbatim; word for word details.,nllb,gave them chapter and verse,给他们章节和节,l,1
+,,nllb,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations","问及新政策时, 她给他们详细介绍了公司的规定",f,0
+,,nllb,The priest [[gave them chapter and verse]] from the Bible during the sermon,牧师在讲道中给他们圣经中的章节和节目,l,0
+chapter and verse,verbatim; word for word details.,gpt,gave them chapter and verse,给了他们详细情况。,f,0
+,,gpt,"When asked about the new policy, she [[gave them chapter and verse]] on the company's regulations",当被问及新政策时，她详细解释了公司规定的条款。,f,0
+,,gpt,The priest [[gave them chapter and verse]] from the Bible during the sermon,牧师在布道中从圣经中给了他们具体的章节和节。,l,1
+chink in armour,a susceptible or vulnerable area.,palm,found a chink in their armour,找到了他们的弱点,f,0
+,,palm,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit",分析了他们的策略后，我们发现了他们防御的漏洞，可以利用,f,0
+,,palm,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair",在检查骑士的盔甲时，他发现盔甲上有一个需要修补的裂缝,l,0
+chink in armour,a susceptible or vulnerable area.,nllb,found a chink in their armour,在他们的盔甲中发现了一个漏洞,l,0
+,,nllb,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","分析他们的策略后, 我们发现他们的装甲有个漏洞,",l,1
+,,nllb,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair","检查骑士的服装时, 他发现他们的盔甲需要修复",l,0
+chink in armour,a susceptible or vulnerable area.,gpt,found a chink in their armour,发现了他们盔甲的破绽。,l,0
+,,gpt,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit",在分析他们的策略后，我们发现了他们盔甲上的一个漏洞，我们可以利用它。,l,1
+,,gpt,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair",在检查骑士的盔甲时，他发现了一个需要修理的缝隙。,l,0
+chink in armour,a susceptible or vulnerable area.,opus,found a chink in their armour,在他们的盔甲里发现了一股下巴,x,2
+,,opus,"After analyzing their strategy, we [[found a chink in their armour]] that we could exploit","在分析他们的策略后, 我们发现他们的装甲中有一个中国人 可以用来利用",x,1
+,,opus,"While examining the knight's suit, he [[found a chink in their armour]] that needed repair",在检查骑士的西装时 他发现他们的盔甲里有只中国猪 需要修理,x,1
+clean slate,to wipe the past out and begin afresh,opus,to start with a clean slate,以干净的原样开始,l,0
+,,opus,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","道歉后,他们决定从一个干净的过去开始,重建友谊。",l,1
+,,opus,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,艺术家决定从一个干净的板子开始 擦掉粉笔板,l,0
+clean slate,to wipe the past out and begin afresh,palm,to start with a clean slate,从头开始,f,0
+,,palm,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship",道歉之后，他们决定从头开始，重建友谊,f,0
+,,palm,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,艺术家决定从一张干净的黑板开始,l,0
+clean slate,to wipe the past out and begin afresh,gpt,to start with a clean slate,从零开始,f,0
+,,gpt,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship",道歉后，他们决定从头开始，重建他们的友谊。,f,0
+,,gpt,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,这位艺术家决定从零开始，擦掉黑板上的粉笔。,f,1
+clean slate,to wipe the past out and begin afresh,nllb,to start with a clean slate,开始一个新鲜的开始,f,0
+,,nllb,"After apologizing, they decided [[to start with a clean slate]] and rebuild their friendship","在道歉之后,他们决定从新开始,重建他们的友",f,0
+,,nllb,The artist decided [[to start with a clean slate]] by wiping off the chalkboard,"艺术家决定从清洁开始,",l,2
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",nllb,a cloud on the horizon,在地平线上,l,2
+,,nllb,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","尽管项目取得了成功,但预算削减的形式却是个阴云.",f,0
+,,nllb,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","我们看着海面, 看到地平线上有一片云, 预示着风暴即将到来",l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",opus,a cloud on the horizon,地平线上的云彩,l,0
+,,opus,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts","尽管该项目取得了成功,但以削减预算的形式,地平线上仍然一片云雾",l,1
+,,opus,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm","当我们向外看海时,我们注意到地平线上一片乌云,表示风暴即将来临",l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",gpt,a cloud on the horizon,地平线上的云朵,l,0
+,,gpt,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts",尽管该项目取得了成功，但预算削减的阴影笼罩在前方。,f,0
+,,gpt,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm",当我们朝海看去时，我们注意到地平线上有一朵云，预示着一场即将来临的风暴。,l,0
+cloud on the horizon,"a problem or difficulty that is predictable, or seems likely to arise in the future",palm,a cloud on the horizon,地平线上的一片云,l,0
+,,palm,"Despite the success of the project, there was [[a cloud on the horizon]] in the form of budget cuts",尽管该项目取得了成功，但预算削减的阴云笼罩在前方,f,0
+,,palm,"As we looked out to sea, we noticed [[a cloud on the horizon]] signaling an approaching storm",当我们向大海望去时，我们注意到地平线上有一朵云，它预示着一场暴风雨即将来临,l,0
+count chicken,make plans based on events that may or may not happen,gpt,was counting chickens before they hatch,过早乐观。,f,0
+,,gpt,He [[was counting chickens before they hatch]] when he started planning his victory party,他在计划胜利派对时，有些过早乐观。,f,0
+,,gpt,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,这个农民正在数鸡蛋，估计有多少会孵化成小鸡。,l,0
+count chicken,make plans based on events that may or may not happen,palm,was counting chickens before they hatch,未雨绸缪,f,2
+,,palm,He [[was counting chickens before they hatch]] when he started planning his victory party,他开始计划胜利派对时，还没有确定胜利,x,2
+,,palm,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,农民在鸡蛋孵化之前就开始数鸡，估计会孵出多少只小鸡,l,0
+count chicken,make plans based on events that may or may not happen,opus,was counting chickens before they hatch,在鸡孵化前数数鸡,l,0
+,,opus,He [[was counting chickens before they hatch]] when he started planning his victory party,当他开始策划胜利党时 他数数鸡在孵化前,l,2
+,,opus,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,农民在鸡孵卵前通过估计鸡蛋数量来计算鸡蛋数量,l,0
+count chicken,make plans based on events that may or may not happen,nllb,was counting chickens before they hatch,"在化之前,",x,2
+,,nllb,He [[was counting chickens before they hatch]] when he started planning his victory party,"他正在化之前数,",x,2
+,,nllb,The farmer [[was counting chickens before they hatch]] by estimating the number of eggs that would become chicks,"农民在化之前,通过估计将成为小的蛋数来计算数",l,2
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,opus,cut his own throat,割割自己的喉咙,l,0
+,,opus,"By revealing company secrets, he [[cut his own throat]] and ruined his career",通过泄露公司机密 他割断了自己的喉咙 毁了自己的事业,l,1
+,,opus,"While shaving, he accidentally [[cut his own throat]] with the razor","在刮刮胡子时,他不小心用剃刀割了自己的喉咙",l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,nllb,cut his own throat,切断自己的喉,l,1
+,,nllb,"By revealing company secrets, he [[cut his own throat]] and ruined his career","他透露公司秘密, 割下自己的喉, 毁掉自己的职业生涯.",l,1
+,,nllb,"While shaving, he accidentally [[cut his own throat]] with the razor","在剃须时,他不小心用剃须刀割了自己的喉.",l,1
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,gpt,cut his own throat,割了自己的喉咙,l,1
+,,gpt,"By revealing company secrets, he [[cut his own throat]] and ruined his career",他泄露公司机密，自食恶果，毁了自己的职业生涯。,f,0
+,,gpt,"While shaving, he accidentally [[cut his own throat]] with the razor",他在刮胡子的时候，不小心用剃刀割伤了自己的喉咙。,l,0
+cut your own throat,to do something that will be the cause of your own failure or ruin your chances in the future,palm,cut his own throat,,x,2
+,,palm,"By revealing company secrets, he [[cut his own throat]] and ruined his career",他泄露了公司机密，自毁前程,f,0
+,,palm,"While shaving, he accidentally [[cut his own throat]] with the razor",刮胡子时，他不小心用剃须刀割伤了自己的喉咙,l,0
+deliver the goods,do what is required,opus,delivered the goods on time,按时交付货物,l,0
+,,opus,The new employee [[delivered the goods on time]] by meeting all the project deadlines,新雇员遵守所有项目最后期限按时交付货物,l,1
+,,opus,The courier [[delivered the goods on time]] to the customer's doorstep,信使准时将货物送到顾客家门口,l,0
+deliver the goods,do what is required,gpt,delivered the goods on time,准时交付货物,l,0
+,,gpt,The new employee [[delivered the goods on time]] by meeting all the project deadlines,新员工通过满足所有项目截止日期准时交付货物。,l,1
+,,gpt,The courier [[delivered the goods on time]] to the customer's doorstep,快递员按时将货物送到客户的门口。,l,0
+deliver the goods,do what is required,nllb,delivered the goods on time,货物按时交付,l,0
+,,nllb,The new employee [[delivered the goods on time]] by meeting all the project deadlines,"新员工按时交付货物,并遵守所有项目截止日期",l,1
+,,nllb,The courier [[delivered the goods on time]] to the customer's doorstep,快递员准时将货物送到客户的门口,l,0
+deliver the goods,do what is required,palm,delivered the goods on time,按时交货,l,0
+,,palm,The new employee [[delivered the goods on time]] by meeting all the project deadlines,新员工按时交货，并满足了所有项目的截止日期,l,1
+,,palm,The courier [[delivered the goods on time]] to the customer's doorstep,快递员准时将货物送到客户家门口,l,0
+everything but the kitchen sink,almost everything that one can think of,nllb,packed everything but the kitchen sink,包装了除了厨房的水槽以外的一切,l,0
+,,nllb,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","我们为露营旅行,我们包装了一切,但厨房的水槽准备",l,1
+,,nllb,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","搬家时,他们把所有的东西都装起来,除了厨房的水槽,这被留给了新主人",l,0
+everything but the kitchen sink,almost everything that one can think of,opus,packed everything but the kitchen sink,"除了厨房水槽外,所有东西都装满了",l,0
+,,opus,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared","我们的露营旅行,除了厨房水槽, 我们把所有东西都收拾好",l,1
+,,opus,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners","在移动时,除厨房水槽外,他们收拾了所有东西,厨房水槽留给新业主用",l,1
+everything but the kitchen sink,almost everything that one can think of,palm,packed everything but the kitchen sink,除了厨房水槽，什么都打包了,l,0
+,,palm,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared",为了这次露营，我们把所有东西都打包了，除了厨房水槽,l,1
+,,palm,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners",搬家时，他们把所有东西都打包了，除了厨房水槽，留给了新主人,l,0
+everything but the kitchen sink,almost everything that one can think of,gpt,packed everything but the kitchen sink,把所有东西都收拾好了，除了厨房水槽。,l,0
+,,gpt,"For our camping trip, we [[packed everything but the kitchen sink]] to be prepared",为了我们的野营之旅，我们准备了所有东西，除了厨房水槽。,l,0
+,,gpt,"While moving, they [[packed everything but the kitchen sink]], which was left for the new owners",在搬家时，他们把所有东西都打包了，除了厨房的水槽，留给了新主人。,l,0
+feather in your cap,It means to have an achievement in your name.,gpt,a feather in your cap,锦上添花,f,0
+,,gpt,Winning the championship would be [[a feather in your cap]],赢得冠军将是你的一大荣耀。,f,0
+,,gpt,The hat you're wearing has [[a feather in your cap]] as a decoration,你戴的帽子上有一根羽毛作为装饰。,l,0
+feather in your cap,It means to have an achievement in your name.,palm,a feather in your cap,荣耀,f,0
+,,palm,Winning the championship would be [[a feather in your cap]],赢得冠军将是你的荣耀,f,0
+,,palm,The hat you're wearing has [[a feather in your cap]] as a decoration,你戴的帽子上有羽毛装饰,l,0
+feather in your cap,It means to have an achievement in your name.,opus,a feather in your cap,帽子上一根羽毛,l,0
+,,opus,Winning the championship would be [[a feather in your cap]],赢得冠军 将是一个羽毛 在你的帽子,l,1
+,,opus,The hat you're wearing has [[a feather in your cap]] as a decoration,你戴戴的帽子 帽子上有一根羽毛 作为装饰,l,1
+feather in your cap,It means to have an achievement in your name.,nllb,a feather in your cap,戴上帽子中的羽毛,l,2
+,,nllb,Winning the championship would be [[a feather in your cap]],赢得冠军将是你的帽子上的羽毛,l,1
+,,nllb,The hat you're wearing has [[a feather in your cap]] as a decoration,你戴的帽子上装饰着一只羽毛.,l,0
+feel the pinch,experience financial hardship,palm,he started to feel the pinch,他开始感到拮据,f,0
+,,palm,"After losing his job, [[he started to feel the pinch]] financially",失业后，他开始感到经济拮据,f,0
+,,palm,"When the crab grabbed his finger, [[he started to feel the pinch]]",当螃蟹抓住他的手指时，他开始感到疼痛,l,1
+feel the pinch,experience financial hardship,nllb,he started to feel the pinch,他开始感到痛苦,f,0
+,,nllb,"After losing his job, [[he started to feel the pinch]] financially","失业后,他开始感到经济上的压力",f,0
+,,nllb,"When the crab grabbed his finger, [[he started to feel the pinch]]","当抓住他的手指,他开始感觉到捏",l,0
+feel the pinch,experience financial hardship,opus,he started to feel the pinch,他开始觉得自己很紧张,f,1
+,,opus,"After losing his job, [[he started to feel the pinch]] financially","失去工作后,他开始感到财政拮据",f,0
+,,opus,"When the crab grabbed his finger, [[he started to feel the pinch]]","当螃蟹抓起他的手指, 他开始感觉到捏",l,0
+feel the pinch,experience financial hardship,gpt,he started to feel the pinch,他开始感到紧张。,f,0
+,,gpt,"After losing his job, [[he started to feel the pinch]] financially",失去工作后，他开始在经济上感到紧张。,f,0
+,,gpt,"When the crab grabbed his finger, [[he started to feel the pinch]]",当螃蟹抓住他的手指时，他开始感到疼痛。,l,1
+flash in the pan,"something that cannot be repeated, usually a positive concept",nllb,a flash in the pan,一个闪光的,l,2
+,,nllb,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","他突然的成功只是一子,",x,2
+,,nllb,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","油燃烧,在的时候,里发出闪光",l,2
+flash in the pan,"something that cannot be repeated, usually a positive concept",gpt,a flash in the pan,昙花一现,f,0
+,,gpt,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it",他的突然成功被证明是昙花一现，因为他无法维持它。,f,0
+,,gpt,"The oil caught fire, creating [[a flash in the pan]] while she was cooking",油着火了，她在煮菜的时候出现了闪光。,l,0
+flash in the pan,"something that cannot be repeated, usually a positive concept",opus,a flash in the pan,锅盘中的闪光,l,0
+,,opus,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it","他的突然成功 变成了一个闪光 在锅中,因为他不能 维持它",l,2
+,,opus,"The oil caught fire, creating [[a flash in the pan]] while she was cooking","石油着火,在她做饭时在锅里闪闪发光",l,1
+flash in the pan,"something that cannot be repeated, usually a positive concept",palm,a flash in the pan,昙花一现,f,0
+,,palm,"His sudden success turned out to be [[a flash in the pan]], as he couldn't maintain it",他的突然成功最终证明只是昙花一现，因为他无法维持它,f,0
+,,palm,"The oil caught fire, creating [[a flash in the pan]] while she was cooking",她在做饭时，油着火了，锅里闪了一下,l,0
+get hitched,to get married,nllb,they decided to get hitched,他们决定结婚,f,0
+,,nllb,"After dating for five years, [[they decided to get hitched]] and start a family","他们结婚后,决定建立家庭",f,0
+,,nllb,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","在他们的公路旅行中, 他们决定把自己挂在一辆拖车上,",l,0
+get hitched,to get married,gpt,they decided to get hitched,他们决定结婚了。,f,0
+,,gpt,"After dating for five years, [[they decided to get hitched]] and start a family",在约会了五年之后，他们决定结婚并开始组建家庭。,f,0
+,,gpt,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage",在他们的公路旅行中，他们决定把拖车挂在车上以增加储物空间。,l,0
+get hitched,to get married,palm,they decided to get hitched,他们决定结婚,f,0
+,,palm,"After dating for five years, [[they decided to get hitched]] and start a family",他们约会了五年，决定结婚生子,f,0
+,,palm,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage",在他们的公路旅行中，他们决定拖着一辆拖车，以便额外存放东西,l,0
+get hitched,to get married,opus,they decided to get hitched,他们决定结婚,f,0
+,,opus,"After dating for five years, [[they decided to get hitched]] and start a family","约会五年后,他们决定结婚 并开始一个家庭",f,0
+,,opus,"During their road trip, [[they decided to get hitched]] to a trailer for extra storage","在路上旅行期间,他们决定搭乘拖车额外储藏",l,1
+go the extra mile,to make an extra effort,nllb,he went the extra mile,他做了更多的努力,f,0
+,,nllb,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","为了确保项目完美,他做了额外的努力,并检查了每件事",f,0
+,,nllb,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","马拉松期间,他错误地走了额外一英里,因为他错误的转",l,0
+go the extra mile,to make an extra effort,palm,he went the extra mile,他做了额外的工作,f,0
+,,palm,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything",为了确保项目完美，他不辞辛劳，对一切都进行了双重检查,f,0
+,,palm,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn",马拉松比赛中，他因走错路而多跑了一英里,l,0
+go the extra mile,to make an extra effort,opus,he went the extra mile,他走多长的里程,l,1
+,,opus,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything","为了保证工程的完美,他跑出了超长的里程 并重复检查了一切",l,1
+,,opus,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn","马拉马拉松时,他误误差了多英里,因为转错方向",l,1
+go the extra mile,to make an extra effort,gpt,he went the extra mile,他做了额外的努力。,f,0
+,,gpt,"To make sure the project was perfect, [[he went the extra mile]] and double - checked everything",为了确保项目完美，他不遗余力，对所有事情进行了双重检查。,f,0
+,,gpt,"During the marathon, [[he went the extra mile]] by mistake due to a wrong turn",在马拉松比赛中，由于错转弯路，他不小心多跑了一英里。,l,0
+go through a rough patch,to experience a lot of problems in a period of life,gpt,going through a rough patch,经历艰难时期,f,0
+,,gpt,"After losing her job, she was [[going through a rough patch]] in her life",失去工作后，她的生活陷入了困境。,f,0
+,,gpt,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns",在徒步旅行时，我们经过了一段布满石头和荆棘的崎岖地带。,l,0
+go through a rough patch,to experience a lot of problems in a period of life,palm,going through a rough patch,经历艰难时期,f,0
+,,palm,"After losing her job, she was [[going through a rough patch]] in her life",失业后，她的生活陷入了困境,f,0
+,,palm,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns",在徒步旅行时，我们穿过一片布满岩石和荆棘的崎岖地带,l,0
+go through a rough patch,to experience a lot of problems in a period of life,opus,going through a rough patch,经历一个粗糙的补丁,l,0
+,,opus,"After losing her job, she was [[going through a rough patch]] in her life","失去工作后,她一生经历着艰难的一生",f,1
+,,opus,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","徒步旅行时,我们正经历一个充满岩石和刺刺的 粗糙的地段",l,0
+go through a rough patch,to experience a lot of problems in a period of life,nllb,going through a rough patch,经历了艰难的时刻,f,0
+,,nllb,"After losing her job, she was [[going through a rough patch]] in her life","失业后,她生活的艰难时刻",f,1
+,,nllb,"While hiking, we were [[going through a rough patch]] filled with rocks and thorns","我们在徒步旅行时,经过一片充满棘和石头的荒野",l,1
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,nllb,got in his hair,在他的头发中,l,1
+,,nllb,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,"工作伙伴们不断问他问题,让他难以集中注意力",f,0
+,,nllb,The confetti from the party [[got in his hair]] and took a while to remove,"党的红花在他的头发,花了一段时间去除",l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,gpt,got in his hair,弄到他的头发里了,l,0
+,,gpt,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,他的同事不断的提问让他很烦，难以集中注意力。,f,0
+,,gpt,The confetti from the party [[got in his hair]] and took a while to remove,派对上的五彩纸屑粘在他的头发上，花了一段时间才清理干净。,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,palm,got in his hair,弄乱了他的头发,l,1
+,,palm,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,同事们不断地问他问题，让他很烦，很难集中注意力,f,0
+,,palm,The confetti from the party [[got in his hair]] and took a while to remove,派对上的彩纸粘在他的头发上，花了好一会儿才弄下来,l,0
+got in his hair,to annoy someone so much that they cannot get on with what they are doing,opus,got in his hair,在他的头发上沾满了头发,l,2
+,,opus,The constant questions from his coworkers [[got in his hair]] and made it difficult to concentrate,他同事不断提出的问题 在他的头发上钻进他的头发 使得他难以集中注意力,l,1
+,,opus,The confetti from the party [[got in his hair]] and took a while to remove,派对的彩彩色 染了头发 花了一阵子才搬走,l,2
+hard cheese,"bad luck, tough luck",gpt,She experienced hard cheese,她经历了困难。,f,0
+,,gpt,[[She experienced hard cheese]] when she lost her job and had to start over,她失去工作，不得不重新开始，经历了困难的时期。,f,0
+,,gpt,"While tasting different types of dairy products, [[she experienced hard cheese]] among them",在品尝不同种类的乳制品时，她尝到了硬质奶酪。,l,0
+hard cheese,"bad luck, tough luck",palm,She experienced hard cheese,她经历了艰难的岁月,f,0
+,,palm,[[She experienced hard cheese]] when she lost her job and had to start over,她失业后不得不重新开始，这对她来说是件很难的事情,f,0
+,,palm,"While tasting different types of dairy products, [[she experienced hard cheese]] among them",在品尝各种奶制品时，她尝到了其中的硬奶酪,l,0
+hard cheese,"bad luck, tough luck",opus,She experienced hard cheese,她吃过苦奶酪,l,1
+,,opus,[[She experienced hard cheese]] when she lost her job and had to start over,"她失去了工作,又重新来过",x,2
+,,opus,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","在尝尝不同种类奶制品的同时,她也尝过其中的干酪",l,2
+hard cheese,"bad luck, tough luck",nllb,She experienced hard cheese,她经历了硬奶酪,l,1
+,,nllb,[[She experienced hard cheese]] when she lost her job and had to start over,"她在失业后, 经历了硬奶酪,",l,2
+,,nllb,"While tasting different types of dairy products, [[she experienced hard cheese]] among them","品尝不同类型的乳制品时, 她体验到其中的硬奶酪",l,1
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,nllb,hit the bull's-eye,击中了目标,l,0
+,,nllb,Her speech [[hit the bull's-eye]] and resonated with the audience,"她的演讲触及了目标,并引起了观众的共",l,1
+,,nllb,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target","她用稳定的手,准了目标,并击中了目标的对准",l,1
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,palm,hit the bull's-eye,,x,2
+,,palm,Her speech [[hit the bull's-eye]] and resonated with the audience,她的演讲切中要害，引起了观众的共鸣,f,0
+,,palm,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target",她稳稳地瞄准，一箭射中靶心,l,0
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,gpt,hit the bull's-eye,打中靶心,a,0
+,,gpt,Her speech [[hit the bull's-eye]] and resonated with the audience,她的演讲命中要害，引起了听众的共鸣。,f,0
+,,gpt,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target",她稳定的手，瞄准并命中了靶子上的靶心。,l,0
+hit the bull's-eye,to be exactly right about something or achieve the best result possible,opus,hit the bull's-eye,击中公牛的眼睛,l,0
+,,opus,Her speech [[hit the bull's-eye]] and resonated with the audience,她的演讲击中公牛的眼睛 与观众共鸣,l,1
+,,opus,"With a steady hand, she aimed and [[hit the bull's-eye]] on the target",她用稳稳的手瞄准目标 击中目标的公牛眼,l,1
+hold all the aces,be in a winning position.,palm,he held all the aces,他手握所有王牌,a,0
+,,palm,"During the negotiation, [[he held all the aces]] and had the upper hand",在谈判中，他占据了主动地位,x,1
+,,palm,"During the poker game, [[he held all the aces]] in his hand",在扑克牌游戏中，他手里拿着所有的王牌,l,0
+hold all the aces,be in a winning position.,opus,he held all the aces,他握着所有的王牌,a,0
+,,opus,"During the negotiation, [[he held all the aces]] and had the upper hand","在谈判期间,他掌握了所有的王牌,占了上风",a,0
+,,opus,"During the poker game, [[he held all the aces]] in his hand","在牌局比赛中,他握着手中所有的A",l,0
+hold all the aces,be in a winning position.,nllb,he held all the aces,他拿着所有的王牌,a,0
+,,nllb,"During the negotiation, [[he held all the aces]] and had the upper hand","在谈判期间,他掌握了所有的王牌,并占据了上风.",a,0
+,,nllb,"During the poker game, [[he held all the aces]] in his hand","在克游戏中,他手里拿着所有的王牌.",a,0
+hold all the aces,be in a winning position.,gpt,he held all the aces,他掌握了所有的王牌。,a,0
+,,gpt,"During the negotiation, [[he held all the aces]] and had the upper hand",在谈判中，他掌握了所有的王牌并且占据了上风。,a,0
+,,gpt,"During the poker game, [[he held all the aces]] in his hand",在扑克游戏中，他手中拥有所有的A牌。,l,0
+in the loop,to be aware of the information,gpt,kept in the loop,保持在循环中,l,0
+,,gpt,"As a team member, I want to be [[kept in the loop]] about project updates",作为团队成员，我希望得到有关项目更新的信息。,f,0
+,,gpt,The rope was [[kept in the loop]] to secure the boat to the dock,绳子被系在环上，以将船固定在码头上。,l,0
+in the loop,to be aware of the information,opus,kept in the loop,在循环中保存,l,0
+,,opus,"As a team member, I want to be [[kept in the loop]] about project updates","作为团队成员,我想随时了解项目更新的最新情况。",f,1
+,,opus,The rope was [[kept in the loop]] to secure the boat to the dock,"绳子被锁在环圈中,以保障船只到码头的安全",l,1
+in the loop,to be aware of the information,palm,kept in the loop,保持在循环中,l,0
+,,palm,"As a team member, I want to be [[kept in the loop]] about project updates",作为团队成员，我希望了解项目更新情况,f,0
+,,palm,The rope was [[kept in the loop]] to secure the boat to the dock,绳子被固定在环中，以固定船只到码头,l,1
+in the loop,to be aware of the information,nllb,kept in the loop,保持在循环中,l,0
+,,nllb,"As a team member, I want to be [[kept in the loop]] about project updates","作为团队成员, 我希望了解项目最新情况",f,0
+,,nllb,The rope was [[kept in the loop]] to secure the boat to the dock,"绳子被留在环子中,以确保船到码头",l,1
+kick the bucket,to die,palm,kicked the bucket together,,x,2
+,,palm,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep",这对老夫妇生前形影不离，死后也一起睡着了,f,2
+,,palm,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere",他们在打扫谷仓时，不小心一起踢翻了水桶，水洒得到处都是,l,0
+kick the bucket,to die,gpt,kicked the bucket together,一起去世,f,0
+,,gpt,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep",这对生命中不可分割的老夫妇一起在睡梦中去世了。,f,0
+,,gpt,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere",他们在清理谷仓时，不小心一起踢了水桶，把水洒得到处都是。,l,1
+kick the bucket,to die,nllb,kicked the bucket together,了水桶在一起,l,2
+,,nllb,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep","这对老夫妇,在生活中不可分割,在他们的睡眠中一起了桶",l,2
+,,nllb,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","清理谷仓时,他们不小心了桶,水到处都了",l,2
+kick the bucket,to die,opus,kicked the bucket together,将水桶踢在一起,l,2
+,,opus,"The old couple, inseparable in life, [[kicked the bucket together]] in their sleep",老一对 生活密不可分的老一对 在睡梦中一起踢了桶子,l,2
+,,opus,"While cleaning the barn, they accidentally [[kicked the bucket together]] and spilled water everywhere","在打扫谷仓时,他们不小心把桶踢在一起,到处洒水",l,2
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,gpt,knows which side his bread is buttered,知道自己的利益所在。,f,0
+,,gpt,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]",他总是支持老板的决定，表明他知道自己的立场。,f,0
+,,gpt,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,他仔细观察了三明治，知道哪一面是涂了黄油的，以避免弄脏手。,l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,opus,knows which side his bread is buttered,"知道他的面包的边上,有哪边有黄油呢",l,1
+,,opus,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]",他总是支持老板的决定 证明他知道他的面包是哪一边黄油,l,1
+,,opus,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,他仔细观察了三明治 知道他的面包是哪边涂黄油 以免手油油,l,1
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,palm,knows which side his bread is buttered,知道自己在哪边吃香,f,0
+,,palm,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]",他总是支持老板的决定，这表明他知道自己在哪边吃饭,f,0
+,,palm,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,他仔细观察三明治，知道哪一面涂了黄油，以免弄脏手,l,0
+know which side one's bread is buttered,to be cognizant of where one's interests lie in a given situation.,nllb,knows which side his bread is buttered,知道他的面包是哪一面面的,l,2
+,,nllb,"He always supports the boss's decisions, showing that he [[knows which side his bread is buttered]]","他总是支持老板的决定, 表明他知道他的面包是哪一面的",l,1
+,,nllb,He carefully observed the sandwich and [[knows which side his bread is buttered]] to avoid getting his hands greasy,"他仔细观察三明治,知道面包的哪一边是用黄油的,以免让他的手变油",l,2
+on the line,to be at serious risk.,palm,She put it on the line,她把它放在线上,l,0
+,,palm,[[She put it on the line]] when she confronted her boss about the unfair treatment,她在与老板就不公平待遇进行交锋时，直截了当地说出了自己的想法。,f,1
+,,palm,[[She put it on the line]] to dry after washing her clothes,她洗完衣服后把它挂在绳子上晾干,l,0
+on the line,to be at serious risk.,nllb,She put it on the line,她把它放在线上,l,0
+,,nllb,[[She put it on the line]] when she confronted her boss about the unfair treatment,"她在面对老板的不公平待遇时,",x,2
+,,nllb,[[She put it on the line]] to dry after washing her clothes,她把它放在线上干洗衣服后,l,2
+on the line,to be at serious risk.,opus,She put it on the line,她把它放在线上,l,0
+,,opus,[[She put it on the line]] when she confronted her boss about the unfair treatment,当她和上司对质 说不公平待遇时 她就把电话挂在电话上,l,2
+,,opus,[[She put it on the line]] to dry after washing her clothes,"洗洗衣服后,她把它放在干干线上",l,1
+on the line,to be at serious risk.,gpt,She put it on the line,她把它放在了线上。,l,0
+,,gpt,[[She put it on the line]] when she confronted her boss about the unfair treatment,她在面对不公正待遇时，冒着风险向老板提出了质疑。,f,0
+,,gpt,[[She put it on the line]] to dry after washing her clothes,她洗完衣服后把它挂在晾衣绳上晾干。,l,0
+on the pig's back,a successful situation and everything is going well for that person,palm,was riding on the pig's back,骑在猪背上,l,0
+,,palm,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth",中了彩票后，他过上了衣食无忧的生活,f,0
+,,palm,"At the farm, the child [[was riding on the pig's back]] for fun",在农场里，孩子骑在猪背上玩耍,l,0
+on the pig's back,a successful situation and everything is going well for that person,nllb,was riding on the pig's back,在猪背上骑着,l,0
+,,nllb,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","在彩票中奖后,他骑着猪背享受着新发现的财富",l,1
+,,nllb,"At the farm, the child [[was riding on the pig's back]] for fun","在农场,孩子骑着猪的背上玩",l,1
+on the pig's back,a successful situation and everything is going well for that person,opus,was riding on the pig's back,骑在猪背上,l,0
+,,opus,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth","中了中彩彩之后,他骑在猪背上 享受他的新财富",l,2
+,,opus,"At the farm, the child [[was riding on the pig's back]] for fun","在农场里,孩子骑在猪背上玩玩",l,1
+on the pig's back,a successful situation and everything is going well for that person,gpt,was riding on the pig's back,骑在猪的背上,l,0
+,,gpt,"After winning the lottery, he [[was riding on the pig's back]] and enjoying his newfound wealth",中文：在中了彩票之后，他骑在猪背上，享受着他新获得的财富。,l,1
+,,gpt,"At the farm, the child [[was riding on the pig's back]] for fun",在农场，孩子骑在猪的背上玩耍。,l,0
+out of hand,out of control,opus,got out of hand,失去控制,f,0
+,,opus,The party [[got out of hand]] when people started throwing food,当人们开始扔食物时 党失控了,f,1
+,,opus,The ball [[got out of hand]] when he accidentally dropped it,当他不小心掉下球时 球失控了,f,2
+out of hand,out of control,palm,got out of hand,失控,f,0
+,,palm,The party [[got out of hand]] when people started throwing food,当人们开始扔食物时，派对失控了,f,1
+,,palm,The ball [[got out of hand]] when he accidentally dropped it,他不小心把球掉了，球就滚出去了,l,1
+out of hand,out of control,gpt,got out of hand,失控了。,f,0
+,,gpt,The party [[got out of hand]] when people started throwing food,当人们开始扔食物时，聚会失控了。,f,0
+,,gpt,The ball [[got out of hand]] when he accidentally dropped it,当他不小心掉了球时，情况失控了。,f,1
+out of hand,out of control,nllb,got out of hand,已经失控了,f,1
+,,nllb,The party [[got out of hand]] when people started throwing food,"当人们开始扔食物时,",x,2
+,,nllb,The ball [[got out of hand]] when he accidentally dropped it,"球失控,因为他不小心丢了它.",f,2
+paddle own canoe,To be able to act without having to depend on anyone.,gpt,to paddle their own canoe,划自己的独木舟,f,0
+,,gpt,They decided [[to paddle their own canoe]] and start their own business,他们决定自力更生，开始自己的生意。,f,0
+,,gpt,They had [[to paddle their own canoe]] to reach the other side of the lake,他们必须划自己的独木舟才能到达湖的另一边。,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,palm,to paddle their own canoe,自己划船,l,1
+,,palm,They decided [[to paddle their own canoe]] and start their own business,他们决定自己创业,x,2
+,,palm,They had [[to paddle their own canoe]] to reach the other side of the lake,他们必须自己划独木舟才能到达湖的另一边,l,0
+paddle own canoe,To be able to act without having to depend on anyone.,opus,to paddle their own canoe,自行划独木舟,l,1
+,,opus,They decided [[to paddle their own canoe]] and start their own business,"他们决定自己划独木舟,开始自己的生意",l,1
+,,opus,They had [[to paddle their own canoe]] to reach the other side of the lake,他们不得不自己划独木舟 才能到达湖的另一边,l,1
+paddle own canoe,To be able to act without having to depend on anyone.,nllb,to paddle their own canoe,自己的独木舟,l,1
+,,nllb,They decided [[to paddle their own canoe]] and start their own business,"他们决定自己划独木舟,开办自己的生意",l,1
+,,nllb,They had [[to paddle their own canoe]] to reach the other side of the lake,他们不得不划自己的独木舟到达湖的另一边,l,0
+paint the town red,to celebrate and have a wild time,nllb,to paint the town red together,让城市变红,l,0
+,,nllb,"After winning the championship, they decided [[to paint the town red together]] and celebrate","赢得冠军后, 他们决定一起红色的城镇和庆祝",l,1
+,,nllb,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","作为一个社区艺术项目的一部分, 他们决定共同用鲜的壁画涂上城墙,",l,1
+paint the town red,to celebrate and have a wild time,palm,to paint the town red together,一起狂欢,f,0
+,,palm,"After winning the championship, they decided [[to paint the town red together]] and celebrate",赢得冠军后，他们决定一起庆祝,f,0
+,,palm,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals",作为社区艺术项目的一部分，他们决定一起把小镇涂成红色，用生动的壁画覆盖墙壁,l,0
+paint the town red,to celebrate and have a wild time,opus,to paint the town red together,一起把镇子涂成红色,l,0
+,,opus,"After winning the championship, they decided [[to paint the town red together]] and celebrate","赢得冠军后,他们决定把镇子涂成红色 一起庆祝",l,1
+,,opus,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals","作为社区艺术项目的一部分,他们决定用充满活力的壁画遮盖墙壁,把城镇涂成红色",l,0
+paint the town red,to celebrate and have a wild time,gpt,to paint the town red together,一起狂欢热闹,f,0
+,,gpt,"After winning the championship, they decided [[to paint the town red together]] and celebrate",赢得冠军后，他们决定一起狂欢庆祝。,f,0
+,,gpt,"As part of a community art project, they decided [[to paint the town red together]] by covering the walls with vibrant murals",作为社区艺术项目的一部分，他们决定一起涂红整个城镇，用充满活力的壁画覆盖墙壁。,l,0
+pass away,die,gpt,passed away peacefully,安详地去世,f,0
+,,gpt,Our beloved grandmother [[passed away peacefully]] in her sleep,我们心爱的祖母在睡梦中平静地离世了。,f,0
+,,gpt,"The storm [[passed away peacefully]], leaving a calm and clear sky",暴风雨平静地过去了，留下了平静而晴朗的天空。,f,1
+pass away,die,nllb,passed away peacefully,在和平的状态下逝世,f,0
+,,nllb,Our beloved grandmother [[passed away peacefully]] in her sleep,我们心爱的祖母在睡梦中安静地去世,f,0
+,,nllb,"The storm [[passed away peacefully]], leaving a calm and clear sky","风暴平静地过去,留下一个平静而清的天空",l,0
+pass away,die,opus,passed away peacefully,平安地逝去,f,0
+,,opus,Our beloved grandmother [[passed away peacefully]] in her sleep,我们心爱的祖母在睡梦中平安逝去,f,0
+,,opus,"The storm [[passed away peacefully]], leaving a calm and clear sky","暴风雨平和地过逝,留下平静和清空的天空",f,1
+pass away,die,palm,passed away peacefully,安详离世,f,0
+,,palm,Our beloved grandmother [[passed away peacefully]] in her sleep,我们敬爱的祖母在睡梦中安详地去世了,f,0
+,,palm,"The storm [[passed away peacefully]], leaving a calm and clear sky",暴风雨平静地过去了，留下了晴朗的天空,l,0
+pull the wool over eyes,to deceive someone,opus,They pulled the wool over her eyes,他们把羊毛拉到她眼睛上,l,1
+,,opus,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,"他们假扮是有钱生意人,把羊毛拉到她眼睛上",l,1
+,,opus,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","在突击派对筹备期间,他们蒙着眼睛把羊毛拉到她眼睛上。",l,1
+pull the wool over eyes,to deceive someone,gpt,They pulled the wool over her eyes,他们蒙蔽了她的双眼。,f,0
+,,gpt,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,他们假装成富有的商人，蒙蔽了她的双眼。,f,0
+,,gpt,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold",在惊喜派对的准备过程中，他们用眼罩蒙住了她的眼睛。,l,1
+pull the wool over eyes,to deceive someone,nllb,They pulled the wool over her eyes,他们把她的眼睛拉过来.,l,2
+,,nllb,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,"他们假装是个富有的商人,",x,2
+,,nllb,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold","在惊喜派对的准备中, 他们用眼罩把她的眼睛蒙上了.",l,0
+pull the wool over eyes,to deceive someone,palm,They pulled the wool over her eyes,他们蒙蔽了她的双眼,f,0
+,,palm,[[They pulled the wool over her eyes]] by pretending to be a wealthy businessman,他们假装是富商，骗取了她的信任,f,0
+,,palm,"During the surprise party preparations, [[they pulled the wool over her eyes]] with a blindfold",在准备惊喜派对的过程中，他们用眼罩蒙住了她的眼睛,l,0
+push the boat out,celebrate; enjoy oneself.,gpt,we pushed the boat out,我们把船推出去了。,l,0
+,,gpt,"For her birthday, [[we pushed the boat out]] and threw a huge party",为了她的生日，我们大肆庆祝，举办了一场盛大的派对。,f,0
+,,gpt,[[We pushed the boat out]] into the water to start our fishing trip,我们把船推到水里开始钓鱼之旅。,l,0
+push the boat out,celebrate; enjoy oneself.,palm,we pushed the boat out,我们把船推了出去,l,0
+,,palm,"For her birthday, [[we pushed the boat out]] and threw a huge party",为了庆祝她的生日，我们把船开了出去，举行了一个盛大的派对,l,1
+,,palm,[[We pushed the boat out]] into the water to start our fishing trip,我们把船推到水里，开始了我们的钓鱼之旅,l,0
+push the boat out,celebrate; enjoy oneself.,opus,we pushed the boat out,我们把船推了出去,l,0
+,,opus,"For her birthday, [[we pushed the boat out]] and threw a huge party","她生日那天,我们把船推了出去 扔了一个大派对",l,1
+,,opus,[[We pushed the boat out]] into the water to start our fishing trip,我们把船推到水里 开始钓鱼之旅,l,0
+push the boat out,celebrate; enjoy oneself.,nllb,we pushed the boat out,我们把船推出来,l,0
+,,nllb,"For her birthday, [[we pushed the boat out]] and threw a huge party","她生日,我们把船推出去,举办了一个巨大的派对.",l,1
+,,nllb,[[We pushed the boat out]] into the water to start our fishing trip,我们把船推到水里开始我们的捕鱼之旅,l,1
+take a cue from,to do what is recommended by someone else,nllb,take a cue from her,让她成为你的榜样,f,0
+,,nllb,You should [[take a cue from her]] and start organizing your time better,"你应该跟她做个榜样, 开始更好地安排你的时间.",f,0
+,,nllb,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","在游泳池游戏中,他决定从她身上学习,",l,2
+take a cue from,to do what is recommended by someone else,gpt,take a cue from her,向她学习。,f,0
+,,gpt,You should [[take a cue from her]] and start organizing your time better,你应该向她学习，开始更好地组织你的时间。,f,0
+,,gpt,"During the pool game, he decided to [[take a cue from her]] and use her favorite one",在游泳池游戏期间，他决定向她学习并使用她最喜欢的球杆。,l,1
+take a cue from,to do what is recommended by someone else,palm,take a cue from her,向她学习,f,0
+,,palm,You should [[take a cue from her]] and start organizing your time better,你应该向她学习，开始更好地安排自己的时间,f,0
+,,palm,"During the pool game, he decided to [[take a cue from her]] and use her favorite one",在打台球时，他决定向她学习，用她最喜欢的球杆,l,0
+take a cue from,to do what is recommended by someone else,opus,take a cue from her,给她一个提示,f,2
+,,opus,You should [[take a cue from her]] and start organizing your time better,你应该从她那里得到提示 并开始组织好你的时间,f,0
+,,opus,"During the pool game, he decided to [[take a cue from her]] and use her favorite one","在游泳池比赛中,他决定从她那里得到一个提示,并使用她最喜欢的一个",l,2
+the devil is beating his wife,raining whereas the sun is shining.,nllb,the devil is beating his wife,魔鬼正在殴打他的妻子,l,0
+,,nllb,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","太阳照亮的时候,雨开始,人们说魔鬼打他的妻子",l,1
+,,nllb,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]","在戏剧演出中,演戏中演撒但的演员演出了恶魔殴打他的妻子的场景",l,0
+the devil is beating his wife,raining whereas the sun is shining.,opus,the devil is beating his wife,恶魔殴打他的妻子,l,0
+,,opus,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]","阳光照耀时,开始下雨 人们说魔鬼在殴打他的妻子",l,1
+,,opus,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]",在戏剧表演中 扮演撒旦的演员 演了一场戏 魔鬼正在打他的妻子,l,1
+the devil is beating his wife,raining whereas the sun is shining.,gpt,the devil is beating his wife,魔鬼在打他的妻子。,l,0
+,,gpt,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]",太阳正照着，突然下起了雨，人们说鬼打老婆了。,l,1
+,,gpt,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]",在这场戏剧表演中，扮演撒旦的演员表演了一个场景，魔鬼正在打他的妻子。,l,1
+the devil is beating his wife,raining whereas the sun is shining.,palm,the devil is beating his wife,恶魔在打他的妻子,l,0
+,,palm,"While the sun was shining, it started raining, and people said [[the devil is beating his wife]]",太阳照着，突然下雨了，人们说是魔鬼在打老婆,l,1
+,,palm,"In the theatrical performance, the actor playing Satan acted out a scene where [[the devil is beating his wife]]",在戏剧表演中，扮演撒旦的演员演绎了撒旦打老婆的场景,l,0
+the eleventh hour,at the very last minute before an event,nllb,at the eleventh hour,在第十一小时,l,0
+,,nllb,"He finished the project [[at the eleventh hour]], just before the deadline","他在最后一小时完成了这个项目,",x,2
+,,nllb,She decided to go for a walk [[at the eleventh hour]] of the night,她决定在晚上十一点走一走,l,0
+the eleventh hour,at the very last minute before an event,opus,at the eleventh hour,11点11分,l,2
+,,opus,"He finished the project [[at the eleventh hour]], just before the deadline",他在11小时完成项目 就在最后期限前,l,1
+,,opus,She decided to go for a walk [[at the eleventh hour]] of the night,她决定晚上十一点去散步,l,0
+the eleventh hour,at the very last minute before an event,palm,at the eleventh hour,在最后一刻,f,0
+,,palm,"He finished the project [[at the eleventh hour]], just before the deadline",他就在截止日期前最后一刻完成了项目,f,0
+,,palm,She decided to go for a walk [[at the eleventh hour]] of the night,她决定在夜里十一点去散步,l,0
+the eleventh hour,at the very last minute before an event,gpt,at the eleventh hour,在最后一刻,f,0
+,,gpt,"He finished the project [[at the eleventh hour]], just before the deadline",他在最后一刻完成了项目，就在截止日期之前。,f,0
+,,gpt,She decided to go for a walk [[at the eleventh hour]] of the night,她决定在深夜的最后一刻去散步。,f,1
+to see the back of,to be glad that you no longer have to deal with someone,gpt,to see the back of the problem,看到问题的背面,l,0
+,,gpt,She was relieved [[to see the back of the problem]] after finding a solution,她找到解决办法后，看到问题消失了，感到宽慰。,f,0
+,,gpt,He had [[to see the back of the problem]] by flipping the paper over,他必须通过翻转纸张来看问题的背面。,l,0
+to see the back of,to be glad that you no longer have to deal with someone,opus,to see the back of the problem,看到问题背后的一面,l,0
+,,opus,She was relieved [[to see the back of the problem]] after finding a solution,"在找到解决办法后,她看到问题的后背,感到宽慰。",l,1
+,,opus,He had [[to see the back of the problem]] by flipping the paper over,他不得不通过翻翻纸看问题背后的背面,l,2
+to see the back of,to be glad that you no longer have to deal with someone,palm,to see the back of the problem,看问题的背面,l,0
+,,palm,She was relieved [[to see the back of the problem]] after finding a solution,找到解决方案后，她松了一口气,x,1
+,,palm,He had [[to see the back of the problem]] by flipping the paper over,他必须翻过纸才能看到问题的背面,l,0
+to see the back of,to be glad that you no longer have to deal with someone,nllb,to see the back of the problem,看到问题的背面,l,0
+,,nllb,She was relieved [[to see the back of the problem]] after finding a solution,她很高兴看到问题后找到一个解决方案,x,2
+,,nllb,He had [[to see the back of the problem]] by flipping the paper over,他不得不通过翻纸来看问题背面,l,0
+turn down a glass,to decline something that someone has offered.,palm,turned down a glass,拒绝了一杯,f,0
+,,palm,"At the party, he politely [[turned down a glass]] when offered a drink",在派对上，当有人给他递上一杯酒时，他礼貌地拒绝了,f,0
+,,palm,She [[turned down a glass]] upside down to let it dry,她把玻璃杯倒过来晾干,l,0
+turn down a glass,to decline something that someone has offered.,opus,turned down a glass,倒下一个玻璃杯,l,1
+,,opus,"At the party, he politely [[turned down a glass]] when offered a drink","在派对上,他礼貌地拒绝了一杯酒 当他请他喝一杯时",f,1
+,,opus,She [[turned down a glass]] upside down to let it dry,她倒了个杯子 让它干干,l,2
+turn down a glass,to decline something that someone has offered.,gpt,turned down a glass,拒绝了一杯饮料,f,0
+,,gpt,"At the party, he politely [[turned down a glass]] when offered a drink",在派对上，当他被提供饮料时，他礼貌地拒绝了一杯。,f,0
+,,gpt,She [[turned down a glass]] upside down to let it dry,她把杯子倒扣着晾干。,l,0
+turn down a glass,to decline something that someone has offered.,nllb,turned down a glass,拒绝了一杯,f,0
+,,nllb,"At the party, he politely [[turned down a glass]] when offered a drink","在聚会上,当有人给他一杯饮料时,他礼貌地拒绝了",f,0
+,,nllb,She [[turned down a glass]] upside down to let it dry,"她把杯子倒下,让它干燥",l,1
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,palm,They used their loaf,他们用面包,l,1
+,,palm,[[They used their loaf]] to solve the complex puzzle,他们用面包解决了复杂的难题,l,1
+,,palm,[[They used their loaf]] of bread to make sandwiches for lunch,他们用面包做了午餐的三明治,l,1
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,gpt,They used their loaf,他们运用了自己的智慧。,f,0
+,,gpt,[[They used their loaf]] to solve the complex puzzle,他们运用了自己的智慧来解决这个复杂的难题。,f,0
+,,gpt,[[They used their loaf]] of bread to make sandwiches for lunch,他们用他们的面包做午餐三明治。,l,0
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,nllb,They used their loaf,他们用他们的面包,l,0
+,,nllb,[[They used their loaf]] to solve the complex puzzle,他们用面包解决了复杂的难题,l,1
+,,nllb,[[They used their loaf]] of bread to make sandwiches for lunch,他们用面包做了午餐的三明治,l,1
+use your loaf,To tell someone to use their brain more in analysing what they are doing.,opus,They used their loaf,他们用他们的面包,l,0
+,,opus,[[They used their loaf]] to solve the complex puzzle,他们用他们的面包来解谜题,l,0
+,,opus,[[They used their loaf]] of bread to make sandwiches for lunch,他们用面包面包做三明治做午餐,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,opus,They washed their dirty linen in public,他们在公共场合洗脏衣服,l,0
+,,opus,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,"他们通过在社交媒体上讨论个人问题, 公开洗洗脏衣服",l,1
+,,opus,[[They washed their dirty linen in public]] at the outdoor laundromat,他们在户外洗衣店公共场合洗脏床单,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,palm,They washed their dirty linen in public,他们在公共场合洗脏衣服,l,0
+,,palm,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,他们在社交媒体上争论个人问题，在公众面前洗了自己的脏衣服,l,1
+,,palm,[[They washed their dirty linen in public]] at the outdoor laundromat,他们在户外洗衣房公开洗脏衣服,l,0
+wash dirty linen in public,discuss publicly matters that one should keep private,nllb,They washed their dirty linen in public,他们在公共场合洗脏的麻布,l,0
+,,nllb,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,"他们在社交媒体上争论私人问题,",x,2
+,,nllb,[[They washed their dirty linen in public]] at the outdoor laundromat,"他们在户外的自动洗衣店里,",x,2
+wash dirty linen in public,discuss publicly matters that one should keep private,gpt,They washed their dirty linen in public,他们在公共场合公开谈论了家丑。,f,0
+,,gpt,[[They washed their dirty linen in public]] by arguing about their personal issues on social media,他们在社交媒体上争吵个人问题，公开洗了他们的脏衣服。,l,1
+,,gpt,[[They washed their dirty linen in public]] at the outdoor laundromat,他们在户外自助洗衣店公开洗他们的脏衣服。,l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,palm,wet the baby's head,给婴儿洗头,l,0
+,,palm,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration",孩子出生后，他们邀请朋友来家里为孩子举行一个小小的庆祝活动,x,1
+,,palm,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water",在洗礼仪式中，牧师用圣水轻轻地给婴儿洗头,l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,nllb,wet the baby's head,湿湿孩子的头,l,1
+,,nllb,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","孩子出生后,他们邀请朋友们来庆祝,让孩子的头水",l,2
+,,nllb,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","在洗礼仪式中,祭司用圣水轻轻地灌婴儿的头部",l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,gpt,wet the baby's head,喝酒庆祝新生儿的诞生,f,0
+,,gpt,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration",他们的孩子出生后，他们邀请朋友来参加小型庆祝活动，以庆祝孩子的出生。,f,0
+,,gpt,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water",在洗礼仪式期间，牧师用圣水轻轻地沾湿了婴儿的头。,l,0
+wet the baby's head,to have drink to celebrate the birth of a baby,opus,wet the baby's head,婴儿头部湿的婴儿头部,l,0
+,,opus,"After the birth of their child, they invited friends over to [[wet the baby's head]] with a small celebration","婴儿出生后,他们邀请朋友过来,用一个小庆祝会,为婴儿头部湿湿润婴儿头部。",l,1
+,,opus,"During the baptism ceremony, the priest gently [[wet the baby's head]] with holy water","在洗礼仪式上,牧师用圣水轻轻湿婴儿的头部",l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,gpt,the wheels fell off,车轮掉了。,l,0
+,,gpt,"After a series of setbacks, [[the wheels fell off]] our project",经历了一系列的挫折，我们的项目彻底失败了。,f,0
+,,gpt,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",由于制造缺陷，玩具车的轮子掉了。,l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,palm,the wheels fell off,车轮掉了,l,0
+,,palm,"After a series of setbacks, [[the wheels fell off]] our project",经过一系列挫折，我们的项目陷入困境,f,0
+,,palm,"Due to a manufacturing defect, [[the wheels fell off]] the toy car",由于制造缺陷，玩具车的轮子掉了,l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,opus,the wheels fell off,车轮掉下来了,l,0
+,,opus,"After a series of setbacks, [[the wheels fell off]] our project",经过一系列的挫折 轮子从我们的项目上掉下来了,l,1
+,,opus,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","由于制造缺陷,车轮从玩具汽车上掉下来",l,0
+wheels fall off,when a situation gets out of control and everything starts to go wrong,nllb,the wheels fell off,车轮掉了下来,l,0
+,,nllb,"After a series of setbacks, [[the wheels fell off]] our project","经过一系列挫折,我们的项目终于落下了脚步",x,2
+,,nllb,"Due to a manufacturing defect, [[the wheels fell off]] the toy car","由于制造缺陷,玩具车的轮子掉了下来",l,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,palm,wouldn't be seen dead in that,我死也不会穿那种衣服,f,0
+,,palm,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style",她绝不会穿那套衣服，因为那套衣服完全过时了,f,0
+,,palm,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant",作为一个吸血鬼，他不会死在那家充满大蒜的餐厅,l,1
+wouldn't be seen dead,to be too ashamed or embarrassed of something,gpt,wouldn't be seen dead in that,死了也不会穿那个。,f,0
+,,gpt,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style",她绝不会穿那套衣服，因为它完全过时了。,f,0
+,,gpt,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant",作为一只吸血鬼，他不会在那家大蒜味浓的餐厅出现。,f,0
+wouldn't be seen dead,to be too ashamed or embarrassed of something,nllb,wouldn't be seen dead in that,没有人会看到她死在那个,l,0
+,,nllb,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","她不会被死在那套衣服,因为它是完全不时尚",l,2
+,,nllb,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","作为一个吸血鬼, 他不会被看到死在那个注入餐厅",l,2
+wouldn't be seen dead,to be too ashamed or embarrassed of something,opus,wouldn't be seen dead in that,里面不会有人看到死尸,l,2
+,,opus,"She [[wouldn't be seen dead in that]] outfit, as it was completely out of style","她不会被看到死在那种衣服里, 因为它完全不合时宜",l,2
+,,opus,"As a vampire, he [[wouldn't be seen dead in that]] garlic-infused restaurant","作为吸血鬼,他不会在大蒜味餐厅里 被人看见死在大蒜味餐厅里",l,2

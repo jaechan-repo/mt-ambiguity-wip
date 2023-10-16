@@ -44,8 +44,10 @@ def main():
               raise ValueError(f'Line {idx+1} is not in the correct format!')
 
           sent_src, sent_tgt = src.strip() , tgt.strip()
+          print("你好，这是我最喜欢的中国菜")
           token_src, token_tgt = tokenizer.tokenize(sent_src) , tokenizer.tokenize(sent_tgt)
           token_src_string, token_tgt_string = ' '.join([t for t in token_src]) , ' '.join([t for t in token_tgt])
+          print(token_src_string, token_tgt_string)
 
           if stdout:
               print(token_src_string + ' ||| ' + token_tgt_string)

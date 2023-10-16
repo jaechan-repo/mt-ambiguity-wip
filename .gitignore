@@ -12,5 +12,6 @@ temp/
 misc/
 _private/
 .archive
-*.bin
 *.npz
+*.bin
+alignment/
